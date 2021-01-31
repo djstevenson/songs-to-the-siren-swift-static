@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Down",
+        "repositoryURL": "https://github.com/johnxnguyen/Down",
+        "state": {
+          "branch": null,
+          "revision": "731f6bbab24ab208ea2d6a944e3f8a8a9d5273c7",
+          "version": "0.9.4"
+        }
+      },
+      {
+        "package": "swift-argument-parser",
+        "repositoryURL": "https://github.com/apple/swift-argument-parser",
+        "state": {
+          "branch": null,
+          "revision": "9564d61b08a5335ae0a36f789a7d71493eacadfc",
+          "version": "0.3.2"
+        }
+      },
+      {
+        "package": "Html",
+        "repositoryURL": "https://github.com/pointfreeco/swift-html",
+        "state": {
+          "branch": null,
+          "revision": "3ffc3fc8feb5fde766f5f44fd06ebc030f0721f3",
+          "version": "0.3.1"
+        }
+      },
+      {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
+        "state": {
+          "branch": null,
+          "revision": "c466812aa2e22898f27557e2e780d3aad7a27203",
+          "version": "1.8.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
