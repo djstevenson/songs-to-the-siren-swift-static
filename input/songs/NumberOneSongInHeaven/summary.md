@@ -1,0 +1,1 @@
+After a period as a guitar-based rock band that saw Sparks earn considerable commercial success, they teamed up with Giorgio Moroder to execute a complete change of direction. As it turns out, there would be several more such big changes throughout the band's career - which is still going strong.
