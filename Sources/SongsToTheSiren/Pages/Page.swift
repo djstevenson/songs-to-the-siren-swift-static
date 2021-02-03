@@ -5,15 +5,10 @@ import Html
 // TODO Docs
 
 protocol Page {
-    var baseUrl:       URL      { get }
-    var partialUrl:    String   { get }
-    var markdownNames: [String] { get }
-    
-    func loadMarkdown() -> [String: HtmlNode]
-    
-    func generate() -> Void
-    
-    func inDir() -> URL
+    var fileUtils:     FileUtils { get }
+    var dirPath:       [String]  { get }
+    var markdownNames: [String]  { get }
 
-    func outDir(relativeTo: String) -> URL
+    func loadMarkdown() -> [String: HtmlNode]
+
 }
