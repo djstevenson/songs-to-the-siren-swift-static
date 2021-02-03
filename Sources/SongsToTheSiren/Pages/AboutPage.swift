@@ -1,7 +1,7 @@
 import Foundation
 
 struct AboutPage: Page {
-    let baseUrl: URL
-    let partialUrl = "about"
+    let fileUtils: FileUtils
+    var dirPath = ["about"]
     var markdownNames = ["about"]
 }

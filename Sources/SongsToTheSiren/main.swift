@@ -18,14 +18,12 @@ struct SongsToTheSiren: ParsableCommand {
     init() { }
 
     mutating func run() throws {
-        let baseUrl  = URL(fileURLWithPath: FileManager.default.currentDirectoryPath, isDirectory: true)
-        let outputUrl = baseUrl.appendingPathComponent("output", isDirectory: false)
-        
-        // Remove all output before we start.
-        try? FileManager.default.removeItem(at: outputUrl)
+        let fileUtils = FileUtils()
 
-        HomePage(baseUrl: baseUrl).generate()
-        AboutPage(baseUrl: baseUrl).generate()
+        fileUtils.clearOutput()
+
+        HomePage(fileUtils: fileUtils).generate()
+        AboutPage(fileUtils: fileUtils).generate()
 //
 //        SongPages(
 //            inputUrl: inputUrl.appendingPathComponent("songs", isDirectory: true),
