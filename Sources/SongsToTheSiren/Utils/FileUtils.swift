@@ -50,4 +50,9 @@ class FileUtils {
         let url = outputFile(dirs: dirs, file: file)
         try! content.write(to: url, atomically: true, encoding: .utf8);
     }
+
+    public func readFile(dirs: [String], file: String) -> String {
+        let url = inputFile(dirs: dirs, file: file)
+        return try! String(contentsOf: url)
+    }
 }
