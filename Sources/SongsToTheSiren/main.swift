@@ -24,11 +24,16 @@ struct SongsToTheSiren: ParsableCommand {
 
         HomePage(fileUtils: fileUtils).generate()
         AboutPage(fileUtils: fileUtils).generate()
-//
-//        SongPages(
-//            inputUrl: inputUrl.appendingPathComponent("songs", isDirectory: true),
-//            outputUrl: outputUrl.appendingPathComponent("songs", isDirectory: true)
-//        ).generate()
+
+        let songList = SongList()
+        let songMap  = songList.makeSongMap()
+
+        for song in songList.songs {
+            //SongPage(fileUtils: fileUtils, song: song, map: songMap).generate()
+        }
+
+        // Home Page
+        // RSS page
     }
 }
 
