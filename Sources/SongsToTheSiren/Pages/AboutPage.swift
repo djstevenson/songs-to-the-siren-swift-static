@@ -2,8 +2,11 @@ import Foundation
 
 struct AboutPage: Page {
     let fileUtils: FileUtils
-    var dirPath = ["about"]
     var markdownNames = ["about"]
+
+    func dirPath() -> [String] {
+        ["about"]
+    }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         markdown["about"]!

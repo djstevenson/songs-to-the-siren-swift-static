@@ -29,7 +29,7 @@ struct SongsToTheSiren: ParsableCommand {
         let songMap  = songList.makeSongMap()
 
         for song in songList.songs {
-            //SongPage(fileUtils: fileUtils, song: song, map: songMap).generate()
+            SongPage(fileUtils: fileUtils, song: song, songMap: songMap).generate()
         }
 
         // Home Page

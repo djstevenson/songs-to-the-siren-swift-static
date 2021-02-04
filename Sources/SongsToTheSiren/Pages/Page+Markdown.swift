@@ -14,7 +14,7 @@ extension Page {
     }
 
     func parseMarkdownFile(_ name: String) -> HtmlNode {
-        let md = fileUtils.readFile(dirs: dirPath, file: "\(name).md")
+        let md = fileUtils.readFile(dirs: dirPath(), file: "\(name).md")
 
         let down = Down(markdownString: md)
 

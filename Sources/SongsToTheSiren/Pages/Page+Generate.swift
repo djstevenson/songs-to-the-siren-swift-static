@@ -27,6 +27,6 @@ extension Page {
     }
 
     private func writeContent(_ content: String) {
-        fileUtils.writeFile(dirs: dirPath, file: "index.html", content: content)
+        fileUtils.writeFile(dirs: dirPath(), file: "index.html", content: content)
     }
 }
