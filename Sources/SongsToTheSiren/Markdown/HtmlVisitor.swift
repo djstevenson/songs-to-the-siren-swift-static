@@ -16,23 +16,23 @@ struct HtmlVisitor: Visitor {
     typealias HtmlAttr = (key: String, value: String?)
 
     private func nodeWithChildren(_ node: DownNode, tag: String, attrs: [HtmlAttr] = []) -> HtmlNode {
-        return .element(tag, attrs, .fragment(visitChildren(of: node)))
+        .element(tag, attrs, .fragment(visitChildren(of: node)))
     }
 
     private func nodeWithoutChildren(tag: String, attrs: [HtmlAttr] = []) -> HtmlNode {
-        return .element(tag, attrs, [])
+        .element(tag, attrs, [])
     }
 
     private func justChildren(_ node: DownNode) -> HtmlNode {
-        return .fragment(visitChildren(of: node))
+        .fragment(visitChildren(of: node))
     }
 
     private func divWithChildren(_ node: DownNode) -> HtmlNode {
-        return .element("div", [], .fragment(visitChildren(of: node)))
+        .element("div", [], .fragment(visitChildren(of: node)))
     }
 
     public func visit(document node: Document) -> HtmlNode {
-        return divWithChildren(node)
+        divWithChildren(node)
     }
 
     public func visit(blockQuote node: BlockQuote) -> HtmlNode {

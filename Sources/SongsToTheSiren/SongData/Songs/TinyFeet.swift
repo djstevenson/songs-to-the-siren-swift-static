@@ -1,6 +1,6 @@
 extension Song {
     static func tinyFeet() -> Song {
-        return Song(
+        Song(
             id:       5,
             style:    .semiPanel,
             dir:      String.folderFromFunctionName(name: #function),

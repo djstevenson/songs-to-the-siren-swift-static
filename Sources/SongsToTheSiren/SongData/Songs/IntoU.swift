@@ -1,6 +1,6 @@
 extension Song {
     static func intoU() -> Song {
-        return Song(
+        Song(
             id:       3,
             style:    .semiPanel,
             dir:      String.folderFromFunctionName(name: #function),

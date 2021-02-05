@@ -1,6 +1,6 @@
 extension Song {
     static func lostInThePlot() -> Song {
-        return Song(
+        Song(
             id:       4,
             style:    .semiPanel,
             dir:      String.folderFromFunctionName(name: #function),

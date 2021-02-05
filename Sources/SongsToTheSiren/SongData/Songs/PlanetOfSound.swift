@@ -1,6 +1,6 @@
 extension Song {
     static func planetOfSound() -> Song {
-        return Song(
+        Song(
             id:       7,
             style:    .fullPanel,
             dir:      String.folderFromFunctionName(name: #function),

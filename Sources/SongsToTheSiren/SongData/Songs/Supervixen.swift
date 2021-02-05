@@ -1,6 +1,6 @@
 extension Song {
     static func supervixen() -> Song {
-        return Song(
+        Song(
             id:       2,
             style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
