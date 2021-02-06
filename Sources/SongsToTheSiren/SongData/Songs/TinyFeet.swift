@@ -2,7 +2,7 @@ extension Song {
     static func tinyFeet() -> Song {
         Song(
             id:       5,
-            style:    .semiPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "The Heart Throbs",
             title:    "Tiny Feet",

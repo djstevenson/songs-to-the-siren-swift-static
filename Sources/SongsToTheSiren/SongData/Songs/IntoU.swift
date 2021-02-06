@@ -2,7 +2,7 @@ extension Song {
     static func intoU() -> Song {
         Song(
             id:       3,
-            style:    .semiPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Richard X ft Jarvis Cocker",
             title:    "Into U",
