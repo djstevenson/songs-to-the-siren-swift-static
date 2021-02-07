@@ -58,7 +58,7 @@ struct HomePage: Page {
         .section(
             .header(
                 .a(
-                    attributes: [ .href("/song/n") ],
+                    attributes: [ songHref(song) ],
                     .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
                     .h2(.text(song.title))
                 ),
@@ -82,11 +82,16 @@ struct HomePage: Page {
     private func listingSong(_ song: Song) -> ChildOf<Tag.Ul> {
         .li(
             .a(
-                attributes: [ .href("/song/n") ],
+                attributes: [ songHref(song) ],
                 .text(song.title)
             ),
             .text(" - \(song.artist): Timestamp from somewhere")
         )
     }
 
+    // TODO Should this be in song class? Probs ok here, actually
+    private func songHref(_ song: Song) -> Attribute<Tag.A> {
+        // TODO grep for index.html, this is re-used in loads of places
+        return .href("../songs/\(song.dir)/index.html")
+    }
 }
