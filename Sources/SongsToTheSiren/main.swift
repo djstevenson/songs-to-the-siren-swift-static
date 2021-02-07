@@ -22,17 +22,17 @@ struct SongsToTheSiren: ParsableCommand {
 
         fileUtils.clearOutput()
 
-        HomePage(fileUtils: fileUtils).generate()
+        let songList = SongList()
         AboutPage(fileUtils: fileUtils).generate()
 
-        let songList = SongList()
         let songMap  = songList.makeSongMap()
 
         for song in songList.songs {
             SongPage(fileUtils: fileUtils, song: song, songMap: songMap).generate()
         }
 
-        // Home Page
+        HomePage(fileUtils: fileUtils, songList: songList).generate()
+
         // RSS page
     }
 }

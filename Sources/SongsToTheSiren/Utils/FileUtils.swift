@@ -31,7 +31,7 @@ class FileUtils {
     }
 
     public func outputFile(dirs: [String], file: String) -> URL {
-        return outputDir(dirs: dirs).appendingPathComponent(file, isDirectory: false)
+        outputDir(dirs: dirs).appendingPathComponent(file, isDirectory: false)
     }
 
     public func inputDir(dirs: [String]) -> URL {
@@ -43,7 +43,7 @@ class FileUtils {
     }
 
     public func inputFile(dirs: [String], file: String) -> URL {
-        return inputDir(dirs: dirs).appendingPathComponent(file, isDirectory: false)
+        inputDir(dirs: dirs).appendingPathComponent(file, isDirectory: false)
     }
 
     public func writeFile(dirs: [String], file: String, content: String) -> Void {

@@ -13,7 +13,7 @@ struct AboutPage: Page {
     }
 
     func pageTitle() -> String {
-        return "About 'Songs to the Siren'"
+        "About 'Songs to the Siren'"
     }
 
 }

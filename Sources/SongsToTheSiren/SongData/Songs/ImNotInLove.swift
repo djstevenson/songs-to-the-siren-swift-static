@@ -1,6 +1,6 @@
 extension Song {
     static func imNotInLove() -> Song {
-        return Song(
+        Song(
             id:       9,
             style:    .fullPanel,
             dir:      String.folderFromFunctionName(name: #function),

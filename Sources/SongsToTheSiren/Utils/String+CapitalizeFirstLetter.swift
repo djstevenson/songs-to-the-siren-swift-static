@@ -2,7 +2,7 @@
 
 extension String {
     func capitalizingFirstLetter() -> String {
-        return prefix(1).capitalized + dropFirst()
+        prefix(1).capitalized + dropFirst()
     }
 
     mutating func capitalizeFirstLetter() {

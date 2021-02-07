@@ -64,7 +64,7 @@ extension SongLink : RenderableLink {
     }
 
     func renderInList() -> ChildOf<Tag.Ul> {
-        return .li(
+        .li(
             .a(
                 attributes: [
                     .id("link-\(id)"),
@@ -78,7 +78,7 @@ extension SongLink : RenderableLink {
     }
 
     func renderEmbedded() -> HtmlNode {
-        return .a(
+        .a(
             attributes: [
                 .class("link"),
                 .href(url.absoluteString),

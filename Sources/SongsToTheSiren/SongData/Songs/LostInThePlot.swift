@@ -1,8 +1,8 @@
 extension Song {
     static func lostInThePlot() -> Song {
-        return Song(
+        Song(
             id:       4,
-            style:    .semiPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "The Dears",
             title:    "Lost in the Plot",

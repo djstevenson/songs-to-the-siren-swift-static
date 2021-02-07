@@ -8,7 +8,7 @@ extension Page {
     // actually required (e.g. when processing a song article)
 
     func loadMarkdown() -> [String: HtmlNode] {
-        return markdownNames.reduce(into: [String: HtmlNode]()) {
+        markdownNames.reduce(into: [String: HtmlNode]()) {
             $0[$1] = parseMarkdownFile($1)
         }
     }

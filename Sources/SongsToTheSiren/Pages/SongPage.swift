@@ -12,7 +12,7 @@ struct SongPage: Page {
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        return .fragment([
+        .fragment([
             markdown["summary"]!,
             song.video.renderEmbedded(),
             resolveShortcuts(markdown["article"]!),
@@ -27,7 +27,7 @@ struct SongPage: Page {
     }
 
     func pageTitle() -> String {
-        return song.title
+        song.title
     }
 
 }
@@ -66,37 +66,31 @@ extension SongPage {
     }
 
     func makeSongLinks() -> HtmlNode {
-        let res: HtmlNode = .div(
+        .div(
             .h4("Links"),
             .ul(
                 song.video.renderInList(),
                 .fragment(song.links.map  { $0.renderInList() })
             )
         )
-
-        return res
     }
 
     func makeSongTags() -> HtmlNode {
-        let res: HtmlNode = .div(
+        .div(
             .h4("Tags"),
             .ul(
                 .fragment(song.tags.map  { .li(.text($0.rawValue)) })
             )
         )
-
-        return res
     }
 
     func makeCountries() -> HtmlNode {
-        let res: HtmlNode = .div(
+        .div(
             .h4("Origin"),
             .ul(
                 .fragment(song.country.map  { .li(.text($0.rawValue)) })
             )
         )
-
-        return res
     }
 }
 

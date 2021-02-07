@@ -2,9 +2,9 @@ import Foundation
 
 extension Song {
     static func clearestBlue() -> Song {
-        return Song(
+        Song(
             id:       6,
-            style:    .semiPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Chvrches",
             title:    "Clearest Blue",

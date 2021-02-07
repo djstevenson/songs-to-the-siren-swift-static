@@ -1,6 +1,6 @@
 extension Song {
     static func songToTheSiren() -> Song {
-        return Song(
+        Song(
             id:       1,
             style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
