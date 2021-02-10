@@ -2,7 +2,7 @@ extension Song {
     static func planetOfSound() -> Song {
         Song(
             id:       7,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Pixies",
             title:    "Planet of Sound",

@@ -5,6 +5,8 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        Song.deceptacon(),
+        Song.justLikeHeaven(),
         Song.imNotInLove(),
         Song.numberOneSongInHeaven(),
         Song.planetOfSound(),
