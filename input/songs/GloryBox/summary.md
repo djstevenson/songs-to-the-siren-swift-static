@@ -1,0 +1,1 @@
+The Bristol Sound, aka Trip Hop, was the dominant sound of this era for me. Grunge was still hanging in there, but this really was something new, and Portishead were at the forefront of it.  This song is built on an Isaac Hayes sample that became quite ubiquitous, and is still making an impact on popular music today.
