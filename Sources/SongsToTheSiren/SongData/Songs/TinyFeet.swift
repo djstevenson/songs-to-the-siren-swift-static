@@ -21,32 +21,32 @@ extension Song {
             links: [
                 .youtube(
                     embedded: SongLink.Embed(id: "reprise", text: "reprise"),
-                    listing:  SongLink.List(text: "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)"),
+                    listing:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
                     code:     "WIFVffd4SMs"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "cleopatra-grip", text: "Cleopatra Grip"),
-                    listing:  SongLink.List(text: "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)"),
+                    listing:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "jubilee-twist", text: "Jubilee Twist"),
-                    listing:  SongLink.List(text: "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)"),
+                    listing:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
                     code:     "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "hooligan", text: "Hooligan"),
-                    listing:  SongLink.List(text: "Hooligan - The Heart Throbs (YouTube audio)"),
+                    listing:  "Hooligan - The Heart Throbs (YouTube audio)",
                     code:     "jAxQpILzx3w"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "bright-green-day", text: "Bright Green Day"),
-                    listing:  SongLink.List(text: "Bright Green Day - The Heart Throbs (YouTube audio)"),
+                    listing:  "Bright Green Day - The Heart Throbs (YouTube audio)",
                     code:     "gBvA2XeGOYM"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "tossed-away", text: "Tossed Away"),
-                    listing:  SongLink.List(text: "Tossed Away - The Heart Throbs (YouTube audio)"),
+                    listing:  "Tossed Away - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc"
                 )
             ]

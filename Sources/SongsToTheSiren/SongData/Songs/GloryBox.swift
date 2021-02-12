@@ -21,17 +21,17 @@ extension Song {
             links: [
                 .youtube(
                     embedded: SongLink.Embed(id: "hell-is-round-the-corner", text: "Hell is Round the Corner"),
-                    listing:  SongLink.List(text: "Hell Is Round The Corner - Tricky"),
+                    listing:  "Hell Is Round The Corner - Tricky",
                     code:     "E3R_3h6zQEs"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "here", text: "Here by Alessia Cara"),
-                    listing:  SongLink.List(text: "Here - Alessia Cara"),
+                    listing:  "Here - Alessia Cara",
                     code:     "UKp2CrfmVfw"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "sawyers-medley", text: "Here / Glory Box medley"),
-                    listing:  SongLink.List(text: "Here / Glory Box - Jazmin Sawyers"),
+                    listing:  "Here / Glory Box - Jazmin Sawyers",
                     code:     "7BQAoOriwqI"
                 )
             ]

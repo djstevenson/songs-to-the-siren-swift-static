@@ -19,3 +19,9 @@ enum SongLink {
     case songstothesiren (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, song: String)
     case other           (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, url:  URL)
 }
+
+extension SongLink.List: ExpressibleByStringLiteral {
+    init(stringLiteral value: String) {
+        self = SongLink.List(text: value)
+    }
+}

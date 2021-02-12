@@ -21,18 +21,18 @@ extension Song {
             links: [
                 .youtube(
                     embedded: SongLink.Embed(id: "documentary", text: "documentary"),
-                    listing:  SongLink.List(text: "I'm Not in Love: The Story of 10cc documentary"),
+                    listing:  "I'm Not in Love: The Story of 10cc documentary",
                     code:     "MhLW_yYqngY"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "bass-solo", text: "bass line"),
-                    listing:  SongLink.List(text: "I'm Not In Love (middle 8) - 10cc"),
+                    listing:  "I'm Not In Love (middle 8) - 10cc",
                     code:     "STugQ0X1NoI",
                     offset:   116
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "bass-solo", text: "bass-solo-cover"),
-                    listing:  SongLink.List(text: "I'm Not In Love (middle 8) - A cover that emphasises the bass part"),
+                    listing:  "I'm Not In Love (middle 8) - A cover that emphasises the bass part",
                     code:     "wiRgdCNi5GA",
                     offset:   135
                 )

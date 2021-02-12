@@ -21,12 +21,12 @@ extension Song {
             links: [
                 .youtube(
                     embedded: SongLink.Embed(id: "number-one-song-in-heaven-full-audio", text: "full audio"),
-                    listing:  SongLink.List(text: #"The Number One Song in Heaven 12" - Sparks (audio of the full 12" version)"#),
+                    listing:  #"The Number One Song in Heaven 12" - Sparks (audio of the full 12" version)"#,
                     code:     "jE4EarLZPYs"
                 ),
                 .youtube(
                     embedded: SongLink.Embed(id: "segued", text: "seguéd"),
-                    listing:  SongLink.List(text: "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks"),
+                    listing:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks",
                     code:     "sm4CkJYdQv0"
                 )
             ]

@@ -23,17 +23,17 @@ extension Song {
             links: [
                 .youtube(
                     embedded: SongLink.Embed(id: "not-too-soon", text: "Not Too Soon"),
-                    listing:  SongLink.List(text: "Not Too Soon - Throwing Muses"),
+                    listing:  "Not Too Soon - Throwing Muses",
                     code:     "=RZI-FTcFtn8"
                 ),
                 .wikipedia(
                     embedded: SongLink.Embed(id: "chains-changed-ep", text: "Chains Changed EP"),
-                    listing:  SongLink.List(text: "Chains Changed EP - Throwing Muses"),
+                    listing:  "Chains Changed EP - Throwing Muses",
                     page:     "Chains_Changed"
                 ),
                 .wikipedia(
                     embedded: SongLink.Embed(id: "lonely-is-an-eyesore", text: "Lonely Is an Eyesore"),
-                    listing:  SongLink.List(text: "Lonely Is an Eyesore - 4AD compilation"),
+                    listing:  "Lonely Is an Eyesore - 4AD compilation",
                     page:     "Lonely_Is_an_Eyesore"
                 ),
                 .other(
