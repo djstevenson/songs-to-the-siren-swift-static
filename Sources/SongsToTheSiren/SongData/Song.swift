@@ -102,7 +102,6 @@ struct Song {
         case terryHall = "Terry Hall"
         case live = "Live"
         case posthumous = "Posthumous"
-        case samples = "Samples"
         case tr909 = "TR-909"
         case lonelyIsAnEyesore = "Lonely Is An Eyesore"
         case italianHouse = "Italian House"
