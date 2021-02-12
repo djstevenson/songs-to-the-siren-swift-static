@@ -8,11 +8,12 @@ enum SongLink {
     struct Common {
         let id: String
         let embed: String
-        let list: String
+        let list: String?
     }
 
     case youtube(data: SongLink.Common,         code: String, offset: Int = 0)
     case wikipedia(data: SongLink.Common,       page: String)
-    case songstothesiren(data: SongLink.Common, song: Int)
+    case songstothesiren(data: SongLink.Common, song: String)
+    case otherNoList(data: SongLink.Common,     url: URL)
     case other(data: SongLink.Common,           url: URL)
 }

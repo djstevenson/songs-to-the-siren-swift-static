@@ -16,6 +16,8 @@ extension SongLink : RenderableLink {
             case .songstothesiren(_, song: let song):
                 return URL(string: "../../\(song)/index.html")!
 
+            case .otherNoList(_, url: let url):
+                return url
 
             case .other(_, url: let url):
                 return url
@@ -32,12 +34,14 @@ extension SongLink : RenderableLink {
             return data.id
         case .songstothesiren(let data, _):
             return data.id
+        case .otherNoList(let data, _):
+            return data.id
         case .other(let data, _):
             return data.id
         }
     }
 
-    var list: String {
+    var list: String? {
         switch self {
         case .youtube(let data, _, _):
             return data.list
@@ -45,6 +49,8 @@ extension SongLink : RenderableLink {
             return data.list
         case .songstothesiren(let data, _):
             return data.list
+        case .otherNoList:
+            return nil
         case .other(let data, _):
             return data.list
         }
@@ -58,13 +64,19 @@ extension SongLink : RenderableLink {
             return data.embed
         case .songstothesiren(let data, _):
             return data.embed
+        case .otherNoList(let data, _):
+            return data.embed
         case .other(let data, _):
             return data.embed
         }
     }
 
     func renderInList() -> ChildOf<Tag.Ul> {
-        .li(
+        guard let listLabel = list else {
+            return .fragment([])
+        }
+
+        return .li(
             .a(
                 attributes: [
                     .id("link-\(id)"),
@@ -72,7 +84,7 @@ extension SongLink : RenderableLink {
                     .href(url.absoluteString),
                     .target(.blank)
                 ],
-                .text(list)
+                .text(listLabel)
             )
         )
     }

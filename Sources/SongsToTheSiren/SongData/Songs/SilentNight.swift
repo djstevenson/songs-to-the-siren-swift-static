@@ -2,7 +2,7 @@ extension Song {
     static func silentNight() -> Song {
         Song(
             id:       12,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Simon and Garfunkel",
             title:    "7 O'Clock News/Silent Night",
