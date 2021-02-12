@@ -16,7 +16,7 @@ enum LinkReplacer: String {
     }
 
     private func findLink(_ name: String, in links: [SongLink]) -> SongLink? {
-        if let index = links.firstIndex(where: { $0.id == name }) {
+        if let index = links.firstIndex(where: { $0.embedded?.id == name }) {
             return links[index]
         }
         return nil

@@ -20,28 +20,19 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "hell-is-round-the-corner",
-                        embed: "Hell is Round the Corner",
-                        list:  "Hell Is Round The Corner - Tricky"
-                    ),
-                    code:  "E3R_3h6zQEs"
+                    embedded: SongLink.Embed(id: "hell-is-round-the-corner", text: "Hell is Round the Corner"),
+                    listing:  SongLink.List(text: "Hell Is Round The Corner - Tricky"),
+                    code:     "E3R_3h6zQEs"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "here",
-                        embed: "Here by Alessia Cara",
-                        list:  "Here - Alessia Cara"
-                    ),
-                    code:  "UKp2CrfmVfw"
+                    embedded: SongLink.Embed(id: "here", text: "Here by Alessia Cara"),
+                    listing:  SongLink.List(text: "Here - Alessia Cara"),
+                    code:     "UKp2CrfmVfw"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "sawyers-medley",
-                        embed: "Here / Glory Box medley",
-                        list:  " Here / Glory Box - Jazmin Sawyers"
-                    ),
-                    code:  "7BQAoOriwqI"
+                    embedded: SongLink.Embed(id: "sawyers-medley", text: "Here / Glory Box medley"),
+                    listing:  SongLink.List(text: "Here / Glory Box - Jazmin Sawyers"),
+                    code:     "7BQAoOriwqI"
                 )
             ]
        )

@@ -22,45 +22,34 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "not-too-soon",
-                        embed: "Not Too Soon",
-                        list:  "Not Too Soon - Throwing Muses"
-                    ),
-                    code:  "=RZI-FTcFtn8"
-                ),
-                .otherNoList(
-                    data: SongLink.Common(
-                        id:    "ask-me",
-                        embed: "ask me",
-                        list:  nil
-                    ),
-                    url:  URL(string: "https://twitter.com/hoagy_ytfc")!
+                    embedded: SongLink.Embed(id: "not-too-soon", text: "Not Too Soon"),
+                    listing:  SongLink.List(text: "Not Too Soon - Throwing Muses"),
+                    code:     "=RZI-FTcFtn8"
                 ),
                 .wikipedia(
-                    data: SongLink.Common(
-                        id:    "chains-changed-ep",
-                        embed: "Chains Changed EP",
-                        list:  "Chains Changed EP - Throwing Muses"
-                    ),
-                    page:  "Chains_Changed"
+                    embedded: SongLink.Embed(id: "chains-changed-ep", text: "Chains Changed EP"),
+                    listing:  SongLink.List(text: "Chains Changed EP - Throwing Muses"),
+                    page:     "Chains_Changed"
                 ),
                 .wikipedia(
-                    data: SongLink.Common(
-                        id:    "lonely-is-an-eyesore",
-                        embed: "Lonely Is an Eyesore",
-                        list:  "Lonely Is an Eyesore - 4AD compilation"
-                    ),
-                    page:  "Lonely_Is_an_Eyesore"
+                    embedded: SongLink.Embed(id: "lonely-is-an-eyesore", text: "Lonely Is an Eyesore"),
+                    listing:  SongLink.List(text: "Lonely Is an Eyesore - 4AD compilation"),
+                    page:     "Lonely_Is_an_Eyesore"
+                ),
+                .other(
+                    embedded: SongLink.Embed(id: "ask-me", text: "ask me"),
+                    url:      URL(string: "https://twitter.com/hoagy_ytfc")!
                 )
 
 
+
                 // TODO Not yet implemented tag pages
+                // TODO These are pre-refactor declarations and need changing
 //                ,
 //                .songstothesirentag(
 //                    data: SongLink.Common(
 //                        id:    "lonely-is-an-eyesore",
-//                        embed: "Lonely is an Eyesore",
+//                        embedded: SongLink.Embed(id: "Lonely is an Eyesore",
 //                        list:  "Lonely is an Eyesore - 4AD Compilation"
 //                    ),
 //                    tag:  .lonelyIsAnEyesore
@@ -70,7 +59,7 @@ extension Song {
 //                ,
 //                .songstothesiren(data: SongLink.Common(
 //                        id:    "chains-changed-ep",
-//                        embed: "Chains Changed EP",
+//                        embedded: SongLink.Embed(id: "Chains Changed EP",
 //                        list:  "Chains Changed EP - Throwing Muses"
 //                    ),
 //                    song:  "HotDoggie"

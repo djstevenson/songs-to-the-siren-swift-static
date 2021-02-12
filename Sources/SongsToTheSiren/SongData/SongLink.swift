@@ -5,15 +5,17 @@ import Foundation
 // BUT it improves the usage of the type considerably, so I think the outcome
 // is positive.
 enum SongLink {
-    struct Common {
+    struct Embed {
         let id: String
-        let embed: String
-        let list: String?
+        let text: String
     }
 
-    case youtube(data: SongLink.Common,         code: String, offset: Int = 0)
-    case wikipedia(data: SongLink.Common,       page: String)
-    case songstothesiren(data: SongLink.Common, song: String)
-    case otherNoList(data: SongLink.Common,     url: URL)
-    case other(data: SongLink.Common,           url: URL)
+    struct List {
+        let text: String
+    }
+
+    case youtube         (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, code: String, offset: Int = 0)
+    case wikipedia       (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, page: String)
+    case songstothesiren (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, song: String)
+    case other           (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, url:  URL)
 }

@@ -20,52 +20,34 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "reprise",
-                        embed: "reprise",
-                        list:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)"
-                    ),
-                    code:  "WIFVffd4SMs"
+                    embedded: SongLink.Embed(id: "reprise", text: "reprise"),
+                    listing:  SongLink.List(text: "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)"),
+                    code:     "WIFVffd4SMs"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "cleopatra-grip",
-                        embed: "Cleopatra Grip",
-                        list:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)"
-                    ),
-                    code:  "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
+                    embedded: SongLink.Embed(id: "cleopatra-grip", text: "Cleopatra Grip"),
+                    listing:  SongLink.List(text: "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)"),
+                    code:     "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "jubilee-twist",
-                        embed: "Jubilee Twist",
-                        list:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)"
-                    ),
-                    code:  "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
+                    embedded: SongLink.Embed(id: "jubilee-twist", text: "Jubilee Twist"),
+                    listing:  SongLink.List(text: "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)"),
+                    code:     "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "hooligan",
-                        embed: "Hooligan",
-                        list:  "Hooligan - The Heart Throbs (YouTube audio)"
-                    ),
-                    code:  "jAxQpILzx3w"
+                    embedded: SongLink.Embed(id: "hooligan", text: "Hooligan"),
+                    listing:  SongLink.List(text: "Hooligan - The Heart Throbs (YouTube audio)"),
+                    code:     "jAxQpILzx3w"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "bright-green-day",
-                        embed: "Bright Green Day",
-                        list:  "Bright Green Day - The Heart Throbs (YouTube audio)"
-                    ),
-                    code:  "gBvA2XeGOYM"
+                    embedded: SongLink.Embed(id: "bright-green-day", text: "Bright Green Day"),
+                    listing:  SongLink.List(text: "Bright Green Day - The Heart Throbs (YouTube audio)"),
+                    code:     "gBvA2XeGOYM"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "tossed-away",
-                        embed: "Tossed Away",
-                        list:  "Tossed Away - The Heart Throbs (YouTube audio)"
-                    ),
-                    code:  "76_T4nRdLqc"
+                    embedded: SongLink.Embed(id: "tossed-away", text: "Tossed Away"),
+                    listing:  SongLink.List(text: "Tossed Away - The Heart Throbs (YouTube audio)"),
+                    code:     "76_T4nRdLqc"
                 )
             ]
        )
