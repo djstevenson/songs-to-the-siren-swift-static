@@ -20,7 +20,7 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "angelfish", text: "an Angelfish side-project"),
+                    embedded: ["angelfish": "an Angelfish side-project"],
                     listing:  "Suffocate Me - Angelfish",
                     code:     "cO-YCm4GXw8"
                 )

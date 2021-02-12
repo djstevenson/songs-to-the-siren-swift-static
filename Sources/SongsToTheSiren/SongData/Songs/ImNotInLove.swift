@@ -20,18 +20,18 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "documentary", text: "documentary"),
+                    embedded: ["documentary": "documentary"],
                     listing:  "I'm Not in Love: The Story of 10cc documentary",
                     code:     "MhLW_yYqngY"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "bass-solo", text: "bass line"),
+                    embedded: ["bass-solo": "bass line"],
                     listing:  "I'm Not In Love (middle 8) - 10cc",
                     code:     "STugQ0X1NoI",
                     offset:   116
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "bass-solo", text: "bass-solo-cover"),
+                    embedded: ["bass-solo": "bass-solo-cover"],
                     listing:  "I'm Not In Love (middle 8) - A cover that emphasises the bass part",
                     code:     "wiRgdCNi5GA",
                     offset:   135

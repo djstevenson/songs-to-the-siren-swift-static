@@ -22,22 +22,22 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "not-too-soon", text: "Not Too Soon"),
+                    embedded: ["not-too-soon": "Not Too Soon"],
                     listing:  "Not Too Soon - Throwing Muses",
                     code:     "=RZI-FTcFtn8"
                 ),
                 .wikipedia(
-                    embedded: SongLink.Embed(id: "chains-changed-ep", text: "Chains Changed EP"),
+                    embedded: ["chains-changed-ep": "Chains Changed EP"],
                     listing:  "Chains Changed EP - Throwing Muses",
                     page:     "Chains_Changed"
                 ),
                 .wikipedia(
-                    embedded: SongLink.Embed(id: "lonely-is-an-eyesore", text: "Lonely Is an Eyesore"),
+                    embedded: ["lonely-is-an-eyesore": "Lonely Is an Eyesore"],
                     listing:  "Lonely Is an Eyesore - 4AD compilation",
                     page:     "Lonely_Is_an_Eyesore"
                 ),
                 .other(
-                    embedded: SongLink.Embed(id: "ask-me", text: "ask me"),
+                    embedded: ["ask-me": "ask me"],
                     url:      URL(string: "https://twitter.com/hoagy_ytfc")!
                 )
 
@@ -49,7 +49,7 @@ extension Song {
 //                .songstothesirentag(
 //                    data: SongLink.Common(
 //                        id:    "lonely-is-an-eyesore",
-//                        embedded: SongLink.Embed(id: "Lonely is an Eyesore",
+//                        embedded: ["Lonely is an Eyesore",
 //                        list:  "Lonely is an Eyesore - 4AD Compilation"
 //                    ),
 //                    tag:  .lonelyIsAnEyesore
@@ -59,7 +59,7 @@ extension Song {
 //                ,
 //                .songstothesiren(data: SongLink.Common(
 //                        id:    "chains-changed-ep",
-//                        embedded: SongLink.Embed(id: "Chains Changed EP",
+//                        embedded: ["Chains Changed EP",
 //                        list:  "Chains Changed EP - Throwing Muses"
 //                    ),
 //                    song:  "HotDoggie"

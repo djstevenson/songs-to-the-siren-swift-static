@@ -23,17 +23,17 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "the-mother-we-share", text: "The Mother We Share"),
+                    embedded: ["the-mother-we-share": "The Mother We Share"],
                     listing:  "The Mother We Share - Chvrches",
                     code:     "_mTRvJ9fugM"
                 ),
                 .other(
-                    embedded: SongLink.Embed(id: "bbc-sound-of-2013", text: "BBC Sound of 2013"),
+                    embedded: ["bbc-sound-of-2013": "BBC Sound of 2013"],
                     listing:  "BBC Sound of 2013",
                     url:   URL(string: "https://www.bbc.co.uk/events/efxzp6")!
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "gryffin-remix", text: "Gryffin Remix"),
+                    embedded: ["gryffin-remix": "Gryffin Remix"],
                     listing:  "Clearest Blue (Gryffin Remix) - Chvrches",
                     code:     "O-3-46RD2W8"
                 )

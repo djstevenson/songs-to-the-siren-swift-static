@@ -20,17 +20,17 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "hell-is-round-the-corner", text: "Hell is Round the Corner"),
+                    embedded: ["hell-is-round-the-corner": "Hell is Round the Corner"],
                     listing:  "Hell Is Round The Corner - Tricky",
                     code:     "E3R_3h6zQEs"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "here", text: "Here by Alessia Cara"),
+                    embedded: ["here": "Here by Alessia Cara"],
                     listing:  "Here - Alessia Cara",
                     code:     "UKp2CrfmVfw"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "sawyers-medley", text: "Here / Glory Box medley"),
+                    embedded: ["sawyers-medley": "Here / Glory Box medley"],
                     listing:  "Here / Glory Box - Jazmin Sawyers",
                     code:     "7BQAoOriwqI"
                 )

@@ -20,47 +20,47 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "morning-glory", text: "Morning Glory"),
+                    embedded: ["morning-glory": "Morning Glory"],
                     listing:  "Morning Glory - This Mortal Coil",
                     code:     "01o6AB8MKyg"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "monkees", text: "The Monkees Show"),
+                    embedded: ["monkees": "The Monkees Show"],
                     listing:  "Song to the Siren - Tim Buckley, live on “The Monkees”",
                     code:     "vMTEtDBHGY4"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "starsailor", text: "Starsailor LP"),
+                    embedded: ["starsailor": "Starsailor LP"],
                     listing:  "Song to the Siren - Tim Buckley, studio version on Starsailor (1970)",
                     code:     "cZiTSglLM-4"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "wolf-alice", text: "Wolf Alice"),
+                    embedded: ["wolf-alice": "Wolf Alice"],
                     listing:  "Song to the Siren - Wolf Alice",
                     code:     "G5nbn4-iwPY"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "sinead", text: "Sinéad O'Connor"),
+                    embedded: ["sinead": "Sinéad O'Connor"],
                     listing:  "Song to the Siren - Sinéad O'Connor",
                     code:     "88wL8oRf45U"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "hmhb", text: "Half Man Half Biscuit"),
+                    embedded: ["hmhb": "Half Man Half Biscuit"],
                     listing:  "Song to the Siren - Half Man Half Biscuit",
                     code:     "jjk2L5BFq1A"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "george-michael", text: "George Michael"),
+                    embedded: ["george-michael": "George Michael"],
                     listing:  "Song to the Siren - George Michael",
                     code:     "vDIvTCweoCw"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "robert-plant", text: "Robert Plant"),
+                    embedded: ["robert-plant": "Robert Plant"],
                     listing:  "Song to the Siren - Robert Plant (do not click on this)",
                     code:     "Gw9ANFOuMBU"
                 ),
                 .wikipedia(
-                    embedded: SongLink.Embed(id: "4ad", text: "4AD"),
+                    embedded: ["4ad": "4AD"],
                     listing:  "4AD (wikipedia)",
                     page:  "4AD"
                 )

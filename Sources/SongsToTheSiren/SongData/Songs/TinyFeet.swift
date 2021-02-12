@@ -20,32 +20,32 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "reprise", text: "reprise"),
+                    embedded: ["reprise": "reprise"],
                     listing:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
                     code:     "WIFVffd4SMs"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "cleopatra-grip", text: "Cleopatra Grip"),
+                    embedded: ["cleopatra-grip": "Cleopatra Grip"],
                     listing:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "jubilee-twist", text: "Jubilee Twist"),
+                    embedded: ["jubilee-twist": "Jubilee Twist"],
                     listing:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
                     code:     "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "hooligan", text: "Hooligan"),
+                    embedded: ["hooligan": "Hooligan"],
                     listing:  "Hooligan - The Heart Throbs (YouTube audio)",
                     code:     "jAxQpILzx3w"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "bright-green-day", text: "Bright Green Day"),
+                    embedded: ["bright-green-day": "Bright Green Day"],
                     listing:  "Bright Green Day - The Heart Throbs (YouTube audio)",
                     code:     "gBvA2XeGOYM"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "tossed-away", text: "Tossed Away"),
+                    embedded: ["tossed-away": "Tossed Away"],
                     listing:  "Tossed Away - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc"
                 )

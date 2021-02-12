@@ -20,27 +20,27 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "watson-twins", text: "The Watson Twins"),
+                    embedded: ["watson-twins": "The Watson Twins"],
                     listing:  "Just Like Heaven - The Watson Twins",
                     code:     "KRcmj_XZGzY"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "katie-melua", text: "Katie Melua"),
+                    embedded: ["katie-melua": "Katie Melua"],
                     listing:  "Just Like Heaven - Katie Melua",
                     code:     "XV4CZmHcvd0"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "dinosaur-jr", text: "Dinosaur Jr."),
+                    embedded: ["dinosaur-jr": "Dinosaur Jr."],
                     listing:  "Just Like Heaven - Dinosaur Jr.",
                     code:     "UT7IpRx08tE"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "kiss-me", text: "Kiss Me, Kiss Me, Kiss Me"),
+                    embedded: ["kiss-me": "Kiss Me, Kiss Me, Kiss Me"],
                     listing:  "Kiss Me, Kiss Me, Kiss Me - The Cure",
                     code:     "BNTrm67-g8Q"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "rick-beato", text: "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series"),
+                    embedded: ["rick-beato": "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series"],
                     listing:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83",
                     code:     "LPNHwwXh3Ks"
                 )

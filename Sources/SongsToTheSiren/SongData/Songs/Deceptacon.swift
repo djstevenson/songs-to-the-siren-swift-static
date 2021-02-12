@@ -20,12 +20,12 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    embedded: SongLink.Embed(id: "live-performance", text: "live performance"),
+                    embedded: ["live-performance": "live performance"],
                     listing:  "Decaptacon - Le Tigre (live)",
                     code:     "VG9UJJposmg"
                 ),
                 .youtube(
-                    embedded: SongLink.Embed(id: "the-punk-singer-trailer", text: "The Punk Singer"),
+                    embedded: ["the-punk-singer-trailer": "The Punk Singer"],
                     listing:  "The Punk Singer (official trailer)",
                     code:     "zMbLzaVkn2s"
                 )
