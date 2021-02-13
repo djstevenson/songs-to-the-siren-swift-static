@@ -98,7 +98,17 @@ extension SongPage {
         .div(
             .h4("Origin"),
             .ul(
-                .fragment(song.country.map  { .li(.text($0.rawValue)) })
+                .fragment(song.country.map { country in
+                    .li(
+                        .a(
+                            attributes: [
+                                .class("tag-link"),
+                                .href("xyzzy.html")
+                            ],
+                            .text(country.rawValue)
+                        )
+                    )
+                })
             )
         )
     }
