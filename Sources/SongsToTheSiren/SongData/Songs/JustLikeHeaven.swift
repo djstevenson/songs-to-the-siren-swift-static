@@ -20,44 +20,29 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "watson-twins",
-                        embed: "The Watson Twins",
-                        list:  "Just Like Heaven - The Watson Twins"
-                    ),
-                    code:  "KRcmj_XZGzY"
+                    embedded: ["watson-twins": "The Watson Twins"],
+                    listing:  "Just Like Heaven - The Watson Twins",
+                    code:     "KRcmj_XZGzY"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "katie-melua",
-                        embed: "Katie Melua",
-                        list:  "Just Like Heaven - Katie Melua"
-                    ),
-                    code:  "XV4CZmHcvd0"
+                    embedded: ["katie-melua": "Katie Melua"],
+                    listing:  "Just Like Heaven - Katie Melua",
+                    code:     "XV4CZmHcvd0"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "dinosaur-jr",
-                        embed: "Dinosaur Jr.",
-                        list:  "Just Like Heaven - Dinosaur Jr."
-                    ),
-                    code:  "UT7IpRx08tE"
+                    embedded: ["dinosaur-jr": "Dinosaur Jr."],
+                    listing:  "Just Like Heaven - Dinosaur Jr.",
+                    code:     "UT7IpRx08tE"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "kiss-me",
-                        embed: "Kiss Me, Kiss Me, Kiss Me",
-                        list:  "Kiss Me, Kiss Me, Kiss Me - The Cure"
-                    ),
-                    code:  "BNTrm67-g8Q"
+                    embedded: ["kiss-me": "Kiss Me, Kiss Me, Kiss Me"],
+                    listing:  "Kiss Me, Kiss Me, Kiss Me - The Cure",
+                    code:     "BNTrm67-g8Q"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "rick-beato",
-                        embed: "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series",
-                        list:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83"
-                    ),
-                    code:  "LPNHwwXh3Ks"
+                    embedded: ["rick-beato": "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series"],
+                    listing:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83",
+                    code:     "LPNHwwXh3Ks"
                 )
             ]
        )

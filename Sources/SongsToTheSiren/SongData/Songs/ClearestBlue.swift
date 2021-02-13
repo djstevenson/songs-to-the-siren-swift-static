@@ -23,28 +23,19 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "the-mother-we-share",
-                        embed: "The Mother We Share",
-                        list:  "The Mother We Share - Chvrches"
-                    ),
-                    code: "_mTRvJ9fugM"
+                    embedded: ["the-mother-we-share": "The Mother We Share"],
+                    listing:  "The Mother We Share - Chvrches",
+                    code:     "_mTRvJ9fugM"
                 ),
                 .other(
-                    data: SongLink.Common(
-                        id:    "bbc-sound-of-2013",
-                        embed: "BBC Sound of 2013",
-                        list:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)"
-                    ),
-                    url: URL(string: "https://www.bbc.co.uk/events/efxzp6")!
+                    embedded: ["bbc-sound-of-2013": "BBC Sound of 2013"],
+                    listing:  "BBC Sound of 2013",
+                    url:   URL(string: "https://www.bbc.co.uk/events/efxzp6")!
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "gryffin-remix",
-                        embed: "Gryffin Remix",
-                        list:  "Clearest Blue (Gryffin Remix) - Chvrches"
-                    ),
-                    code: "O-3-46RD2W8"
+                    embedded: ["gryffin-remix": "Gryffin Remix"],
+                    listing:  "Clearest Blue (Gryffin Remix) - Chvrches",
+                    code:     "O-3-46RD2W8"
                 )
             ]
        )

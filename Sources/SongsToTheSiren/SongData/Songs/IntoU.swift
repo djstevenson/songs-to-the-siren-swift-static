@@ -20,36 +20,24 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "fade-into-you",
-                        embed: "Fade Into You",
-                        list:  "Fade Into You - Mazzy Star"
-                    ),
-                    code:  "7Z4zCIn7zyY"
+                    embedded: ["fade-into-you": "Fade Into You"],
+                    listing:  "Fade Into You - Mazzy Star",
+                    code:     "7Z4zCIn7zyY"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "we-dont-give-a-damn-about-our-friends",
-                        embed: "We Don't Give a Damn About Our Friends",
-                        list:  "We Don't Give a Damn About Our Friends - Girls On Top aka Richard X"
-                    ),
-                    code:  "RZO_Uqx7njM"
+                    embedded: ["we-dont-give-a-damn-about-our-friends": "We Don't Give a Damn About Our Friends"],
+                    listing:  "We Don't Give a Damn About Our Friends - Girls On Top aka Richard X",
+                    code:     "RZO_Uqx7njM"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "are-friends-electric",
-                        embed: "Are 'Friends' Electric?",
-                        list:  "Are 'Friends' Electric? - Tubeway Army"
-                    ),
-                    code:  "QzSM3pRtgcM"
+                    embedded: ["are-friends-electric": "Are 'Friends' Electric?"],
+                    listing:  "Are 'Friends' Electric? - Tubeway Army",
+                    code:     "QzSM3pRtgcM"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "freak-like-me",
-                        embed: "Freak Like Me",
-                        list:  "Freak Like Me - Adina Howard"
-                    ),
-                    code:  "fdyUqqRfUMk"
+                    embedded: ["freak-like-me": "Freak Like Me"],
+                    listing:  "Freak Like Me - Adina Howard",
+                    code:     "fdyUqqRfUMk"
                 ),
             ]
        )

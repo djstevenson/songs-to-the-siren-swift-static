@@ -20,20 +20,14 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "live-performance",
-                        embed: "live performance",
-                        list:  "Decaptacon - Le Tigre (live)"
-                    ),
-                    code:  "VG9UJJposmg"
+                    embedded: ["live-performance": "live performance"],
+                    listing:  "Decaptacon - Le Tigre (live)",
+                    code:     "VG9UJJposmg"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "the-punk-singer-trailer",
-                        embed: "The Punk Singer",
-                        list:  "The Punk Singer (official trailer)"
-                    ),
-                    code:  "zMbLzaVkn2s"
+                    embedded: ["the-punk-singer-trailer": "The Punk Singer"],
+                    listing:  "The Punk Singer (official trailer)",
+                    code:     "zMbLzaVkn2s"
                 )
             ]
        )

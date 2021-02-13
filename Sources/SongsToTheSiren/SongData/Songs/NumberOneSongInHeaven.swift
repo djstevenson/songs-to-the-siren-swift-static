@@ -20,20 +20,14 @@ extension Song {
                       ),
             links: [
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "number-one-song-in-heaven-full-audio",
-                        embed: "full audio",
-                        list:  #"The Number One Song in Heaven 12" - Sparks (audio of the full 12" version)"#
-                    ),
-                    code:  "jE4EarLZPYs"
+                    embedded: ["number-one-song-in-heaven-full-audio": "full audio"],
+                    listing:  #"The Number One Song in Heaven 12" - Sparks (audio of the full 12" version)"#,
+                    code:     "jE4EarLZPYs"
                 ),
                 .youtube(
-                    data: SongLink.Common(
-                        id:    "segued",
-                        embed: "seguéd",
-                        list:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks"
-                    ),
-                    code:  "sm4CkJYdQv0"
+                    embedded: ["segued": "seguéd"],
+                    listing:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks",
+                    code:     "sm4CkJYdQv0"
                 )
             ]
        )

@@ -6,97 +6,78 @@ extension SongLink : RenderableLink {
     private var url: URL {
         get {
             switch self {
-            case .youtube(_, let code, let offset):
+            case .youtube(_, _, let code, let offset):
                 let t = offset > 0 ? "?t=\(offset)" : ""
                 return URL(string: "https://youtu.be/\(code)\(t)")!
 
-            case .wikipedia(_, page: let page):
+            case .wikipedia(_, _, page: let page):
                 return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
-            case .songstothesiren(_, song: let song):
+            case .songstothesiren(_, _, song: let song):
                 return URL(string: "../../\(song)/index.html")!
 
-            case .otherNoList(_, url: let url):
-                return url
-
-            case .other(_, url: let url):
+            case .other(_, _, url: let url):
                 return url
             }
         }
     }
 
     // Pattern from https://medium.com/swlh/use-enums-effectively-fe2d73b7ed28
-    var id: String {
+    var listing: SongLink.List? {
         switch self {
-        case .youtube(let data, _, _):
-            return data.id
-        case .wikipedia(let data, _):
-            return data.id
-        case .songstothesiren(let data, _):
-            return data.id
-        case .otherNoList(let data, _):
-            return data.id
-        case .other(let data, _):
-            return data.id
+        case let .youtube(_, listing, _, _):
+            return listing
+        case let .wikipedia(_, listing, _):
+            return listing
+        case let .songstothesiren(_, listing, _):
+            return listing
+        case let .other(_, listing, _):
+            return listing
         }
     }
 
-    var list: String? {
+    var embedded: SongLink.Embed? {
         switch self {
-        case .youtube(let data, _, _):
-            return data.list
-        case .wikipedia(let data, _):
-            return data.list
-        case .songstothesiren(let data, _):
-            return data.list
-        case .otherNoList:
-            return nil
-        case .other(let data, _):
-            return data.list
-        }
-    }
-
-    var embed: String {
-        switch self {
-        case .youtube(let data, _, _):
-            return data.embed
-        case .wikipedia(let data, _):
-            return data.embed
-        case .songstothesiren(let data, _):
-            return data.embed
-        case .otherNoList(let data, _):
-            return data.embed
-        case .other(let data, _):
-            return data.embed
+        case let .youtube(embedded, _, _, _):
+            return embedded
+        case let .wikipedia(embedded, _, _):
+            return embedded
+        case let .songstothesiren(embedded, _, _):
+            return embedded
+        case let .other(embedded, _, _):
+            return embedded
         }
     }
 
     func renderInList() -> ChildOf<Tag.Ul> {
-        guard let listLabel = list else {
+        guard let listing = self.listing else {
             return .fragment([])
         }
 
         return .li(
             .a(
                 attributes: [
-                    .id("link-\(id)"),
                     .class("link"),
                     .href(url.absoluteString),
                     .target(.blank)
                 ],
-                .text(listLabel)
+                .text(listing.text)
             )
         )
     }
 
     func renderEmbedded() -> HtmlNode {
-        .a(
+        guard let embedded = self.embedded else {
+            return .fragment([])
+        }
+
+        return .a(
             attributes: [
                 .class("link"),
                 .href(url.absoluteString),
                 .target(.blank)
             ],
-            .text(embed)
+            .text(embedded.text)
         )
     }
 }
