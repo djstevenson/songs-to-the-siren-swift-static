@@ -8,6 +8,10 @@ struct SongList {
         let songsByTag: Dictionary<Song.Tag, [Song]>
     }
 
+    struct CountryMap {
+        let songsByCountry: Dictionary<Song.Country, [Song]>
+    }
+
     let songs: [Song] = [
         Song.iNeedSomeFineWineAndYouYouNeedToBeNicer(),
         Song.fish(),
@@ -56,5 +60,20 @@ struct SongList {
         }
 
         return TagMap(songsByTag: taggedSongs)
+    }
+
+    func makeCountryMap() -> CountryMap {
+        var countrySongs = Dictionary<Song.Country, [Song]>()
+
+        for song in songs {
+            for country in song.country {
+                if countrySongs[country] == nil {
+                    countrySongs[country] = [Song]()
+                }
+                countrySongs[country]!.append(song)
+            }
+        }
+
+        return CountryMap(songsByCountry: countrySongs)
     }
 }

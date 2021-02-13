@@ -43,7 +43,12 @@ struct SongsToTheSiren: ParsableCommand {
             TagPage(fileUtils: fileUtils, tag: tag, songs: songs).generate()
         }
 
-        HomePage(fileUtils: fileUtils, songList: songList).generate()
+        // COUNTRY PAGES
+        let countryMap  = songList.makeCountryMap()
+
+        countryMap.songsByCountry.forEach { (country, songs) in
+            CountryPage(fileUtils: fileUtils, country: country, songs: songs).generate()
+        }
 
         // RSS page
     }

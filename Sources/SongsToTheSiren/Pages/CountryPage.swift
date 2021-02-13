@@ -1,14 +1,14 @@
 import Foundation
 import Html
 
-struct TagPage: Page {
+struct CountryPage: Page {
     let fileUtils: FileUtils
-    let tag:   Song.Tag
+    let country: Song.Country
     let songs: [Song]
     var markdownNames: [String] = []
 
     func dirPath() -> [String] {
-        ["tag", "\(tag)"]
+        ["country", "\(country)"]
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
@@ -21,7 +21,7 @@ struct TagPage: Page {
     }
 
     func pageTitle() -> String {
-        "Songs to the Siren - songs tagged '\(tag.rawValue)'"
+        "Songs to the Siren - artists from '\(country.rawValue)'"
     }
 
     private func generateSongPanels() -> HtmlNode {
@@ -30,12 +30,13 @@ struct TagPage: Page {
         )
     }
 
-
+    // TODO DRY this, it's used in loads of pages.
+    // Protocol extension, or base class (but this is a struct atm)
     private func fullPanelSong(_ song: Song) -> HtmlNode {
         .section(
             .header(
                 .a(
-                    attributes: [ // TODO grep for index.html, this is re-used in loads of places
+                    attributes: [ // TODO DRY refactor, this is re-used in loads of places
                         .href("../../song/\(song.dir)/index.html")
                     ],
                     .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
