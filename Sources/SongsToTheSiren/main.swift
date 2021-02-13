@@ -50,7 +50,25 @@ struct SongsToTheSiren: ParsableCommand {
             CountryPage(fileUtils: fileUtils, country: country, songs: songs).generate()
         }
 
+        // CSS
+        processSCSS("songs-to-the-siren")
+
         // RSS page
+
+    }
+
+    func processSCSS(_ file: String) {
+        shell(exec: "/usr/local/bin/scss", args: "input/songs-to-the-siren.scss:output/songs-to-the-siren.css")
+    }
+
+    @discardableResult
+    func shell(exec: String,  args: String...) -> Int32 {
+        let task = Process()
+        task.launchPath = exec
+        task.arguments = args
+        task.launch()
+        task.waitUntilExit()
+        return task.terminationStatus
     }
 }
 

@@ -16,7 +16,8 @@ extension Page {
         return .document(
             .html(
                 .head(
-                    .title(title)
+                    .title(title),
+                    .link(attributes: [.rel(.stylesheet), .href("../songs-to-the-siren.css")])
                 ),
                 .body(
                     .h1(.text(title)),
