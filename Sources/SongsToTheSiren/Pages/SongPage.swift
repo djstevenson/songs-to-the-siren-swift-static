@@ -8,7 +8,7 @@ struct SongPage: Page {
     var markdownNames = ["summary", "article"]
 
     func dirPath() -> [String] {
-        ["songs", song.dir]
+        ["song", song.dir]
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
@@ -76,6 +76,7 @@ extension SongPage {
     }
 
     func makeSongTags() -> HtmlNode {
+        // TODO factor out URLs to make them easy to manage
         .div(
             .h4("Tags"),
             .ul(
@@ -84,7 +85,7 @@ extension SongPage {
                         .a(
                             attributes: [
                                 .class("tag-link"),
-                                .href("xyzzy.html")
+                                .href("../../tag/\(tag)/index.html")
                             ],
                             .text(tag.rawValue)
                         )
@@ -102,8 +103,8 @@ extension SongPage {
                     .li(
                         .a(
                             attributes: [
-                                .class("tag-link"),
-                                .href("xyzzy.html")
+                                .class("country-link"),
+                                .href("../../country/\(country)/index.html")
                             ],
                             .text(country.rawValue)
                         )

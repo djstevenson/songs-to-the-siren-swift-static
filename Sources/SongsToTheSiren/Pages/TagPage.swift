@@ -8,7 +8,7 @@ struct TagPage: Page {
     var markdownNames: [String] = []
 
     func dirPath() -> [String] {
-        ["tags", "\(tag)"]
+        ["tag", "\(tag)"]
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
@@ -36,7 +36,7 @@ struct TagPage: Page {
             .header(
                 .a(
                     attributes: [ // TODO grep for index.html, this is re-used in loads of places
-                        .href("../songs/\(song.dir)/index.html")
+                        .href("../../song/\(song.dir)/index.html")
                     ],
                     .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
                     .h2(.text(song.title))
