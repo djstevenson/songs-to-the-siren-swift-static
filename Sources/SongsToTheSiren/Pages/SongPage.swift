@@ -79,7 +79,17 @@ extension SongPage {
         .div(
             .h4("Tags"),
             .ul(
-                .fragment(song.tags.map  { .li(.text($0.rawValue)) })
+                .fragment(song.tags.map { tag in
+                    .li(
+                        .a(
+                            attributes: [
+                                .class("tag-link"),
+                                .href("xyzzy.html")
+                            ],
+                            .text(tag.rawValue)
+                        )
+                    )
+                })
             )
         )
     }
