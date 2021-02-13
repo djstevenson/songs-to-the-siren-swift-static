@@ -4,6 +4,10 @@ struct SongList {
         let prev: Dictionary<Int, Song>
     }
 
+    struct TagMap {
+        let songsByTag: Dictionary<Song.Tag, [Song]>
+    }
+
     let songs: [Song] = [
         Song.iNeedSomeFineWineAndYouYouNeedToBeNicer(),
         Song.fish(),
@@ -37,5 +41,20 @@ struct SongList {
         }
 
         return SongMap(next: next, prev: prev)
+    }
+
+    func makeTagMap() -> TagMap {
+        var taggedSongs = Dictionary<Song.Tag, [Song]>()
+
+        for song in songs {
+            for tag in song.tags {
+                if taggedSongs[tag] == nil {
+                    taggedSongs[tag] = [Song]()
+                }
+                taggedSongs[tag]!.append(song)
+            }
+        }
+
+        return TagMap(songsByTag: taggedSongs)
     }
 }
