@@ -66,33 +66,10 @@ extension Page {
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
-        // TODO this is hacky
-        let dummy = Dictionary<Int, Song>()
-        // TODO Make the songMap an optional arg?
-        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
-        let md = songPage.loadMarkdown()
-
-        return .section(attributes: [.class("song row rounded")],
-            .header(attributes: [.class("col-12 p-0")],
-                .a(
-                    attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
-                    .img(attributes: [.class("rounded float-left mr-3 mb-1"), .alt("Record sleeve image"), .src("/song/\(song.dir)/artwork-1x.jpg"), .width(160), .height(160)])
-                ),
-                .h2(attributes: [.class("title rounded-top")],
-                    .text(song.title)
-                ),
-                .h3(attributes: [.class("artist")],
-                    .text(song.artist)
-                ),
-                .h3(attributes: [.class("artist")],
-                    .span(attributes:[], .fragment(song.country.map { .text($0.rawValue + " ") } ))
-                ),
-                .h4(attributes: [.class("release")], .text(song.released))
-            ),
-            .div(
-                attributes: [.class("description")],
-                md["summary"]!
-            )
+        .section(attributes: [.class("song row rounded")],
+            panelHeader(song),
+            panelBody(song),
+            panelFooter(song)
         )
     }
 
@@ -100,4 +77,59 @@ extension Page {
     func songHref(_ song: Song) -> Attribute<Tag.A> {
         return .href("/song/\(song.dir)/")
     }
+
+    private func panelHeader(_ song: Song) -> HtmlNode {
+        .header(attributes: [.class("col-12 p-0")],
+            .a(
+                attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
+                .img(attributes: [.class("rounded float-left mr-3 mb-1"), .alt("Record sleeve image"), .src("/song/\(song.dir)/artwork-1x.jpg"), .width(160), .height(160)])
+            ),
+            .h2(attributes: [.class("title rounded-top")],
+                .text(song.title)
+            ),
+            .h3(attributes: [.class("artist")],
+                .text(song.artist)
+            ),
+            .h3(attributes: [.class("artist")],
+                .span(attributes:[], .fragment(song.country.map { .text($0.rawValue + " ") } ))
+            ),
+            .h4(attributes: [.class("release")], .text(song.released))
+        )
+    }
+
+    private func panelBody(_ song: Song) -> HtmlNode {
+        // TODO this is hacky
+        let dummy = Dictionary<Int, Song>()
+        // TODO Make the songMap an optional arg?
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
+        let md = songPage.loadMarkdown()
+
+        return .div(
+            attributes: [.class("description")],
+            md["summary"]!,
+            .p(attributes: [.class("more")],
+               .a(attributes: [.href("/song/\(song.dir)/"), ],
+                   .text("Read more...")
+               )
+            )
+        )
+    }
+
+    private func panelFooter(_ song: Song) -> HtmlNode {
+        .footer(attributes: [.class("col-12")],
+            .p(attributes: [.class("song-tags")],
+               .fragment(song.tags.map(tagLink))
+            )
+        )
+    }
+
+    private func tagLink(_ tag: Song.Tag) -> HtmlNode {
+        // TODO Highlight current tag (although Perl version doesn't)
+        // TODO Tag page needs to make clear it's filtering
+        .a(attributes: [.class("btn btn-outline-secondary btn-sm song-tag"), .href("/tag/\(tag)/"), .role(.button)],
+           .text(tag.rawValue)
+        )
+    }
+
+
 }
