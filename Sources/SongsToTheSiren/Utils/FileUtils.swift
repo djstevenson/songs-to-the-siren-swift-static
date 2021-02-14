@@ -17,8 +17,18 @@ class FileUtils {
     }
 
     public func clearOutput() -> Void {
-        // Remove all output before we start.
-        try? FileManager.default.removeItem(at: outputBase)
+        // Remove all files/dirs under output dir
+        // Don't remove actual output dir as we have our
+        // test web server running in there.
+        let fileManager = FileManager.default
+        do {
+            let fileURLs = try fileManager.contentsOfDirectory(at: outputBase, includingPropertiesForKeys: nil, options: .skipsHiddenFiles)
+            for url in fileURLs {
+               try fileManager.removeItem(at: url)
+            }
+        } catch {
+            print(error)
+        }
     }
 
     public func outputDir(dirs: [String]) -> URL {
