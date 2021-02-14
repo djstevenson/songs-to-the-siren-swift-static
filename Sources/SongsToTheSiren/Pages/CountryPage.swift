@@ -30,39 +30,5 @@ struct CountryPage: Page {
         )
     }
 
-    // TODO DRY this, it's used in loads of pages.
-    // Protocol extension, or base class (but this is a struct atm)
-    private func fullPanelSong(_ song: Song) -> HtmlNode {
-        // TODO this is hacky
-        let dummy = Dictionary<Int, Song>()
-        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
-        let md = songPage.loadMarkdown()
-
-        return .section(
-            .header(
-                .a(
-                    attributes: [ // TODO DRY refactor, this is re-used in loads of places
-                        .href("/song/\(song.dir)/")
-                    ],
-                    .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
-                    .h2(.text(song.title))
-                ),
-                .h3(
-                    attributes: [.class("artist")],
-                    .text(song.artist),
-                    .span(
-                        attributes: [.class("country")],
-                        .text(song.country.map { $0.rawValue }.joined(separator: " "))
-                    )
-                ),
-                .h4(attributes: [.class("release")], .text(song.released))
-            ),
-            .div(
-                attributes: [.class("description")],
-                md["summary"]!
-            )
-        )
-    }
-
     func writeExtras() -> Void {}
 }
