@@ -57,4 +57,6 @@ struct TagPage: Page {
             )
         )
     }
+
+    func writeExtras() -> Void {}
 }

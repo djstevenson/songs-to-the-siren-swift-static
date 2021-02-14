@@ -55,4 +55,10 @@ class FileUtils {
         let url = inputFile(dirs: dirs, file: file)
         return try! String(contentsOf: url)
     }
+
+    public func copyFile(dirs: [String], file: String) -> Void {
+        let inFileUrl  = inputFile(dirs: dirs, file: file)
+        let outFileUrl = outputFile(dirs: dirs, file: file)
+        try! FileManager.default.copyItem(at: inFileUrl, to: outFileUrl)
+    }
 }

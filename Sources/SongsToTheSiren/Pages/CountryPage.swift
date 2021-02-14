@@ -58,4 +58,6 @@ struct CountryPage: Page {
             )
         )
     }
+
+    func writeExtras() -> Void {}
 }

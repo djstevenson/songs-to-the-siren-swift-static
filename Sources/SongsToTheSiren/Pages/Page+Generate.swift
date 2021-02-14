@@ -7,6 +7,8 @@ extension Page {
         let markdownContents = loadMarkdown()
         let htmlPage = embed(markdown: markdownContents)
         writeContent(render(htmlPage))
+
+        writeExtras()
     }
 
     // Embeds the page-specific content into an HtmlNode wrapper
@@ -62,4 +64,5 @@ extension Page {
     private func aboutLink() -> HtmlNode {
         .a(attributes: [.href("/about/")], .text("About this blog..."))
     }
+
 }

@@ -178,4 +178,9 @@ extension SongPage {
         return .fragment(result)
     }
 
+    func writeExtras() -> Void {
+        for res in 1 ... song.maxRez {
+            fileUtils.copyFile(dirs: dirPath(), file: "artwork-\(res)x.jpg")
+        }
+    }
 }

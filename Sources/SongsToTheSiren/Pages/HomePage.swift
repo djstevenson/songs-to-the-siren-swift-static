@@ -95,4 +95,6 @@ struct HomePage: Page {
     private func songHref(_ song: Song) -> Attribute<Tag.A> {
         return .href("/song/\(song.dir)/")
     }
+
+    func writeExtras() -> Void {}
 }
