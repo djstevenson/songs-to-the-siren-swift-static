@@ -33,7 +33,12 @@ struct CountryPage: Page {
     // TODO DRY this, it's used in loads of pages.
     // Protocol extension, or base class (but this is a struct atm)
     private func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(
+        // TODO this is hacky
+        let dummy = Dictionary<Int, Song>()
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
+        let md = songPage.loadMarkdown()
+
+        return .section(
             .header(
                 .a(
                     attributes: [ // TODO DRY refactor, this is re-used in loads of places
@@ -54,7 +59,7 @@ struct CountryPage: Page {
             ),
             .div(
                 attributes: [.class("description")],
-                .text("Song summary goes here. Gonna have to work out how to load it")
+                md["summary"]!
             )
         )
     }

@@ -55,7 +55,12 @@ struct HomePage: Page {
 
 
     private func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(attributes: [.class("song row rounded")],
+        // TODO this is hacky
+        let dummy = Dictionary<Int, Song>()
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
+        let md = songPage.loadMarkdown()
+
+        return .section(attributes: [.class("song row rounded")],
             .header(attributes: [.class("col-12 p-0")],
                 .a(
                     attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
@@ -64,19 +69,17 @@ struct HomePage: Page {
                 .h2(attributes: [.class("title rounded-top")],
                     .text(song.title)
                 ),
-//                .h3(
-//                    attributes: [.class("artist")],
-//                    .text(song.artist),
-//                    .span(
-//                        attributes: [.class("country")],
-//                        .text(song.country.map { $0.rawValue }.joined(separator: " "))
-//                    )
-//                ),
+                .h3(attributes: [.class("artist")],
+                    .text(song.artist)
+                ),
+                .h3(attributes: [.class("artist")],
+                    .span(attributes:[], .fragment(song.country.map { .text($0.rawValue + " ") } ))
+                ),
                 .h4(attributes: [.class("release")], .text(song.released))
             ),
             .div(
                 attributes: [.class("description")],
-                .text("Song summary goes here. Gonna have to work out how to load it")
+                md["summary"]!
             )
         )
     }
