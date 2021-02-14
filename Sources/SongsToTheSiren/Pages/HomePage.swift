@@ -55,26 +55,31 @@ struct HomePage: Page {
 
 
     private func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(
-            .header(
+        // TODO this is hacky
+        let dummy = Dictionary<Int, Song>()
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
+        let md = songPage.loadMarkdown()
+
+        return .section(attributes: [.class("song row rounded")],
+            .header(attributes: [.class("col-12 p-0")],
                 .a(
-                    attributes: [ songHref(song) ],
-                    .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
-                    .h2(.text(song.title))
+                    attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
+                    .img(attributes: [.class("rounded float-left mr-3 mb-1"), .alt("Record sleeve image"), .src("/song/\(song.dir)/artwork-1x.jpg"), .width(160), .height(160)])
                 ),
-                .h3(
-                    attributes: [.class("artist")],
-                    .text(song.artist),
-                    .span(
-                        attributes: [.class("country")],
-                        .text(song.country.map { $0.rawValue }.joined(separator: " "))
-                    )
+                .h2(attributes: [.class("title rounded-top")],
+                    .text(song.title)
+                ),
+                .h3(attributes: [.class("artist")],
+                    .text(song.artist)
+                ),
+                .h3(attributes: [.class("artist")],
+                    .span(attributes:[], .fragment(song.country.map { .text($0.rawValue + " ") } ))
                 ),
                 .h4(attributes: [.class("release")], .text(song.released))
             ),
             .div(
                 attributes: [.class("description")],
-                .text("Song summary goes here. Gonna have to work out how to load it")
+                md["summary"]!
             )
         )
     }
@@ -91,7 +96,8 @@ struct HomePage: Page {
 
     // TODO Should this be in song class? Probs ok here, actually
     private func songHref(_ song: Song) -> Attribute<Tag.A> {
-        // TODO grep for index.html, this is re-used in loads of places
-        return .href("../song/\(song.dir)/index.html")
+        return .href("/song/\(song.dir)/")
     }
+
+    func writeExtras() -> Void {}
 }

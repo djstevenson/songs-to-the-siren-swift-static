@@ -32,11 +32,17 @@ struct TagPage: Page {
 
 
     private func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(
+        // TODO this is hacky
+        let dummy = Dictionary<Int, Song>()
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(next:dummy, prev: dummy))
+        let md = songPage.loadMarkdown()
+
+        // TODO THIS NEEDS DRYing
+        return .section(
             .header(
                 .a(
                     attributes: [ // TODO grep for index.html, this is re-used in loads of places
-                        .href("../../song/\(song.dir)/index.html")
+                        .href("/song/\(song.dir)/")
                     ],
                     .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
                     .h2(.text(song.title))
@@ -53,8 +59,10 @@ struct TagPage: Page {
             ),
             .div(
                 attributes: [.class("description")],
-                .text("Song summary goes here. Gonna have to work out how to load it")
+                md["summary"]!
             )
         )
     }
+
+    func writeExtras() -> Void {}
 }
