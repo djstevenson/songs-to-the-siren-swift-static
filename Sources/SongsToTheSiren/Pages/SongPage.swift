@@ -54,7 +54,7 @@ extension SongPage {
 
     private func makeSongNode(_ song: Song) -> HtmlNode {
         // DRY with Link+Render ?
-        let url = URL(string: "/song/\(song.dir)/index.html")!
+        let url = URL(string: "/song/\(song.dir)/")!
         return .a(
             attributes: [
                 .id("song-\(song.id)"),
@@ -85,7 +85,7 @@ extension SongPage {
                         .a(
                             attributes: [
                                 .class("tag-link"),
-                                .href("/tag/\(tag)/index.html")
+                                .href("/tag/\(tag)/")
                             ],
                             .text(tag.rawValue)
                         )
@@ -104,7 +104,7 @@ extension SongPage {
                         .a(
                             attributes: [
                                 .class("country-link"),
-                                .href("/country/\(country)/index.html")
+                                .href("/country/\(country)/")
                             ],
                             .text(country.rawValue)
                         )

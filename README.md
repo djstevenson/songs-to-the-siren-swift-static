@@ -17,5 +17,7 @@ cd output
 ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
 ```
 
-You can then visit http://localhost:8000/home/index.html
+You can then visit http://localhost:8000/home/
+
+TODO ^ needs fixing to remove the 'home/' part of the URL
 

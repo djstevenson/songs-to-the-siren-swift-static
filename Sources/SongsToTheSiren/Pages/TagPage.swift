@@ -36,7 +36,7 @@ struct TagPage: Page {
             .header(
                 .a(
                     attributes: [ // TODO grep for index.html, this is re-used in loads of places
-                        .href("/song/\(song.dir)/index.html")
+                        .href("/song/\(song.dir)/")
                     ],
                     .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
                     .h2(.text(song.title))
