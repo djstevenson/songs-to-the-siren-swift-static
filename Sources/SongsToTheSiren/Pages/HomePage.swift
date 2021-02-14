@@ -55,21 +55,23 @@ struct HomePage: Page {
 
 
     private func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(
-            .header(
+        .section(attributes: [.class("song row rounded")],
+            .header(attributes: [.class("col-12 p-0")],
                 .a(
-                    attributes: [ songHref(song) ],
-                    .img(attributes: [.class("artwork"), .alt("Record sleeve image"), .src("x.jpg"), .width(160), .height(160)]),
-                    .h2(.text(song.title))
+                    attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
+                    .img(attributes: [.class("rounded float-left mr-3 mb-1"), .alt("Record sleeve image"), .src("/song/\(song.dir)/artwork-1x.jpg"), .width(160), .height(160)])
                 ),
-                .h3(
-                    attributes: [.class("artist")],
-                    .text(song.artist),
-                    .span(
-                        attributes: [.class("country")],
-                        .text(song.country.map { $0.rawValue }.joined(separator: " "))
-                    )
+                .h2(attributes: [.class("title rounded-top")],
+                    .text(song.title)
                 ),
+//                .h3(
+//                    attributes: [.class("artist")],
+//                    .text(song.artist),
+//                    .span(
+//                        attributes: [.class("country")],
+//                        .text(song.country.map { $0.rawValue }.joined(separator: " "))
+//                    )
+//                ),
                 .h4(attributes: [.class("release")], .text(song.released))
             ),
             .div(
