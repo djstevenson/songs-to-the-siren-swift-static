@@ -12,12 +12,15 @@ extension Page {
     // Embeds the page-specific content into an HtmlNode wrapper
     func embed(markdown: [String: HtmlNode]) -> HtmlNode {
         let title = pageTitle()
-        
+
         return .document(
             .html(
+                attributes: [.lang(.en)],
                 .head(
+                    .meta(attributes: [.charset(.utf8)]),
                     .title(title),
-                    .link(attributes: [.rel(.stylesheet), .href("../songs-to-the-siren.css")])
+                    .meta(viewport: .width(.deviceWidth), .initialScale(1)),
+                    .link(attributes: [.rel(.stylesheet), .href("/songs-to-the-siren.css")])
                 ),
                 .body(
                     .h1(.text(title)),

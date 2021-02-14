@@ -14,7 +14,7 @@ extension SongLink : RenderableLink {
                 return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
             case .songstothesiren(_, _, song: let song):
-                return URL(string: "../../\(song)/index.html")!
+                return URL(string: "/song/\(song)/index.html")!
 
             case .other(_, _, url: let url):
                 return url

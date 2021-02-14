@@ -92,6 +92,6 @@ struct HomePage: Page {
     // TODO Should this be in song class? Probs ok here, actually
     private func songHref(_ song: Song) -> Attribute<Tag.A> {
         // TODO grep for index.html, this is re-used in loads of places
-        return .href("../song/\(song.dir)/index.html")
+        return .href("/song/\(song.dir)/index.html")
     }
 }
