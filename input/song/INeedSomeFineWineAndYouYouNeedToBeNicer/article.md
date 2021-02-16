@@ -6,9 +6,7 @@ Maybe they don't have the same animal passion they once did. Until a few Stellas
 
  > Baby you're foul in clear conditions  
  > But you're handsome in the fog  
- > So I need some fine wine, and you  
- > You need to be nicer 
- > For the good times   
- > And the bad times, that we'll have
+ > So I need some fine wine,  
+ > And you, you need to be nicer
 
 Sit.
