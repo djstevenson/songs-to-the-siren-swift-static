@@ -24,6 +24,7 @@ struct SongPage: Page {
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .section(attributes: [.class("song row")],
             songNavigation(location: .top),
+            panelHeader(song),
             songArticle(markdown: markdown),
             makeSongLinks(),
             makeSongFooter(),

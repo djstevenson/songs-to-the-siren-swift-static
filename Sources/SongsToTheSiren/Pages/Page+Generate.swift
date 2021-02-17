@@ -76,7 +76,7 @@ extension Page {
         return .href("/song/\(song.dir)/")
     }
 
-    private func panelHeader(_ song: Song) -> HtmlNode {
+    func panelHeader(_ song: Song) -> HtmlNode {
         .header(attributes: [.class("col-12 p-0")],
             .a(
                 attributes: [ songHref(song) ],
