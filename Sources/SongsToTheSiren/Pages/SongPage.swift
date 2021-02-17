@@ -26,7 +26,7 @@ struct SongPage: Page {
             songNavigation(location: .top),
             songArticle(markdown: markdown),
             makeSongLinks(),
-            //            makeSongTags(),
+            makeSongFooter(),
             songNavigation(location: .bottom)
 
         )
@@ -45,7 +45,7 @@ struct SongPage: Page {
     }
 
     private func songNavigation(location: NavLocation) -> HtmlNode {
-        return .nav(
+        .nav(
             attributes: [.class("col-12 nav-location-\(location.rawValue)")],
             songNavLink(songMap.newer[song.id], direction: .newer),
             songNavLink(songMap.older[song.id], direction: .older)
@@ -67,7 +67,7 @@ struct SongPage: Page {
             cssClass = "float-md-right float-sm-none"
             label    = "»"
         }
-        return .p( // TODO inconsistency in next/prev naming. Use older/newer, it's less ambiguous
+        return .p(
             attributes:[.class(cssClass)],
             .text("\(label) "),
             .a(
@@ -94,42 +94,40 @@ struct SongPage: Page {
         )
     }
 
-    private func makeSongTags() -> HtmlNode {
-        // TODO factor out URLs to make them easy to manage
-        .div(
-            .h4("Tags"),
-            .ul(
-                .fragment(song.tags.map { tag in
-                    .li(
-                        .a(
-                            attributes: [
-                                .class("tag-link"),
-                                .href("/tag/\(tag)/")
-                            ],
-                            .text(tag.rawValue)
-                        )
-                    )
-                })
-            )
+    private func makeSongFooter() -> HtmlNode {
+        .footer(attributes: [.class("col-12")],
+            makeSongTags()
         )
     }
 
-    private func makeCountries() -> HtmlNode {
-        .div(
-            .h4("Origin"),
-            .ul(
-                .fragment(song.country.map { country in
-                    .li(
-                        .a(
-                            attributes: [
-                                .class("country-link"),
-                                .href("/country/\(country)/")
-                            ],
-                            .text(country.rawValue)
-                        )
-                    )
-                })
-            )
+    private func makeSongTags() -> HtmlNode {
+        guard song.tags.count > 0 else {
+            return .fragment([])
+        }
+
+        return .p(attributes: [.class("song-tags")],
+            .text("Tags: "),
+            .fragment(song.tags.map { tag in
+                .a(
+                    attributes: [
+                        .class("btn btn-outline-secondary btn-sm song-tag"),
+                        .href("/tag/\(tag)/"),
+                        .role(.button)
+                    ],
+                    .text(tag.rawValue)
+                )
+            }),
+            .fragment(song.country.map { country in
+                .a(
+                    attributes: [
+                        .class("btn btn-outline-secondary btn-sm song-tag"),
+                        .href("/country/\(country)/"),
+                        .role(.button)
+                    ],
+                    .text(country.rawValue)
+                )
+            })
+
         )
     }
 

@@ -11,7 +11,7 @@ extension Song {
             album:    "Super Extra Gravity (2005)",
             released: "21st September 2005 (single), 17th October 2005 (LP)",
             maxRez:   4,
-            tags:     [.swedish, .decade2000s, .dogsInVideo],
+            tags:     [.decade2000s, .dogsInVideo],
             country:  [.sweden],
             video:    .youtube(
                             data: SongVideo.Common(
