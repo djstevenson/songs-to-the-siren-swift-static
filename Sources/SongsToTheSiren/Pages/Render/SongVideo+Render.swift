@@ -9,15 +9,10 @@ extension SongVideo : RenderableLink {
         case .youtube(let data, let code, let offset):
             let t = offset > 0 ? "?t=\(offset)" : ""
             let url = URL(string: "https://www.youtube.com/watch?v=\(code)\(t)")!
-            result = .li(
-                .a(
-                    attributes: [
-                        .id("link-\(data.id)"),
-                        .class("link"),
-                        .href(url.absoluteString),
-                        .target(.blank)
-                    ],
-                    .text(data.desc)
+            result = .li(attributes: [.class("youtube")],
+                .a(attributes: [.class("youtube"), .href(url.absoluteString) ],
+                   renderIcon(icon:"youtube"),
+                   .span(attributes: [.class("link-description")], .text(data.desc))
                 )
             )
         }

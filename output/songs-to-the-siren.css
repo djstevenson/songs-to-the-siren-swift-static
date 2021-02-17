@@ -49,11 +49,6 @@ section.song {
   margin-left: 0.2rem;
   margin-bottom: 0.5rem; }
 
-.markdown-preview {
-  border: 1px solid black;
-  margin-bottom: 2rem;
-  display: none; }
-
 .tag-list {
   margin-top: 1rem;
   margin-left: -2.4rem;
@@ -87,81 +82,25 @@ h4.release {
   font-size: 1rem;
   font-style: oblique; }
 
-/* COMMENTS */
-.comments .unmoderated {
-  border: 1px solid #ff9933;
-  background: #2a2806;
-  padding: 1rem; }
-  .comments .unmoderated .mod-warning {
-    color: #ff9933;
-    font-style: oblique;
-    font-weight: bold;
-    display: block; }
-.comments ul {
-  padding-top: 1rem;
-  background-color: #29292a;
-  list-style: none;
-  margin-right: 1rem; }
-  .comments ul.comment-root {
-    padding-bottom: 1rem; }
-.comments li {
-  margin-top: 1rem; }
-.comments span.comment-at {
-  color: #a79e19;
-  float: left;
-  margin-right: 0.5rem;
-  font-weight: bold; }
-
-.comment-header {
-  font-weight: normal;
-  font-size: 1rem;
-  border-bottom: 1px solid #555555;
-  padding-bottom: 0.2rem;
-  margin-bottom: 0.5rem; }
-  .comment-header .author strong {
-    color: #a79e19;
-    margin-left: 0.35rem;
-    margin-right: 0.5rem; }
-  .comment-header .date {
-    font-size: 0.87rem; }
-
 div.youtube {
   margin-bottom: 1em; }
-
-tr.song-is-not-published {
-  background-color: #cd5c5c !important; }
-
-.comment-edits h4 {
-  display: none; }
-.comment-edits .editor {
-  color: #a79e19;
-  margin-left: 0.35rem;
-  margin-right: 0.5rem; }
-.comment-edits .date {
-  font-size: 0.87rem; }
-.comment-edits ul li {
-  margin: 0;
-  padding: 0.1rem; }
 
 .links h4 {
   display: none; }
 
-#new-comment-thread {
-  margin-right: 1.25rem; }
-
-.content h2, .description h2, .markdown-preview h2, .front-page-song-list h2 {
+.content h2, .description h2, .front-page-song-list h2 {
   margin-top: 1rem;
   color: #d2b40a;
   font-weight: bold;
   border-bottom: 2px solid #005000;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem; }
-.content h3, .description h3, .markdown-preview h3, .front-page-song-list h3 {
+.content h3, .description h3, .front-page-song-list h3 {
   margin-top: 1rem;
   color: #d2b40a;
   margin-bottom: 1rem;
   border-bottom: 2px solid #005000; }
-.content blockquote, .description blockquote, .markdown-preview blockquote, .front-page-song-list blockquote {
+.content blockquote, .description blockquote, .front-page-song-list blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
   border-left: 1px solid #005000;

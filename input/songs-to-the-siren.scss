@@ -1,7 +1,6 @@
 $col-Background: #1d1f21;
 $col-BorderSong: black;
 $col-BackgroundSong: #242425;
-$col-BackgroundComments:#29292a;
 $col-TitleBackground: #0d0c02;
 $col-Text: #d0d0d0;
 $col-HeaderSeparator: #222005;
@@ -13,13 +12,6 @@ $col-InputFocus: #ffffff;
 $col-InputBorder: #003300;
 $col-InputBorderFocus: #99ccff;
 $col-Unpublished: #cd5c5c;
-$col-MarkdownPreviewBorder: black;
-$col-CommentUnmoderatedBackground: #2a2806;
-$col-CommentUnmoderatedBorder: 1px solid #ff9933;
-$col-CommentUnmoderatedWarning: #ff9933;
-$col-CommentAt: #a79e19;
-$col-CommentHeaderBottom: #555555;
-$col-CommentBackground: #2a2806;
 $col-ContentHeader: #d2b40a;
 $col-ContentHeaderLighter: #c8be1e;
 $col-ContentUnderline: #005000;
@@ -93,12 +85,6 @@ section.song {
     margin-bottom: 0.5rem;
 }
 
-.markdown-preview {
-    border: 1px solid $col-MarkdownPreviewBorder;
-    margin-bottom: 2rem;
-    display: none;
-}
-
 .tag-list {
     margin-top: 1rem;
     margin-left: -2.4rem;
@@ -144,104 +130,15 @@ h4.release {
     font-style: oblique;
 }
 
-/* COMMENTS */
-.comments {
-
-    .unmoderated {
-        border: $col-CommentUnmoderatedBorder;
-        background: $col-CommentUnmoderatedBackground;
-        padding: 1rem;
-
-        .mod-warning {
-            color: $col-CommentUnmoderatedWarning;
-            font-style: oblique;
-            font-weight: bold;
-            display: block;
-        }
-    }
-
-    ul {
-        padding-top: 1rem;
-        background-color: $col-BackgroundComments;
-        list-style: none;
-        margin-right: 1rem;
-
-        &.comment-root {
-            padding-bottom: 1rem;
-        }
-    }
-
-    li {
-        margin-top: 1rem;
-    }
-
-    span.comment-at {
-        color: $col-CommentAt;
-        float: left;
-        margin-right: 0.5rem;
-        font-weight: bold;
-    }
-}
-
-.comment-header {
-    font-weight: normal;
-    font-size: 1rem;
-    border-bottom: 1px solid $col-CommentHeaderBottom;
-    padding-bottom: 0.2rem;
-    margin-bottom: 0.5rem;
-
-    .author strong {
-        color: $col-CommentAt;
-        margin-left: 0.35rem;
-        margin-right: 0.5rem;
-    }
-
-    .date {
-        font-size: 0.87rem;
-    }
-}
-
 div.youtube {
     margin-bottom: 1em;
-}
-
-tr.song-is-not-published {
-    background-color: $col-Unpublished !important;
-}
-
-.comment-edits {
-    h4 {
-        display: none;
-    }
-
-    .editor {
-        color: $col-CommentAt;
-        margin-left: 0.35rem;
-        margin-right: 0.5rem;
-    }
-
-    .date {
-        font-size: 0.87rem;
-    }
-
-    ul {
-        li {
-            margin: 0;
-            padding: 0.1rem;
-        }
-    }
-
 }
 
 .links h4 {
     display: none;
 }
 
-#new-comment-thread {
-    margin-right: 1.25rem;
-}
-
-.content, .description, .markdown-preview, .front-page-song-list {
+.content, .description, .front-page-song-list {
     h2 {
         margin-top: 1rem;
         color: $col-ContentHeader;
