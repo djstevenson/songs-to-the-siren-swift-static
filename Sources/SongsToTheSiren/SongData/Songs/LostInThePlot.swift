@@ -9,7 +9,7 @@ extension Song {
             album:    "No Cities Left (2003)",
             released: "15th April 2003",
             maxRez:   4,
-            tags:     [.husbandWife, .decade2000s, .canadian],
+            tags:     [.husbandWife, .decade2000s],
             country:  [.canada],
             video:    .youtube(
                             data: SongVideo.Common(

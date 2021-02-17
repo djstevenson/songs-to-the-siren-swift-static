@@ -11,8 +11,8 @@ extension Song {
             album:    "Every Open Eye (2015)",
             released: "10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)",
             maxRez:   4,
-            tags:     [.electronic, .decade2010s, .scottish],
-            country:  [.uk],
+            tags:     [.electronic, .decade2010s],
+            country:  [.scotland, .uk],
             video:    .youtube(
                             data: SongVideo.Common(
                                 id:     "clearest-blue",

@@ -30,7 +30,7 @@ extension Page {
                 ),
                 .body(
                     .div(attributes: [.class("container")],
-                        header(),
+                        contentHeader(),
                         pageContent(markdown: markdown)
                     ),
                     .script(attributes: [.src("https://code.jquery.com/jquery-3.5.1.slim.min.js")]),
@@ -44,7 +44,7 @@ extension Page {
         fileUtils.writeFile(dirs: dirPath(), file: "index.html", content: content)
     }
 
-    private func header() -> HtmlNode {
+    private func contentHeader() -> HtmlNode {
         .header(
             .div(attributes: [.class("row page-header")],
                  .div(attributes: [.class("col-12")],

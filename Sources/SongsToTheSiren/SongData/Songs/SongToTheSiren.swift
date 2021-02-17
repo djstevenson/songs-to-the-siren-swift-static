@@ -9,8 +9,8 @@ extension Song {
             album:    "It'll End In Tears (4AD, October 1984)",
             released: "September 1983 (EP) / October 1984 (LP)",
             maxRez:   4,
-            tags:     [.fourAD, .cover, .decade1980s, .lizFraser],
-            country:  [.uk],
+            tags:     [.fourAD, .cover, .decade1980s, .lizFraser, .husbandWife],
+            country:  [.scotland, .uk],
             video:    .youtube(
                             data: SongVideo.Common(
                                 id:   "official",

@@ -9,8 +9,8 @@ extension Song {
             album:    "Garbage (1995)",
             released: "15th August 1995",
             maxRez:   4,
-            tags:     [.debut, .decade1990s, .openingTrack, .scottish],
-            country:  [.uk, .usa],
+            tags:     [.debut, .decade1990s, .openingTrack],
+            country:  [.scotland, .uk, .usa],
             video:    .youtube(
                             data: SongVideo.Common(
                                 id:   "supervixen-audio",
