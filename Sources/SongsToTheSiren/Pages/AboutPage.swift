@@ -15,6 +15,4 @@ struct AboutPage: Page {
     func pageTitle() -> String {
         "About 'Songs to the Siren'"
     }
-
-    func writeExtras() -> Void {}
 }

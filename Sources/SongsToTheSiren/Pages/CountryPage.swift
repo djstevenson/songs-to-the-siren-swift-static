@@ -29,6 +29,4 @@ struct CountryPage: Page {
             songs.compactMap { fullPanelSong($0) }
         )
     }
-
-    func writeExtras() -> Void {}
 }

@@ -23,6 +23,10 @@ struct SongsToTheSiren: ParsableCommand {
 
         fileUtils.clearOutput()
 
+        // Icons and artwork
+        fileUtils.copyDirectory(dirs: ["icons"])
+        fileUtils.copyDirectory(dirs: ["artwork"])
+
         let songList = SongList()
         AboutPage(fileUtils: fileUtils).generate()
 
@@ -52,19 +56,6 @@ struct SongsToTheSiren: ParsableCommand {
 
         // CSS
         processSCSS("songs-to-the-siren")
-
-        // Icons
-        // TODO Put all fixed images in one place, and implement copy-dir
-        for res in 1 ... 4 {
-            fileUtils.copyFile(dirs: ["icons"], file: "apple-music-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "default-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "itunes-store-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "songs-to-the-siren-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "spotify-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "vimeo-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "wikipedia-\(res)x.png")
-            fileUtils.copyFile(dirs: ["icons"], file: "youtube-\(res)x.png")
-        }
 
         // RSS page
 

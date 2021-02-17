@@ -7,8 +7,6 @@ extension Page {
         let markdownContents = loadMarkdown()
         let htmlPage = embed(markdown: markdownContents)
         writeContent(render(htmlPage))
-
-        writeExtras()
     }
 
     // Embeds the page-specific content into an HtmlNode wrapper
@@ -81,8 +79,18 @@ extension Page {
     private func panelHeader(_ song: Song) -> HtmlNode {
         .header(attributes: [.class("col-12 p-0")],
             .a(
-                attributes: [ songHref(song) ], // TODO higher resolution images for retina displays
-                .img(attributes: [.class("rounded float-left mr-3 mb-1"), .alt("Record sleeve image"), .src("/song/\(song.dir)/artwork-1x.jpg"), .width(160), .height(160)])
+                attributes: [ songHref(song) ],
+                .img(src:"/artwork/\(song.dir)-1x.png", alt:"Record sleeve image", attributes: [
+                    .class("rounded float-left mr-3 mb-1"),
+                    .height(160),
+                    .width(160),
+                    .srcset([
+                        "/artwork/\(song.dir)-4x.jpg": .x(4),
+                        "/artwork/\(song.dir)-3x.jpg": .x(3),
+                        "/artwork/\(song.dir)-2x.jpg": .x(2),
+                        "/artwork/\(song.dir)-1x.jpg": .x(1)
+                    ])
+                ])
             ),
             .h2(attributes: [.class("title rounded-top")],
                 .a(

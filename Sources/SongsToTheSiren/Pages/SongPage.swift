@@ -190,14 +190,4 @@ struct SongPage: Page {
 
         return .fragment(result)
     }
-
-    // TODO Put all the artwork in one dir, like icons
-    // TODO Name the files after the song
-    // TODO Do all the copies in main()
-    // TODO Nuke writeExtras from orbit
-    func writeExtras() -> Void {
-        for res in 1 ... song.maxRez {
-            fileUtils.copyFile(dirs: dirPath(), file: "artwork-\(res)x.jpg")
-        }
-    }
 }
