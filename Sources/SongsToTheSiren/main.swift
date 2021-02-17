@@ -23,6 +23,10 @@ struct SongsToTheSiren: ParsableCommand {
 
         fileUtils.clearOutput()
 
+        // Icons and artwork
+        fileUtils.copyDirectory(dirs: ["icons"])
+        fileUtils.copyDirectory(dirs: ["artwork"])
+
         let songList = SongList()
         AboutPage(fileUtils: fileUtils).generate()
 

@@ -27,16 +27,21 @@ class FileUtils {
                try fileManager.removeItem(at: url)
             }
         } catch {
-            print(error)
+            fatalError(error.localizedDescription)
         }
     }
 
     public func outputDir(dirs: [String]) -> URL {
+        let url = outputDirUrl(dirs:dirs)
+        try! FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
+        return url
+    }
+
+    private func outputDirUrl(dirs: [String]) -> URL {
         var url = outputBase
         for dir in dirs {
             url = url.appendingPathComponent(dir, isDirectory: true)
         }
-        try! FileManager.default.createDirectory(at: url, withIntermediateDirectories: true)
         return url
     }
 
@@ -70,5 +75,11 @@ class FileUtils {
         let inFileUrl  = inputFile(dirs: dirs, file: file)
         let outFileUrl = outputFile(dirs: dirs, file: file)
         try! FileManager.default.copyItem(at: inFileUrl, to: outFileUrl)
+    }
+
+    public func copyDirectory(dirs: [String]) -> Void {
+        let inputUrl  = inputDir(dirs: dirs)
+        let outputUrl = outputDirUrl(dirs: dirs)
+        try! FileManager.default.copyItem(at: inputUrl, to: outputUrl)
     }
 }

@@ -36,6 +36,19 @@ extension SongLink : RenderableLink {
         }
     }
 
+    var cssClass: String {
+        switch self {
+        case .youtube:
+            return "youtube"
+        case .wikipedia:
+            return "wikipedia"
+        case .songstothesiren:
+            return "songstothesiren"
+        case .other:
+            return "other"
+        }
+    }
+
     var embedded: SongLink.Embed? {
         switch self {
         case let .youtube(embedded, _, _, _):
@@ -54,14 +67,10 @@ extension SongLink : RenderableLink {
             return .fragment([])
         }
 
-        return .li(
-            .a(
-                attributes: [
-                    .class("link"),
-                    .href(url.absoluteString),
-                    .target(.blank)
-                ],
-                .text(listing.text)
+        return .li(attributes: [.class(self.cssClass)],
+            .a(attributes: [.href(url.absoluteString)],
+                renderIcon(icon:self.cssClass),
+                .span(attributes: [.class("link-description")], .text(listing.text))
             )
         )
     }
@@ -73,7 +82,6 @@ extension SongLink : RenderableLink {
 
         return .a(
             attributes: [
-                .class("link"),
                 .href(url.absoluteString),
                 .target(.blank)
             ],

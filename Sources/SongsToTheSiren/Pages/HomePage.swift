@@ -62,6 +62,4 @@ struct HomePage: Page {
             .text(" - \(song.artist): Timestamp from somewhere")
         )
     }
-
-    func writeExtras() -> Void {}
 }

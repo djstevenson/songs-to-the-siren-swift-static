@@ -5,6 +5,16 @@ struct SongPage: Page {
     let song: Song
     let songMap: SongList.SongMap
 
+    private enum NavLocation: String {
+        case top
+        case bottom
+    }
+
+    private enum NavDir: String {
+        case older
+        case newer
+    }
+
     var markdownNames = ["summary", "article"]
 
     func dirPath() -> [String] {
@@ -12,70 +22,79 @@ struct SongPage: Page {
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        .fragment([
+        .section(attributes: [.class("song row")],
+            songNavigation(location: .top),
+            songArticle(markdown: markdown),
+            makeSongLinks(),
+            //            makeSongTags(),
+            songNavigation(location: .bottom)
+
+        )
+    }
+
+    private func songArticle(markdown: [String : HtmlNode]) -> HtmlNode {
+        return .div(attributes: [.class("description col-12")],
             markdown["summary"]!,
             song.video.renderEmbedded(),
-            resolveShortcuts(markdown["article"]!),
-            .div(
-                .h5(makeNextNode()),
-                .h5(makePrevNode())
-            ),
-            makeSongTags(),
-            makeCountries(),
-            makeSongLinks()
-        ])
+            resolveShortcuts(markdown["article"]!)
+        )
     }
 
     func pageTitle() -> String {
         song.title
     }
 
-}
-
-// Rendering helpers
-extension SongPage {
-    func makeNextNode() -> HtmlNode {
-        if let nextSong = songMap.next[song.id] {
-            return makeSongNode(nextSong)
-        }
-        else {
-            return .text("Not exists")
-        }
-    }
-
-    func makePrevNode() -> HtmlNode {
-        if let prevSong = songMap.prev[song.id] {
-            return makeSongNode(prevSong)
-        }
-        else {
-            return .text("Not exists")
-        }
-    }
-
-    private func makeSongNode(_ song: Song) -> HtmlNode {
-        // DRY with Link+Render ?
-        let url = URL(string: "/song/\(song.dir)/")!
-        return .a(
-            attributes: [
-                .id("song-\(song.id)"),
-                .class("link"),
-                .href(url.absoluteString)
-            ],
-            .text(song.title)
+    private func songNavigation(location: NavLocation) -> HtmlNode {
+        return .nav(
+            attributes: [.class("col-12 nav-location-\(location.rawValue)")],
+            songNavLink(songMap.newer[song.id], direction: .newer),
+            songNavLink(songMap.older[song.id], direction: .older)
         )
     }
 
-    func makeSongLinks() -> HtmlNode {
-        .div(
+    private func songNavLink(_ song: Song?, direction: NavDir) -> HtmlNode {
+        guard let song = song else {
+            return .fragment([])
+        }
+
+        let cssClass: String
+        let label   : String
+        switch direction {
+        case .newer:
+            cssClass = "float-md-left float-sm-none"
+            label    = "«"
+        case .older:
+            cssClass = "float-md-right float-sm-none"
+            label    = "»"
+        }
+        return .p( // TODO inconsistency in next/prev naming. Use older/newer, it's less ambiguous
+            attributes:[.class(cssClass)],
+            .text("\(label) "),
+            .a(
+                attributes: [.href("/song/\(song.dir)/")],
+                .text(song.title)
+            ),
+            .text(" \(label)")
+        )
+    }
+
+    private func makeSongLinks() -> HtmlNode {
+        guard song.links.count > 0 else {
+            return .fragment([])
+        }
+
+        return .div(attributes: [.class("links")],
             .h4("Links"),
-            .ul(
-                song.video.renderInList(),
-                .fragment(song.links.map  { $0.renderInList() })
+            .p(
+                .ul(attributes: [.class("link-list")],
+                    song.video.renderInList(),
+                    .fragment(song.links.map  { $0.renderInList() })
+                )
             )
         )
     }
 
-    func makeSongTags() -> HtmlNode {
+    private func makeSongTags() -> HtmlNode {
         // TODO factor out URLs to make them easy to manage
         .div(
             .h4("Tags"),
@@ -95,7 +114,7 @@ extension SongPage {
         )
     }
 
-    func makeCountries() -> HtmlNode {
+    private func makeCountries() -> HtmlNode {
         .div(
             .h4("Origin"),
             .ul(
@@ -113,13 +132,7 @@ extension SongPage {
             )
         )
     }
-}
 
-
-// Shortcut processing
-extension SongPage {
-
-    // Will need to be in the view, with a 'do nothing' default
     private func resolveShortcuts(_ node: HtmlNode) -> HtmlNode {
         switch node {
         case .comment:
@@ -176,11 +189,5 @@ extension SongPage {
         }
 
         return .fragment(result)
-    }
-
-    func writeExtras() -> Void {
-        for res in 1 ... song.maxRez {
-            fileUtils.copyFile(dirs: dirPath(), file: "artwork-\(res)x.jpg")
-        }
     }
 }

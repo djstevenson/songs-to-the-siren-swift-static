@@ -18,8 +18,4 @@ protocol Page {
     // Ditto for page title
     func pageTitle() -> String
 
-    // Implement for any end-of-render extra actions
-    // (e.g. copy artwork for songs)
-    func writeExtras() -> Void
-
 }

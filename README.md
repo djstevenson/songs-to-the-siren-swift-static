@@ -13,6 +13,7 @@ Build with 'swift' then run up a ruby web server:
 
 ```
 swift run
+scss input/songs-to-the-siren.scss:output/songs-to-the-siren.css
 cd output
 ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
 ```
