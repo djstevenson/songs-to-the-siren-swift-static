@@ -2,7 +2,7 @@ extension Song {
     static func wisheryUpular() -> Song {
         Song (
             id:       17,
-            style:    .listing,
+            style:    .fullPanel,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Pogo",
             title:    "Wishery / Upular",
@@ -10,7 +10,7 @@ extension Song {
             released: "2013?",
             maxRez:   4,
             tags:     [ .decade2000s, .twoForOne, .mashup ],
-            country:  [.australia],
+            country:  [ .australia ],
             video:    .youtube(
                             data: SongVideo.Common(
                                 id:   "video",
@@ -20,10 +20,12 @@ extension Song {
                       ),
             links:    [
                 .youtube(
+                    embedded: ["upular": "UPULAR LINK SHOULD BE EMBEDDED"],
                     listing:  "Upular - Pogo (samples from Up)",
                     code:     "JVxe5NIABsI"
                 ),
                 .youtube(
+                    embedded: ["alice": "Alice"],
                     listing:  "Alice - Pogo (samples from Alice in Wonderland)",
                     code:     "pAwR6w2TgxY"
                 )
