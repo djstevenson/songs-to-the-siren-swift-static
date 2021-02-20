@@ -171,7 +171,6 @@ struct SongPage: Page {
             else {
                 break
             }
-
             let replacer = LinkReplacer(rawValue: linkType)!
             result.append(.text(leader))
             result.append(replacer.newHtml(for: linkId, song: song))
