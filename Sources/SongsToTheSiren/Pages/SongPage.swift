@@ -36,7 +36,7 @@ struct SongPage: Page {
     private func songArticle(markdown: [String : HtmlNode]) -> HtmlNode {
         return .div(attributes: [.class("description col-12")],
             markdown["summary"]!,
-            song.video.renderEmbedded(),
+            song.links.find(id: "default")!.renderEmbedded(),
             resolveShortcuts(markdown["article"]!)
         )
     }

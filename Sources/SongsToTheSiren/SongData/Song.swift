@@ -134,5 +134,5 @@ struct Song {
     let maxRez:   Int
     let tags:     [Tag]
     let country:  [Country]
-    let links:    [SongLink]
+    let links:    SongLinks
 }

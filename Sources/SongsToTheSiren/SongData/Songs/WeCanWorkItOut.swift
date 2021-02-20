@@ -11,15 +11,14 @@ extension Song {
             maxRez:   4,
             tags:     [.timeSignatureChange, .decade1960s, .liverpool],
             country:  [.uk],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "We Can Work It Out"],
-                    listing:  "We Can Work It Out - The Beatles",
-                    code:     "Qyclqo_AV2M"
-                ),
-
-            ]
-       )
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "We Can Work It Out - The Beatles",
+                    linkType: .youtubeVideo(code: "Qyclqo_AV2M")
+                )
+            ])
+        )
 
     }
 }

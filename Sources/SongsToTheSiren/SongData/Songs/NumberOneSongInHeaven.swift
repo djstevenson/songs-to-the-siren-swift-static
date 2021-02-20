@@ -11,24 +11,26 @@ extension Song {
             maxRez:   4,
             tags:     [.disco, .giorgioMoroder, .brothers, .decade1970s, .longSongs],
             country:  [.usa],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "The Number One Song in Heaven (part 2)"],
-                    listing:  "The Number One Song in Heaven (part 2) - Sparks (official video)",
-                    code:     "P6I6yr7WDeg"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "The Number One Song in Heaven (part 2) - Sparks (official video)",
+                    linkType: .youtubeVideo(code: "P6I6yr7WDeg")
                 ),
-                .youtubeLink(
-                    embedded: ["number-one-song-in-heaven-full-audio": "full audio"],
-                    listing:  #"The Number One Song in Heaven 12" - Sparks (audio of the full 12" version)"#,
-                    code:     "jE4EarLZPYs"
+                SongLink(
+                    id:        "number-one-song-in-heaven-full-audio",
+                    embedText: "full audio",
+                    listText:  "The Number One Song in Heaven 12” - Sparks (audio of the full 12” version)",
+                    linkType: .youtubeLink(code: "jE4EarLZPYs")
                 ),
-                .youtubeLink(
-                    embedded: ["segued": "seguéd"],
-                    listing:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks",
-                    code:     "sm4CkJYdQv0"
+                SongLink(
+                    id:        "segued",
+                    embedText: "seguéd",
+                    listText:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks",
+                    linkType: .youtubeLink(code: "sm4CkJYdQv0")
                 )
-            ]
-       )
+            ])
+        )
 
     }
 }

@@ -11,44 +11,50 @@ extension Song {
             maxRez:   4,
             tags:     [.indie, .decade1990s, .openingTrack, .oneLittleIndian],
             country:  [.uk],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "Tiny Feet"],
-                    listing:  "Tiny Feet - The Heart Throbs (YouTube Audio)",
-                    code:     "HE115eeeJLg"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Tiny Feet - The Heart Throbs (YouTube Audio)",
+                    linkType: .youtubeVideo(code: "HE115eeeJLg")
                 ),
-                .youtubeLink(
-                    embedded: ["reprise": "reprise"],
-                    listing:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
-                    code:     "WIFVffd4SMs"
+                SongLink(
+                    id:        "reprise",
+                    embedText: "an Angelfish side-project",
+                    listText:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
+                    linkType: .youtubeLink(code: "WIFVffd4SMs")
                 ),
-                .youtubeLink(
-                    embedded: ["cleopatra-grip": "Cleopatra Grip"],
-                    listing:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
-                    code:     "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
+                SongLink(
+                    id:        "cleopatra-grip",
+                    embedText: "Cleopatra Grip",
+                    listText:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
+                    linkType: .youtubeLink(code: "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk")
                 ),
-                .youtubeLink(
-                    embedded: ["jubilee-twist": "Jubilee Twist"],
-                    listing:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
-                    code:     "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
+                SongLink(
+                    id:        "jubilee-twist",
+                    embedText: "Jubilee Twist",
+                    listText:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
+                    linkType: .youtubeLink(code: "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk")
                 ),
-                .youtubeLink(
-                    embedded: ["hooligan": "Hooligan"],
-                    listing:  "Hooligan - The Heart Throbs (YouTube audio)",
-                    code:     "jAxQpILzx3w"
+                SongLink(
+                    id:        "hooligan",
+                    embedText: "Hooligan",
+                    listText:  "Hooligan - The Heart Throbs (YouTube audio)",
+                    linkType: .youtubeLink(code: "jAxQpILzx3w")
                 ),
-                .youtubeLink(
-                    embedded: ["bright-green-day": "Bright Green Day"],
-                    listing:  "Bright Green Day - The Heart Throbs (YouTube audio)",
-                    code:     "gBvA2XeGOYM"
+                SongLink(
+                    id:        "bright-green-day",
+                    embedText: "Bright Green Day",
+                    listText:  "Bright Green Day - The Heart Throbs (YouTube audio)",
+                    linkType: .youtubeLink(code: "gBvA2XeGOYM")
                 ),
-                .youtubeLink(
-                    embedded: ["tossed-away": "Tossed Away"],
-                    listing:  "Tossed Away - The Heart Throbs (YouTube audio)",
-                    code:     "76_T4nRdLqc"
+                SongLink(
+                    id:        "tossed-away",
+                    embedText: "Tossed Away",
+                    listText:  "Tossed Away - The Heart Throbs (YouTube audio)",
+                    linkType: .youtubeLink(code: "76_T4nRdLqc")
                 )
-            ]
-       )
+            ])
+        )
 
     }
 }

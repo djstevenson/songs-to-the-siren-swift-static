@@ -9,14 +9,10 @@ enum LinkReplacer: String {
         switch self {
 
         case .link:
-            return findLink(id, in: song.links)!.renderEmbedded()
+            guard let link = song.links.find(id: id) else {
+                return .fragment([])
+            }
+            return link.renderEmbedded()
         }
-    }
-
-    private func findLink(_ name: String, in links: [SongLink]) -> SongLink? {
-        if let index = links.firstIndex(where: { $0.embedded?.id == name }) {
-            return links[index]
-        }
-        return nil
     }
 }

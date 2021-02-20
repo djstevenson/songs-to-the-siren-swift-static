@@ -11,60 +11,69 @@ extension Song {
             maxRez:   4,
             tags:     [.fourAD, .cover, .decade1980s, .lizFraser, .husbandWife],
             country:  [.scotland, .uk],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "Song to the Siren"],
-                    listing:  "Song to the Siren - This Mortal Coil (official)",
-                    code:     "HFWKJ2FUiAQ"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Song to the Siren - This Mortal Coil (official)",
+                    linkType: .youtubeVideo(code: "HFWKJ2FUiAQ")
                 ),
-                .youtubeLink(
-                    embedded: ["morning-glory": "Morning Glory"],
-                    listing:  "Morning Glory - This Mortal Coil",
-                    code:     "01o6AB8MKyg"
+                SongLink(
+                    id:        "morning-glory",
+                    embedText: "Morning Glory",
+                    listText:  "Morning Glory - This Mortal Coil",
+                    linkType: .youtubeLink(code: "01o6AB8MKyg")
                 ),
-                .youtubeLink(
-                    embedded: ["monkees": "The Monkees Show"],
-                    listing:  "Song to the Siren - Tim Buckley, live on “The Monkees”",
-                    code:     "vMTEtDBHGY4"
+                SongLink(
+                    id:        "monkees",
+                    embedText: "The Monkees Show",
+                    listText:  "Song to the Siren - Tim Buckley, live on “The Monkees”",
+                    linkType: .youtubeLink(code: "vMTEtDBHGY4")
                 ),
-                .youtubeLink(
-                    embedded: ["starsailor": "Starsailor LP"],
-                    listing:  "Song to the Siren - Tim Buckley, studio version on Starsailor (1970)",
-                    code:     "cZiTSglLM-4"
+                SongLink(
+                    id:        "starsailor",
+                    embedText: "Starsailor LP",
+                    listText:  "Song to the Siren - Tim Buckley, studio version on Starsailor (1970)",
+                    linkType: .youtubeLink(code: "cZiTSglLM-4")
                 ),
-                .youtubeLink(
-                    embedded: ["wolf-alice": "Wolf Alice"],
-                    listing:  "Song to the Siren - Wolf Alice",
-                    code:     "G5nbn4-iwPY"
+                SongLink(
+                    id:        "wolf-alice",
+                    embedText: "Wolf Alice",
+                    listText:  "Song to the Siren - Wolf Alice",
+                    linkType: .youtubeLink(code: "G5nbn4-iwPY")
                 ),
-                .youtubeLink(
-                    embedded: ["sinead": "Sinéad O'Connor"],
-                    listing:  "Song to the Siren - Sinéad O'Connor",
-                    code:     "88wL8oRf45U"
+                SongLink(
+                    id:        "sinead",
+                    embedText: "Sinéad O’Connor",
+                    listText:  "Song to the Siren - Sinéad O’Connor",
+                    linkType: .youtubeLink(code: "88wL8oRf45U")
                 ),
-                .youtubeLink(
-                    embedded: ["hmhb": "Half Man Half Biscuit"],
-                    listing:  "Song to the Siren - Half Man Half Biscuit",
-                    code:     "jjk2L5BFq1A"
+                SongLink(
+                    id:        "hmhb",
+                    embedText: "Half Man Half Biscuit",
+                    listText:  "Song to the Siren - Half Man Half Biscuit",
+                    linkType: .youtubeLink(code: "jjk2L5BFq1A")
                 ),
-                .youtubeLink(
-                    embedded: ["george-michael": "George Michael"],
-                    listing:  "Song to the Siren - George Michael",
-                    code:     "vDIvTCweoCw"
+                SongLink(
+                    id:        "george-michael",
+                    embedText: "George Michael",
+                    listText:  "Song to the Siren - George Michael",
+                    linkType: .youtubeLink(code: "vDIvTCweoCw")
                 ),
-                .youtubeLink(
-                    embedded: ["robert-plant": "Robert Plant"],
-                    listing:  "Song to the Siren - Robert Plant (do not click on this)",
-                    code:     "Gw9ANFOuMBU"
+                SongLink(
+                    id:        "robert-plant",
+                    embedText: "Robert Plant",
+                    listText:  "Song to the Siren - Robert Plant (do not click on this 💩)",
+                    linkType: .youtubeLink(code: "Gw9ANFOuMBU")
                 ),
-                .wikipedia(
-                    embedded: ["4ad": "4AD"],
-                    listing:  "4AD (wikipedia)",
-                    page:  "4AD"
+                // Tag link to 4AD songs on this site
+                SongLink(
+                    id:        "4ad",
+                    embedText: "4AD",
+                    listText:  "4AD (wikipedia)",
+                    linkType: .wikipedia(page: "4AD")
                 )
-
-            ]
-       )
+            ])
+        )
 
     }
 }

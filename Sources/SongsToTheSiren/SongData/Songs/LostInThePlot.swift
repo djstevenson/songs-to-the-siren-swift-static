@@ -11,15 +11,14 @@ extension Song {
             maxRez:   4,
             tags:     [.husbandWife, .decade2000s],
             country:  [.canada],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "Lost in the Plot"],
-                    listing:  "Lost in the Plot - The Dears (Official Video)",
-                    code:     "u0zRxxBKZ1A"
-                ),
-
-            ]
-       )
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Lost in the Plot - The Dears (Official Video)",
+                    linkType: .youtubeVideo(code: "u0zRxxBKZ1A")
+                )
+            ])
+        )
 
     }
 }

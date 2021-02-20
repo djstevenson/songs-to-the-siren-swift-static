@@ -11,15 +11,14 @@ extension Song {
             maxRez:   4,
             tags:     [.christmasCarol, .spokenWord, .decade1960s],
             country:  [.usa],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "7 O'clock News / Silent Night"],
-                    listing:  "7 O'clock News / Silent Night - Simon and Garfunkel",
-                    code:     "JkJlmYwMgRM"
-                ),
-
-            ]
-       )
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "7 O'clock News / Silent Night - Simon and Garfunkel",
+                    linkType: .youtubeVideo(code: "JkJlmYwMgRM")
+                )
+            ])
+        )
 
     }
 }

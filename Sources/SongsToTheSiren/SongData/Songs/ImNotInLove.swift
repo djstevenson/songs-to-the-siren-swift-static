@@ -11,31 +11,31 @@ extension Song {
             maxRez:   4,
             tags:     [.tapeLoops, .bassSolo, .decade1970s],
             country:  [.uk],
-            links: [
-                .youtubeVideo(
-                    embedded: ["default": "I'm Not In Love"],
-                    listing:  "I'm Not In Love - 10cc",
-                    code:     "STugQ0X1NoI"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "I'm Not In Love - 10cc",
+                    linkType: .youtubeVideo(code: "STugQ0X1NoI")
                 ),
-                .youtubeLink(
-                    embedded: ["documentary": "documentary"],
-                    listing:  "I'm Not in Love: The Story of 10cc documentary",
-                    code:     "MhLW_yYqngY"
+                SongLink(
+                    id:        "documentary",
+                    embedText: "documentary",
+                    listText:  "I'm Not in Love: The Story of 10cc documentary",
+                    linkType: .youtubeLink(code: "MhLW_yYqngY")
                 ),
-                .youtubeLink(
-                    embedded: ["bass-solo": "bass line"],
-                    listing:  "I'm Not In Love (middle 8) - 10cc",
-                    code:     "STugQ0X1NoI",
-                    offset:   116
+                SongLink(
+                    id:        "bass-solo",
+                    embedText: "bass line",
+                    listText:  "I'm Not In Love (middle 8) - 10cc",
+                    linkType: .youtubeLink(code: "STugQ0X1NoI", offset: 116)
                 ),
-                .youtubeLink(
-                    embedded: ["bass-solo": "bass-solo-cover"],
-                    listing:  "I'm Not In Love (middle 8) - A cover that emphasises the bass part",
-                    code:     "wiRgdCNi5GA",
-                    offset:   135
+                SongLink(
+                    id:        "bass-solo-cover",
+                    embedText: "bass solo cover",
+                    listText:  "I'm Not In Love (middle 8) - A cover that emphasises the bass part",
+                    linkType: .youtubeLink(code: "wiRgdCNi5GA", offset: 135)
                 )
-            ]
-       )
-
+            ])
+        )
     }
 }
