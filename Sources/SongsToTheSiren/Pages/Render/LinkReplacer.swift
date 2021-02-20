@@ -2,14 +2,12 @@ import Html
 
 enum LinkReplacer: String {
 
-    case video
+//    case video // Only 'link' currently supported.
     case link
 
     func newHtml(for id: String, song: Song) -> HtmlNode {
         switch self {
 
-        case .video:
-            return song.video.renderEmbedded()
         case .link:
             return findLink(id, in: song.links)!.renderEmbedded()
         }

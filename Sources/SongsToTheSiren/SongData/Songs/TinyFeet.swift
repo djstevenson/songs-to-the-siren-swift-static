@@ -11,40 +11,38 @@ extension Song {
             maxRez:   4,
             tags:     [.indie, .decade1990s, .openingTrack, .oneLittleIndian],
             country:  [.uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "tiny-feet-audio",
-                                desc: "Tiny Feet - The Heart Throbs (YouTube Audio)"
-                            ),
-                            code: "HE115eeeJLg"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Tiny Feet"],
+                    listing:  "Tiny Feet - The Heart Throbs (YouTube Audio)",
+                    code:     "HE115eeeJLg"
+                ),
+                .youtubeLink(
                     embedded: ["reprise": "reprise"],
                     listing:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
                     code:     "WIFVffd4SMs"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["cleopatra-grip": "Cleopatra Grip"],
                     listing:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["jubilee-twist": "Jubilee Twist"],
                     listing:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
                     code:     "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["hooligan": "Hooligan"],
                     listing:  "Hooligan - The Heart Throbs (YouTube audio)",
                     code:     "jAxQpILzx3w"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["bright-green-day": "Bright Green Day"],
                     listing:  "Bright Green Day - The Heart Throbs (YouTube audio)",
                     code:     "gBvA2XeGOYM"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["tossed-away": "Tossed Away"],
                     listing:  "Tossed Away - The Heart Throbs (YouTube audio)",
                     code:     "76_T4nRdLqc"

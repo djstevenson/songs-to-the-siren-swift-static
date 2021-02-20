@@ -11,35 +11,33 @@ extension Song {
             maxRez:   4,
             tags:     [.decade1980s, .rickBeato],
             country:  [.uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "official",
-                                desc: "Just Like Heaven - The Cure"
-                            ),
-                            code: "n3nPiBai66M"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Just Like Heaven"],
+                    listing:  "Just Like Heaven - The Cure",
+                    code:     "n3nPiBai66M"
+                ),
+                .youtubeLink(
                     embedded: ["watson-twins": "The Watson Twins"],
                     listing:  "Just Like Heaven - The Watson Twins",
                     code:     "KRcmj_XZGzY"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["katie-melua": "Katie Melua"],
                     listing:  "Just Like Heaven - Katie Melua",
                     code:     "XV4CZmHcvd0"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["dinosaur-jr": "Dinosaur Jr."],
                     listing:  "Just Like Heaven - Dinosaur Jr.",
                     code:     "UT7IpRx08tE"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["kiss-me": "Kiss Me, Kiss Me, Kiss Me"],
                     listing:  "Kiss Me, Kiss Me, Kiss Me - The Cure",
                     code:     "BNTrm67-g8Q"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["rick-beato": "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series"],
                     listing:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83",
                     code:     "LPNHwwXh3Ks"

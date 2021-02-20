@@ -13,16 +13,14 @@ extension Song {
             maxRez:   4,
             tags:     [.electronic, .decade2010s],
             country:  [.scotland, .uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:     "clearest-blue",
-                                desc:   "Clearest Blue - Chvrches"
-                            ),
-                            code:   "BZyzX4c1vIs",
-                            offset: 18
-                      ),
             links: [
-                .youtube(
+                .youtubeLink(
+                    embedded: ["default": "ClearestBlue"],
+                    listing:  "Clearest Blue - Chvrches",
+                    code:     "BZyzX4c1vIs",
+                    offset: 18
+                ),
+                .youtubeLink(
                     embedded: ["the-mother-we-share": "The Mother We Share"],
                     listing:  "The Mother We Share - Chvrches",
                     code:     "_mTRvJ9fugM"
@@ -32,7 +30,7 @@ extension Song {
                     listing:  "BBC Sound of 2013",
                     url:   URL(string: "https://www.bbc.co.uk/events/efxzp6")!
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["gryffin-remix": "Gryffin Remix"],
                     listing:  "Clearest Blue (Gryffin Remix) - Chvrches",
                     code:     "O-3-46RD2W8"

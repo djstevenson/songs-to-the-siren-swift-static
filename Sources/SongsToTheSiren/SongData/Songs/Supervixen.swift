@@ -11,15 +11,13 @@ extension Song {
             maxRez:   4,
             tags:     [.debut, .decade1990s, .openingTrack],
             country:  [.scotland, .uk, .usa],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "supervixen-audio",
-                                desc: "Supervixen - Garbage (audio)"
-                            ),
-                            code: "qRdZ1eEciQ4"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Supervixen"],
+                    listing:  "Supervixen - Garbage (audio)",
+                    code:     "qRdZ1eEciQ4"
+                ),
+                .youtubeLink(
                     embedded: ["angelfish": "an Angelfish side-project"],
                     listing:  "Suffocate Me - Angelfish",
                     code:     "cO-YCm4GXw8"

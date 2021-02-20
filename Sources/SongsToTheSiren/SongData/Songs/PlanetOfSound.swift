@@ -11,14 +11,14 @@ extension Song {
             maxRez:   4,
             tags:     [.indie, .fourAD, .decade1990s, .sciFi],
             country:  [.usa],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "planet-of-sound",
-                                desc: "Planet of Sound - Pixies"
-                            ),
-                            code: "tzdxBYk5Bjk"
-                      ),
-            links: []
+            links: [
+                .youtubeVideo(
+                    embedded: ["default": "Planet of Sound"],
+                    listing:  "Planet of Sound - Pixies",
+                    code:     "tzdxBYk5Bjk"
+                ),
+
+            ]
        )
 
     }

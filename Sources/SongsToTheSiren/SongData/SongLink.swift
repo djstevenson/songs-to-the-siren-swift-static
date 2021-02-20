@@ -14,7 +14,8 @@ enum SongLink {
         let text: String
     }
 
-    case youtube         (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, code: String, offset: Int = 0)
+    case youtubeVideo    (embedded: SongLink.Embed,        listing: SongLink.List? = nil, code: String, offset: Int = 0)
+    case youtubeLink     (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, code: String, offset: Int = 0)
     case wikipedia       (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, page: String)
     case songstothesiren (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, song: String)
     case other           (embedded: SongLink.Embed? = nil, listing: SongLink.List? = nil, url:  URL)

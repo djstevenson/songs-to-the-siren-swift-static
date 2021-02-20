@@ -11,50 +11,48 @@ extension Song {
             maxRez:   4,
             tags:     [.fourAD, .cover, .decade1980s, .lizFraser, .husbandWife],
             country:  [.scotland, .uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "official",
-                                desc: "Song to the Siren - This Mortal Coil (official)"
-                            ),
-                            code: "HFWKJ2FUiAQ"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Song to the Siren"],
+                    listing:  "Song to the Siren - This Mortal Coil (official)",
+                    code:     "HFWKJ2FUiAQ"
+                ),
+                .youtubeLink(
                     embedded: ["morning-glory": "Morning Glory"],
                     listing:  "Morning Glory - This Mortal Coil",
                     code:     "01o6AB8MKyg"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["monkees": "The Monkees Show"],
                     listing:  "Song to the Siren - Tim Buckley, live on “The Monkees”",
                     code:     "vMTEtDBHGY4"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["starsailor": "Starsailor LP"],
                     listing:  "Song to the Siren - Tim Buckley, studio version on Starsailor (1970)",
                     code:     "cZiTSglLM-4"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["wolf-alice": "Wolf Alice"],
                     listing:  "Song to the Siren - Wolf Alice",
                     code:     "G5nbn4-iwPY"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["sinead": "Sinéad O'Connor"],
                     listing:  "Song to the Siren - Sinéad O'Connor",
                     code:     "88wL8oRf45U"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["hmhb": "Half Man Half Biscuit"],
                     listing:  "Song to the Siren - Half Man Half Biscuit",
                     code:     "jjk2L5BFq1A"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["george-michael": "George Michael"],
                     listing:  "Song to the Siren - George Michael",
                     code:     "vDIvTCweoCw"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["robert-plant": "Robert Plant"],
                     listing:  "Song to the Siren - Robert Plant (do not click on this)",
                     code:     "Gw9ANFOuMBU"

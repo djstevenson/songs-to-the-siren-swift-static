@@ -11,20 +11,18 @@ extension Song {
             maxRez:   4,
             tags:     [ .decade2000s, .twoForOne, .mashup ],
             country:  [ .australia ],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "video",
-                                desc: "Wishery - Pogo (samples from Snow White and the Seven Dwarfs)"
-                            ),
-                            code: "qs1bG6BIYlo"
-                      ),
             links:    [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Wishery"],
+                    listing:  "Wishery - Pogo (samples from Snow White and the Seven Dwarfs)",
+                    code:     "kIYkd9nJLJA"
+                ),
+                .youtubeLink(
                     embedded: ["upular": "UPULAR LINK SHOULD BE EMBEDDED"],
                     listing:  "Upular - Pogo (samples from Up)",
-                    code:     "JVxe5NIABsI"
+                    code:     "qs1bG6BIYlo"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["alice": "Alice"],
                     listing:  "Alice - Pogo (samples from Alice in Wonderland)",
                     code:     "pAwR6w2TgxY"

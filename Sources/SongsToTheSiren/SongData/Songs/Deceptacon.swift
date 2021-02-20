@@ -11,20 +11,18 @@ extension Song {
             maxRez:   4,
             tags:     [.decade1990s, .electronic, .punk, .kathleenHanna, .riotGrrrl],
             country:  [.usa],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "official",
-                                desc: "Decaptacon - Le Tigre (official video)"
-                            ),
-                            code: "EU1CDSP7FRk"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Deceptacon"],
+                    listing:  "Decaptacon - Le Tigre (official video)",
+                    code:     "EU1CDSP7FRk"
+                ),
+                .youtubeLink(
                     embedded: ["live-performance": "live performance"],
                     listing:  "Decaptacon - Le Tigre (live)",
                     code:     "VG9UJJposmg"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["the-punk-singer-trailer": "The Punk Singer"],
                     listing:  "The Punk Singer (official trailer)",
                     code:     "zMbLzaVkn2s"

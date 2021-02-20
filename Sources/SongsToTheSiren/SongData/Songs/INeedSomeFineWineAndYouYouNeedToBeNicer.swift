@@ -13,15 +13,13 @@ extension Song {
             maxRez:   4,
             tags:     [.decade2000s, .dogsInVideo],
             country:  [.sweden],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:     "fine-wine",
-                                desc:   "I Need Some Fine Wine and You, You Need to Be Nicer - The Cardigans"
-                            ),
-                            code:   "huobAY7gl30"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "I Need Some Fine Wine and You, You Need to Be Nicer"],
+                    listing:  "I Need Some Fine Wine and You, You Need to Be Nicer - The Cardigans",
+                    code:     "huobAY7gl30"
+                ),
+                .youtubeLink(
                     listing:  "Mini-documentary about the recording of this song",
                     code:     "O-3-46RD2W8"
                 )

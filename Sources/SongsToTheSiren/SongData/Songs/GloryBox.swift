@@ -11,25 +11,23 @@ extension Song {
             maxRez:   4,
             tags:     [.bristol, .isaacHayes, .sample, .tripHop, .decade1990s],
             country:  [.uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "yt",
-                                desc: "Glory Box - Portishead"
-                            ),
-                            code: "4qQyUi4zfDs"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Glory Box"],
+                    listing:  "Glory Box - Portishead",
+                    code:     "4qQyUi4zfDs"
+                ),
+                .youtubeLink(
                     embedded: ["hell-is-round-the-corner": "Hell is Round the Corner"],
                     listing:  "Hell Is Round The Corner - Tricky",
                     code:     "E3R_3h6zQEs"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["here": "Here by Alessia Cara"],
                     listing:  "Here - Alessia Cara",
                     code:     "UKp2CrfmVfw"
                 ),
-                .youtube(
+                .youtubeLink(
                     embedded: ["sawyers-medley": "Here / Glory Box medley"],
                     listing:  "Here / Glory Box - Jazmin Sawyers",
                     code:     "7BQAoOriwqI"

@@ -13,18 +13,16 @@ extension Song {
             maxRez:   4,
             tags:     [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .ringTone],
             country:  [.usa],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "fish",
-                                desc: "Fish - Throwing Muses"
-                            ),
-                            code: "kIYkd9nJLJA"
-                      ),
             links: [
-                .youtube(
+                .youtubeVideo(
+                    embedded: ["default": "Fish"],
+                    listing:  "Fish - Throwing Muses",
+                    code:     "kIYkd9nJLJA"
+                ),
+                .youtubeLink(
                     embedded: ["not-too-soon": "Not Too Soon"],
                     listing:  "Not Too Soon - Throwing Muses",
-                    code:     "=RZI-FTcFtn8"
+                    code:     "RZI-FTcFtn8"
                 ),
                 .wikipedia(
                     embedded: ["chains-changed-ep": "Chains Changed EP"],
