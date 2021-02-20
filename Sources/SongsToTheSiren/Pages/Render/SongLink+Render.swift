@@ -6,11 +6,7 @@ extension SongLink : RenderableLink {
     private var url: URL {
         get {
             switch self.linkType {
-            case let .youtubeVideo(code, offset):
-                let t = offset > 0 ? "?start=\(offset)" : ""
-                return URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(t)")!
-
-            case let .youtubeLink(code, offset):
+            case let .youtubeVideo(code, offset), let .youtubeLink(code, offset):
                 let t = offset > 0 ? "?t=\(offset)" : ""
                 return URL(string: "https://youtu.be/\(code)\(t)")!
 

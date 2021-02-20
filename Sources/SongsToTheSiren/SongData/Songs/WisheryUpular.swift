@@ -15,12 +15,12 @@ extension Song {
                 SongLink(
                     id:       "default",
                     listText: "Wishery - Pogo (samples from Snow White and the Seven Dwarfs)",
-                    linkType: .youtubeVideo(code: "kIYkd9nJLJA")
+                    linkType: .youtubeVideo(code: "qs1bG6BIYlo")
                 ),
                 SongLink(
                     id:       "upular",
                     listText: "Upular - Pogo (samples from Up)",
-                    linkType: .youtubeVideo(code: "qs1bG6BIYlo")
+                    linkType: .youtubeVideo(code: "JVxe5NIABsI")
                 ),
                 SongLink(
                     id:        "alice",

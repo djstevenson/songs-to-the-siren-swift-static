@@ -88,7 +88,6 @@ struct SongPage: Page {
             .h4("Links"),
             .p(
                 .ul(attributes: [.class("link-list")],
-                    song.video.renderInList(),
                     .fragment(song.links.map  { $0.renderInList() })
                 )
             )
