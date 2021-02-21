@@ -1,0 +1,1 @@
+Although Sinéad O’Connor is an amazing songwriter, she is best known for her version of a song written by Prince. This is a cover, but not that one - this track is from an album she made of classic reggae songs she grew up with.

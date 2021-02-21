@@ -1,0 +1,1 @@
+I'm writing this in April 2020, as we approach the 10th anniversary of the release of Pull In Emergency's eponymous album - and it's almost certainly my most-played LP since it came out. It's a very fine piece of work - from a band that were in their mid-teens when it was made.
