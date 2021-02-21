@@ -101,12 +101,12 @@ extension Page {
             .h3(attributes: [.class("artist")],
                 .text(song.artist)
             ),
+            .h4(attributes: [.class("release")], .text(song.released)),
             .h3(attributes: [.class("artist")],
                 .span(attributes:[.class("country")],
                     .fragment(song.country.map { .a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " ")) } )
                 )
-            ),
-            .h4(attributes: [.class("release")], .text(song.released))
+            )
         )
     }
 
