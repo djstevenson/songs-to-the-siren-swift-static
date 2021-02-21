@@ -4,9 +4,8 @@ struct AboutPage: Page {
     let fileUtils: FileUtils
     var markdownNames = ["about"]
 
-    func dirPath() -> [String] {
-        ["about"]
-    }
+    func dirPath() -> [String] { [] }
+    func filename() -> String { "about" }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         markdown["about"]!

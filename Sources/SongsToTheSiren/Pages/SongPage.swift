@@ -18,9 +18,8 @@ struct SongPage: Page {
 
     var markdownNames = ["summary", "article"]
 
-    func dirPath() -> [String] {
-        ["song", song.dir]
-    }
+    func dirPath() -> [String] { ["song"] }
+    func filename() -> String { "\(song.dir)" }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .section(attributes: [.class("song row")],
@@ -73,7 +72,7 @@ struct SongPage: Page {
             attributes:[.class(cssClass)],
             .text("\(label) "),
             .a(
-                attributes: [.href("/song/\(song.dir)/")],
+                attributes: [.href("/song/\(song.dir).html")],
                 .text(song.title)
             ),
             .text(" \(label)")
@@ -112,7 +111,7 @@ struct SongPage: Page {
                 .a(
                     attributes: [
                         .class("btn btn-outline-secondary btn-sm song-tag"),
-                        .href("/tag/\(tag)/"),
+                        .href("/tag/\(tag).html"),
                         .role(.button)
                     ],
                     .text(tag.rawValue)
@@ -122,7 +121,7 @@ struct SongPage: Page {
                 .a(
                     attributes: [
                         .class("btn btn-outline-secondary btn-sm song-tag"),
-                        .href("/country/\(country)/"),
+                        .href("/country/\(country).html"),
                         .role(.button)
                     ],
                     .text(country.rawValue)

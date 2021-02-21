@@ -6,9 +6,9 @@ struct HomePage: Page {
     let songList: SongList
     var markdownNames: [String] = []
 
-    func dirPath() -> [String] {
-        ["home"]
-    }
+    func dirPath() -> [String] { [] }
+    func filename() -> String { "index" }
+
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([

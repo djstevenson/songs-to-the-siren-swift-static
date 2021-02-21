@@ -14,7 +14,7 @@ extension SongLink {
                 return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
             case let .songstothesiren(song):
-                return URL(string: "/song/\(song)/")!
+                return URL(string: "/song/\(song).html")!
 
             case let .other(url):
                 return url
