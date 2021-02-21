@@ -1,4 +1,5 @@
 import Foundation
+import Parsing
 
 struct SongPage: Page {
     let fileUtils: FileUtils
@@ -156,34 +157,19 @@ struct SongPage: Page {
     private func applyShortcut(_ original: String) -> HtmlNode {
         var result = [HtmlNode]()
 
-        let scanner = Scanner(string: original)
-        scanner.charactersToBeSkipped = CharacterSet()
-        var lastRemainder = ""[...]
-        var matched = false
-        while !scanner.isAtEnd {
-            guard
-                let leader = scanner.scanUpToString("^"),
-                let _ = scanner.scanString("^"),
-                let linkType = scanner.scanUpToString("("),
-                let _ = scanner.scanString("("),
-                let linkId = scanner.scanUpToString(")"),
-                let _ = scanner.scanString(")")
-            else {
-                break
-            }
-            let replacer = LinkReplacer(rawValue: linkType)!
-            result.append(.text(leader))
-            result.append(replacer.newHtml(for: linkId, song: song))
-            lastRemainder = scanner.string[scanner.currentIndex...]
-            matched = true
-        }
+        let parser = PrefixUpTo("^link(")
+            .skip(StartsWith("^link("))
+            .take(Prefix { $0 != ")"})
+            .skip(StartsWith(")"))
 
-        if (matched) {
-            result.append(.text(String(lastRemainder)))
+        var parseString = original[...]
+        // Only 'link' supported at the moment
+        let replacer = LinkReplacer(rawValue: "link")!
+        while let (leader, linkId) = parser.parse(&parseString) {
+            result.append(.text(String(leader)))
+            result.append(replacer.newHtml(for: String(linkId), song: song))
         }
-        else {
-            result.append(.text(original))
-        }
+        result.append(.text(String(parseString)))
 
         return .fragment(result)
     }

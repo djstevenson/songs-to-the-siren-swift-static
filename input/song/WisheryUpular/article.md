@@ -4,4 +4,4 @@ But here I've highlighted two other songs that are popular favourites.  Wishery 
 
 Upular is made from Disney-Pixar's Up (2009). Both tunes stand strongly in their own right, but the samples and video editing add to the joy.
 
-^link(upular) arse
+^link(upular)
