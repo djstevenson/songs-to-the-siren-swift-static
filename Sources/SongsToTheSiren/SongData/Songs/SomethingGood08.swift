@@ -2,7 +2,7 @@ extension Song {
     static func somethingGood08() -> Song {
         Song (
             id:       19,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Utah Saints",
             title:    "Something Good '08",

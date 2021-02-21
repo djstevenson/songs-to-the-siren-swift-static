@@ -1,0 +1,1 @@
+With Natalie Imbruglia's take on the Ednaswap song "Torn", I'd suggest that we are getting into the relatively small list of "covers that sound better than the original" - regardless of whether you consider the "original" to me Ednaswap or Lis Sørensen.
