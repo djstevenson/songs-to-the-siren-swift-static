@@ -11,41 +11,44 @@ extension Song {
             maxRez:   4,
             tags:     [.decade1980s, .rickBeato],
             country:  [.uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "official",
-                                desc: "Just Like Heaven - The Cure"
-                            ),
-                            code: "n3nPiBai66M"
-                      ),
-            links: [
-                .youtube(
-                    embedded: ["watson-twins": "The Watson Twins"],
-                    listing:  "Just Like Heaven - The Watson Twins",
-                    code:     "KRcmj_XZGzY"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Just Like Heaven - The Cure",
+                    linkType: .youtubeVideo(code: "T5XUCwxZqm4")
                 ),
-                .youtube(
-                    embedded: ["katie-melua": "Katie Melua"],
-                    listing:  "Just Like Heaven - Katie Melua",
-                    code:     "XV4CZmHcvd0"
+                SongLink(
+                    id:        "watson-twins",
+                    embedText: "The Watson Twins",
+                    listText:  "Just Like Heaven - The Watson Twins",
+                    linkType: .youtubeLink(code: "KRcmj_XZGzY")
                 ),
-                .youtube(
-                    embedded: ["dinosaur-jr": "Dinosaur Jr."],
-                    listing:  "Just Like Heaven - Dinosaur Jr.",
-                    code:     "UT7IpRx08tE"
+                SongLink(
+                    id:        "katie-melua",
+                    embedText: "Katie Melua",
+                    listText:  "Just Like Heaven - Katie Melua",
+                    linkType: .youtubeLink(code: "XV4CZmHcvd0")
                 ),
-                .youtube(
-                    embedded: ["kiss-me": "Kiss Me, Kiss Me, Kiss Me"],
-                    listing:  "Kiss Me, Kiss Me, Kiss Me - The Cure",
-                    code:     "BNTrm67-g8Q"
+                SongLink(
+                    id:        "dinosaur-jr",
+                    embedText: "Dinosaur Jr.",
+                    listText:  "Just Like Heaven - Dinosaur Jr.",
+                    linkType: .youtubeLink(code: "UT7IpRx08tE")
                 ),
-                .youtube(
-                    embedded: ["rick-beato": "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series"],
-                    listing:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83",
-                    code:     "LPNHwwXh3Ks"
+                SongLink(
+                    id:        "kiss-me",
+                    embedText: "Kiss Me, Kiss Me, Kiss Me",
+                    listText:  "Kiss Me, Kiss Me, Kiss Me - The Cure",
+                    linkType: .youtubeLink(code: "BNTrm67-g8Q")
+                ),
+                SongLink(
+                    id:        "rick-beato",
+                    embedText: "Rick Beato's analysis of Just Like Heaven in his 'What Makes This Song Great' series",
+                    listText:  "Rick Beato's analysis of Just Like Heaven in What Makes This Song Great Ep 83",
+                    linkType: .youtubeLink(code: "LPNHwwXh3Ks")
                 )
-            ]
-       )
+            ])
+        )
 
     }
 }

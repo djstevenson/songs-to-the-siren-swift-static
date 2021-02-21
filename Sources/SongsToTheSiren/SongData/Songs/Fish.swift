@@ -13,32 +13,34 @@ extension Song {
             maxRez:   4,
             tags:     [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .ringTone],
             country:  [.usa],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "fish",
-                                desc: "Fish - Throwing Muses"
-                            ),
-                            code: "kIYkd9nJLJA"
-                      ),
-            links: [
-                .youtube(
-                    embedded: ["not-too-soon": "Not Too Soon"],
-                    listing:  "Not Too Soon - Throwing Muses",
-                    code:     "=RZI-FTcFtn8"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Fish - Throwing Muses",
+                    linkType: .youtubeVideo(code: "kIYkd9nJLJA")
                 ),
-                .wikipedia(
-                    embedded: ["chains-changed-ep": "Chains Changed EP"],
-                    listing:  "Chains Changed EP - Throwing Muses",
-                    page:     "Chains_Changed"
+                SongLink(
+                    id:        "not-too-soon",
+                    embedText: "Not Too Soon",
+                    listText:  "Not Too Soon - Throwing Muses",
+                    linkType: .youtubeLink(code: "RZI-FTcFtn8")
                 ),
-                .wikipedia(
-                    embedded: ["lonely-is-an-eyesore": "Lonely Is an Eyesore"],
-                    listing:  "Lonely Is an Eyesore - 4AD compilation",
-                    page:     "Lonely_Is_an_Eyesore"
+                SongLink(
+                    id:        "chains-changed-ep",
+                    embedText: "Chains Changed EP",
+                    listText:  "Chains Changed EP - Throwing Muses",
+                    linkType: .wikipedia(page: "Chains_Changed")
                 ),
-                .other(
-                    embedded: ["ask-me": "ask me"],
-                    url:      URL(string: "https://twitter.com/hoagy_ytfc")!
+                SongLink(
+                    id:        "lonely-is-an-eyesore",
+                    embedText: "Lonely Is an Eyesore",
+                    listText:  "Lonely Is an Eyesore - 4AD Compilation",
+                    linkType: .wikipedia(page: "Lonely_Is_an_Eyesore")
+                ),
+                SongLink(
+                    id:        "ask-me",
+                    embedText: "ask me",
+                    linkType: .other(url: URL(string: "https://twitter.com/hoagy_ytfc")!)
                 )
 
 
@@ -64,8 +66,8 @@ extension Song {
 //                    ),
 //                    song:  "HotDoggie"
 //                )
-            ]
-       )
+            ])
+        )
 
     }
 }

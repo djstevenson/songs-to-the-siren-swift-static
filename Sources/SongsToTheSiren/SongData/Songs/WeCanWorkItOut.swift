@@ -2,7 +2,7 @@ extension Song {
     static func weCanWorkItOut() -> Song {
         Song(
             id:       14,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "The Beatles",
             title:    "We Can Work It Out",
@@ -11,15 +11,14 @@ extension Song {
             maxRez:   4,
             tags:     [.timeSignatureChange, .decade1960s, .liverpool],
             country:  [.uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:   "default",
-                                desc: "We Can Work It Out - The Beatles"
-                            ),
-                            code: "Qyclqo_AV2M"
-                      ),
-            links: []
-       )
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "We Can Work It Out - The Beatles",
+                    linkType: .youtubeVideo(code: "Qyclqo_AV2M")
+                )
+            ])
+        )
 
     }
 }

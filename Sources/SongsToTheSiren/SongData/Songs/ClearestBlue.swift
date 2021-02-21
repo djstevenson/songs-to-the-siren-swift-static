@@ -13,32 +13,31 @@ extension Song {
             maxRez:   4,
             tags:     [.electronic, .decade2010s],
             country:  [.scotland, .uk],
-            video:    .youtube(
-                            data: SongVideo.Common(
-                                id:     "clearest-blue",
-                                desc:   "Clearest Blue - Chvrches"
-                            ),
-                            code:   "BZyzX4c1vIs",
-                            offset: 18
-                      ),
-            links: [
-                .youtube(
-                    embedded: ["the-mother-we-share": "The Mother We Share"],
-                    listing:  "The Mother We Share - Chvrches",
-                    code:     "_mTRvJ9fugM"
+            links:    SongLinks(links:[
+                SongLink(
+                    id:       "default",
+                    listText: "Clearest Blue - Chvrches",
+                    linkType: .youtubeVideo(code: "BZyzX4c1vIs", offset: 18)
                 ),
-                .other(
-                    embedded: ["bbc-sound-of-2013": "BBC Sound of 2013"],
-                    listing:  "BBC Sound of 2013",
-                    url:   URL(string: "https://www.bbc.co.uk/events/efxzp6")!
+                SongLink(
+                    id:        "the-mother-we-share",
+                    embedText: "The Mother We Share",
+                    listText:  "The Mother We Share - Chvrches",
+                    linkType: .youtubeLink(code: "_mTRvJ9fugM")
                 ),
-                .youtube(
-                    embedded: ["gryffin-remix": "Gryffin Remix"],
-                    listing:  "Clearest Blue (Gryffin Remix) - Chvrches",
-                    code:     "O-3-46RD2W8"
-                )
-            ]
-       )
-
+                SongLink(
+                    id:        "bbc-sound-of-2013",
+                    embedText: "BBC Sound of 2013",
+                    listText:  "BBC Sound of 2013",
+                    linkType: .other(url: URL(string: "https://www.bbc.co.uk/events/efxzp6")!)
+                ),
+                SongLink(
+                    id:        "gryffin-remix",
+                    embedText: "Gryffin Remix",
+                    listText:  "Clearest Blue (Gryffin Remix) - Chvrches",
+                    linkType: .youtubeLink(code: "O-3-46RD2W8")
+                ),
+            ])
+        )
     }
 }

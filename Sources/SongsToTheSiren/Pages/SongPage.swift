@@ -1,4 +1,5 @@
 import Foundation
+import Parsing
 
 struct SongPage: Page {
     let fileUtils: FileUtils
@@ -36,7 +37,7 @@ struct SongPage: Page {
     private func songArticle(markdown: [String : HtmlNode]) -> HtmlNode {
         return .div(attributes: [.class("description col-12")],
             markdown["summary"]!,
-            song.video.renderEmbedded(),
+            song.links.find(id: "default")!.renderEmbedded(),
             resolveShortcuts(markdown["article"]!)
         )
     }
@@ -88,7 +89,6 @@ struct SongPage: Page {
             .h4("Links"),
             .p(
                 .ul(attributes: [.class("link-list")],
-                    song.video.renderInList(),
                     .fragment(song.links.map  { $0.renderInList() })
                 )
             )
@@ -157,35 +157,19 @@ struct SongPage: Page {
     private func applyShortcut(_ original: String) -> HtmlNode {
         var result = [HtmlNode]()
 
-        let scanner = Scanner(string: original)
-        scanner.charactersToBeSkipped = CharacterSet()
-        var lastRemainder = ""[...]
-        var matched = false
-        while !scanner.isAtEnd {
-            guard
-                let leader = scanner.scanUpToString("^"),
-                let _ = scanner.scanString("^"),
-                let linkType = scanner.scanUpToString("("),
-                let _ = scanner.scanString("("),
-                let linkId = scanner.scanUpToString(")"),
-                let _ = scanner.scanString(")")
-            else {
-                break
-            }
+        let parser = PrefixUpTo("^link(")
+            .skip(StartsWith("^link("))
+            .take(Prefix { $0 != ")"})
+            .skip(StartsWith(")"))
 
-            let replacer = LinkReplacer(rawValue: linkType)!
-            result.append(.text(leader))
-            result.append(replacer.newHtml(for: linkId, song: song))
-            lastRemainder = scanner.string[scanner.currentIndex...]
-            matched = true
+        var parseString = original[...]
+        // Only 'link' supported at the moment
+        let replacer = LinkReplacer(rawValue: "link")!
+        while let (leader, linkId) = parser.parse(&parseString) {
+            result.append(.text(String(leader)))
+            result.append(replacer.newHtml(for: String(linkId), song: song))
         }
-
-        if (matched) {
-            result.append(.text(String(lastRemainder)))
-        }
-        else {
-            result.append(.text(original))
-        }
+        result.append(.text(String(parseString)))
 
         return .fragment(result)
     }
