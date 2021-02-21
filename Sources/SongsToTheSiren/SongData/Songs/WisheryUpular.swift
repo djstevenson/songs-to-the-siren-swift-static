@@ -2,7 +2,7 @@ extension Song {
     static func wisheryUpular() -> Song {
         Song (
             id:       17,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Pogo",
             title:    "Wishery / Upular",

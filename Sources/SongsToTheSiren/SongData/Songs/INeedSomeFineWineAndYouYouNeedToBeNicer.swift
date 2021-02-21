@@ -4,7 +4,7 @@ extension Song {
     static func iNeedSomeFineWineAndYouYouNeedToBeNicer() -> Song {
         Song(
             id:       16,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "The Cardigans",
             title:    "I Need Some Fine Wine and You, You Need to Be Nicer",
