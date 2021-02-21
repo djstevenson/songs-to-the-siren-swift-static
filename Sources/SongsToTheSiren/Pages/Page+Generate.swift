@@ -41,7 +41,7 @@ extension Page {
     }
 
     private func writeContent(_ content: String) {
-        fileUtils.writeFile(dirs: dirPath(), file: "index.html", content: content)
+        fileUtils.writeFile(dirs: dirPath(), file: "/\(filename()).html", content: content)
     }
 
     private func contentHeader() -> HtmlNode {
@@ -56,11 +56,11 @@ extension Page {
     }
 
     private func homeLink() -> HtmlNode {
-        .a(attributes: [.href("/home/")], .text("Songs to the Siren"))
+        .a(attributes: [.href("/")], .text("Songs to the Siren"))
     }
 
     private func aboutLink() -> HtmlNode {
-        .a(attributes: [.href("/about/")], .text("About this blog..."))
+        .a(attributes: [.href("/about.html")], .text("About this blog..."))
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
@@ -73,7 +73,7 @@ extension Page {
 
     // TODO Should this be in song class? Probs ok here, actually
     func songHref(_ song: Song) -> Attribute<Tag.A> {
-        return .href("/song/\(song.dir)/")
+        return .href("/song/\(song.dir).html")
     }
 
     func panelHeader(_ song: Song) -> HtmlNode {
@@ -103,7 +103,7 @@ extension Page {
             ),
             .h3(attributes: [.class("artist")],
                 .span(attributes:[.class("country")],
-                    .fragment(song.country.map { .a(attributes:[.href("/country/\($0)/")], .text($0.rawValue + " ")) } )
+                    .fragment(song.country.map { .a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " ")) } )
                 )
             ),
             .h4(attributes: [.class("release")], .text(song.released))
@@ -121,7 +121,7 @@ extension Page {
             attributes: [.class("description col-12")],
             md["summary"]!,
             .p(attributes: [.class("more")],
-               .a(attributes: [.href("/song/\(song.dir)/"), ],
+               .a(attributes: [.href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
                    .text("Read more...")
                )
             )
@@ -139,7 +139,7 @@ extension Page {
     private func tagLink(_ tag: Song.Tag) -> HtmlNode {
         // TODO Highlight current tag (although Perl version doesn't)
         // TODO Tag page needs to make clear it's filtering
-        .a(attributes: [.class("btn btn-outline-secondary btn-sm song-tag"), .href("/tag/\(tag)/"), .role(.button)],
+        .a(attributes: [.class("btn btn-outline-secondary btn-sm song-tag"), .href("/tag/\(tag).html"), .role(.button)],
            .text(tag.rawValue)
         )
     }
