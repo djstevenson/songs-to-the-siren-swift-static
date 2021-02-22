@@ -9,7 +9,7 @@ extension Song {
             album:    "Warm Leatherette (1980)",
             released: "? 1980 (Single), 9th May 1980 (LP)",
             maxRez:   4,
-            tags:     [ .decade1980s, .twoForOne, .cover, .dub, .jamaican, .longSongs, .reggae, .slyRobbie ],
+            tags:     [ .decade1980s, .twoForOne, .cover, .dub, .longSongs, .reggae, .slyRobbie ],
             country:  [.jamaica],
             links:    SongLinks(links: [
                 SongLink(
