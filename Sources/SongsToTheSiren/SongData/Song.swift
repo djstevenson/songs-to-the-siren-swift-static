@@ -51,7 +51,6 @@ struct Song {
         case instrumental = "Instrumental"
         case isaacHayes = "Isaac Hayes"
         case italianHouse = "Italian House"
-        case jamaican = "Jamaican"
         case jarvisCocker = "Jarvis Cocker"
         case kathleenHanna = "Kathleen Hanna"
         case kids = "Kids"

@@ -13,6 +13,12 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        Song.heartOfGlass(),
+        Song.goldenBrown(),
+        Song.allMappedOut(),
+        Song.interstate5(),
+        Song.thruTheGlass(),
+        Song.nightNurse(),
         Song.throwDownYourArms(),
         Song.privateLifeShesLostControl(),
         Song.keepMe(),

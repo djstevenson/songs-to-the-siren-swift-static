@@ -1,0 +1,1 @@
+Whatever the genre, a great melody and great singer are a special combination. Night Nurse is such a song, and Gregory Isaacs is such a singer. This completes a trilogy of reggae songs. There are likely to be more some time later.
