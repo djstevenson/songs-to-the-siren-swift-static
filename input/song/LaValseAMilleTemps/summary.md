@@ -1,0 +1,1 @@
+Belgian Jacques Brel achieved success beyond the French-speaking world, and has influenced artists from many cultures and genres. This piece is quite amazing in the way it plays with language, and with tempo. Starting off as a slow waltz, it puns its way to a high-speed crescendo.
