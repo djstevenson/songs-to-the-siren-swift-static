@@ -2,7 +2,7 @@ extension Song {
     static func allMappedOut() -> Song {
         Song (
             id:       30,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "The Departure",
             title:    "All Mapped Out",

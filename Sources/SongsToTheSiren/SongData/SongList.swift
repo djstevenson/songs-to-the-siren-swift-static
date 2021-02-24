@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        Song.laValseAMilleTemps(),
+        Song.birthday(),
+        Song.farFarAway(),
         Song.heartOfGlass(),
         Song.goldenBrown(),
         Song.allMappedOut(),
