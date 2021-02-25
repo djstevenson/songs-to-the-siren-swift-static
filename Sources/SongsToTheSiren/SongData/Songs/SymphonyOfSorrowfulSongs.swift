@@ -2,7 +2,7 @@ extension Song {
     static func symphonyOfSorrowfulSongs() -> Song {
         Song (
             id:       37,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "David Zinman, Dawn Upshaw & London Sinfionetta",
             title:    "Symphony of Sorrowful Songs",

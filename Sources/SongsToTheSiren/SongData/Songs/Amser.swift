@@ -2,7 +2,7 @@ extension Song {
     static func amser() -> Song {
         Song (
             id:       36,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Gwenno",
             title:    "Amser",

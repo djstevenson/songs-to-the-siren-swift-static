@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        Song.iTrawlTheMEGAHERTZ(),
+        Song.theGift(),
+        Song.nautilus(),
         Song.theKingOfRome(),
         Song.symphonyOfSorrowfulSongs(),
         Song.amser(),
