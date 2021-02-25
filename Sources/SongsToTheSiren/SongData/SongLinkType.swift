@@ -6,4 +6,5 @@ enum SongLinkType {
     case wikipedia       (page: String)
     case songstothesiren (song: String)
     case other           (url:  URL)
+    // TODO Need icons for all these
 }

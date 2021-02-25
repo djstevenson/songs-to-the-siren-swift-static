@@ -2,7 +2,7 @@ extension Song {
     static func farFarAway() -> Song {
         Song (
             id:       33,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Slade",
             title:    "Far Far Away  / How Does It Feel?",

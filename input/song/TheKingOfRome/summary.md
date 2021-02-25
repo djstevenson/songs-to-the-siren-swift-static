@@ -1,0 +1,1 @@
+Written by Dave Sudbury in the 80s about a homing pigeon, and recorded in 1988 by June Tabor, this live version by folk group The Unthanks (backed by the famous Brighouse and Rastrick Brass Band) is a thing of rare magnificence.  As, apparently, was the eponymous pigeon :)
