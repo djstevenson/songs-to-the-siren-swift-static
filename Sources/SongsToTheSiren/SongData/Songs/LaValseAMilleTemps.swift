@@ -2,7 +2,7 @@ extension Song {
     static func laValseAMilleTemps() -> Song {
         Song (
             id:       35,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Jacques Brel",
             title:    "La Valse à Mille Temps",

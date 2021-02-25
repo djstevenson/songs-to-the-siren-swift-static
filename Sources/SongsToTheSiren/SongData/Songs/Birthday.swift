@@ -2,7 +2,7 @@ extension Song {
     static func birthday() -> Song {
         Song (
             id:       34,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Sugarcubes (Sykurmolarnir)",
             title:    "Ammæli (Birthday)",

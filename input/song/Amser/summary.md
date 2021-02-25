@@ -1,0 +1,1 @@
+Gwenno Saunders came to relatively wide public awareness as a member of The Pipettes, but has forged a successful solo career since. In 2018 she released an album in the Cornish language, but here I'm highlighting Amser - the Cornish-language track of her otherwise-mostly-Welsh 2014 LP Y Dydd Olaf.
