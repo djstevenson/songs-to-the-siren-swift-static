@@ -1,0 +1,1 @@
+The ceremony used a remix that gave more punch to the percussion, and more gloss overall. It’s the version I prefer (but then it’s the first one I heard - although I'd heard of FB, I hadn’t actually knowingly heard their records until London 2012).

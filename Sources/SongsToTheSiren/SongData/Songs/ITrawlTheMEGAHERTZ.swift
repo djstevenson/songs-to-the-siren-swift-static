@@ -2,7 +2,7 @@ extension Song {
     static func iTrawlTheMEGAHERTZ() -> Song {
         Song (
             id:       41,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Paddy McAloon",
             title:    "I Trawl The MEGAHERTZ",

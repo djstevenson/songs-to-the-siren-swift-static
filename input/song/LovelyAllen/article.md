@@ -1,0 +1,1 @@
+“Real” bass and drums, with synths and even (if the official video is to be believed) a bowed lap steel guitar.  In a way this music is kinda repetitive - it’s basically one riff, but the details of the arrangements change throughout the whole piece, and this song could be quite a bit longer without one getting tired of it.
