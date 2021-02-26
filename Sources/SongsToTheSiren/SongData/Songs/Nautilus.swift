@@ -2,7 +2,7 @@ extension Song {
     static func nautilus() -> Song {
         Song (
             id:       39,
-            style:    .fullPanel,
+            style:    .listing,
             dir:      String.folderFromFunctionName(name: #function),
             artist:   "Anna Meredith",
             title:    "Nautilus",
