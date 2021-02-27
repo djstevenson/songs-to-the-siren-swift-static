@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func nautilus() -> Song {
         Song (
-            id:       39,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Anna Meredith",
-            title:    "Nautilus",
-            album:    "Varmints (2016)",
-            released: "4th March 2016",
-            maxRez:   4,
-            tags:     [ .decade2010s, .platinum2016, .classical, .debut, .electronic, .openingTrack ],
-            country:  [.uk, .scotland],
-            links:    SongLinks(links: [
+            id:        39,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Anna Meredith",
+            title:     "Nautilus",
+            album:     "Varmints (2016)",
+            released:  "4th March 2016",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1589226389),
+            updatedAt: Date(timeIntervalSince1970: 1589226389),
+            tags:      [.decade2010s, .platinum2016, .classical, .debut, .electronic, .openingTrack],
+            country:   [.uk, .scotland],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     embedText: "Nautilus",

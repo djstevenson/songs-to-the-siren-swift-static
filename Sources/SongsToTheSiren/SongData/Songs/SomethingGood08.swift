@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func somethingGood08() -> Song {
         Song (
-            id:       19,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Utah Saints",
-            title:    "Something Good '08",
-            album:    "Utah Saints",
-            released: "1992 (single), 1993 (LP), 2008 (remix)",
-            maxRez:   4,
-            tags:     [ .decade1990s, .decade2000s, .house, .remix, .sample ],
-            country:  [.uk],
-            links:    SongLinks(links: [
+            id:        19,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Utah Saints",
+            title:     "Something Good '08",
+            album:     "Utah Saints",
+            released:  "1992 (single), 1993 (LP), 2008 (remix)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1587674793),
+            updatedAt: Date(timeIntervalSince1970: 1587674793),
+            tags:      [.decade1990s, .decade2000s, .house, .remix, .sample],
+            country:   [.uk],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Something Good '08 - Utah Saints (remix)",

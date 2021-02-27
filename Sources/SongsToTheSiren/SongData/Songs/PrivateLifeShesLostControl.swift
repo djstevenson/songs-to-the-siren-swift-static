@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func privateLifeShesLostControl() -> Song {
         Song (
-            id:       25,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Grace Jones",
-            title:    "Private Life / She's Lost Control",
-            album:    "Warm Leatherette (1980)",
-            released: "? 1980 (Single), 9th May 1980 (LP)",
-            maxRez:   4,
-            tags:     [ .decade1980s, .twoForOne, .cover, .dub, .longSongs, .reggae, .slyRobbie ],
-            country:  [.jamaica],
-            links:    SongLinks(links: [
+            id:        25,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Grace Jones",
+            title:     "Private Life / She's Lost Control",
+            album:     "Warm Leatherette (1980)",
+            released:  "? 1980 (Single), 9th May 1980 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588113402),
+            updatedAt: Date(timeIntervalSince1970: 1588113402),
+            tags:      [.decade1980s, .twoForOne, .cover, .dub, .longSongs, .reggae, .slyRobbie],
+            country:   [.jamaica],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Private Life - Grace Jones",

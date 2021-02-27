@@ -1,19 +1,23 @@
 import Foundation
 
+import Foundation
 extension Song {
+
     static func clearestBlue() -> Song {
         Song(
-            id:       6,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Chvrches",
-            title:    "Clearest Blue",
-            album:    "Every Open Eye (2015)",
-            released: "10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)",
-            maxRez:   4,
-            tags:     [.electronic, .decade2010s],
-            country:  [.scotland, .uk],
-            links:    SongLinks(links:[
+            id:        6,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Chvrches",
+            title:     "Clearest Blue",
+            album:     "Every Open Eye (2015)",
+            released:  "10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1586993870),
+            updatedAt: Date(timeIntervalSince1970: 1586993870),
+            tags:      [.electronic, .decade2010s],
+            country:   [.scotland, .uk],
+            links:     SongLinks(links: [
                 SongLink(
                     id:       "default",
                     listText: "Clearest Blue - Chvrches",

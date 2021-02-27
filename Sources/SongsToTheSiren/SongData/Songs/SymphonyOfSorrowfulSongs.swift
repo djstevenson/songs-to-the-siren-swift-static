@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func symphonyOfSorrowfulSongs() -> Song {
         Song (
-            id:       37,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "David Zinman, Dawn Upshaw & London Sinfionetta",
-            title:    "Symphony of Sorrowful Songs",
-            album:    "Górecki: Symphony Number 3",
-            released: "1992",
-            maxRez:   4,
-            tags:     [ .decade1970s, .decade1990s, .classical, .longSongs ],
-            country:  [.poland],
-            links:    SongLinks(links: [
+            id:        37,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "David Zinman, Dawn Upshaw & London Sinfionetta",
+            title:     "Symphony of Sorrowful Songs",
+            album:     "Górecki: Symphony Number 3",
+            released:  "1992",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1589150464),
+            updatedAt: Date(timeIntervalSince1970: 1589150464),
+            tags:      [.decade1970s, .decade1990s, .classical, .longSongs],
+            country:   [.poland],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "2nd Movement, Lento e largo - Tranquillissimo (Upshaw version)",

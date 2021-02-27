@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func birthday() -> Song {
         Song (
-            id:       34,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Sugarcubes (Sykurmolarnir)",
-            title:    "Ammæli (Birthday)",
-            album:    "Life's Too Good",
-            released: "August 1987 (single, in English). April 1988 (LP, in English)",
-            maxRez:   4,
-            tags:     [ .decade1980s, .debut, .oneLittleIndian ],
-            country:  [.iceland],
-            links:    SongLinks(links: [
+            id:        34,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Sugarcubes (Sykurmolarnir)",
+            title:     "Ammæli (Birthday)",
+            album:     "Life's Too Good",
+            released:  "August 1987 (single, in English). April 1988 (LP, in English)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588794382),
+            updatedAt: Date(timeIntervalSince1970: 1588794382),
+            tags:      [.decade1980s, .debut, .oneLittleIndian],
+            country:   [.iceland],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Birthday (Icelandic) - Sugarcubes",

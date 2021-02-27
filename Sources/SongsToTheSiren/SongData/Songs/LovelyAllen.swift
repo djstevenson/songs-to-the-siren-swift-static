@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func lovelyAllen() -> Song {
         Song (
-            id:       45,
-            style:    .fullPanel,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Holy Fuck",
-            title:    "Lovely Allen",
-            album:    "LP (2007)",
-            released: "Single (2008), LP (2007)",
-            maxRez:   4,
-            tags:     [ .decade2000s, .fWord, .instrumental ],
-            country:  [.canada],
-            links:    SongLinks(links: [
+            id:        45,
+            style:     .fullPanel,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Holy Fuck",
+            title:     "Lovely Allen",
+            album:     "LP (2007)",
+            released:  "Single (2008), LP (2007)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1590010503),
+            updatedAt: Date(timeIntervalSince1970: 1590010503),
+            tags:      [.decade2000s, .fWord, .instrumental],
+            country:   [.canada],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Lovely Allen - Holy Fuck (official video)",

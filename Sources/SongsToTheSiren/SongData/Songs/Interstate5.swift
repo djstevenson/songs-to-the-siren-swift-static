@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func interstate5() -> Song {
         Song (
-            id:       29,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "The Wedding Present",
-            title:    "Interstate 5",
-            album:    "Take Fountain (2005)",
-            released: "15th November 2004 (single), 14th February 2005 (LP)",
-            maxRez:   4,
-            tags:     [ .decade2000s, .golden2004, .sixMusic ],
-            country:  [.uk, .usa],
-            links:    SongLinks(links: [
+            id:        29,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "The Wedding Present",
+            title:     "Interstate 5",
+            album:     "Take Fountain (2005)",
+            released:  "15th November 2004 (single), 14th February 2005 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588207193),
+            updatedAt: Date(timeIntervalSince1970: 1588207193),
+            tags:      [.decade2000s, .golden2004, .sixMusic],
+            country:   [.uk, .usa],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Interstate 5 - The Wedding Present (official video)",

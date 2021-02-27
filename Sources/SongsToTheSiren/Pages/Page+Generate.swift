@@ -79,7 +79,7 @@ extension Page {
     func panelHeader(_ song: Song) -> HtmlNode {
         .header(attributes: [.class("col-12 p-0")],
             .a(
-                attributes: [ songHref(song) ],
+                attributes: [songHref(song)],
                 .img(src:"/artwork/\(song.dir)-1x.png", alt:"Record sleeve image", attributes: [
                     .class("rounded float-left mr-3 mb-1"),
                     .height(160),
@@ -94,7 +94,7 @@ extension Page {
             ),
             .h2(attributes: [.class("title rounded-top")],
                 .a(
-                    attributes: [ songHref(song) ],
+                    attributes: [songHref(song)],
                     .text(song.title)
                 )
             ),

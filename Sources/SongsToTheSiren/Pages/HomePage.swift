@@ -56,7 +56,7 @@ struct HomePage: Page {
     private func listingSong(_ song: Song) -> ChildOf<Tag.Ul> {
         .li(
             .a(
-                attributes: [ songHref(song) ],
+                attributes: [songHref(song)],
                 .text(song.title)
             ),
             .text(" - \(song.artist): Timestamp from somewhere")
