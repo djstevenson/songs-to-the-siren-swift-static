@@ -1,19 +1,23 @@
+import Foundation
 extension Song {
+
     static func gloryBox() -> Song {
         Song(
-            id:       13,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Portishead",
-            title:    "Glory Box",
-            album:    "Dummy (1994)",
-            released: "22nd August 1994 (LP), 3rd January 1995 (single)",
-            maxRez:   4,
-            tags:     [.bristol, .isaacHayes, .sample, .tripHop, .decade1990s],
-            country:  [.uk],
-            links:    SongLinks(links:[
+            id:        13,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Portishead",
+            title:     "Glory Box",
+            album:     "Dummy (1994)",
+            released:  "22nd August 1994 (LP), 3rd January 1995 (single)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1587335164),
+            updatedAt: Date(timeIntervalSince1970: 1587335164),
+            tags:      [.bristol, .isaacHayes, .sample, .tripHop, .decade1990s],
+            country:   [.uk],
+            links:     SongLinks(links: [
                 SongLink(
-                    id:       "default",
+                    id:        "default",
                     listText: "Glory Box - Portishead",
                     linkType: .youtubeVideo(code: "4qQyUi4zfDs")
                 ),

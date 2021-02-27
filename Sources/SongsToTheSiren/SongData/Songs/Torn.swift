@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func torn() -> Song {
         Song (
-            id:       22,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Natalie Imbruglia",
-            title:    "Torn",
-            album:    "Left of the Middle",
-            released: "27th October 1997 (single), 24th November 1997 (LP)",
-            maxRez:   4,
-            tags:     [ .decade1990s, .actor, .cover, .openingTrack ],
-            country:  [.australia],
-            links:    SongLinks(links: [
+            id:        22,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Natalie Imbruglia",
+            title:     "Torn",
+            album:     "Left of the Middle",
+            released:  "27th October 1997 (single), 24th November 1997 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1587850051),
+            updatedAt: Date(timeIntervalSince1970: 1587850051),
+            tags:      [.decade1990s, .actor, .cover, .openingTrack],
+            country:   [.australia],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Torn - Natalie Imbruglia (official video)",

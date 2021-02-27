@@ -23,7 +23,7 @@ struct HomePage: Page {
 //
 //            ),
             .div(
-                attributes: [.class("listing-songs")],
+                attributes: [.class("front-page-song-list")],
                 generateListings()
 
             )
@@ -44,22 +44,28 @@ struct HomePage: Page {
 
 
     private func generateListings() -> HtmlNode {
-        .ul(
-            .fragment(
-                songList.songs
-                    .filter { $0.style == .listing }
-                    .compactMap { listingSong($0) }
+        .fragment([
+            .h3(.text("Previously...")),
+            .ul(
+                .fragment(
+                    songList.songs
+                        .filter { $0.style == .listing }
+                        .compactMap { listingSong($0) }
+                )
             )
-        )
+        ])
     }
 
     private func listingSong(_ song: Song) -> ChildOf<Tag.Ul> {
         .li(
             .a(
-                attributes: [ songHref(song) ],
-                .text(song.title)
+                attributes: [songHref(song)],
+                .span(attributes: [.class("title")], .text(song.title))
             ),
-            .text(" - \(song.artist): Timestamp from somewhere")
+            .text(" - "),
+            .span(attributes: [.class("artist")], .text(song.artist)),
+            .text(" : "),
+            .span(attributes: [.class("date")], .text(publishDate(song)))
         )
     }
 }

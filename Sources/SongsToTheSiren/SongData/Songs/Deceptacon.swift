@@ -1,19 +1,23 @@
+import Foundation
 extension Song {
+
     static func deceptacon() -> Song {
         Song(
-            id:       11,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Le Tigre",
-            title:    "Deceptacon",
-            album:    "Le Tigre (1999)",
-            released: "25th October 1999",
-            maxRez:   4,
-            tags:     [.decade1990s, .electronic, .punk, .kathleenHanna, .riotGrrrl],
-            country:  [.usa],
-            links:    SongLinks(links:[
+            id:        11,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Le Tigre",
+            title:     "Deceptacon",
+            album:     "Le Tigre (1999)",
+            released:  "25th October 1999",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1587319101),
+            updatedAt: Date(timeIntervalSince1970: 1587319101),
+            tags:      [.decade1990s, .electronic, .punk, .kathleenHanna, .riotGrrrl],
+            country:   [.usa],
+            links:     SongLinks(links: [
                 SongLink(
-                    id:       "default",
+                    id:        "default",
                     listText: "Deceptacon - Le Tigre (official video)",
                     linkType: .youtubeVideo(code: "EU1CDSP7FRk")
                 ),

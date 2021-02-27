@@ -1,3 +1,5 @@
+import Foundation
+
 struct Song {
     enum Tag: String {
         case actor = "Actor"
@@ -123,15 +125,17 @@ struct Song {
         case listing
     }
 
-    let id:       Int
-    let style:    HomePageStyle
-    let dir:      String
-    let artist:   String
-    let title:    String
-    let album:    String
-    let released: String
-    let maxRez:   Int
-    let tags:     [Tag]
-    let country:  [Country]
-    let links:    SongLinks
+    let id:         Int
+    let style:     HomePageStyle
+    let dir:       String
+    let artist:    String
+    let title:     String
+    let album:     String
+    let released:  String
+    let maxRez:    Int
+    let createdAt: Date
+    let updatedAt: Date
+    let tags:      [Tag]
+    let country:   [Country]
+    let links:     SongLinks
 }

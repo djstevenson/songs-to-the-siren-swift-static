@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func heartOfGlass() -> Song {
         Song (
-            id:       32,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Blondie",
-            title:    "Heart of Glass",
-            album:    "Parallel Lines",
-            released: "January 1979 (single), 23rd September 1978 (LP)",
-            maxRez:   4,
-            tags:     [ .decade1970s, .disco, .postPunk, .skippedBeat, .timeSignatureChange ],
-            country:  [.usa],
-            links:    SongLinks(links: [
+            id:        32,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Blondie",
+            title:     "Heart of Glass",
+            album:     "Parallel Lines",
+            released:  "January 1979 (single), 23rd September 1978 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588464066),
+            updatedAt: Date(timeIntervalSince1970: 1588464066),
+            tags:      [.decade1970s, .disco, .postPunk, .skippedBeat, .timeSignatureChange],
+            country:   [.usa],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Heart of Glass - Blondie",

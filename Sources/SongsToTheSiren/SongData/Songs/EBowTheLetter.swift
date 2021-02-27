@@ -1,19 +1,23 @@
 import Foundation
 
+import Foundation
 extension Song {
+
     static func eBowTheLetter() -> Song {
         Song (
-            id:       42,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "R.E.M.",
-            title:    "E-Bow The Letter",
-            album:    "New Adventures in Hi-Fi",
-            released: "August 1996 (single), 9th September 1996 (LP)",
-            maxRez:   4,
-            tags:     [ .decade1990s, .guestVocals, .longSongs ],
-            country:  [.usa],
-            links:    SongLinks(links: [
+            id:        42,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "R.E.M.",
+            title:     "E-Bow The Letter",
+            album:     "New Adventures in Hi-Fi",
+            released:  "August 1996 (single), 9th September 1996 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1589593547),
+            updatedAt: Date(timeIntervalSince1970: 1589593547),
+            tags:      [.decade1990s, .guestVocals, .longSongs],
+            country:   [.usa],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "E-Bow The Letter",

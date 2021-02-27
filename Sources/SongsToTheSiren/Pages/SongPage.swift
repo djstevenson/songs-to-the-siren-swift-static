@@ -96,7 +96,8 @@ struct SongPage: Page {
 
     private func makeSongFooter() -> HtmlNode {
         .footer(attributes: [.class("col-12")],
-            makeSongTags()
+            makeSongTags(),
+            makeMetadata(song)
         )
     }
 

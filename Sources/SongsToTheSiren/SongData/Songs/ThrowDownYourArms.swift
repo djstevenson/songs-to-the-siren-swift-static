@@ -1,17 +1,21 @@
+import Foundation
 extension Song {
+
     static func throwDownYourArms() -> Song {
         Song (
-            id:       26,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Sinéad O'Connor",
-            title:    "Throw Down Your Arms",
-            album:    "Throw Down Your Arms (2005)",
-            released: "28th September 2005",
-            maxRez:   4,
-            tags:     [ .decade2000s, .cover, .reggae, .slyRobbie ],
-            country:  [.ireland],
-            links:    SongLinks(links: [
+            id:        26,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Sinéad O'Connor",
+            title:     "Throw Down Your Arms",
+            album:     "Throw Down Your Arms (2005)",
+            released:  "28th September 2005",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588113403),
+            updatedAt: Date(timeIntervalSince1970: 1588113403),
+            tags:      [.decade2000s, .cover, .reggae, .slyRobbie],
+            country:   [.ireland],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Throw Down Your Arms - Sinéad O'Connor",

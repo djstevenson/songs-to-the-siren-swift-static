@@ -1,20 +1,23 @@
+import Foundation
 extension Song {
+
     static func goldenBrown() -> Song {
         Song (
-            id:       31,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "The Stranglers",
-            title:    "Golden Brown",
-            album:    "La Folie (1981)",
-            released: "10th January 1982 (single), 9th November 1981 (LP)",
-            maxRez:   4,
-            tags:     [ .decade1980s, .addedBeat, .postPunk, .timeSignatureChange, .waltzTime ],
-            country:  [.uk],
-            links:    SongLinks(links: [
+            id:        31,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "The Stranglers",
+            title:     "Golden Brown",
+            album:     "La Folie (1981)",
+            released:  "10th January 1982 (single), 9th November 1981 (LP)",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1588464064),
+            updatedAt: Date(timeIntervalSince1970: 1588464064),
+            tags:      [.decade1980s, .addedBeat, .postPunk, .timeSignatureChange, .waltzTime],
+            country:   [.uk],
+            links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    embedText: "",
                     listText:  "Golden Brown - The Stranglers",
                     linkType:  .youtubeVideo(code: "z-GUjA67mdc")
                 ),

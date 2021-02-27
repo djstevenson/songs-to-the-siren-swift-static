@@ -1,21 +1,25 @@
 import Foundation
 
+import Foundation
 extension Song {
+
     static func fish() -> Song {
         Song(
-            id:       15,
-            style:    .listing,
-            dir:      String.folderFromFunctionName(name: #function),
-            artist:   "Throwing Muses",
-            title:    "Fish",
-            album:    "Lonely Is An Eyesore (4AD various artists compilation)",
-            released: "15th June 1987",
-            maxRez:   4,
-            tags:     [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .ringTone],
-            country:  [.usa],
-            links:    SongLinks(links:[
+            id:        15,
+            style:     .listing,
+            dir:       String.folderFromFunctionName(name: #function),
+            artist:    "Throwing Muses",
+            title:     "Fish",
+            album:     "Lonely Is An Eyesore (4AD various artists compilation)",
+            released:  "15th June 1987",
+            maxRez:    4,
+            createdAt: Date(timeIntervalSince1970: 1587497741),
+            updatedAt: Date(timeIntervalSince1970: 1587497741),
+            tags:      [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .ringTone],
+            country:   [.usa],
+            links:     SongLinks(links: [
                 SongLink(
-                    id:       "default",
+                    id:        "default",
                     listText: "Fish - Throwing Muses",
                     linkType: .youtubeVideo(code: "kIYkd9nJLJA")
                 ),
