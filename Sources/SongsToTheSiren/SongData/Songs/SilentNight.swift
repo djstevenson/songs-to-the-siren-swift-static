@@ -11,8 +11,8 @@ extension Song {
             album:     "Parsley, Sage, Rosemary and Thyme (1966)",
             released:  "10th October 1966",
             maxRez:    4,
-            createdAt: Date(timeIntervalSince1970: 1587319105),
-            updatedAt: Date(timeIntervalSince1970: 1587319105),
+            createdAt: Date(timeIntervalSince1970: 1587319104),
+            updatedAt: Date(timeIntervalSince1970: 1587319104),
             tags:      [.christmasCarol, .spokenWord, .decade1960s],
             country:   [.usa],
             links:     SongLinks(links: [

@@ -132,7 +132,8 @@ extension Page {
         .footer(attributes: [.class("col-12")],
             .p(attributes: [.class("song-tags")],
                .fragment(song.tags.map(tagLink))
-            )
+            ),
+            makeMetadata(song)
         )
     }
 
@@ -144,5 +145,19 @@ extension Page {
         )
     }
 
+    func makeMetadata(_ song: Song) -> HtmlNode {
+        .p(attributes: [.class("metadata")],
+                  .text("Published at \(publishDate(song))")
+        )
+    }
+
+    func publishDate(_ song: Song) -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_GB_POSIX")
+        formatter.dateFormat = "EEE, dd MMMM yyyy HH:mm"
+        formatter.timeZone = TimeZone(identifier: "Europe/London")
+
+        return formatter.string(from: song.createdAt)
+    }
 
 }
