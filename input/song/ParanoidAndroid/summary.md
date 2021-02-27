@@ -1,0 +1,1 @@
+The second in a trio of “big songs” - long, relatively complex songs that sound like they were the product of putting together separate pieces into one. Like Jesus of Suburbia, Paranoid Android was also made exactly that way.

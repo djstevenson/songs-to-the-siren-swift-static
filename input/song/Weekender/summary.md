@@ -1,0 +1,1 @@
+The third in a series of “big songs” - although this has plenty of variety through its near-13 minute length, it sounds more like one song that the previous two, which were constructed from separate initial ideas merged into one.

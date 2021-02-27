@@ -1,0 +1,1 @@
+Released as the opening single from the classic 1997 record OK Computer, the song you hear today was made up of parts of a number of separate work-in-progress songs, melded into one and cut down to about six minutes.

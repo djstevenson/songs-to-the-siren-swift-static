@@ -3,7 +3,7 @@ extension Song {
     static func whiteLove() -> Song {
         Song (
             id:        52,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "One Dove",
             title:     "White Love (Radio Mix)",
