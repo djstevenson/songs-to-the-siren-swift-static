@@ -4,7 +4,7 @@ extension Song {
     static func lovelyAllen() -> Song {
         Song (
             id:        45,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Holy Fuck",
             title:     "Lovely Allen",
