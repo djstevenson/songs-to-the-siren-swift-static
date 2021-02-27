@@ -1,0 +1,1 @@
+Although “favourite song ever” is a thing that can change with time, with mood, and with new records appearing, this is definitely up there for me. This song perfectly captured the moment as it appeared to those of us who bought into the indie/dance crossover thing that was going on.

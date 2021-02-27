@@ -3,7 +3,7 @@ extension Song {
     static func messagePersonnel() -> Song {
         Song (
             id:        51,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Dot Allison",
             title:     "Message Personnel",
