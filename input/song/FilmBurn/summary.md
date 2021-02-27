@@ -1,0 +1,1 @@
+The third in a trio of songs by a pair of my favourite artists of recent years. Following Salt Spring by Anomie Belle, and Gumball Machine Weekend by Yppah, this track sees them working together on Film Burn, one of several collaborations between the pair on the 2012 Yppah record Eighty One.
