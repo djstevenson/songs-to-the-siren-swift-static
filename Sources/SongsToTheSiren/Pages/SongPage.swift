@@ -157,17 +157,22 @@ struct SongPage: Page {
     private func applyShortcut(_ original: String) -> HtmlNode {
         var result = [HtmlNode]()
 
-        let parser = PrefixUpTo("^link(")
-            .skip(StartsWith("^link("))
+        let parser = PrefixUpTo("^")
+            .skip(StartsWith("^"))
+            .take(Prefix { $0 != "("}) // type
+            .skip(StartsWith("("))
             .take(Prefix { $0 != ")"})
             .skip(StartsWith(")"))
 
         var parseString = original[...]
-        // Only 'link' supported at the moment
-        let replacer = LinkReplacer(rawValue: "link")!
-        while let (leader, linkId) = parser.parse(&parseString) {
+        while let (leader, type, code) = parser.parse(&parseString) {
+            guard let replacer = LinkReplacer(rawValue: String(type)) else {
+                print("** Unknown shortcut type \(type)")
+                break;
+            }
+
             result.append(.text(String(leader)))
-            result.append(replacer.newHtml(for: String(linkId), song: song))
+            result.append(replacer.newHtml(for: String(code), song: song))
         }
         result.append(.text(String(parseString)))
 

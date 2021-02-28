@@ -63,13 +63,7 @@ extension SongLink {
                 return .fragment([])
             }
 
-            return .a(
-                attributes: [
-                    .href(url.absoluteString),
-                    .target(.blank)
-                ],
-                .text(embedText)
-            )
+            return .a(attributes: [.href(url.absoluteString)], .text(embedText))
         }
     }
 
