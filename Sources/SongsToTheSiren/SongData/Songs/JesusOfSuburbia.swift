@@ -3,7 +3,7 @@ extension Song {
     static func jesusOfSuburbia() -> Song {
         Song (
             id:        53,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Green Day",
             title:     "Jesus of Suburbia",
