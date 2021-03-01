@@ -3,7 +3,7 @@ extension Song {
     static func paranoidAndroid() -> Song {
         Song (
             id:        54,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Radiohead",
             title:     "Paranoid Android",

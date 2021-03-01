@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .myBabysTakingMeHome(),
+        .karen(),
+        .paperThin(),
         .weekender(),
         .paranoidAndroid(),
         .jesusOfSuburbia(),

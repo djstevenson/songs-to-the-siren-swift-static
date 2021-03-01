@@ -1,0 +1,1 @@
+This track comes from 2016, the wonderful year where my annual “best-of” mix tape was one of the greatest I can remember. Paper Thin is by Laura Kidd, who was then using the She Makes War project name, and features Tanya Donelly on BVs.
