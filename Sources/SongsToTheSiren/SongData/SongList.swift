@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .buyNothingDay(),
+        .limeHabit(),
+        .chainsChangedEP(),
         .myBabysTakingMeHome(),
         .karen(),
         .paperThin(),
