@@ -9,6 +9,7 @@ struct HomePage: Page {
     func dirPath() -> [String] { [] }
     func filename() -> String { "index" }
 
+    func validate() -> Void {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([

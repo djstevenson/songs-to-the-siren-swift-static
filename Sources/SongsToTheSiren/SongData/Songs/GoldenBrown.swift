@@ -37,7 +37,7 @@ extension Song {
                     id:        "supervixen",
                     embedText: "Supervixen",
                     listText:  "Supervixen - Garbage",
-                    linkType:  .songstothesiren(song: "Supervixen")
+                    linkType:  .song(song: "Supervixen")
                 ),
                 SongLink(
                     id:        "david-bennett-analysis",

@@ -13,8 +13,11 @@ extension SongLink {
             case let .wikipedia(page):
                 return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
-            case let .songstothesiren(song):
+            case let .song(song):
                 return URL(string: "/song/\(song).html")!
+
+            case let .tag(tag):
+                return URL(string: "/tag/\(tag).html")!
 
             case let .other(url):
                 return url
@@ -31,7 +34,7 @@ extension SongLink {
                 return "youtube"
             case .wikipedia:
                 return "wikipedia"
-            case .songstothesiren:
+            case .song, .tag:
                 return "songstothesiren"
             case .other:
                 return "other"

@@ -31,14 +31,13 @@ extension Song {
                     id:        "dot-allison",
                     embedText: "Dot Allison",
                     listText:  "Message Personnel - Dot Allison",
-                    linkType:  .songstothesiren(song: "MessagePersonnel")
+                    linkType:  .song(song: "MessagePersonnel")
                 ),
                 SongLink(
                     id:        "white-love",
                     embedText: "White Love",
                     listText:  "White Love - One Dove",
-                    linkType:  .songstothesiren(song: "WhiteLove")
-
+                    linkType:  .song(song: "WhiteLove")
                 )
             ])
         )

@@ -27,8 +27,12 @@ struct SongsToTheSiren: ParsableCommand {
         fileUtils.copyDirectory(dirs: ["icons"])
         fileUtils.copyDirectory(dirs: ["artwork"])
 
-        let songList = SongList()
         AboutPage(fileUtils: fileUtils).generate()
+
+        let songList = SongList()
+        
+        // HOME PAGE
+        HomePage(fileUtils: fileUtils, songList: songList).generate()
 
         // SONG PAGES
         let songMap  = songList.makeSongMap()
@@ -37,8 +41,6 @@ struct SongsToTheSiren: ParsableCommand {
             SongPage(fileUtils: fileUtils, song: song, songMap: songMap).generate()
         }
 
-        // HOME PAGE
-        HomePage(fileUtils: fileUtils, songList: songList).generate()
 
         // TAG PAGES
         let tagMap  = songList.makeTagMap()

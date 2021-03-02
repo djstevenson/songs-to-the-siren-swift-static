@@ -42,13 +42,13 @@ extension Song {
                 SongLink(
                     id:        "film-burn",
                     listText:  "Film Burn - Yppah (feat. Anomie Belle)",
-                    linkType:  .songstothesiren(song: "FilmBurn")
+                    linkType:  .song(song: "FilmBurn")
                 ),
                 SongLink(
                     id:        "gumball-machine-weekend",
                     embedText: "Gumball Machine Weekend",
                     listText:  "Gumball Machine Weekend - Yppah",
-                    linkType:  .songstothesiren(song: "GumballMachineWeekend")
+                    linkType:  .song(song: "GumballMachineWeekend")
                 ),
                 SongLink(
                     id:        "picture-perfect",

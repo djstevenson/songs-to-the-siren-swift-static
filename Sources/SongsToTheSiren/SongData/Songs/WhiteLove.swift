@@ -37,13 +37,13 @@ extension Song {
                     id:        "solo",
                     embedText: "solo career",
                     listText:  "Message Personnel - Dot Allison",
-                    linkType:  .songstothesiren(song: "MessagePersonnel")
+                    linkType:  .song(song: "MessagePersonnel")
                 ),
                 SongLink(
                     id:        "guest",
                     embedText: "guest with",
                     listText:  "Dirge - Death In Vegas",
-                    linkType:  .songstothesiren(song: "Dirge")
+                    linkType:  .song(song: "Dirge")
                 )
             ])
         )

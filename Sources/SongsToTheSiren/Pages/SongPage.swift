@@ -4,7 +4,7 @@ import Parsing
 struct SongPage: Page {
     let fileUtils: FileUtils
     let song: Song
-    let songMap: SongList.SongMap
+    let songMap: Dictionary<String, SongList.SongMap>
 
     private enum NavLocation: String {
         case top
@@ -20,6 +20,18 @@ struct SongPage: Page {
 
     func dirPath() -> [String] { ["song"] }
     func filename() -> String { "\(song.dir)" }
+
+    func validate() -> Void {
+        song.links.forEach { link in
+            if case .song(let songDir) = link.linkType {
+                if songMap[songDir] == nil {
+                    // Need to find a way to turn this into a compile-time check
+                    // The circular song refs is making this not immediately obvious to me.
+                    fatalError("Song \(song.title) has link to bad song dir \(songDir)")
+                }
+            }
+        }
+    }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .section(attributes: [.class("song row")],
@@ -48,8 +60,8 @@ struct SongPage: Page {
     private func songNavigation(location: NavLocation) -> HtmlNode {
         .nav(
             attributes: [.class("col-12 nav-location-\(location.rawValue)")],
-            songNavLink(songMap.newer[song.id], direction: .newer),
-            songNavLink(songMap.older[song.id], direction: .older)
+            songNavLink(songMap[song.dir]?.newer, direction: .newer),
+            songNavLink(songMap[song.dir]?.older, direction: .older)
         )
     }
 
