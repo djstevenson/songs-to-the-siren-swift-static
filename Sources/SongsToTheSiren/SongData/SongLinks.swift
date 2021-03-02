@@ -26,4 +26,8 @@ struct SongLinks {
     public func map<T>(_ transform: (SongLink) throws -> T) rethrows -> [T] {
         return try linksArray.map(transform)
     }
+
+    public func forEach(_ run: (SongLink) -> Void) -> Void {
+        return linksArray.forEach(run)
+    }
 }

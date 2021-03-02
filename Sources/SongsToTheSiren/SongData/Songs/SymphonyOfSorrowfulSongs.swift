@@ -41,7 +41,7 @@ extension Song {
                 SongLink(
                     id:        "portishead",
                     embedText: "Portishead",
-                    linkType:  .songstothesiren(song: "GloryBox")  // TODO Enum instead of string?
+                    linkType:  .song(song: "GloryBox")  // TODO Enum instead of string?
                 ),
                 SongLink(
                     id:        "gerrard",

@@ -10,6 +10,8 @@ protocol Page {
 
     func dirPath() -> [String]
     func filename() -> String
+    func generate() -> Void
+    func validate() -> Void
     func loadMarkdown() -> [String: HtmlNode]
 
     // Page supplies this to generate page-specific HtmlNode

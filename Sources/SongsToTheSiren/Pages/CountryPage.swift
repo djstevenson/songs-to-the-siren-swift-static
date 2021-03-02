@@ -10,6 +10,7 @@ struct CountryPage: Page {
     func dirPath() -> [String] { ["country"] }
     func filename() -> String { "\(country)" }
 
+    func validate() -> Void {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([

@@ -1,7 +1,7 @@
 struct SongList {
     struct SongMap {
-        let older: Dictionary<Int, Song>
-        let newer: Dictionary<Int, Song>
+        var older: Song?
+        var newer: Song?
     }
 
     struct TagMap {
@@ -72,20 +72,20 @@ struct SongList {
         .songToTheSiren()
     ]
 
-    func makeSongMap() -> SongMap {
-        var older = Dictionary<Int, Song>()
-        var newer = Dictionary<Int, Song>()
+    func makeSongMap() -> Dictionary<String, SongMap> {
+        var songMap = Dictionary<String, SongMap>()
 
         var lastSong: Song? = nil
         for song in songs {
+            songMap[song.dir] = SongMap()
             if let last = lastSong {
-                older[last.id] = song
-                newer[song.id] = last
+                songMap[last.dir]!.older = song
+                songMap[song.dir]!.newer = last
             }
             lastSong = song
         }
 
-        return SongMap(older:older, newer: newer)
+        return songMap
     }
 
     func makeTagMap() -> TagMap {

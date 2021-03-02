@@ -31,7 +31,7 @@ extension Song {
                     id:        "no1-song",
                     embedText: "No. 1 in Heaven",
                     listText:  "The Number One Song in Heaven - Sparks",
-                    linkType:  .songstothesiren(song: "NumberOneSongInHeaven")
+                    linkType:  .song(song: "NumberOneSongInHeaven")
                 ),
                 SongLink(
                     id:        "gratuitous",

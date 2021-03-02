@@ -25,12 +25,12 @@ extension Song {
                     id:        "salt-spring",
                     embedText: "Salt Spring",
                     listText:  "Salt Spring - Anomie Belle",
-                    linkType:  .songstothesiren(song: "SaltSpring")
+                    linkType:  .song(song: "SaltSpring")
                 ),
                 SongLink(
                     id:        "film-burn",
                     listText:  "Film Burn - Yppah (feat. Anomie Belle)",
-                    linkType:  .songstothesiren(song: "FilmBurn")
+                    linkType:  .song(song: "FilmBurn")
                 )
             ])
         )

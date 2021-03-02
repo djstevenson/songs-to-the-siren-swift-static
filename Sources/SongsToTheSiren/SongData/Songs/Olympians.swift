@@ -29,12 +29,12 @@ extension Song {
                 SongLink(
                     id:        "queen-of-hearts",
                     listText:  "Queen of Hearts - Fucked Up",
-                    linkType:  .songstothesiren(song: "QueenOfHearts")   // TODO ENUM NOT STRING-TYPED!!
+                    linkType:  .song(song: "QueenOfHearts")   // TODO ENUM NOT STRING-TYPED!!
                 ),
                 SongLink(
                     id:        "lovely-allen",
                     listText:  "Lovely Allen - Holy Fuck",
-                    linkType:  .songstothesiren(song: "LovelyAllen")
+                    linkType:  .song(song: "LovelyAllen")
                 )
             ])
         )

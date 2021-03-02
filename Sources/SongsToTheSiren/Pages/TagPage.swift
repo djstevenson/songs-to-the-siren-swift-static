@@ -10,6 +10,8 @@ struct TagPage: Page {
     func dirPath() -> [String] { ["tag"] }
     func filename() -> String { "\(tag)" }
 
+    func validate() -> Void {}
+
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([
             .div(

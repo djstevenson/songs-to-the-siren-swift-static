@@ -29,12 +29,12 @@ extension Song {
                 SongLink(
                     id:        "lovely-allen",
                     listText:  "Lovely Allen - Holy Fuck",
-                    linkType:  .songstothesiren(song: "HolyFuck")
+                    linkType:  .song(song: "LovelyAllen")
                 ),
                 SongLink(
                     id:        "olympians",
                     listText:  "Olympians - Fuck Buttons",
-                    linkType:  .songstothesiren(song: "Olympians")
+                    linkType:  .song(song: "Olympians")
                 )
             ])
         )

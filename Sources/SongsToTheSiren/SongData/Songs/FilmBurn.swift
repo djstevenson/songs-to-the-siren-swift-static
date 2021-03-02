@@ -36,13 +36,13 @@ extension Song {
                     id:        "salt-spring",
                     embedText: "Salt Spring",
                     listText:  "Salt Spring - Anomie Belle",
-                    linkType:  .songstothesiren(song: "SaltSpring")
+                    linkType:  .song(song: "SaltSpring")
                 ),
                 SongLink(
                     id:        "gumball-machine-weekend",
                     embedText: "Gumball Machine Weekend",
                     listText:  "Gumball Machine Weekend - Yppah",
-                    linkType:  .songstothesiren(song: "GumballMachineWeekend")
+                    linkType:  .song(song: "GumballMachineWeekend")
                 )
             ])
         )

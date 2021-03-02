@@ -35,12 +35,12 @@ extension Song {
                     id:        "dirge",
                     embedText: "Dirge",
                     listText:  "Dirge - Death in Vegas",
-                    linkType:  .songstothesiren(song: "Dirge")
+                    linkType:  .song(song: "Dirge")
                 ),
                 SongLink(
                     id:        "white-love",
                     listText:  "White Love - One Dove",
-                    linkType:  .songstothesiren(song: "WhiteLive")
+                    linkType:  .song(song: "WhiteLove")
                 )
             ])
         )

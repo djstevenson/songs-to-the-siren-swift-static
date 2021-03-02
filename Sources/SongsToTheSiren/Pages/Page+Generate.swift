@@ -4,6 +4,7 @@ import Html
 extension Page {
 
     func generate() -> Void {
+        validate()
         let markdownContents = loadMarkdown()
         let htmlPage = embed(markdown: markdownContents)
         writeContent(render(htmlPage))
@@ -112,9 +113,9 @@ extension Page {
 
     private func panelBody(_ song: Song) -> HtmlNode {
         // TODO this is hacky
-        let dummy = Dictionary<Int, Song>()
+        let dummy = Dictionary<String, SongList.SongMap>()
         // TODO Make the songMap an optional arg?
-        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: SongList.SongMap(older:dummy, newer: dummy))
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
         let md = songPage.loadMarkdown()
 
         return .div(
