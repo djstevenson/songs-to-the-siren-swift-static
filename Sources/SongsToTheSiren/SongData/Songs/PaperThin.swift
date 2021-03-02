@@ -3,7 +3,7 @@ extension Song {
     static func paperThin() -> Song {
         Song (
             id:        56,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "She Makes War (feat. Tanya Donelly)",
             title:     "Paper Thin",
