@@ -35,7 +35,7 @@ final class SongsToTheSirenTests: XCTestCase {
         for bundle in Bundle.allBundles where bundle.bundlePath.hasSuffix(".xctest") {
             return bundle.bundleURL.deletingLastPathComponent()
         }
-        fatalError("couldn't find the products directory")
+        fatalError("couldn’t find the products directory")
       #else
         return Bundle.main.bundleURL
       #endif
