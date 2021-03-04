@@ -10,7 +10,7 @@ struct AtomFeed {
         let root = XMLElement(name: "feed")
         root.addAttribute(XMLNode.attribute(withName: "xmlns", stringValue: atomNS) as! XMLNode)
         let xml = XMLDocument(rootElement: root)
-//        xml.characterEncoding = "utf-8"
+        xml.characterEncoding = "utf-8"
 
         // TODO Add feed fields
 
