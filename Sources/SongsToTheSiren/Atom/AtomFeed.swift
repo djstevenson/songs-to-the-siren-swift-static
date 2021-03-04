@@ -10,6 +10,7 @@ struct AtomFeed {
         let root = XMLElement(name: "feed")
         root.addAttribute(XMLNode.attribute(withName: "xmlns", stringValue: atomNS) as! XMLNode)
         let xml = XMLDocument(rootElement: root)
+//        xml.characterEncoding = "utf-8"
 
         // TODO Add feed fields
 
@@ -33,7 +34,7 @@ struct AtomFeed {
         }
 
         let xmlData = xml.xmlData(options: .nodePrettyPrint)
-        print(xmlData.map { String(format: "%c", $0) }.joined())
+        fileUtils.writeData(dirs: [], file: "atom.xml", data: xmlData)
     }
 
     func songId(_ song: Song) -> String {
@@ -45,7 +46,7 @@ struct AtomFeed {
     func updatedAt(_ song: Song) -> String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_GB_POSIX")
-        formatter.dateFormat = "yyyy-MM-dd’T’HH:mm:ssZZZZZ"
+        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
         formatter.timeZone = TimeZone(identifier: "Europe/London")
 
         return formatter.string(from: song.createdAt)
@@ -54,11 +55,7 @@ struct AtomFeed {
     func summaryHtml(_ song: Song) -> String {
         let dummy = Dictionary<String, SongList.SongMap>()
         let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
-        let md = songPage.loadMarkdown()
-        guard let markdown = md["summary"] else {
-            fatalError("Cannot generate summary for \(song.title)")
-        }
-        return render(markdown)
+        return songPage.loadFile("summary")
     }
 
 }

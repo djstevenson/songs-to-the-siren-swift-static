@@ -63,7 +63,12 @@ class FileUtils {
 
     public func writeFile(dirs: [String], file: String, content: String) -> Void {
         let url = outputFile(dirs: dirs, file: file)
-        try! content.write(to: url, atomically: true, encoding: .utf8);
+        try! content.write(to: url, atomically: true, encoding: .utf8)
+    }
+
+    public func writeData(dirs: [String], file: String, data: Data) -> Void {
+        let url = outputFile(dirs: dirs, file: file)
+        try! data.write(to: url)
     }
 
     public func readFile(dirs: [String], file: String) -> String {
