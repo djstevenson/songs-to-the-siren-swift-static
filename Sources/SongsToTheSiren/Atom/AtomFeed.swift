@@ -1,4 +1,5 @@
 import Foundation
+import Html
 
 struct AtomFeed {
     let fileUtils: FileUtils
@@ -18,9 +19,9 @@ struct AtomFeed {
             let title = XMLElement(name: "title", stringValue: song.title)
             let link = XMLElement(name: "link")
             link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/songs/\(song.dir)") as! XMLNode)
-            let id = XMLElement(name: "id", stringValue: song.atomFeedID())
-            let updated = XMLElement(name: "updated", stringValue: "2003-12-13T18:30:02Z") // Get from song, in this format
-            let summary = XMLElement(name: "summary", stringValue: "this is the song summary") // Get from song summary MD
+            let id = XMLElement(name: "id", stringValue: songId(song))
+            let updated = XMLElement(name: "updated", stringValue: updatedAt(song))
+            let summary = XMLElement(name: "summary", stringValue: summaryHtml(song))
 
             entry.addChild(title)
             entry.addChild(link)
@@ -35,5 +36,29 @@ struct AtomFeed {
         print(xmlData.map { String(format: "%c", $0) }.joined())
     }
 
-    
+    func songId(_ song: Song) -> String {
+        // It’s not a hash, it’s an ID. But it’s good enough
+        // for the Atom feed
+        return "\(song.dir)-\(song.id)"
+    }
+
+    func updatedAt(_ song: Song) -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_GB_POSIX")
+        formatter.dateFormat = "yyyy-MM-dd’T’HH:mm:ssZZZZZ"
+        formatter.timeZone = TimeZone(identifier: "Europe/London")
+
+        return formatter.string(from: song.createdAt)
+    }
+
+    func summaryHtml(_ song: Song) -> String {
+        let dummy = Dictionary<String, SongList.SongMap>()
+        let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
+        let md = songPage.loadMarkdown()
+        guard let markdown = md["summary"] else {
+            fatalError("Cannot generate summary for \(song.title)")
+        }
+        return render(markdown)
+    }
+
 }
