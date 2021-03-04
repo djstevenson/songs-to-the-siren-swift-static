@@ -1,4 +1,4 @@
-Utah Saints released Something Good in 1992 as their second single, and it remains their biggest success. The ^link(cloudbusting) sample "I just know that something good is going to happen" is spun into a house track with some gloriously clichéd house piano sprinkled throughout.
+Utah Saints released Something Good in 1992 as their second single, and it remains their biggest success. The ^link(cloudbusting) sample “I just know that something good is going to happen” is spun into a house track with some gloriously clichéd house piano sprinkled throughout.
 
 ^link(yt-1992)
 

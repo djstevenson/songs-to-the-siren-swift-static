@@ -12,7 +12,9 @@ There is a haunting quality to the recording, which well matches the lyrics - ab
 
 ### Other versions
 
-The song has seen many covers over the years, from ^link(robert-plant) to ^link(hmhb), from ^link(george-michael) to ^link(wolf-alice). George Michael follows the This Mortal Coil version so closely he even gets the same lyrics wrong (it should be "were you fox when I was hare?"). Robert Plant’s take on the song is a spectacular error of judgement. It’s truly appalling.
+The song has seen many covers over the years, from ^link(robert-plant) to ^link(hmhb), from ^link(george-michael) to ^link(wolf-alice). George Michael follows the This Mortal Coil version so closely he even gets the same lyrics wrong (it should be “were you fox when I was hare?”).
+
+Robert Plant’s take on the song is a spectacular error of judgement. It’s truly appalling.
 
 The versions by Wolf Alice and ^link(sinead) are my favourites after This Mortal Coil. O’Connor’s version was released on a 2010 compilation of music from Irish Artists, before appearing as a bonus track on the iTunes release of How About I Be Me (and You Be You)?
 

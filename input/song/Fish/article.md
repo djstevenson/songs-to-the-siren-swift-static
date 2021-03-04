@@ -4,10 +4,10 @@ If you’ve been in the same room as me when my phone has gone off, and I’ve f
 
 ### An aside
  
- Going back to my opening point about what track you’d play first to someone who doesn’t know your favourite band: I had a conversation with my (then) boss at work when I booked time off to follow a mini-tour of the UK by Throwing Muses. He didn’t know the band, so fired up Spotify, listened to 30 seconds of the "most popular" track and said "It’s a bit 90s, isn’t it?" and hit stop.
+ Going back to my opening point about what track you’d play first to someone who doesn’t know your favourite band: I had a conversation with my (then) boss at work when I booked time off to follow a mini-tour of the UK by Throwing Muses. He didn’t know the band, so fired up Spotify, listened to 30 seconds of the “most popular” track and said “It’s a bit 90s, isn’t it?” and hit stop.
  
  I relate this anecdote cos the track recommended by Spotify was ^link(not-too-soon), a massively untypical track by a different singer and writer than the main body of work. I quite like the song, but as any aficionado of any band will tell you, don’t start with the most popular song. A Radiohead nut isn’t going to kick you off with Creep, and a New Order fan won’t start you on Blue Monday.
  
  Oh, and Not Too Soon was released in 1990. So sound 1990s isn’t the insult he was looking for :)
  
- If anyone reading this listens to Fish and likes it, and wants to hear more - just ^link(ask-me) or search for the ^link(chains-changed-ep).
+ If anyone reading this listens to Fish and likes it, and wants to hear more - just ^link(ask-me) or check out the amazing ^link(chains-changed-ep).

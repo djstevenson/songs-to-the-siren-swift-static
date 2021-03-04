@@ -4,4 +4,4 @@ However, in 2004, the then-current line-up of Cinerama was renamed The Wedding P
 
 Take Fountain carried some great singles along side Interstate 5 - ^link(ringway-to-seatac), and ^link(further-north-than-you). All three were apparently influenced by Gedge’s time living in the north eastern part of the US. (Seatac is Seattle/Tacoma airport, Ringway is now known as Manchester Airport).
 
-The ^link(lp-version) is extended from the 6 minute single. The "mariachi" section at the end initially seemed out of place, but once I got used to it, it seems wrong not to hear it that way!
+The ^link(lp-version) is extended from the 6 minute single. The “mariachi” section at the end initially seemed out of place, but once I got used to it, it seems wrong not to hear it that way!
