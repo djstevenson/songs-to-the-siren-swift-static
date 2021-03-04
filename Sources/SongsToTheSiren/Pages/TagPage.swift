@@ -22,7 +22,7 @@ struct TagPage: Page {
     }
 
     func pageTitle() -> String {
-        "Songs to the Siren - songs tagged '\(tag.rawValue)'"
+        "Songs to the Siren - songs tagged \(tag.rawValue)"
     }
 
     private func generateSongPanels() -> HtmlNode {
