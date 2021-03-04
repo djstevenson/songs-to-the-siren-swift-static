@@ -4,7 +4,7 @@ Records of this era often used stereo in a very simplistic way, and this is the 
 
 The stories covered by the bulletin are:
 
- * A compromise being made in President Johnson's civil rights bull, where he wanted a total end to discrimination in housing, but needed to back off to get it through.
+ * A compromise being made in President Johnson’s civil rights bull, where he wanted a total end to discrimination in housing, but needed to back off to get it through.
  * The death of comedian Lenny Bruce.
  * A planned protest march led by Martin Luther King Jr, which was to be met by the National Guard.
  * Indictment of serial killer Richard Speck.

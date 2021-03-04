@@ -1,8 +1,8 @@
 The story behind the song is of an Edwardian-era homing pigeon (a Belgian blue cock, to be precise), who set long distance records in returning to his Derby home from Rome, while very few other birds made the return.
 
-In the 1980s, Dave Sudbury wrote a song about the story of Charlie Hudson's bird, and the lyrics are quite beautiful.
+In the 1980s, Dave Sudbury wrote a song about the story of Charlie Hudson’s bird, and the lyrics are quite beautiful.
 
-> If you live 'round here  
+> If you live ’round here  
 > The ground seems awful near  
 > Sometimes I need a lift to victory  
 

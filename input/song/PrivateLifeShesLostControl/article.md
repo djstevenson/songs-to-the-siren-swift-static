@@ -1,6 +1,6 @@
 Early punk had a large crossover with reggae music - stemming largely from DJs like ^link(don-letts), whose club nights in Brixton found an audience appreciative of both genres.  
 
-Many punk bands showed reggae influences, ^link(the-ruts) and ^link(slf) would play originals and/or covers from the genre, while PiL's second album Metal Box was heavily influenced by dub. ^link(the-clash) would play plenty of reggae too, and the one time I saw them live they even had Mikey Dredd supporting them on tour.
+Many punk bands showed reggae influences, ^link(the-ruts) and ^link(slf) would play originals and/or covers from the genre, while PiL’s second album Metal Box was heavily influenced by dub. ^link(the-clash) would play plenty of reggae too, and the one time I saw them live they even had Mikey Dredd supporting them on tour.
 
 Chrissie Hynde of The Pretenders was also in on this scene, and their 1980 album Pretenders included her own composition ^link(private-life) in a Jamaican style. Very soon after that album was released, Grace Jones was recording with dub and reggae legends ^link(sly-and-robbue), and included a cover of Private Life on her own LP.  It was a hit and still sounds amazing to me now.
 

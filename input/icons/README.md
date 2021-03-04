@@ -1,6 +1,6 @@
 # LOGOS
 
-Although these are technically subject to other people's copyright,
+Although these are technically subject to other people’s copyright,
 these are all generated from official press materials, and thus there is permission to use them
 on the site.
 

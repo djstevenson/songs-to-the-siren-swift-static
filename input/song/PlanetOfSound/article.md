@@ -1,7 +1,7 @@
  > I met a guy in a rover  
- > He said, “It's one more over  
- > It's just there where you're bound”    
- > This ain't the planet of sound.
+ > He said, “It’s one more over  
+ > It’s just there where you’re bound”    
+ > This ain’t the planet of sound.
 
 But the alien has what we programmers call an “off by one error”, and arrives at Mars instead - they arrive “somewhere renowned for its canals and colours of red”, before meeting the guy in a rover who tells him “it’s one more over”.
 
