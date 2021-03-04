@@ -8,7 +8,7 @@ extension Song {
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Sugarcubes (Sykurmolarnir)",
             title:     "Ammæli (Birthday)",
-            album:     "Life's Too Good",
+            album:     "Life’s Too Good",
             released:  "August 1987 (single, in English). April 1988 (LP, in English)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588794382),

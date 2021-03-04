@@ -8,7 +8,7 @@ extension Song {
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "This Mortal Coil",
             title:     "Song to the Siren",
-            album:     "It'll End In Tears (4AD, October 1984)",
+            album:     "It’ll End In Tears (4AD, October 1984)",
             released:  "September 1983 (EP) / October 1984 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586710374),

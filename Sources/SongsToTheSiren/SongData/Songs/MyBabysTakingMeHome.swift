@@ -6,8 +6,8 @@ extension Song {
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Sparks",
-            title:     "My Baby's Taking Me Home",
-            album:     "Lil' Beethoven",
+            title:     "My Baby’s Taking Me Home",
+            album:     "Lil’ Beethoven",
             released:  "14th October 2002",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592520501),
@@ -17,14 +17,14 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    embedText: "My Baby's Taking Me Home (Live)",
-                    listText:  "My Baby's Taking Me Home (live) - Sparks",
+                    embedText: "My Baby’s Taking Me Home (Live)",
+                    listText:  "My Baby’s Taking Me Home (live) - Sparks",
                     linkType:  .youtubeVideo(code: "QrHa5-R6J7I", offset: 22)
                 ),
                 SongLink(
                     id:        "official",
                     embedText: "studio recording",
-                    listText:  "My Baby's Taking Me Home (LP version) - Sparks",
+                    listText:  "My Baby’s Taking Me Home (LP version) - Sparks",
                     linkType:  .youtubeLink(code: "OAez4VsSQXs")
                 ),
                 SongLink(
