@@ -12,7 +12,13 @@ struct AtomFeed {
         let xml = XMLDocument(rootElement: root)
         xml.characterEncoding = "utf-8"
 
-        // TODO Add feed fields
+        root.addChild(XMLElement(name: "title", stringValue: "Songs to the Siren"))
+        root.addChild(XMLElement(name: "link", stringValue: "https://songstothesiren.com/"))
+        root.addChild(XMLElement(name: "updated", stringValue: siteUpdatedAt()))
+        let author = XMLElement(name: "author")
+        author.addChild(XMLElement(name: "name", stringValue: "David Stevenson"))
+        root.addChild(author)
+        root.addChild(XMLElement(name: "id", stringValue: "urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976"))
 
 
         for song in songList.songs {
@@ -21,7 +27,7 @@ struct AtomFeed {
             let link = XMLElement(name: "link")
             link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/songs/\(song.dir)") as! XMLNode)
             let id = XMLElement(name: "id", stringValue: songId(song))
-            let updated = XMLElement(name: "updated", stringValue: updatedAt(song))
+            let updated = XMLElement(name: "updated", stringValue: songUpdatedAt(song))
             let summary = XMLElement(name: "summary", stringValue: summaryHtml(song))
 
             entry.addChild(title)
@@ -43,13 +49,21 @@ struct AtomFeed {
         return "\(song.dir)-\(song.id)"
     }
 
-    func updatedAt(_ song: Song) -> String {
+    func songUpdatedAt(_ song: Song) -> String {
+        formatDate(song.updatedAt)
+    }
+
+    func siteUpdatedAt() -> String {
+        formatDate(Date())
+    }
+
+    func formatDate(_ date: Date) -> String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_GB_POSIX")
         formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZZZZZ"
         formatter.timeZone = TimeZone(identifier: "Europe/London")
 
-        return formatter.string(from: song.createdAt)
+        return formatter.string(from: date)
     }
 
     func summaryHtml(_ song: Song) -> String {

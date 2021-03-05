@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Songs to the Siren</title>
+    <link>https://songstothesiren.com/</link>
+    <updated>2021-03-05T02:13:09Z</updated>
+    <author>
+        <name>David Stevenson</name>
+    </author>
+    <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
     <entry>
         <title>Buy Nothing Day</title>
         <link href="https://songstothesiren.com/songs/BuyNothingDay"></link>
