@@ -7,7 +7,7 @@ extension Song {
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Grace Jones",
-            title:     "Private Life / She's Lost Control",
+            title:     "Private Life / She’s Lost Control",
             album:     "Warm Leatherette (1980)",
             released:  "? 1980 (Single), 9th May 1980 (LP)",
             maxRez:    4,
@@ -24,7 +24,7 @@ extension Song {
                 SongLink(
                     id:        "shes-lost-control",
                     embedText: "She’s Lost Control",
-                    listText:  "She's Lost Control - Grace Jones",
+                    listText:  "She’s Lost Control - Grace Jones",
                     linkType:  .youtubeVideo(code: "N64I_7HibVE")
                 ),
                 SongLink(
@@ -35,8 +35,8 @@ extension Song {
                 ),
                 SongLink(
                     id:        "joy-division-shes-lost-control",
-                    embedText: "She's Lost Control",
-                    listText:  "She's Lost Control - Joy Division",
+                    embedText: "She’s Lost Control",
+                    listText:  "She’s Lost Control - Joy Division",
                     linkType:  .youtubeLink(code: "UBAO9WcdrOM")
                 ),
                 SongLink(

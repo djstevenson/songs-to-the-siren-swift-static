@@ -1,1 +1,1 @@
-I'm definitely not an aficionado of classical music, so it's probably inevitable that my tastes in contemporary classical are at the more populist end of the scale, but this is a beautiful, emotional, piece. You probably wouldn't file it under "easy listening", though.
+I’m definitely not an aficionado of classical music, so it’s probably inevitable that my tastes in contemporary classical are at the more populist end of the scale, but this is a beautiful, emotional, piece. You probably wouldn’t file it under “easy listening”, though.

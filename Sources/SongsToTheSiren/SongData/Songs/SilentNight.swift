@@ -7,7 +7,7 @@ extension Song {
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Simon and Garfunkel",
-            title:     "7 O'Clock News/Silent Night",
+            title:     "7 O’Clock News/Silent Night",
             album:     "Parsley, Sage, Rosemary and Thyme (1966)",
             released:  "10th October 1966",
             maxRez:    4,
@@ -18,7 +18,7 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText: "7 O'clock News / Silent Night - Simon and Garfunkel",
+                    listText: "7 O’clock News / Silent Night - Simon and Garfunkel",
                     linkType: .youtubeVideo(code: "JkJlmYwMgRM")
                 )
             ])

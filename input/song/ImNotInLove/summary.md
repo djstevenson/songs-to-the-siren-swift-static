@@ -1,1 +1,1 @@
-This song was released only a few months before Queen's Bohemian Rhapsody, and although it doesn't have the complexity of songwriting of the latter, I'd suggest that it is an even more astounding leap forward in the state of the art of sound production.
+This song was released only a few months before Queen’s Bohemian Rhapsody, and although it doesn’t have the complexity of songwriting of the latter, I’d suggest that it is an even more astounding leap forward in the state of the art of sound production.

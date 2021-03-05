@@ -14,13 +14,17 @@ extension Page {
     }
 
     func parseMarkdownFile(_ name: String) -> HtmlNode {
-        let file = filename() + "/" + name + ".md"
-        let md = fileUtils.readFile(dirs: dirPath(), file: file)
+        let md = loadFile(name)
 
         let down = Down(markdownString: md)
 
         let document = try! down.toDocument()
         return document.accept(HtmlVisitor())
+    }
+
+    func loadFile(_ name: String) -> String {
+        let file = filename() + "/" + name + ".md"
+        return fileUtils.readFile(dirs: dirPath(), file: file)
     }
 }
 

@@ -27,7 +27,8 @@ extension Page {
                     .title(title),
                     .meta(viewport: .width(.deviceWidth), .initialScale(1)),
                     .link(attributes: [.rel(.stylesheet), .href("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css")]),
-                    .link(attributes: [.rel(.stylesheet), .href("/songs-to-the-siren.css")])
+                    .link(attributes: [.rel(.stylesheet), .href("/songs-to-the-siren.css")]),
+                    .link(attributes: [.rel(.alternate),  .type(.application(.init(rawValue: "atom+xml"))), .href("/atom.xml"), .title("Songs to the Siren Atom feed")])
                 ),
                 .body(
                     .div(attributes: [.class("container")],
@@ -50,7 +51,8 @@ extension Page {
             .div(attributes: [.class("row page-header")],
                  .div(attributes: [.class("col-12")],
                     .h1(homeLink()),
-                    aboutLink()
+                    aboutLink(),
+                    atomLink()
                 )
             )
         )
@@ -64,6 +66,25 @@ extension Page {
         .a(attributes: [.href("/about.html")], .text("About this blog..."))
     }
 
+    private func atomLink() -> HtmlNode {
+        .div(attributes: [.class("atom")],
+            .a(attributes: [.href("/atom.xml")],
+                .img(src:"/icons/atom-1x.png", alt:"Atom feed", attributes: [
+                    .class("rounded float-left mr-3 mb-1"),
+                    .height(24),
+                    .width(24),
+                    .srcset([
+                        "/icons/atom-4x.png": .x(4),
+                        "/icons/atom-3x.png": .x(3),
+                        "/icons/atom-2x.png": .x(2),
+                        "/icons/atom-1x.png": .x(1)
+                    ])
+                ]),
+                .text("Atom Feed")
+            )
+        )
+    }
+    
     func fullPanelSong(_ song: Song) -> HtmlNode {
         .section(attributes: [.class("song row rounded")],
             panelHeader(song),

@@ -7,7 +7,7 @@ extension Song {
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Utah Saints",
-            title:     "Something Good '08",
+            title:     "Something Good ’08",
             album:     "Utah Saints",
             released:  "1992 (single), 1993 (LP), 2008 (remix)",
             maxRez:    4,
@@ -18,7 +18,7 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText:  "Something Good '08 - Utah Saints (remix)",
+                    listText:  "Something Good ’08 - Utah Saints (remix)",
                     linkType:  .youtubeVideo(code: "m97WlpsuU74")
                 ),
                 SongLink(

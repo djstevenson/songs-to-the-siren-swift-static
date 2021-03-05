@@ -14,6 +14,6 @@ struct AboutPage: Page {
     }
 
     func pageTitle() -> String {
-        "About 'Songs to the Siren'"
+        "About “Songs to the Siren”"
     }
 }

@@ -59,7 +59,8 @@ struct SongsToTheSiren: ParsableCommand {
         // CSS
         processSCSS("songs-to-the-siren")
 
-        // RSS page
+        // Atom page
+        AtomFeed(fileUtils: fileUtils, songList: songList).publish()
 
     }
 

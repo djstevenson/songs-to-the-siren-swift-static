@@ -6,7 +6,7 @@ extension Song {
             id:        26,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
-            artist:    "Sinéad O'Connor",
+            artist:    "Sinéad O’Connor",
             title:     "Throw Down Your Arms",
             album:     "Throw Down Your Arms (2005)",
             released:  "28th September 2005",
@@ -18,7 +18,7 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText:  "Throw Down Your Arms - Sinéad O'Connor",
+                    listText:  "Throw Down Your Arms - Sinéad O’Connor",
                     linkType:  .youtubeVideo(code: "btmqe27GfL8")
                 ),
                 SongLink(
@@ -30,13 +30,13 @@ extension Song {
                 SongLink(
                     id:        "mandinka",
                     embedText: "Mandinka",
-                    listText:  "Mandinka - Sinéad O'Connor",
+                    listText:  "Mandinka - Sinéad O’Connor",
                     linkType:  .youtubeLink(code: "h08pCvyKfbs")
                 ),
                 SongLink(
                     id:        "nothing-compares-2-u",
                     embedText: "Nothing Compares 2 U",
-                    listText:  "Nothing Compares 2 U - Sinéad O'Connor",
+                    listText:  "Nothing Compares 2 U - Sinéad O’Connor",
                     linkType:  .youtubeLink(code: "0-EF60neguk")
                 ),
                 SongLink(

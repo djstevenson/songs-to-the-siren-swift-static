@@ -22,7 +22,7 @@ struct CountryPage: Page {
     }
 
     func pageTitle() -> String {
-        "Songs to the Siren - artists from '\(country.rawValue)'"
+        "Songs to the Siren - artists from \(country.rawValue)"
     }
 
     private func generateSongPanels() -> HtmlNode {

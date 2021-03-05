@@ -1,1 +1,1 @@
-Slade were stylistically lumped in with the UK 'glam' movement, but they were streets ahead of some of the producer-led fodder like The Sweet. These two singles came out as their peak popularity was waning, but this is a pair of fine tracks from the surprisingly good Slade in Flame film.
+Slade were stylistically lumped in with the UK ’glam’ movement, but they were streets ahead of some of the producer-led fodder like The Sweet. These two singles came out as their peak popularity was waning, but this is a pair of fine tracks from the surprisingly good Slade in Flame film.

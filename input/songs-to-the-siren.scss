@@ -175,13 +175,17 @@ div.youtube {
     }
 }
 
-.page-header h1 a {
-    color: $col-ContentHeader;
-    font-style: oblique;
-    font-weight: bold;
+.page-header {
+    padding-bottom: 0.5rem;
 
-    &:hover {
-        color: $col-ContentHeaderLighter;
+    h1 a {
+        color: $col-ContentHeader;
+        font-style: oblique;
+        font-weight: bold;
+
+        &:hover {
+            color: $col-ContentHeaderLighter;
+        }
     }
 }
 
@@ -214,4 +218,8 @@ ul.link-list {
 
 .link-description {
     padding-left: 0.5rem;
+}
+
+.atom {
+    float: right;
 }

@@ -36,13 +36,13 @@ extension Song {
                 SongLink(
                     id:        "state-ednaswap",
                     embedText: "the original",
-                    listText:  "The State I'm In - Ednaswap",
+                    listText:  "The State I’m In - Ednaswap",
                     linkType:  .youtubeLink(code: "q8399VJ-fU8")
                 ),
                 SongLink(
                     id:        "state-sinead",
-                    embedText: "Sinéad O'Connor's cover",
-                    listText:  "The State I'm In - Sinéad O'Connor",
+                    embedText: "Sinéad O’Connor’s cover",
+                    listText:  "The State I’m In - Sinéad O’Connor",
                     linkType:  .youtubeLink(code: "WxhySI2tI8A")
                 )
             ])

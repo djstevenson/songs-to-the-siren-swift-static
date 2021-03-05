@@ -29,15 +29,15 @@ extension Song {
                 ),
                 SongLink(
                     id:        "we-dont-give-a-damn-about-our-friends",
-                    embedText: "We Don't Give a Damn About Our Friends",
-                    listText:  "We Don't Give a Damn About Our Friends - Girls On Top aka Richard X",
+                    embedText: "We Don’t Give a Damn About Our Friends",
+                    listText:  "We Don’t Give a Damn About Our Friends - Girls On Top aka Richard X",
                     linkType:  .youtubeLink(code: "RZO_Uqx7njM")
                 ),
                 // TODO Are Friends Electric link on this site
                 SongLink(
                     id:        "are-friends-electric",
-                    embedText: "Are 'Friends' Electric?",
-                    listText:  "Are 'Friends' Electric? - Tubeway Army",
+                    embedText: "Are ’Friends’ Electric?",
+                    listText:  "Are ’Friends’ Electric? - Tubeway Army",
                     linkType:  .youtubeLink(code: "QzSM3pRtgcM")
                 ),
                 SongLink(

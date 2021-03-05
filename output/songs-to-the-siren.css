@@ -113,12 +113,14 @@ div.youtube {
 .front-page-song-list .date {
   color: #a0a0a0; }
 
-.page-header h1 a {
-  color: #d2b40a;
-  font-style: oblique;
-  font-weight: bold; }
-  .page-header h1 a:hover {
-    color: #c8be1e; }
+.page-header {
+  padding-bottom: 0.5rem; }
+  .page-header h1 a {
+    color: #d2b40a;
+    font-style: oblique;
+    font-weight: bold; }
+    .page-header h1 a:hover {
+      color: #c8be1e; }
 
 ul.link-list {
   list-style: none; }
@@ -142,5 +144,8 @@ ul.link-list {
 
 .link-description {
   padding-left: 0.5rem; }
+
+.atom {
+  float: right; }
 
 /*# sourceMappingURL=songs-to-the-siren.css.map */

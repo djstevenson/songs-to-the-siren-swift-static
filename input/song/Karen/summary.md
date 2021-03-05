@@ -1,1 +1,1 @@
-Chew Lips looked like they could be on their way to stardom at one point, but sadly it wasn't to be. One critically acclaimed album and a few singles are all we have, which is a great loss for all of us.
+Chew Lips looked like they could be on their way to stardom at one point, but sadly it wasn’t to be. One critically acclaimed album and a few singles are all we have, which is a great loss for all of us.

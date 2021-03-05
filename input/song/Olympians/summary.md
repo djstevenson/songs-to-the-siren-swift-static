@@ -1,1 +1,1 @@
-The second in a trio of songs by bands who couldn't resist getting a bit sweary in their names, this is a powerful, uplifting, instrumental that fitted in perfectly when used in the 2012 Olympics Opening Ceremony.
+The second in a trio of songs by bands who couldn’t resist getting a bit sweary in their names, this is a powerful, uplifting, instrumental that fitted in perfectly when used in the 2012 Olympics Opening Ceremony.
