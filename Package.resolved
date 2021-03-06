@@ -30,11 +30,11 @@
       },
       {
         "package": "Html",
-        "repositoryURL": "https://github.com/pointfreeco/swift-html",
+        "repositoryURL": "https://github.com/djstevenson/swift-html",
         "state": {
-          "branch": null,
-          "revision": "3ffc3fc8feb5fde766f5f44fd06ebc030f0721f3",
-          "version": "0.3.1"
+          "branch": "sorted-srcset-attributes",
+          "revision": "1078edc693efe4c39f52951622568f80515c3190",
+          "version": null
         }
       },
       {
