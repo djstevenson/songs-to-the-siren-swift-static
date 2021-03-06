@@ -2,17 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2020-09-29T23:00:02+01:00</updated>
+    <updated>2020-10-08T00:54:46+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
     <entry>
+        <title>Spitfire</title>
+        <link href="https://songstothesiren.com/songs/Spitfire"></link>
+        <id>Spitfire-73</id>
+        <updated>2020-10-08T00:54:46+01:00</updated>
+        <summary>Continuing the theme of sample-based tracks, next up is Spitfire, by Public Service Broadcasting. The song would work absolutely fine as an instrumental, but the samples from the 1942 film “The First of the Few” add so much more.
+</summary>
+    </entry>
+    <entry>
+        <title>Pump Up The Volume</title>
+        <link href="https://songstothesiren.com/songs/PumpUpTheVolume"></link>
+        <id>PumpUpTheVolume-72</id>
+        <updated>2020-10-05T01:36:09+01:00</updated>
+        <summary>Shortly after sample-heavy Hot Doggie by Colourbox appeared on the 4AD Compilation “Lonely Is An Eyesore”, the label released a collaborative single between Colourbox and label-mates AR Kane as a Double A-Side. The result was less of a collaboration than intended. One side was nearly all AR Kane, the other side was nearly all Colourbox. It was the latter side that got the airplay, and that took the song to the top of the UK Charts.
+</summary>
+    </entry>
+    <entry>
+        <title>Hot Doggie</title>
+        <link href="https://songstothesiren.com/songs/HotDoggie"></link>
+        <id>HotDoggie-71</id>
+        <updated>2020-10-03T23:36:10+01:00</updated>
+        <summary>Featured on the 1987 4AD Compilation “Lonely Is An Eyesore”, this track showed the sampling skills of brothers Martyn and Steven Young, recording as Colourbox.  Soon after, under the M|A|R|R|S guise, they would  have a UK number one hit single with a tune based largely on samples from other records - but Hot Doggie samples from TV and film.
+</summary>
+    </entry>
+    <entry>
         <title>Ablaze</title>
         <link href="https://songstothesiren.com/songs/Ablaze"></link>
         <id>Ablaze-70</id>
         <updated>2020-09-29T23:00:02+01:00</updated>
-        <summary>The fourth and final LP from School of Seven Bells was completed without main songwriter Benjamin Curtis, who sadly died young in 2013. But it's a fine record, and the opening track, Ablaze, is a highlight from 2016 - a year of *many* highlights.
+        <summary>The fourth and final LP from School of Seven Bells was completed without main songwriter Benjamin Curtis, who sadly died young in 2013. But it’s a fine record, and the opening track, Ablaze, is a highlight from 2016 - a year of *many* highlights.
 </summary>
     </entry>
     <entry>
@@ -20,9 +44,7 @@
         <link href="https://songstothesiren.com/songs/SweetJaneCJ"></link>
         <id>SweetJaneCJ-69</id>
         <updated>2020-08-15T23:41:10+01:00</updated>
-        <summary>A cover of a slower, quieter, version of The Velvet Underground's Sweet Jane, the song's writer Lou Reed has apparently gone on record as saying that this take, by Canadian "alternative country" band Cowboy Junkies, was his favourite. 
-
-This cover is based on the version from the 1969: The Velvet Underground Live LP.
+        <summary>A cover of a slower, quieter, version of The Velvet Underground’s Sweet Jane, the song’s writer Lou Reed has apparently gone on record as saying that this take, by Canadian “alternative country” band Cowboy Junkies, was his favourite. 
 </summary>
     </entry>
     <entry>
@@ -30,7 +52,7 @@ This cover is based on the version from the 1969: The Velvet Underground Live LP
         <link href="https://songstothesiren.com/songs/SweetJaneLR"></link>
         <id>SweetJaneLR-68</id>
         <updated>2020-08-15T23:07:27+01:00</updated>
-        <summary>This isn't the first version of Sweet Jane, of course. It's not even a *typical* version by Reed solo, or as part of The Velvent Underground. But it _is_ really quite stunning.  What really makes this, though, is the intro penned by Steve Hunter - and Hunter's band, which subsequently went on to back Alice Cooper.
+        <summary>This isn’t the first version of Sweet Jane, of course. It’s not even a *typical* version by Reed solo, or as part of The Velvent Underground. But it _is_ really quite stunning.  What really makes this, though, is the intro penned by Steve Hunter - and Hunter’s band, which subsequently went on to back Alice Cooper.
 </summary>
     </entry>
     <entry>

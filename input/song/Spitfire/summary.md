@@ -1,0 +1,1 @@
+Continuing the theme of sample-based tracks, next up is Spitfire, by Public Service Broadcasting. The song would work absolutely fine as an instrumental, but the samples from the 1942 film “The First of the Few” add so much more.

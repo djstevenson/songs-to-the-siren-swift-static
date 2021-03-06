@@ -1,0 +1,1 @@
+Featured on the 1987 4AD Compilation “Lonely Is An Eyesore”, this track showed the sampling skills of brothers Martyn and Steven Young, recording as Colourbox.  Soon after, under the M|A|R|R|S guise, they would  have a UK number one hit single with a tune based largely on samples from other records - but Hot Doggie samples from TV and film.
