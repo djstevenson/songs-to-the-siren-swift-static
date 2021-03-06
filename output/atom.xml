@@ -2,11 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2020-10-08T00:54:46+01:00</updated>
+    <updated>2020-12-28T01:23:29Z</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
+    <entry>
+        <title>Are ‘Friends’ Electric?</title>
+        <link href="https://songstothesiren.com/songs/AreFriendsElectric"></link>
+        <id>AreFriendsElectric-77</id>
+        <updated>2020-12-28T01:23:29Z</updated>
+        <summary>As the dying embers of punk faded, this new sound seemed like something we’d been waiting for - the next phase for pop/rock. A big leap forwards while still being rooted in the present.
+
+</summary>
+    </entry>
+    <entry>
+        <title>Outside the Trains Don't Run on Time</title>
+        <link href="https://songstothesiren.com/songs/OutsideTheTrainsDontRunOnTime"></link>
+        <id>OutsideTheTrainsDontRunOnTime-76</id>
+        <updated>2020-11-29T00:52:46Z</updated>
+        <summary>If there’s one band whose influence seems to massively outweigh their own commercial success, it’s Gang of Four.  Year-in, year-out, we hear new acts influenced by their funk and dub influenced post-punk rock.  This song encapsulates everything I loved about them. It’s angry. political, energetic, and yet it grooves.
+</summary>
+    </entry>
+    <entry>
+        <title>Me &amp; Magdalena</title>
+        <link href="https://songstothesiren.com/songs/MeAndMagdalena"></link>
+        <id>MeAndMagdalena-75</id>
+        <updated>2020-10-23T01:08:00+01:00</updated>
+        <summary>This is another great track from the year of many gems, 2016.  That year marked the 50th Anniversary of the formation of The Monkees, and a project was put together to make a new record by the three surviving members. This is its highlight track.
+</summary>
+    </entry>
+    <entry>
+        <title>Ride on Time</title>
+        <link href="https://songstothesiren.com/songs/RideOnTime"></link>
+        <id>RideOnTime-74</id>
+        <updated>2020-10-17T01:30:38+01:00</updated>
+        <summary>Another sample-heavy song, this time taking vocals from an *a cappella* mix of Loleatta Holloway’s 1980 single Love Senstation. Along with an Italian House backing track, the result was a pop dance hit, which still sounds great to me, thirty years on.
+</summary>
+    </entry>
     <entry>
         <title>Spitfire</title>
         <link href="https://songstothesiren.com/songs/Spitfire"></link>

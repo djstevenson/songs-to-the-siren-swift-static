@@ -10,6 +10,9 @@ extension SongLink {
                 let t = offset > 0 ? "?t=\(offset)" : ""
                 return URL(string: "https://youtu.be/\(code)\(t)")!
 
+            case let .youtubePlaylist(list):
+                return URL(string: "https://youtube.com/playlist?list=\(list)")!
+
             case let .wikipedia(page):
                 return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
@@ -28,9 +31,7 @@ extension SongLink {
     private var cssClass: String {
         get {
             switch self.linkType {
-            case .youtubeVideo:
-                return "youtube"
-            case .youtubeLink:
+            case .youtubeVideo, .youtubeLink, .youtubePlaylist:
                 return "youtube"
             case .wikipedia:
                 return "wikipedia"

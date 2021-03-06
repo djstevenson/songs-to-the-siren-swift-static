@@ -3,7 +3,7 @@ extension Song {
     static func spitfire() -> Song {
         Song (
             id:        73,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Public Service Broadcasting",
             title:     "Spitfire",
