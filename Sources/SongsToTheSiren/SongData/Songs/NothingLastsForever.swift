@@ -3,7 +3,7 @@ extension Song {
     static func nothingLastsForever() -> Song {
         Song (
             id:        63,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Echo & the Bunnymen",
             title:     "Nothing Lasts Forever",
