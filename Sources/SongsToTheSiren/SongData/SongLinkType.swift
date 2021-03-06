@@ -3,6 +3,7 @@ import Foundation
 enum SongLinkType {
     case youtubeVideo    (code: String, offset: Int = 0)
     case youtubeLink     (code: String, offset: Int = 0)
+    case youtubePlaylist (list: String)
     case wikipedia       (page: String)
     case song            (song: String)
     case tag             (tag:  Song.Tag)
