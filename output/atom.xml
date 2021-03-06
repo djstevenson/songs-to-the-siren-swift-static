@@ -2,17 +2,43 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2020-07-21T01:50:49+01:00</updated>
+    <updated>2020-07-25T23:57:43+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
     <entry>
+        <title>Running From the Thoughts</title>
+        <link href="https://songstothesiren.com/songs/RunningFromTheThoughts"></link>
+        <id>RunningFromTheThoughts-67</id>
+        <updated>2020-07-25T23:57:43+01:00</updated>
+        <summary>The fourth song in my trilogy of Terry Hall-related tracks, here he is providing vocals to the 2007 track Running from the Thoughts on the “Speakers and Tweeters” LP by Dub Pistols.
+</summary>
+    </entry>
+    <entry>
+        <title>Sense</title>
+        <link href="https://songstothesiren.com/songs/Sense"></link>
+        <id>Sense-66</id>
+        <updated>2020-07-23T23:54:01+01:00</updated>
+        <summary>Another one from Terry Hall, and another collaboration. This time it’s with Ian Broudie, who released his version as the title track from The Lightning Seeds April 1992 LP “Sense”.
+
+Hall collaborated with Broudie on a few tracks on that album, and sang BVs on this track.  A few years later, Hall recorded his own version for his solo LP “Home” - produced by Broudie. This take is pretty similar to Broudie’s - with enough difference that I can definitely say that, although I love them both,  I prefer this one.
+</summary>
+    </entry>
+    <entry>
+        <title>Our Lips Are Sealed</title>
+        <link href="https://songstothesiren.com/songs/OurLipsAreSealed"></link>
+        <id>OurLipsAreSealed-65</id>
+        <updated>2020-07-21T02:19:58+01:00</updated>
+        <summary>This song was co-written by Jane Wiedlin, rhythm guitarist of The Go-Go’s, and Terry Hall - who was in the process of breaking up from The Specials - and forming Fun Boy Three.
+</summary>
+    </entry>
+    <entry>
         <title>Gangsters</title>
         <link href="https://songstothesiren.com/songs/Gangsters"></link>
         <id>Gangsters-64</id>
         <updated>2020-07-21T01:50:49+01:00</updated>
-        <summary>Punk was running out of steam by 1979, but as a seventeen-year-old who was into whatever was new, this was just as exciting as punk to me.  As I learned more about it, I soon found out it wasn’t really that new, this was a second wave of ska. But it was certainly still pretty exciting. This is the first of a few tracks on this blog that have a Terry Hall connection.
+        <summary>Punk was running out of steam by 1979, but as a seventeen-year-old who was into whatever was new, this was just as exciting as punk to me.  Of course, this wasn’t really new, it was a second wave of ska. But it was certainly still pretty exciting. This is the first of a few tracks on this blog that have a Terry Hall connection.
 </summary>
     </entry>
     <entry>

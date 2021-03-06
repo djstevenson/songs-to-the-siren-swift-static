@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .runningFromTheThoughts(),
+        .sense(),
+        .ourLipsAreSealed(),
         .gangsters(),
         .nothingLastsForever(),
         .lieDreamOfACasinoSoul(),
