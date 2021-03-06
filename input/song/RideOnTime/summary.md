@@ -1,0 +1,1 @@
+Another sample-heavy song, this time taking vocals from an *a cappella* mix of Loleatta Holloway’s 1980 single Love Senstation. Along with an Italian House backing track, the result was a pop dance hit, which still sounds great to me, thirty years on.

@@ -1,0 +1,1 @@
+If there’s one band whose influence seems to massively outweigh their own commercial success, it’s Gang of Four.  Year-in, year-out, we hear new acts influenced by their funk and dub influenced post-punk rock.  This song encapsulates everything I loved about them. It’s angry. political, energetic, and yet it grooves.
