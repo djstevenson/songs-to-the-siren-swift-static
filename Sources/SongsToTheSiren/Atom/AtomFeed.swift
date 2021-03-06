@@ -20,13 +20,13 @@ struct AtomFeed {
         root.addChild(author)
         root.addChild(XMLElement(name: "id", stringValue: "urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976"))
 
-
         for song in songList.songs {
             let entry = XMLElement(name: "entry")
             let title = XMLElement(name: "title", stringValue: song.title)
             let link = XMLElement(name: "link")
             link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/songs/\(song.dir)") as! XMLNode)
             let id = XMLElement(name: "id", stringValue: songId(song))
+
             let updated = XMLElement(name: "updated", stringValue: songUpdatedAt(song))
             let summary = XMLElement(name: "summary", stringValue: summaryHtml(song))
 
@@ -54,7 +54,16 @@ struct AtomFeed {
     }
 
     func siteUpdatedAt() -> String {
-        formatDate(Date())
+        var updated = Date.distantPast
+
+        for song in songList.songs {
+            let songUpdated = song.updatedAt
+            if updated < songUpdated {
+                updated = songUpdated
+            }
+        }
+
+        return formatDate(updated)
     }
 
     func formatDate(_ date: Date) -> String {
