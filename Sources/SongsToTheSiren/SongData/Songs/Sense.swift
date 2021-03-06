@@ -3,7 +3,7 @@ extension Song {
     static func sense() -> Song {
         Song (
             id:        66,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Terry Hall",
             title:     "Sense",

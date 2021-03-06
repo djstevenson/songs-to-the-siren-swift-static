@@ -3,7 +3,7 @@ extension Song {
     static func runningFromTheThoughts() -> Song {
         Song (
             id:        67,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Dub Pistols feat. Terry Hall",
             title:     "Running From the Thoughts",

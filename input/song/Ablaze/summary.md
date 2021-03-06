@@ -1,0 +1,1 @@
+The fourth and final LP from School of Seven Bells was completed without main songwriter Benjamin Curtis, who sadly died young in 2013. But it's a fine record, and the opening track, Ablaze, is a highlight from 2016 - a year of *many* highlights.

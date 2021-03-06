@@ -13,6 +13,9 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .ablaze(),
+        .sweetJaneCJ(),
+        .sweetJaneLR(),
         .runningFromTheThoughts(),
         .sense(),
         .ourLipsAreSealed(),

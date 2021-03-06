@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2020-07-25T23:57:43+01:00</updated>
+    <updated>2020-09-29T23:00:02+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
+    <entry>
+        <title>Ablaze</title>
+        <link href="https://songstothesiren.com/songs/Ablaze"></link>
+        <id>Ablaze-70</id>
+        <updated>2020-09-29T23:00:02+01:00</updated>
+        <summary>The fourth and final LP from School of Seven Bells was completed without main songwriter Benjamin Curtis, who sadly died young in 2013. But it's a fine record, and the opening track, Ablaze, is a highlight from 2016 - a year of *many* highlights.
+</summary>
+    </entry>
+    <entry>
+        <title>Sweet Jane</title>
+        <link href="https://songstothesiren.com/songs/SweetJaneCJ"></link>
+        <id>SweetJaneCJ-69</id>
+        <updated>2020-08-15T23:41:10+01:00</updated>
+        <summary>A cover of a slower, quieter, version of The Velvet Underground's Sweet Jane, the song's writer Lou Reed has apparently gone on record as saying that this take, by Canadian "alternative country" band Cowboy Junkies, was his favourite. 
+
+This cover is based on the version from the 1969: The Velvet Underground Live LP.
+</summary>
+    </entry>
+    <entry>
+        <title>Sweet Jane</title>
+        <link href="https://songstothesiren.com/songs/SweetJaneLR"></link>
+        <id>SweetJaneLR-68</id>
+        <updated>2020-08-15T23:07:27+01:00</updated>
+        <summary>This isn't the first version of Sweet Jane, of course. It's not even a *typical* version by Reed solo, or as part of The Velvent Underground. But it _is_ really quite stunning.  What really makes this, though, is the intro penned by Steve Hunter - and Hunter's band, which subsequently went on to back Alice Cooper.
+</summary>
+    </entry>
     <entry>
         <title>Running From the Thoughts</title>
         <link href="https://songstothesiren.com/songs/RunningFromTheThoughts"></link>
