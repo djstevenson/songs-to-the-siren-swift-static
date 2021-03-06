@@ -1,0 +1,1 @@
+Punk was running out of steam by 1979, but as a seventeen-year-old who was into whatever was new, this was just as exciting as punk to me.  As I learned more about it, I soon found out it wasn’t really that new, this was a second wave of ska. But it was certainly still pretty exciting. This is the first of a few tracks on this blog that have a Terry Hall connection.

@@ -2,11 +2,37 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2020-07-03T23:06:30+01:00</updated>
+    <updated>2020-07-21T01:50:49+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
+    <entry>
+        <title>Gangsters</title>
+        <link href="https://songstothesiren.com/songs/Gangsters"></link>
+        <id>Gangsters-64</id>
+        <updated>2020-07-21T01:50:49+01:00</updated>
+        <summary>Punk was running out of steam by 1979, but as a seventeen-year-old who was into whatever was new, this was just as exciting as punk to me.  As I learned more about it, I soon found out it wasn’t really that new, this was a second wave of ska. But it was certainly still pretty exciting. This is the first of a few tracks on this blog that have a Terry Hall connection.
+</summary>
+    </entry>
+    <entry>
+        <title>Nothing Lasts Forever</title>
+        <link href="https://songstothesiren.com/songs/NothingLastsForever"></link>
+        <id>NothingLastsForever-63</id>
+        <updated>2020-07-12T04:08:22+01:00</updated>
+        <summary>This is an amazing comeback single.
+
+The band had fallen apart when singer Ian McCulloch left in 1987, and drummer Pete de Freitas died in a motorcycle accident in 1989.  After the Electrafixion project ended up with the three remaining (and, indeed, original) Bunnymen being involved, the band inevitably reverted to the Echo &amp; the Bunnymen name. This was the lead single from the 1997 comeback LP.
+</summary>
+    </entry>
+    <entry>
+        <title>Lie Dream of a Casino Soul</title>
+        <link href="https://songstothesiren.com/songs/LieDreamOfACasinoSoul"></link>
+        <id>LieDreamOfACasinoSoul-62</id>
+        <updated>2020-07-12T02:56:41+01:00</updated>
+        <summary>Possibly one of the more accessible early-ish songs by The Fall, I originally intended to include this in the “two drummers” theme, but it seems that this actually just preceded the two-drummer period of the band’s ever-fluid line-up, but it’s a great song so it’s time to talk about it anyway.
+</summary>
+    </entry>
     <entry>
         <title>Buy Nothing Day</title>
         <link href="https://songstothesiren.com/songs/BuyNothingDay"></link>

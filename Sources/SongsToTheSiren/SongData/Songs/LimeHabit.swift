@@ -3,7 +3,7 @@ extension Song {
     static func limeHabit() -> Song {
         Song (
             id:        60,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Poliça",
             title:     "Lime Habit",

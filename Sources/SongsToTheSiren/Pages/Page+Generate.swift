@@ -99,37 +99,37 @@ extension Page {
     }
 
     func panelHeader(_ song: Song) -> HtmlNode {
-        .header(attributes: [.class("col-12 p-0")],
-            .a(
-                attributes: [songHref(song)],
-                .img(src:"/artwork/\(song.dir)-1x.png", alt:"Record sleeve image", attributes: [
-                    .class("rounded float-left mr-3 mb-1"),
-                    .height(160),
-                    .width(160),
-                    .srcset([
-                        "/artwork/\(song.dir)-4x.jpg": .x(4),
-                        "/artwork/\(song.dir)-3x.jpg": .x(3),
-                        "/artwork/\(song.dir)-2x.jpg": .x(2),
-                        "/artwork/\(song.dir)-1x.jpg": .x(1)
-                    ])
-                ])
-            ),
-            .h2(attributes: [.class("title rounded-top")],
+        let srcsetValue = (1 ... song.maxRez).reversed().map { rez in
+            "/artwork/\(song.dir)-\(rez)x.jpg \(rez)x"
+        }.joined(separator: ", ")
+
+        return
+            .header(attributes: [.class("col-12 p-0")],
                 .a(
                     attributes: [songHref(song)],
-                    .text(song.title)
-                )
-            ),
-            .h3(attributes: [.class("artist")],
-                .text(song.artist)
-            ),
-            .h4(attributes: [.class("release")], .text(song.released)),
-            .h3(attributes: [.class("artist")],
-                .span(attributes:[.class("country")],
-                    .fragment(song.country.map { .a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " ")) } )
+                    .img(src:"/artwork/\(song.dir)-1x.png", alt:"Record sleeve image", attributes: [
+                        .class("rounded float-left mr-3 mb-1"),
+                        .height(160),
+                        .width(160),
+                        .init("srcset", srcsetValue)
+                    ])
+                ),
+                .h2(attributes: [.class("title rounded-top")],
+                    .a(
+                        attributes: [songHref(song)],
+                        .text(song.title)
+                    )
+                ),
+                .h3(attributes: [.class("artist")],
+                    .text(song.artist)
+                ),
+                .h4(attributes: [.class("release")], .text(song.released)),
+                .h3(attributes: [.class("artist")],
+                    .span(attributes:[.class("country")],
+                        .fragment(song.country.map { .a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " ")) } )
+                    )
                 )
             )
-        )
     }
 
     private func panelBody(_ song: Song) -> HtmlNode {

@@ -1,0 +1,1 @@
+Possibly one of the more accessible early-ish songs by The Fall, I originally intended to include this in the “two drummers” theme, but it seems that this actually just preceded the two-drummer period of the band’s ever-fluid line-up, but it’s a great song so it’s time to talk about it anyway.
