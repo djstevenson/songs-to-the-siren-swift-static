@@ -12,7 +12,7 @@ extension Song {
             released:  "1992",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1589150464),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+37),
             tags:      [.decade1970s, .decade1990s, .classical, .longSongs],
             country:   [.poland],
             links:     SongLinks(links: [

@@ -14,7 +14,7 @@ extension Song {
             released:  "10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586993870),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+6),
             tags:      [.electronic, .decade2010s],
             country:   [.scotland, .uk],
             links:     SongLinks(links: [

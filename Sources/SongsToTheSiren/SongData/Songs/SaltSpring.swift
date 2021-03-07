@@ -12,7 +12,7 @@ extension Song {
             released:  "26th August 2016",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590362135),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+46),
             tags:      [.decade2010s, .platinum2016, .electronic, .glitch],
             country:   [.usa],
             links:     SongLinks(links: [

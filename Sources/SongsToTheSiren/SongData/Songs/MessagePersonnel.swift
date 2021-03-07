@@ -11,7 +11,7 @@ extension Song {
             released:  "6th October 1999 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590792809),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+51),
             tags:      [.decade1990s, .electronic],
             country:   [.uk, .scotland],
             links:     SongLinks(links: [

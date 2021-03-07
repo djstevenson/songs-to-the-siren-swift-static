@@ -11,7 +11,7 @@ extension Song {
             released:  "January 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592956924),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+59),
             tags:      [.decade1980s, .fourAD, .ep],
             country:   [.usa],
             links:     SongLinks(links: [

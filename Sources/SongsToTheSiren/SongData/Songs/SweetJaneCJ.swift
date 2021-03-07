@@ -11,7 +11,7 @@ extension Song {
             released:  "15th November 1988",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1597531270),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+69),
             tags:      [.decade1980s, .cover],
             country:   [.canada],
             links:     SongLinks(links: [

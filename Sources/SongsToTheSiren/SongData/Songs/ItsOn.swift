@@ -12,7 +12,7 @@ extension Song {
             released:  "1990 (single) / 26th August 1991 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587756140),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+20),
             tags:      [.decade1990s, .drugs, .hype, .indieDance],
             country:   [.uk],
             links:     SongLinks(links: [

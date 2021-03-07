@@ -12,7 +12,7 @@ extension Song {
             released:  "September 1983 (EP) / October 1984 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586710374),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+1),
             tags:      [.fourAD, .cover, .decade1980s, .lizFraser, .husbandWife],
             country:   [.scotland, .uk],
             links:     SongLinks(links: [
