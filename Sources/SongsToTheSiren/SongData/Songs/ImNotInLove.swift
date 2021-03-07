@@ -12,7 +12,7 @@ extension Song {
             released:  "May 1975 (single), 11th March 1975 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587166692),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.tapeLoops, .bassSolo, .decade1970s],
             country:   [.uk],
             links:     SongLinks(links: [

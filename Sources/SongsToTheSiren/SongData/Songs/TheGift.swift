@@ -12,7 +12,7 @@ extension Song {
             released:  "30th January 1968",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1589506150),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1960s, .longSongs, .spokenWord],
             country:   [.usa, .wales],
             links:     SongLinks(links: [

@@ -21,11 +21,13 @@ struct AtomFeed {
         root.addChild(XMLElement(name: "id", stringValue: "urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976"))
 
         for song in songList.songs {
+            let songUrl = URL(string: "https://songstothesiren.com/song/\(song.dir).html")!.absoluteString
             let entry = XMLElement(name: "entry")
             let title = XMLElement(name: "title", stringValue: song.title)
             let link = XMLElement(name: "link")
-            link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/song/\(song.dir).html") as! XMLNode)
-            let id = XMLElement(name: "id", stringValue: songId(song))
+            link.addAttribute(XMLNode.attribute(withName: "rel", stringValue: "alternate") as! XMLNode)
+            link.addAttribute(XMLNode.attribute(withName: "href", stringValue: songUrl) as! XMLNode)
+            let id = XMLElement(name: "id", stringValue: songUrl)
 
             let updated = XMLElement(name: "updated", stringValue: songUpdatedAt(song))
             let summary = XMLElement(name: "summary", stringValue: summaryHtml(song))
@@ -41,12 +43,6 @@ struct AtomFeed {
 
         let xmlData = xml.xmlData(options: .nodePrettyPrint)
         fileUtils.writeData(dirs: [], file: "atom.xml", data: xmlData)
-    }
-
-    func songId(_ song: Song) -> String {
-        // It’s not a hash, it’s an ID. But it’s good enough
-        // for the Atom feed
-        return "\(song.dir)-\(song.id)"
     }
 
     func songUpdatedAt(_ song: Song) -> String {

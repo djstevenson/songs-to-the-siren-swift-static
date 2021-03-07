@@ -12,7 +12,7 @@ extension Song {
             released:  "27th March 1981 (single), 10th April 1981 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587756148),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1980s, .noBass, .postPunk, .tapeLoops],
             country:   [.uk],
             links:     SongLinks(links: [

@@ -11,7 +11,7 @@ extension Song {
             released:  "19th October 1993 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590792810),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1990s, .electronic],
             country:   [.uk, .scotland],
             links:     SongLinks(links: [

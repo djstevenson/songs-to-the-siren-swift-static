@@ -11,7 +11,7 @@ extension Song {
             released:  "24th January 2011 (single), 31st January 2011 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1593813990),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade2010s, .brighton, .guestVocals, .twoDrummers],
             country:   [.uk, .usa],
             links:     SongLinks(links: [

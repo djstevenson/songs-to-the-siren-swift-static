@@ -11,7 +11,7 @@ extension Song {
             released:  "12th February 2016 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1601416802),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade2010s, .platinum2016, .electronic, .openingTrack, .posthumous],
             country:   [.usa],
             links:     SongLinks(links: [

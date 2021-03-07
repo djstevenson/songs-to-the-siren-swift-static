@@ -11,7 +11,7 @@ extension Song {
             released:  "14th October 2002",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592520501),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade2000s, .reinvention],
             country:   [.usa],
             links:     SongLinks(links: [

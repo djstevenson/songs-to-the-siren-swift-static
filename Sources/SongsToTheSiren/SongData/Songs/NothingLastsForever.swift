@@ -11,7 +11,7 @@ extension Song {
             released:  "20th June 1997 (Single), 14th July 1997 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1594523302),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1990s, .comeback, .liverpool],
             country:   [.uk],
             links:     SongLinks(links: [
