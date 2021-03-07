@@ -12,7 +12,7 @@ extension Song {
             released:  "August 1987 (single, in English). April 1988 (LP, in English)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588794382),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+34),
             tags:      [.decade1980s, .debut, .oneLittleIndian],
             country:   [.iceland],
             links:     SongLinks(links: [

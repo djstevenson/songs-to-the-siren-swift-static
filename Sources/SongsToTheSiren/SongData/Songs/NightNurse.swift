@@ -12,7 +12,7 @@ extension Song {
             released:  "1982",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588113404),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+27),
             tags:      [.decade1980s, .reggae],
             country:   [.jamaica],
             links:     SongLinks(links: [

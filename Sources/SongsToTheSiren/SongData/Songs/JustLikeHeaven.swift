@@ -12,7 +12,7 @@ extension Song {
             released:  "5th October 1987 (single), 25th May 1987 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587246144),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+10),
             tags:      [.decade1980s, .rickBeato],
             country:   [.uk],
             links:     SongLinks(links: [

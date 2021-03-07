@@ -11,7 +11,7 @@ extension Song {
             released:  "12 September 1994 (LP), November 1994 (single)",
             maxRez:    3,
             createdAt: Date(timeIntervalSince1970: 1595544841),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+66),
             tags:      [.decade1990s, .collaboration, .terryHall],
             country:   [.uk],
             links:     SongLinks(links: [

@@ -11,7 +11,7 @@ extension Song {
             released:  "1980 (single), 1981 (Solid Gold LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1606611166),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+76),
             tags:      [.decade1980s, .dub, .funk, .leeds, .postPunk],
             country:   [.uk],
             links:     SongLinks(links: [

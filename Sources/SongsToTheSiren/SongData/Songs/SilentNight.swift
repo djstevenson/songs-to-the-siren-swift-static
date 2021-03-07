@@ -12,7 +12,7 @@ extension Song {
             released:  "10th October 1966",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587319104),
-            updatedAt: Date(timeIntervalSince1970: 1615142851),
+            updatedAt: Date(timeIntervalSince1970: 1615142851+12),
             tags:      [.christmasCarol, .spokenWord, .decade1960s],
             country:   [.usa],
             links:     SongLinks(links: [
