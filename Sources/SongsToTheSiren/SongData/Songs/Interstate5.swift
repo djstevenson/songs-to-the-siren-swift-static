@@ -12,7 +12,7 @@ extension Song {
             released:  "15th November 2004 (single), 14th February 2005 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588207193),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade2000s, .golden2004, .sixMusic],
             country:   [.uk, .usa],
             links:     SongLinks(links: [

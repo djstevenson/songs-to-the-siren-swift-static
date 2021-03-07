@@ -12,7 +12,7 @@ extension Song {
             released:  "? 1980 (Single), 9th May 1980 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588113402),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1980s, .twoForOne, .cover, .dub, .longSongs, .reggae, .slyRobbie],
             country:   [.jamaica],
             links:     SongLinks(links: [

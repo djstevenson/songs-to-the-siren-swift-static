@@ -12,7 +12,7 @@ extension Song {
             released:  "January 1979 (single), 23rd September 1978 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588464066),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1970s, .disco, .postPunk, .skippedBeat, .timeSignatureChange],
             country:   [.usa],
             links:     SongLinks(links: [

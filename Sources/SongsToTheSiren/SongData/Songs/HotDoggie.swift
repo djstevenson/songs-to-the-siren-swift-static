@@ -11,7 +11,7 @@ extension Song {
             released:  "15th June 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1601764570),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1980s, .fourAD, .brothers, .compilationAlbum, .lonelyIsAnEyesore, .sample],
             country:   [.uk],
             links:     SongLinks(links: [

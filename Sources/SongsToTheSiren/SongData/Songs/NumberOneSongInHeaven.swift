@@ -12,7 +12,7 @@ extension Song {
             released:  "23rd March 1979 (single), ? March 1979 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587134743),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.disco, .giorgioMoroder, .brothers, .decade1970s, .longSongs],
             country:   [.usa],
             links:     SongLinks(links: [

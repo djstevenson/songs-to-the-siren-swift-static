@@ -11,7 +11,7 @@ extension Song {
             released:  "12th June 1981 (single), 8th July 1981 (LP)",
             maxRez:    3,
             createdAt: Date(timeIntervalSince1970: 1595294398),
-            updatedAt: Date(timeIntervalSince1970: 1615138761),
+            updatedAt: Date(timeIntervalSince1970: 1615142851),
             tags:      [.decade1980s, .terryHall],
             country:   [.usa],
             links:     SongLinks(links: [
