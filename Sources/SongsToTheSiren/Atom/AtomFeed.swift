@@ -24,7 +24,7 @@ struct AtomFeed {
             let entry = XMLElement(name: "entry")
             let title = XMLElement(name: "title", stringValue: song.title)
             let link = XMLElement(name: "link")
-            link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/songs/\(song.dir)") as! XMLNode)
+            link.addAttribute(XMLNode.attribute(withName: "href", stringValue: "https://songstothesiren.com/song/\(song.dir).html") as! XMLNode)
             let id = XMLElement(name: "id", stringValue: songId(song))
 
             let updated = XMLElement(name: "updated", stringValue: songUpdatedAt(song))
