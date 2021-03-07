@@ -11,7 +11,7 @@ extension Song {
             released:  "13th November 2015 (single), 4th March 2016",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1593301732),
-            updatedAt: Date(timeIntervalSince1970: 1593301732),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .platinum2016, .twoDrummers],
             country:   [.usa],
             links:     SongLinks(links: [

@@ -11,7 +11,7 @@ extension Song {
             released:  "20th May 2016 (single), 27th May 2016 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1603411680),
-            updatedAt: Date(timeIntervalSince1970: 1603411680),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .platinum2016],
             country:   [.usa],
             links:     SongLinks(links: [

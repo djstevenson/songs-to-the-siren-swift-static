@@ -11,7 +11,7 @@ extension Song {
             released:  "25th January 2010 (LP), 28th March 2010 (Single)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592002049),
-            updatedAt: Date(timeIntervalSince1970: 1592002049),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .bristol, .debut, .electronic],
             country:   [.uk],
             links:     SongLinks(links: [

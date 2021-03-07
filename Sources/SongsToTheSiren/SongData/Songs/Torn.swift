@@ -12,7 +12,7 @@ extension Song {
             released:  "27th October 1997 (single), 24th November 1997 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587850051),
-            updatedAt: Date(timeIntervalSince1970: 1587850051),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1990s, .actor, .cover, .openingTrack],
             country:   [.australia],
             links:     SongLinks(links: [

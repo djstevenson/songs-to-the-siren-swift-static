@@ -11,7 +11,7 @@ extension Song {
             released:  "8th April 2016 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1591561917),
-            updatedAt: Date(timeIntervalSince1970: 1591561917),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .platinum2016, .bristol, .guestVocals, .ukulele, .collaboration],
             country:   [.uk, .usa],
             links:     SongLinks(links: [

@@ -4,7 +4,7 @@ A Swift-based static-site generator for the site songstothesiren.com
 
 This is a replacement for a dynamic Perl (Mojolicious) version https://github.com/djstevenson/songs-to-the-siren-swift
 
-The Perl version is the one that's live, as of 6th March 2021, but that will soon change.
+This is the version of the site that is live on https://songstothesiren.com/ as of 7th March 2021.
 
 MIT Licence.
 

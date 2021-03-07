@@ -11,7 +11,7 @@ extension Song {
             released:  "13th September 1999 (LP), 24th April 2000 (Single)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590792808),
-            updatedAt: Date(timeIntervalSince1970: 1590792808),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1990s, .collaboration, .guestVocals, .openingTrack],
             country:   [.uk, .scotland],
             links:     SongLinks(links: [

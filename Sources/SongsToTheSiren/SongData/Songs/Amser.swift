@@ -12,7 +12,7 @@ extension Song {
             released:  "27th October 2014 (Peski Records), 24th July 2015 (Heavenly re-release)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588794388),
-            updatedAt: Date(timeIntervalSince1970: 1588794388),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .cornish, .electronic],
             country:   [.uk, .wales],
             links:     SongLinks(links: [

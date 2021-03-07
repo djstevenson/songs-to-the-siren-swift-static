@@ -11,7 +11,7 @@ extension Song {
             released:  "11th February 2012",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590362139),
-            updatedAt: Date(timeIntervalSince1970: 1590362139),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .collaboration, .electronic],
             country:   [.usa],
             links:     SongLinks(links: [
