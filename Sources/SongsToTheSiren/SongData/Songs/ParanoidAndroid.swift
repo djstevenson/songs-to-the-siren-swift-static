@@ -11,7 +11,7 @@ extension Song {
             released:  "26th May 1997 (single), 21st May 1997 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1591132847),
-            updatedAt: Date(timeIntervalSince1970: 1591132847),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1990s, .complex, .longSongs],
             country:   [.uk],
             links:     SongLinks(links: [

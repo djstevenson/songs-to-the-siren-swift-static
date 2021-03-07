@@ -12,7 +12,7 @@ extension Song {
             released:  "2013?",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587568191),
-            updatedAt: Date(timeIntervalSince1970: 1587568191),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2000s, .twoForOne, .mashup],
             country:   [.australia],
             links:     SongLinks(links: [

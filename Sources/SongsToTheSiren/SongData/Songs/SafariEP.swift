@@ -11,7 +11,7 @@ extension Song {
             released:  "6th April 1992",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1615072975),
-            updatedAt: Date(timeIntervalSince1970: 1615072975),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1990s, .ep, .indie, .supergroup, .fourAD],
             country:   [.usa, .uk],
             links:     SongLinks(links: [

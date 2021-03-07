@@ -12,7 +12,7 @@ extension Song {
             released:  "10th January 1982 (single), 9th November 1981 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588464064),
-            updatedAt: Date(timeIntervalSince1970: 1588464064),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1980s, .addedBeat, .postPunk, .timeSignatureChange, .waltzTime],
             country:   [.uk],
             links:     SongLinks(links: [

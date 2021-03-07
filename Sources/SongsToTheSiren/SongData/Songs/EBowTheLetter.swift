@@ -14,7 +14,7 @@ extension Song {
             released:  "August 1996 (single), 9th September 1996 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1589593547),
-            updatedAt: Date(timeIntervalSince1970: 1589593547),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1990s, .guestVocals, .longSongs],
             country:   [.usa],
             links:     SongLinks(links: [

@@ -12,7 +12,7 @@ extension Song {
             released:  "Single (2008), LP (2007)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590010503),
-            updatedAt: Date(timeIntervalSince1970: 1590010503),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2000s, .fWord, .instrumental],
             country:   [.canada],
             links:     SongLinks(links: [

@@ -12,7 +12,7 @@ extension Song {
             released:  "2nd August 2004 (single), 13th June 2005 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588457285),
-            updatedAt: Date(timeIntervalSince1970: 1588457285),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2000s, .golden2004, .sixMusic, .newRomantic, .northampton],
             country:   [.uk],
             links:     SongLinks(links: [

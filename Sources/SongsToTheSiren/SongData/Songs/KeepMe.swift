@@ -12,7 +12,7 @@ extension Song {
             released:  "24th July 2015",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587933660),
-            updatedAt: Date(timeIntervalSince1970: 1587933660),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2010s, .kids, .openingTrack],
             country:   [.uk],
             links:     SongLinks(links: [

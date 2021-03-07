@@ -11,7 +11,7 @@ extension Song {
             released:  "1981",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1594519001),
-            updatedAt: Date(timeIntervalSince1970: 1594519001),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade1980s, .manchester],
             country:   [.uk],
             links:     SongLinks(links: [

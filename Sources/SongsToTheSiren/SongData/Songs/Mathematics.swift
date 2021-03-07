@@ -12,7 +12,7 @@ extension Song {
             released:  "9th April 2007 (single), 9th July 2007 (LP)",
             maxRez:    3,
             createdAt: Date(timeIntervalSince1970: 1587659039),
-            updatedAt: Date(timeIntervalSince1970: 1587659039),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2000s, .manchester, .waltzTime],
             country:   [.uk],
             links:     SongLinks(links: [

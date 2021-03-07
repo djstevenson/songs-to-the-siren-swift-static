@@ -12,7 +12,7 @@ extension Song {
             released:  "15th August 1995",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586710375),
-            updatedAt: Date(timeIntervalSince1970: 1586710375),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.debut, .decade1990s, .openingTrack],
             country:   [.scotland, .uk, .usa],
             links:     SongLinks(links: [

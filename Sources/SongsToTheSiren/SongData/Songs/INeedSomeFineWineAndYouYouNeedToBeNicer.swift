@@ -14,7 +14,7 @@ extension Song {
             released:  "21st September 2005 (single), 17th October 2005 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587506858),
-            updatedAt: Date(timeIntervalSince1970: 1587506858),
+            updatedAt: Date(timeIntervalSince1970: 1615138761),
             tags:      [.decade2000s, .dogsInVideo],
             country:   [.sweden],
             links:     SongLinks(links: [
