@@ -91,6 +91,7 @@ struct Song {
         case skippedBeat = "Skipped Beat"
         case slyRobbie = "Sly & Robbie"
         case spokenWord = "Spoken Word"
+        case supergroup = "Supergroup"
         case tapeLoops = "Tape Loops"
         case terryHall = "Terry Hall"
         case timeSignatureChange = "Time Signature Change"
