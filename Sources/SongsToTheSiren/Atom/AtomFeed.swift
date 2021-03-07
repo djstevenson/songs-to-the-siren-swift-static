@@ -18,7 +18,7 @@ struct AtomFeed {
         let author = XMLElement(name: "author")
         author.addChild(XMLElement(name: "name", stringValue: "David Stevenson"))
         root.addChild(author)
-        root.addChild(XMLElement(name: "id", stringValue: "urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976"))
+        root.addChild(XMLElement(name: "id", stringValue: "urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976"))
 
         for song in songList.songs {
             let songUrl = URL(string: "https://songstothesiren.com/song/\(song.dir).html")!.absoluteString
