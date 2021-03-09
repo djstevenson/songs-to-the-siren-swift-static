@@ -3,7 +3,7 @@ extension Song {
     static func outsideTheTrainsDontRunOnTime() -> Song {
         Song (
             id:        76,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Gang of Four",
             title:     "Outside the Trains Don't Run on Time",
