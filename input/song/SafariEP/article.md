@@ -6,4 +6,4 @@ Pod was produced by Steve Albini, whose style suited the raw, basic, nature of t
 
 The Safari EP, released between Pod and Last Splash marks the transition - not least because it still features Tanya Donelly, while introducing Kelley Deal. It’s also a transition sonically, with the title track sounding more like Pod, while ^link(do-you-love-me-now) points the way forwards to Last Splash.
 
-Those two tracks also happen to be two of my favourite Breeders tracks, so, failing to decide which to use, I decided to include the whole EP. The record also includes ^link(dont-call-home) and a cover of The Who's ^link(so-sad-about-us).
+Those two tracks also happen to be two of my favourite Breeders tracks, so, failing to decide which to use, I decided to include the whole EP. The record also includes ^link(dont-call-home) and a cover of The Who’s ^link(so-sad-about-us).
