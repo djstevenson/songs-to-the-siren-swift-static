@@ -139,9 +139,13 @@ extension Page {
         let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
         let md = songPage.loadMarkdown()
 
+        guard let summary = md["summary"] else {
+            fatalError("Bad 'summary' markdown for \(song.title)")
+        }
+
         return .div(
             attributes: [.class("description col-12")],
-            md["summary"]!,
+            summary,
             .p(attributes: [.class("more")],
                .a(attributes: [.href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
                    .text("Read more...")

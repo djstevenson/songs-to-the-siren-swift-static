@@ -46,17 +46,20 @@ struct SongPage: Page {
     }
 
     private func songArticle(markdown: [String : HtmlNode]) -> HtmlNode {
-        guard let md = markdown["summary"] else {
-            fatalError("Bad summary for song \(song.title)")
+        guard let summary = markdown["summary"] else {
+            fatalError("Bad summary markdown for song \(song.title)")
         }
         guard let defaultLink = song.links.find(id: "default") else {
             fatalError("No 'default' link for song \(song.title)")
         }
+        guard let article = markdown["article"] else {
+            fatalError("Bad article markdown for song \(song.title)")
+        }
 
         return .div(attributes: [.class("description col-12")],
-            md,
+            summary,
             defaultLink.renderEmbedded(),
-            resolveShortcuts(markdown["article"]!)
+            resolveShortcuts(article)
         )
     }
 

@@ -10,7 +10,10 @@ struct AboutPage: Page {
     func validate() -> Void {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        markdown["about"]!
+        guard let content = markdown["about"] else {
+            fatalError("Bad 'about' markdown")
+        }
+        return content
     }
 
     func pageTitle() -> String {
