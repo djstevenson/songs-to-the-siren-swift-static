@@ -28,6 +28,7 @@ struct Song {
         case decade1990s = "1990s"
         case decade2000s = "2000s"
         case decade2010s = "2010s"
+        case decade2020s = "2020s"
         case disco = "Disco"
         case dogsInVideo = "Dogs In Video"
         case drugs = "Drugs"
@@ -102,6 +103,7 @@ struct Song {
         case twoTone = "2 Tone"
         case ukulele = "Ukulele"
         case waltzTime = "Waltz Time"
+        case year2020 = "2020"
     }
 
     enum Country: String {

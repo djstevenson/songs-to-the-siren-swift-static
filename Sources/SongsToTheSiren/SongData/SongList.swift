@@ -13,6 +13,8 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .timeIsHardcore(),
+        .idoru(),
         .happinessIsAWarmGun(),
         .safariEP(),
         .areFriendsElectric(),
