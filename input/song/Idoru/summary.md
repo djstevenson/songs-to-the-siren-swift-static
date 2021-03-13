@@ -1,0 +1,1 @@
+There aren’t many new tracks on this blog because the premise is that it’s about songs I’ve lived with long enough to know I’ll always love them. But I want to introduce a few from 2020, starting with Idoru, the final track from Miss Anthropocene, the 2020 LP by Grimes.
