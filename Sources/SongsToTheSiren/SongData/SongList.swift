@@ -5,11 +5,11 @@ struct SongList {
     }
 
     struct TagMap {
-        let songsByTag: Dictionary<Song.Tag, [Song]>
+        let songsByTag: [Song.Tag: [Song]]
     }
 
     struct CountryMap {
-        let songsByCountry: Dictionary<Song.Country, [Song]>
+        let songsByCountry: [Song.Country: [Song]]
     }
 
     let songs: [Song] = [
@@ -92,13 +92,13 @@ struct SongList {
         .lostInThePlot(),
         .intoU(),
         .supervixen(),
-        .songToTheSiren()
+        .songToTheSiren(),
     ]
 
-    func makeSongMap() -> Dictionary<String, SongMap> {
-        var songMap = Dictionary<String, SongMap>()
+    func makeSongMap() -> [String: SongMap] {
+        var songMap = [String: SongMap]()
 
-        var lastSong: Song? = nil
+        var lastSong: Song?
         for song in songs {
             songMap[song.dir] = SongMap()
             if let last = lastSong {
@@ -112,7 +112,7 @@ struct SongList {
     }
 
     func makeTagMap() -> TagMap {
-        var taggedSongs = Dictionary<Song.Tag, [Song]>()
+        var taggedSongs = [Song.Tag: [Song]]()
 
         for song in songs {
             for tag in song.tags {
@@ -127,7 +127,7 @@ struct SongList {
     }
 
     func makeCountryMap() -> CountryMap {
-        var countrySongs = Dictionary<Song.Country, [Song]>()
+        var countrySongs = [Song.Country: [Song]]()
 
         for song in songs {
             for country in song.country {

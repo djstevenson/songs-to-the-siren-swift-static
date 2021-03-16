@@ -5,9 +5,11 @@ struct SongLinks {
     private var linksDictionary: [String: SongLink]
 
     public var count : Int {
-        get {
-            return linksArray.count
-        }
+        return linksArray.count
+    }
+
+    public var isEmpty : Bool {
+        return linksArray.isEmpty
     }
 
     public init(links: [SongLink]) {
@@ -27,7 +29,7 @@ struct SongLinks {
         return try linksArray.map(transform)
     }
 
-    public func forEach(_ run: (SongLink) -> Void) -> Void {
+    public func forEach(_ run: (SongLink) -> Void) {
         return linksArray.forEach(run)
     }
 }

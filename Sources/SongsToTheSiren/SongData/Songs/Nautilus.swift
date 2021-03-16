@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func nautilus() -> Song {
-        Song (
+        Song(
             id:        39,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -33,7 +33,7 @@ extension Song {
                     embedText: "video for Paramour",
                     listText:  "Paramour - Anna Meredith",
                     linkType:  .youtubeLink(code: "yjmZLaymJU8")
-                )
+                ),
             ])
         )
     }

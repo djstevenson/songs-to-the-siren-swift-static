@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func outsideTheTrainsDontRunOnTime() -> Song {
-        Song (
+        Song(
             id:        76,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -36,7 +36,9 @@ extension Song {
                     id:        "death",
                     embedText: "death",
                     listText:  "Guitarist Andy Gill’s obituary in the NME",
-                    linkType:  .other(url: URL(string: "https://www.nme.com/blogs/andy-gill-obituary-1956-2020-gang-of-four-2604037")!)
+                    linkType:  .other(
+                        url: URL(string: "https://www.nme.com/blogs/andy-gill-obituary-1956-2020-gang-of-four-2604037")!
+                    )
                 ),
                 SongLink(
                     id:        "poverty",
@@ -61,7 +63,7 @@ extension Song {
                     embedText: "Solid Gold",
                     listText:  "Solid Gold - second LP (Wikipedia)",
                     linkType:  .wikipedia(page: "Solid_Gold_(album)")
-                )
+                ),
             ])
         )
     }

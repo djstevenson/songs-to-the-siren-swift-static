@@ -10,14 +10,14 @@ struct TagPage: Page {
     func dirPath() -> [String] { ["tag"] }
     func filename() -> String { "\(tag)" }
 
-    func validate() -> Void {}
+    func validate() {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([
             .div(
                 attributes: [.class("full-panel-songs")],
                 generateSongPanels()
-            )
+            ),
         ])
     }
 

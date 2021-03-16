@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func rideOnTime() -> Song {
-        Song (
+        Song(
             id:        74,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     embedText: "Love Sensation",
                     listText:  "Love Sensation - Loleatta Holloway",
                     linkType:  .youtubeLink(code: "BKmw9UrX99s")
-                )
+                ),
             ])
         )
     }

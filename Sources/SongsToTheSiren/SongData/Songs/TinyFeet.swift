@@ -56,7 +56,7 @@ extension Song {
                     embedText: "Tossed Away",
                     listText:  "Tossed Away - The Heart Throbs (YouTube audio)",
                     linkType:  .youtubeLink(code: "76_T4nRdLqc")
-                )
+                ),
             ])
         )
 

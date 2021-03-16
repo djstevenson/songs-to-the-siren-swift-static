@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func olympians() -> Song {
-        Song (
+        Song(
             id:        44,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -35,7 +35,7 @@ extension Song {
                     id:        "lovely-allen",
                     listText:  "Lovely Allen - Holy Fuck",
                     linkType:  .song(song: "LovelyAllen")
-                )
+                ),
             ])
         )
     }

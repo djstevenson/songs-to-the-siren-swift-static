@@ -38,7 +38,7 @@ extension Song {
                     embedText: "bass solo cover",
                     listText:  "I’m Not In Love (middle 8) - A cover that emphasises the bass part",
                     linkType:  .youtubeLink(code: "wiRgdCNi5GA", offset: 135)
-                )
+                ),
             ])
         )
     }

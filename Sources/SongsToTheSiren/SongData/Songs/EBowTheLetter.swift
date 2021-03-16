@@ -1,10 +1,8 @@
 import Foundation
-
-import Foundation
 extension Song {
 
     static func eBowTheLetter() -> Song {
-        Song (
+        Song(
             id:        42,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,8 +42,8 @@ extension Song {
                 SongLink(
                     id:        "twitter",
                     embedText: "Twitter",
-                    linkType:  .other(url: URL(string: "https://twitter.com/")!)  // TODO Use ExpressibleByStringLiteral?
-                )
+                    linkType:  .other(url: URL(string: "https://twitter.com/")!)
+                ),
             ])
         )
     }

@@ -6,12 +6,12 @@ import Html
 
 protocol Page {
     var fileUtils:     FileUtils { get }
-    var markdownNames: [String]  { get }
+    var markdownNames: [String] { get }
 
     func dirPath() -> [String]
     func filename() -> String
-    func generate() -> Void
-    func validate() -> Void
+    func generate()
+    func validate()
     func loadMarkdown() -> [String: HtmlNode]
 
     // Page supplies this to generate page-specific HtmlNode

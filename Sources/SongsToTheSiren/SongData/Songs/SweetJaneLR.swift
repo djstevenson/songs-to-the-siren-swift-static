@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func sweetJaneLR() -> Song {
-        Song (
+        Song(
             id:        68,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -32,7 +32,7 @@ extension Song {
                     embedText: "Cowboy Junkies",
                     listText:  "Sweet Jane - Cowboy Junkies",
                     linkType:  .song(song: "SweetJaneCJ")
-                )
+                ),
             ])
         )
     }

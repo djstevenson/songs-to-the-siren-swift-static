@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func pumpUpTheVolume() -> Song {
-        Song (
+        Song(
             id:        72,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -56,7 +56,7 @@ extension Song {
                     embedText: "Hot Doggie",
                     listText:  "Hot Doggie - Colourbox",
                     linkType:  .song(song: "HotDoggie")
-                )
+                ),
             ])
         )
     }

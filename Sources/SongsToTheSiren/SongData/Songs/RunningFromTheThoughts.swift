@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func runningFromTheThoughts() -> Song {
-        Song (
+        Song(
             id:        67,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -38,7 +38,7 @@ extension Song {
                     embedText: "Speed of Light",
                     listText:  "Speed of Light - Dub Pistols",
                     linkType:  .youtubeLink(code: "14WdwzpC_Ys")
-                )
+                ),
             ])
         )
     }

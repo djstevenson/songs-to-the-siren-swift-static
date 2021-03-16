@@ -9,7 +9,7 @@ struct HomePage: Page {
     func dirPath() -> [String] { [] }
     func filename() -> String { "index" }
 
-    func validate() -> Void {}
+    func validate() {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .fragment ([
@@ -27,7 +27,7 @@ struct HomePage: Page {
                 attributes: [.class("front-page-song-list")],
                 generateListings()
 
-            )
+            ),
         ])
     }
 
@@ -43,7 +43,6 @@ struct HomePage: Page {
         )
     }
 
-
     private func generateListings() -> HtmlNode {
         .fragment([
             .h3(.text("Previously...")),
@@ -53,7 +52,7 @@ struct HomePage: Page {
                         .filter { $0.style == .listing }
                         .compactMap { listingSong($0) }
                 )
-            )
+            ),
         ])
     }
 

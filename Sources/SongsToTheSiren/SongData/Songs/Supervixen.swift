@@ -26,7 +26,7 @@ extension Song {
                     embedText: "an Angelfish side-project",
                     listText:  "Suffocate Me - Angelfish",
                     linkType:  .youtubeLink(code: "cO-YCm4GXw8")
-                )
+                ),
             ])
         )
 

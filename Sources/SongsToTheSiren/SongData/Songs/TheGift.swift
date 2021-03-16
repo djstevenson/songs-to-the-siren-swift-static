@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func theGift() -> Song {
-        Song (
+        Song(
             id:        40,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -21,7 +21,7 @@ extension Song {
                     embedText: "The Gift",
                     listText:  "The Gift - The Velvet Underground",
                     linkType:  .youtubeVideo(code: "mI-YiaWDgB4")
-                )
+                ),
             ])
         )
     }

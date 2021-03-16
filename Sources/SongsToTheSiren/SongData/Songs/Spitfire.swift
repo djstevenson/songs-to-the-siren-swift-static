@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func spitfire() -> Song {
-        Song (
+        Song(
             id:        73,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,7 +44,7 @@ extension Song {
                     embedText: "R J Mitchell",
                     listText:  "R J Mitchell - designer of the Hurricane",
                     linkType:  .wikipedia(page: "R._J._Mitchell")
-                )
+                ),
             ])
         )
     }

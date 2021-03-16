@@ -20,7 +20,7 @@ extension Song {
                     id:        "default",
                     listText: "7 O’clock News / Silent Night - Simon and Garfunkel",
                     linkType: .youtubeVideo(code: "JkJlmYwMgRM")
-                )
+                ),
             ])
         )
 

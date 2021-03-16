@@ -32,7 +32,7 @@ extension Song {
                     embedText: "seguéd",
                     listText:  "The Number One Song In Heaven (part 1) / Never Turn Your Back on Mother Earth (live) - Sparks",
                     linkType:  .youtubeLink(code: "sm4CkJYdQv0")
-                )
+                ),
             ])
         )
 

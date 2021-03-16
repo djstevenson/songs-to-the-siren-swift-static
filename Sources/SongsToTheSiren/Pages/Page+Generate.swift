@@ -3,7 +3,7 @@ import Html
 
 extension Page {
 
-    func generate() -> Void {
+    func generate() {
         validate()
         let markdownContents = loadMarkdown()
         let htmlPage = embed(markdown: markdownContents)
@@ -26,17 +26,32 @@ extension Page {
                     .meta(attributes: [.charset(.utf8)]),
                     .title(title),
                     .meta(viewport: .width(.deviceWidth), .initialScale(1)),
-                    .link(attributes: [.rel(.stylesheet), .href("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css")]),
-                    .link(attributes: [.rel(.stylesheet), .href("/songs-to-the-siren.css")]),
-                    .link(attributes: [.rel(.alternate),  .type(.application(.init(rawValue: "atom+xml"))), .href("/atom.xml"), .title("Songs to the Siren Atom feed")])
+                    .link(attributes: [
+                        .rel(.stylesheet),
+                        .href("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"),
+                    ]),
+                    .link(attributes: [
+                        .rel(.stylesheet),
+                        .href("/songs-to-the-siren.css"),
+                    ]),
+                    .link(attributes: [
+                        .rel(.alternate),
+                        .type(.application(.init(rawValue: "atom+xml"))),
+                        .href("/atom.xml"),
+                        .title("Songs to the Siren Atom feed"),
+                    ])
                 ),
                 .body(
                     .div(attributes: [.class("container")],
                         contentHeader(),
                         pageContent(markdown: markdown)
                     ),
-                    .script(attributes: [.src("https://code.jquery.com/jquery-3.5.1.slim.min.js")]),
-                    .script(attributes: [.src("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js")])
+                    .script(attributes: [
+                        .src("https://code.jquery.com/jquery-3.5.1.slim.min.js"),
+                    ]),
+                    .script(attributes: [
+                        .src("https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"),
+                    ])
                 )
             )
         )
@@ -77,14 +92,14 @@ extension Page {
                         "/icons/atom-4x.png": .x(4),
                         "/icons/atom-3x.png": .x(3),
                         "/icons/atom-2x.png": .x(2),
-                        "/icons/atom-1x.png": .x(1)
-                    ])
+                        "/icons/atom-1x.png": .x(1),
+                    ]),
                 ]),
                 .text("Atom Feed")
             )
         )
     }
-    
+
     func fullPanelSong(_ song: Song) -> HtmlNode {
         .section(attributes: [.class("song row rounded")],
             panelHeader(song),
@@ -111,7 +126,7 @@ extension Page {
                         .class("rounded float-left mr-3 mb-1"),
                         .height(160),
                         .width(160),
-                        .init("srcset", srcsetValue)
+                        .init("srcset", srcsetValue),
                     ])
                 ),
                 .h2(attributes: [.class("title rounded-top")],
@@ -126,7 +141,7 @@ extension Page {
                 .h4(attributes: [.class("release")], .text(song.released)),
                 .h3(attributes: [.class("artist")],
                     .span(attributes:[.class("country")],
-                        .fragment(song.country.map { .a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " ")) } )
+                        .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
                     )
                 )
             )
@@ -134,7 +149,7 @@ extension Page {
 
     private func panelBody(_ song: Song) -> HtmlNode {
         // TODO this is hacky
-        let dummy = Dictionary<String, SongList.SongMap>()
+        let dummy = [String: SongList.SongMap]()
         // TODO Make the songMap an optional arg?
         let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
         let md = songPage.loadMarkdown()

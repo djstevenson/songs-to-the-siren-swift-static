@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func heartOfGlass() -> Song {
-        Song (
+        Song(
             id:        32,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -48,7 +48,7 @@ extension Song {
                     embedText: "video 2",
                     listText:  "David Bennett analyses songs that skip a beat (2)",
                     linkType:  .youtubeLink(code: "I_Q7obp9AHs")
-                )
+                ),
             ])
         )
     }

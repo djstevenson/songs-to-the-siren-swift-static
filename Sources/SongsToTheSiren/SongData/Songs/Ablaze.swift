@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func ablaze() -> Song {
-        Song (
+        Song(
             id:        70,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -43,7 +43,7 @@ extension Song {
                     id:        "nowhere-again",
                     listText:  "Nowhere Again - Secret Machines",
                     linkType:  .youtubeLink(code: "e1rvmJOSnKE")
-                )
+                ),
             ])
         )
     }

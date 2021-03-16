@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func hotDoggie() -> Song {
-        Song (
+        Song(
             id:        71,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -50,7 +50,7 @@ extension Song {
                     embedText: "later",
                     listText:  "Pump Up The Volume - M|A|R|R|S",
                     linkType:  .song(song: "PumpUpTheVolume")
-                )
+                ),
             ])
         )
     }

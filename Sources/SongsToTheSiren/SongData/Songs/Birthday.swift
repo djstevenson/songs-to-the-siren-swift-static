@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func birthday() -> Song {
-        Song (
+        Song(
             id:        34,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -49,7 +49,7 @@ extension Song {
                     id:        "blue-eyed-pop-live",
                     listText:  "Blue Eyed Pop - Sugarcubes (a cracking 1992 live version)",
                     linkType:  .youtubeLink(code: "qvEqFOXrBOQ", offset: 7)
-                )
+                ),
             ])
         )
     }

@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func sense() -> Song {
-        Song (
+        Song(
             id:        66,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -37,7 +37,7 @@ extension Song {
                     id:        "sense-lightning-seeds",
                     listText:  "Sense - The Lightning Seeds",
                     linkType:  .youtubeLink(code: "https://youtu.be/OxliCqxKI6U")
-                )
+                ),
             ])
         )
     }

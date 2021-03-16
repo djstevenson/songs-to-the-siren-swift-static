@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func flowersOfRomance() -> Song {
-        Song (
+        Song(
             id:        21,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -26,7 +26,7 @@ extension Song {
                     embedText: "on the album",
                     listText:  "Flowers Of Romance (LP version) - Public Image Ltd",
                     linkType:  .youtubeLink(code: "95iY0iNEmQs")
-                )
+                ),
             ])
         )
     }

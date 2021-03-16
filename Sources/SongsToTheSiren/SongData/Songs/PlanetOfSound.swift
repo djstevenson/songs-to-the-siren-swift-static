@@ -20,8 +20,7 @@ extension Song {
                     id:        "default",
                     listText:  "Planet of Sound - Pixies",
                     linkType:  .youtubeVideo(code: "tzdxBYk5Bjk")
-                )
-
+                ),
             ])
         )
 

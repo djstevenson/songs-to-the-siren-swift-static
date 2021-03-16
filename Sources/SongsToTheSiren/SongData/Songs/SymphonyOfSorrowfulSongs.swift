@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func symphonyOfSorrowfulSongs() -> Song {
-        Song (
+        Song(
             id:        37,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -52,7 +52,7 @@ extension Song {
                     id:        "wiki",
                     listText:  "About Górecki’s Symphony of Sorrowful Songs (Wikipedia)",
                     linkType:  .wikipedia(page: "Symphony_No._3_%28G%C3%B3recki%29")
-                )
+                ),
             ])
         )
     }
