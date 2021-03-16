@@ -4,42 +4,38 @@ import Html
 extension SongLink {
 
     private var url: URL {
-        get {
-            switch self.linkType {
-            case let .youtubeVideo(code, offset), let .youtubeLink(code, offset):
-                let t = offset > 0 ? "?t=\(offset)" : ""
-                return URL(string: "https://youtu.be/\(code)\(t)")!
+        switch self.linkType {
+        case let .youtubeVideo(code, offset), let .youtubeLink(code, offset):
+            let time = offset > 0 ? "?t=\(offset)" : ""
+            return URL(string: "https://youtu.be/\(code)\(time)")!
 
-            case let .youtubePlaylist(list):
-                return URL(string: "https://youtube.com/playlist?list=\(list)")!
+        case let .youtubePlaylist(list):
+            return URL(string: "https://youtube.com/playlist?list=\(list)")!
 
-            case let .wikipedia(page):
-                return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
+        case let .wikipedia(page):
+            return URL(string: "https://en.wikipedia.org/wiki/\(page)")!
 
-            case let .song(song):
-                return URL(string: "/song/\(song).html")!
+        case let .song(song):
+            return URL(string: "/song/\(song).html")!
 
-            case let .tag(tag):
-                return URL(string: "/tag/\(tag).html")!
+        case let .tag(tag):
+            return URL(string: "/tag/\(tag).html")!
 
-            case let .other(url):
-                return url
-            }
+        case let .other(url):
+            return url
         }
     }
 
     private var cssClass: String {
-        get {
-            switch self.linkType {
-            case .youtubeVideo, .youtubeLink, .youtubePlaylist:
-                return "youtube"
-            case .wikipedia:
-                return "wikipedia"
-            case .song, .tag:
-                return "songstothesiren"
-            case .other:
-                return "other"
-            }
+        switch self.linkType {
+        case .youtubeVideo, .youtubeLink, .youtubePlaylist:
+            return "youtube"
+        case .wikipedia:
+            return "wikipedia"
+        case .song, .tag:
+            return "songstothesiren"
+        case .other:
+            return "other"
         }
     }
 
@@ -59,9 +55,17 @@ extension SongLink {
     func renderEmbedded() -> HtmlNode {
         switch self.linkType {
         case let .youtubeVideo(code, offset):
-            let t = offset > 0 ? "?start=\(offset)" : ""
-            let url = URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(t)")!
-            return .raw("<div class=\"embed-container\"><iframe src=\"\(url.absoluteString)\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe></div>")
+            let time = offset > 0 ? "?start=\(offset)" : ""
+            let url = URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(time)")!
+            return .raw("""
+                <div class=\"embed-container\">
+                    <iframe src=\"\(url.absoluteString)\" frameborder=\"0\"
+                        allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                """
+            )
         default:
             guard let embedText = self.embedText else {
                 return .fragment([])
@@ -79,9 +83,8 @@ extension SongLink {
                 "/icons/\(icon)-4x.png": .x(4),
                 "/icons/\(icon)-3x.png": .x(3),
                 "/icons/\(icon)-2x.png": .x(2),
-                "/icons/\(icon)-1x.png": .x(1)
-            ])
+                "/icons/\(icon)-1x.png": .x(1),
+            ]),
         ])
     }
 }
-

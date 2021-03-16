@@ -1,6 +1,4 @@
 import Foundation
-
-import Foundation
 extension Song {
 
     static func iNeedSomeFineWineAndYouYouNeedToBeNicer() -> Song {
@@ -27,7 +25,7 @@ extension Song {
                     id:        "hell-is-round-the-corner",
                     listText:  "Mini-documentary about the recording of this song",
                     linkType: .youtubeLink(code: "O-3-46RD2W8")
-                )
+                ),
             ])
         )
 

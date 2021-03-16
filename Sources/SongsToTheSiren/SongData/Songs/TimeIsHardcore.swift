@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func timeIsHardcore() -> Song {
-        Song (
+        Song(
             id:        81,
             style:     .fullPanel,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     embedText: "Idoru",
                     listText:  "Idoru (2020) - Grimes",
                     linkType:  .song(song: "Idoru")
-                )
+                ),
             ])
         )
     }

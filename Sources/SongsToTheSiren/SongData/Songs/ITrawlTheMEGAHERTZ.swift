@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func iTrawlTheMEGAHERTZ() -> Song {
-        Song (
+        Song(
             id:        41,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -18,14 +18,14 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText:  "I Trawl the MEGAHERTZ - Paddy McAloon (remastered, released as Prefab Sprout)",
+                    listText:  "I Trawl the MEGAHERTZ - Paddy McAloon (remastered, as Prefab Sprout)",
                     linkType:  .youtubeVideo(code: "J-P7yVqJ9Wk")
                 ),
                 SongLink(
                     id:        "newsnight",
                     listText:  "Newsnight McAloon interview at the re-release of I Trawl The MEGAHERTZ",
                     linkType:  .youtubeLink(code: "cjSK6bGY2WE")
-                )
+                ),
             ])
         )
     }

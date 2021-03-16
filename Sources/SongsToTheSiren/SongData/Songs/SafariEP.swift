@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func safariEP() -> Song {
-        Song (
+        Song(
             id:        78,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -49,7 +49,7 @@ extension Song {
                     embedText: "So Sad About Us",
                     listText:  "So Sad About Us  - The Breeders (Safari EP)",
                     linkType:  .youtubeLink(code: "LgEag5DgoYU")
-                )
+                ),
             ])
         )
     }

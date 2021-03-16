@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func mathematics() -> Song {
-        Song (
+        Song(
             id:        18,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -26,7 +26,7 @@ extension Song {
                     embedText: "describes",
                     listText:  "Mathematics - Cherry Ghost (wikipedia)",
                     linkType:  .wikipedia(page: "Mathematics_(Cherry_Ghost_song)")
-                )
+                ),
             ])
         )
     }

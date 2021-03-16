@@ -75,7 +75,7 @@ extension Song {
                     embedText: "4AD",
                     listText:  "4AD (wikipedia)",
                     linkType:  .wikipedia(page: "4AD")
-                )
+                ),
             ])
         )
 

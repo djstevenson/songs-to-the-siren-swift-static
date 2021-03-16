@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func karen() -> Song {
-        Song (
+        Song(
             id:        57,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -24,7 +24,8 @@ extension Song {
                     id:        "interview",
                     embedText: "interview",
                     listText:  "Interview with Tigs",
-                    linkType:  .other(url: URL(string: "https://thequietus.com/articles/10715-chew-lips-tigs-huertas-interview-cervical-cancer")!)
+                    linkType:  .other(url:
+                        URL(string: "https://thequietus.com/articles/10715-chew-lips-tigs-huertas-interview-cervical-cancer")!)
                 ),
                 SongLink(
                     id:        "netsky",
@@ -40,7 +41,7 @@ extension Song {
                     id:        "acoustic",
                     listText:  "Karen (acoustic) - Chew Lips",
                     linkType:  .youtubeLink(code: "EfClzEj_hwQ")
-                )
+                ),
             ])
         )
     }

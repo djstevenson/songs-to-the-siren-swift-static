@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func thruTheGlass() -> Song {
-        Song (
+        Song(
             id:        28,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -21,7 +21,7 @@ extension Song {
                     embedText: "Thru The Glass - Thirteen Senses",
                     listText:  "Thru The Glass - Thirteen Senses",
                     linkType:  .youtubeVideo(code: "KazJKjBvyRI")
-                )
+                ),
             ])
         )
     }

@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func areFriendsElectric() -> Song {
-        Song (
+        Song(
             id:        77,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     embedText: "2013 re-recording",
                     listText:  "Are ‘Friends’ Electric? (2013 re-recording) - Gary Numan",
                     linkType:  .youtubeLink(code: "22Z4Tv1zn-s", offset: 37)
-                )
+                ),
             ])
         )
     }

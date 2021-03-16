@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func privateLifeShesLostControl() -> Song {
-        Song (
+        Song(
             id:        25,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -73,7 +73,7 @@ extension Song {
                     embedText: "Sly & Robbie",
                     listText:  "Sly & Robbie (Wikipedia)",
                     linkType:  .wikipedia(page: "Sly_and_Robbie")
-                )
+                ),
             ])
         )
     }

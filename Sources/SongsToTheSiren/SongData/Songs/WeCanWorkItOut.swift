@@ -20,7 +20,7 @@ extension Song {
                     id:        "default",
                     listText:  "We Can Work It Out - The Beatles",
                     linkType:  .youtubeVideo(code: "Qyclqo_AV2M")
-                )
+                ),
             ])
         )
 

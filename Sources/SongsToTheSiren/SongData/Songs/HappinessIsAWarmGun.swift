@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func happinessIsAWarmGun() -> Song {
-        Song (
+        Song(
             id:        79,
             style:     .fullPanel,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     embedText: "The Breeders",
                     listText:  "Happiness Is A Warm Gun - The Breeders",
                     linkType:  .youtubeLink(code: "-eBaNfp8s2A")
-                )
+                ),
             ])
         )
     }

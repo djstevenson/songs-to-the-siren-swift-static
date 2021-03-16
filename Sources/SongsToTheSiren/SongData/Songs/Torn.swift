@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func torn() -> Song {
-        Song (
+        Song(
             id:        22,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,7 +44,7 @@ extension Song {
                     embedText: "Sinéad O’Connor’s cover",
                     listText:  "The State I’m In - Sinéad O’Connor",
                     linkType:  .youtubeLink(code: "WxhySI2tI8A")
-                )
+                ),
             ])
         )
     }

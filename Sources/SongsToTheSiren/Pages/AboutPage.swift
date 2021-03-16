@@ -7,7 +7,7 @@ struct AboutPage: Page {
     func dirPath() -> [String] { [] }
     func filename() -> String { "about" }
 
-    func validate() -> Void {}
+    func validate() {}
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         guard let content = markdown["about"] else {

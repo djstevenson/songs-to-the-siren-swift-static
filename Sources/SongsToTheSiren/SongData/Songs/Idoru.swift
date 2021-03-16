@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func idoru() -> Song {
-        Song (
+        Song(
             id:        80,
             style:     .fullPanel,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     embedText: "Time Is Hardcore",
                     listText:  "Time Is Hardcore (2020) - High Contrast ft Kae Tempest and Anita Bray",
                     linkType:  .song(song: "Idoru")
-                )
+                ),
             ])
         )
     }

@@ -30,7 +30,7 @@ struct SongsToTheSiren: ParsableCommand {
         AboutPage(fileUtils: fileUtils).generate()
 
         let songList = SongList()
-        
+
         // HOME PAGE
         HomePage(fileUtils: fileUtils, songList: songList).generate()
 
@@ -40,7 +40,6 @@ struct SongsToTheSiren: ParsableCommand {
         for song in songList.songs {
             SongPage(fileUtils: fileUtils, song: song, songMap: songMap).generate()
         }
-
 
         // TAG PAGES
         let tagMap  = songList.makeTagMap()

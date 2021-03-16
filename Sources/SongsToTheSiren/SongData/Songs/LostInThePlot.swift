@@ -20,7 +20,7 @@ extension Song {
                     id:        "default",
                     listText:  "Lost in the Plot - The Dears (Official Video)",
                     linkType:  .youtubeVideo(code: "u0zRxxBKZ1A")
-                )
+                ),
             ])
         )
 

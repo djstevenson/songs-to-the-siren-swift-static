@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func goldenBrown() -> Song {
-        Song (
+        Song(
             id:        31,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -50,7 +50,7 @@ extension Song {
                     embedText: "another video",
                     listText:  "David Bennett analyses Golden Brown",
                     linkType:  .youtubeLink(code: "I_Q7obp9AHs", offset: 526)
-                )
+                ),
             ])
         )
     }

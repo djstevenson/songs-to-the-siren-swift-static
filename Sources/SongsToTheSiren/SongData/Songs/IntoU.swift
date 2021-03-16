@@ -45,7 +45,7 @@ extension Song {
                     embedText: "Freak Like Me",
                     listText:  "Freak Like Me - Adina Howard",
                     linkType:  .youtubeLink(code: "fdyUqqRfUMk")
-                )
+                ),
             ])
         )
 

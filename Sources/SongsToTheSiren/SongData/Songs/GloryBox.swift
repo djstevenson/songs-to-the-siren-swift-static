@@ -38,7 +38,7 @@ extension Song {
                     embedText: "Here / Glory Box medley",
                     listText:  "Here / Glory Box - Jazmin Sawyers",
                     linkType: .youtubeLink(code: "7BQAoOriwqI")
-                )
+                ),
             ])
        )
 

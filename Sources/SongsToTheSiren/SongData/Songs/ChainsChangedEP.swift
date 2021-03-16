@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func chainsChangedEP() -> Song {
-        Song (
+        Song(
             id:        59,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -56,7 +56,7 @@ extension Song {
                     id:        "cry-baby-cry-beatles",
                     listText:  "Cry Baby Cry (Beatles cover) - Throwing Muses",
                     linkType:  .youtubeLink(code: "cZxoEwqmcCk")
-                )
+                ),
             ])
         )
     }

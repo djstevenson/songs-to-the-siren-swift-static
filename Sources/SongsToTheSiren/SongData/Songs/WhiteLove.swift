@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func whiteLove() -> Song {
-        Song (
+        Song(
             id:        52,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,7 +44,7 @@ extension Song {
                     embedText: "guest with",
                     listText:  "Dirge - Death In Vegas",
                     linkType:  .song(song: "Dirge")
-                )
+                ),
             ])
         )
     }

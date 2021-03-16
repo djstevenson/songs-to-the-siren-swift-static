@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func wisheryUpular() -> Song {
-        Song (
+        Song(
             id:        17,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     embedText: "Alice",
                     listText:  "Alice - Pogo (samples from Alice in Wonderland)",
                     linkType:  .youtubeLink(code: "pAwR6w2TgxY")
-                )
+                ),
             ])
         )
     }

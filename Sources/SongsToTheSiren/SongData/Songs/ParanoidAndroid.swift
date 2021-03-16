@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func paranoidAndroid() -> Song {
-        Song (
+        Song(
             id:        54,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     id:        "live",
                     listText:  "Paranoid Android (Live 2003) - Radiohead",
                     linkType:  .youtubeLink(code: "lkDBzqlwePQ", offset: 26)
-                )
+                ),
             ])
         )
     }

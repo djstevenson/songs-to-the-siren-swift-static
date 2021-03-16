@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func itsOn() -> Song {
-        Song (
+        Song(
             id:        20,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     id:        "yt-album",
                     listText:  "It’s On (faster album version) - Flowered Up",
                     linkType:  .youtubeLink(code: "n05kCd6o6Mo")
-                )
+                ),
             ])
         )
     }

@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func laValseAMilleTemps() -> Song {
-        Song (
+        Song(
             id:        35,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     id:        "live",
                     listText:  "La Valse à Mille Temps (TV performance) - Jacques Brel",
                     linkType:  .youtubeLink(code: "Zh8caAB8KkI")
-                )
+                ),
             ])
         )
     }
