@@ -11,8 +11,8 @@ extension Song {
             released:  "January 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592956924),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+59),
-            tags:      [.decade1980s, .fourAD, .ep],
+            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            tags:      [.decade1980s, .fourAD, .ep, .kristinHersh],
             country:   [.usa],
             links:     SongLinks(links: [
                 SongLink(
@@ -23,7 +23,7 @@ extension Song {
                 SongLink(
                     id:        "untitled",
                     listText:  "Throwing Muses (\"untitled\" 1986 début album)",
-                    linkType:  .youtubeLink(code: "https://en.wikipedia.org/wiki/Throwing_Muses_(1986_album)")
+                    linkType:  .wikipedia(page: "Throwing_Muses_(1986_album)")
                 ),
                 SongLink(
                     id:        "fish",

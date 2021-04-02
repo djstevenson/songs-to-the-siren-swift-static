@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-03-13T01:03:08Z</updated>
+    <updated>2021-04-02T01:52:49+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
+    <entry>
+        <title>Bath White EP</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/BathWhiteEP.html"></link>
+        <id>https://songstothesiren.com/song/BathWhiteEP.html</id>
+        <updated>2021-04-02T01:52:49+01:00</updated>
+        <summary>I mentioned before that Throwing Muses is my favourite band, but when I reach for Kristin Hersh's records these days, this EP is usually my first port of call. This is the first in a series of articles covering “side projects”.
+</summary>
+    </entry>
     <entry>
         <title>Time Is Hardcore</title>
         <link rel="alternate" href="https://songstothesiren.com/song/TimeIsHardcore.html"></link>
@@ -35,7 +43,7 @@
         <title>Safari EP</title>
         <link rel="alternate" href="https://songstothesiren.com/song/SafariEP.html"></link>
         <id>https://songstothesiren.com/song/SafariEP.html</id>
-        <updated>2021-03-07T18:48:49Z</updated>
+        <updated>2021-04-02T01:52:49+01:00</updated>
         <summary>The Safari EP marks the transition from the raw Albini-produced early Breeders material, such as their début LP Pod and the more polished (and commercially successful) follow-up The Last Splash.
 </summary>
     </entry>
@@ -192,7 +200,7 @@ The band had fallen apart when singer Ian McCulloch left in 1987, and drummer Pe
         <title>Chains Changed EP</title>
         <link rel="alternate" href="https://songstothesiren.com/song/ChainsChangedEP.html"></link>
         <id>https://songstothesiren.com/song/ChainsChangedEP.html</id>
-        <updated>2021-03-07T18:48:30Z</updated>
+        <updated>2021-04-02T01:52:49+01:00</updated>
         <summary>This EP came out soon after the untitled Throwing Muses début album, and by that time I’m already thinking that they could be, for me, *The Best Band In The World. Ever.*
 
 They retain that status to this day.
@@ -332,7 +340,7 @@ This tune was released after R.E.M.’s popularity peak, but to me it still stan
         <title>I Trawl The MEGAHERTZ</title>
         <link rel="alternate" href="https://songstothesiren.com/song/ITrawlTheMEGAHERTZ.html"></link>
         <id>https://songstothesiren.com/song/ITrawlTheMEGAHERTZ.html</id>
-        <updated>2021-03-07T18:48:12Z</updated>
+        <updated>2021-04-02T01:52:49+01:00</updated>
         <summary>Prefab Sprout were a pretty popular band in the 80s that, to be honest, I didn’t really like that much.  But 20 years later I heard about singer Paddy McAloon’s solo record and it’s a fascinating story, which resulted in an amazing album. In 2019, this album  was re-released under the Prefab Sprout banner.
 
 I Trawl The Megahertz is the second in a pair of “spoken word” records.

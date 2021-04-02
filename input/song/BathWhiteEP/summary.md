@@ -1,0 +1,1 @@
+I mentioned before that Throwing Muses is my favourite band, but when I reach for Kristin Hersh’s records these days, this EP is usually my first port of call. This is the first in a series of articles covering “side projects”.
