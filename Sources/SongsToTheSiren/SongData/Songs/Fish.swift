@@ -1,6 +1,4 @@
 import Foundation
-
-import Foundation
 extension Song {
 
     static func fish() -> Song {
@@ -14,8 +12,8 @@ extension Song {
             released:  "15th June 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587497741),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+15),
-            tags:      [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .ringTone],
+            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            tags:      [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .kristinHersh, .ringTone],
             country:   [.usa],
             links:     SongLinks(links: [
                 SongLink(
@@ -45,9 +43,7 @@ extension Song {
                     id:        "ask-me",
                     embedText: "ask me",
                     linkType: .other(url: URL(string: "https://twitter.com/hoagy_ytfc")!)
-                )
-
-
+                ),
 
                 // TODO Not yet implemented tag pages
                 // TODO These are pre-refactor declarations and need changing
@@ -69,7 +65,7 @@ extension Song {
 //                        list:  "Chains Changed EP - Throwing Muses"
 //                    ),
 //                    song:  "HotDoggie"
-//                )
+//                ),
             ])
         )
 

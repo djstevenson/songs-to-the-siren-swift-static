@@ -1,10 +1,8 @@
 import Foundation
-
-import Foundation
 extension Song {
 
     static func theKingOfRome() -> Song {
-        Song (
+        Song(
             id:        38,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,7 +42,7 @@ extension Song {
                     embedText: "still exists",
                     listText:  "The King of Rome (the actual pigeon)",
                     linkType:  .other(url: URL(string: "http://www.derbyphotos.co.uk/features/kingofrome/")!)
-                )
+                ),
             ])
         )
     }

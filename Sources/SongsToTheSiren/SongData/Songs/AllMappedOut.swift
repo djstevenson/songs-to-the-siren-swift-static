@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func allMappedOut() -> Song {
-        Song (
+        Song(
             id:        30,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -20,7 +20,7 @@ extension Song {
                     id:        "default",
                     listText:  "All Mapped Out - The Departure",
                     linkType:  .youtubeVideo(code: "e2nS4plebWM")
-                )
+                ),
             ])
         )
     }

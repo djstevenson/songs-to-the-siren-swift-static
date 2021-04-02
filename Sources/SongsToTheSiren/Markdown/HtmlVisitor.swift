@@ -48,12 +48,12 @@ struct HtmlVisitor: Visitor {
     }
 
     public func visit(codeBlock node: CodeBlock) -> HtmlNode {
-        //Need to get literal content
+        // Need to get literal content
         nodeWithChildren(node, tag: "code")
     }
 
     public func visit(code node: Code) -> HtmlNode {
-        //Need to get literal content
+        // Need to get literal content
         nodeWithChildren(node, tag: "code")
     }
 

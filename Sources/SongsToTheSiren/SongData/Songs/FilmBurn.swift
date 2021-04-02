@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func filmBurn() -> Song {
-        Song (
+        Song(
             id:        48,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -43,7 +43,7 @@ extension Song {
                     embedText: "Gumball Machine Weekend",
                     listText:  "Gumball Machine Weekend - Yppah",
                     linkType:  .song(song: "GumballMachineWeekend")
-                )
+                ),
             ])
         )
     }

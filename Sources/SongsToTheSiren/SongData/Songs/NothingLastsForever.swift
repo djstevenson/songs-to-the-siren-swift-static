@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func nothingLastsForever() -> Song {
-        Song (
+        Song(
             id:        63,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -37,7 +37,7 @@ extension Song {
                     embedText: "an episode",
                     listText:  "Pointless question about “... and the ...” bands",
                     linkType:  .youtubeLink(code: "zZlfRIw7hl8", offset: 1932)
-                )
+                ),
             ])
         )
     }

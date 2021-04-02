@@ -4,7 +4,7 @@ import Parsing
 struct SongPage: Page {
     let fileUtils: FileUtils
     let song: Song
-    let songMap: Dictionary<String, SongList.SongMap>
+    let songMap: [String: SongList.SongMap]
 
     private enum NavLocation: String {
         case top
@@ -21,7 +21,7 @@ struct SongPage: Page {
     func dirPath() -> [String] { ["song"] }
     func filename() -> String { "\(song.dir)" }
 
-    func validate() -> Void {
+    func validate() {
         song.links.forEach { link in
             if case .song(let songDir) = link.linkType {
                 if songMap[songDir] == nil {
@@ -102,7 +102,7 @@ struct SongPage: Page {
     }
 
     private func makeSongLinks() -> HtmlNode {
-        guard song.links.count > 0 else {
+        guard !song.links.isEmpty else {
             return .fragment([])
         }
 
@@ -110,7 +110,7 @@ struct SongPage: Page {
             .h4("Links"),
             .p(
                 .ul(attributes: [.class("link-list")],
-                    .fragment(song.links.map  { $0.renderInList() })
+                    .fragment(song.links.map { $0.renderInList() })
                 )
             )
         )
@@ -124,7 +124,7 @@ struct SongPage: Page {
     }
 
     private func makeSongTags() -> HtmlNode {
-        guard song.tags.count > 0 else {
+        guard !song.tags.isEmpty else {
             return .fragment([])
         }
 
@@ -135,7 +135,7 @@ struct SongPage: Page {
                     attributes: [
                         .class("btn btn-outline-secondary btn-sm song-tag"),
                         .href("/tag/\(tag).html"),
-                        .role(.button)
+                        .role(.button),
                     ],
                     .text(tag.rawValue)
                 )
@@ -145,7 +145,7 @@ struct SongPage: Page {
                     attributes: [
                         .class("btn btn-outline-secondary btn-sm song-tag"),
                         .href("/country/\(country).html"),
-                        .role(.button)
+                        .role(.button),
                     ],
                     .text(country.rawValue)
                 )
@@ -190,7 +190,7 @@ struct SongPage: Page {
         while let (leader, type, code) = parser.parse(&parseString) {
             guard let replacer = LinkReplacer(rawValue: String(type)) else {
                 print("** Unknown shortcut type \(type)")
-                break;
+                break
             }
 
             result.append(.text(String(leader)))

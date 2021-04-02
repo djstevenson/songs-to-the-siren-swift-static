@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func amser() -> Song {
-        Song (
+        Song(
             id:        36,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -32,7 +32,7 @@ extension Song {
                     embedText: "Y Dydd Olaf",
                     listText:  "Y Dydd Olaf (Welsh LP) - Gwenno",
                     linkType:  .youtubeLink(code: "Y_Dydd_Olaf_(album)")
-                )
+                ),
             ])
         )
     }

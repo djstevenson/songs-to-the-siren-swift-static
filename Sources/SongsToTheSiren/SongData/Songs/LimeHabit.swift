@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func limeHabit() -> Song {
-        Song (
+        Song(
             id:        60,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     embedText: "limelight",
                     listText:  "Limelight",
                     linkType:  .wikipedia(page: "Limelight")
-                )
+                ),
             ])
         )
     }

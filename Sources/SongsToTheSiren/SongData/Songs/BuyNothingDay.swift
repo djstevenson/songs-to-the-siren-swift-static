@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func buyNothingDay() -> Song {
-        Song (
+        Song(
             id:        61,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     embedText: "Best Coast",
                     listText:  "Best Coast",
                     linkType:  .wikipedia(page: "Best_Coast")
-                )
+                ),
             ])
         )
     }

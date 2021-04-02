@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func somethingGood08() -> Song {
-        Song (
+        Song(
             id:        19,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     embedText: "Cloudbusting",
                     listText:  "Cloudbusting - Kate Bush",
                     linkType:  .youtubeLink(code: "pllRW9wETzw")
-                )
+                ),
             ])
         )
     }

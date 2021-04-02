@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func paperThin() -> Song {
-        Song (
+        Song(
             id:        56,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -44,7 +44,7 @@ extension Song {
                     embedText: "Attention Engineer podcast",
                     listText:  "Attention Engineer Podcast",
                     linkType:  .other(url: URL(string: "https://penfriend.rocks/podcast/")!)
-                )
+                ),
             ])
         )
     }

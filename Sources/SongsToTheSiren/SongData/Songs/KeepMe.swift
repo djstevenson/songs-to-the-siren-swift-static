@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func keepMe() -> Song {
-        Song (
+        Song(
             id:        24,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -26,7 +26,7 @@ extension Song {
                     embedText: "daytime TV",
                     listText:  "Interview on BBC Breakfast",
                     linkType:  .youtubeLink(code: "WvQpi9SSlfM")
-                )
+                ),
             ])
         )
     }

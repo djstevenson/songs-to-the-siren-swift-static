@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func farFarAway() -> Song {
-        Song (
+        Song(
             id:        33,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     id:        "how-does-it-feel",
                     listText:  "How Does It Feel? - Slade",
                     linkType:  .youtubeVideo(code: "2WvWyMe6y5c")
-                )
+                ),
             ])
         )
     }

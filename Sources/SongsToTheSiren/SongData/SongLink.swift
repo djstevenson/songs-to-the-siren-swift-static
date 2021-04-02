@@ -6,7 +6,7 @@ import Foundation
 // is positive.
 struct SongLink {
     let id: String
-    var embedText: String? = nil
-    var listText: String? = nil
+    var embedText: String?
+    var listText: String?
     let linkType: SongLinkType
 }

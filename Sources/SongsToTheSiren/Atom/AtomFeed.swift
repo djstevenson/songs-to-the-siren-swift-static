@@ -6,11 +6,12 @@ struct AtomFeed {
     let songList: SongList
 
     func publish() {
+        // swiftlint:disable force_cast
         let atomNS = "http://www.w3.org/2005/Atom"
         let root = XMLElement(name: "feed")
         root.addAttribute(XMLNode.attribute(withName: "xmlns", stringValue: atomNS) as! XMLNode)
-        let xml = XMLDocument(rootElement: root)
-        xml.characterEncoding = "utf-8"
+        let feed = XMLDocument(rootElement: root)
+        feed.characterEncoding = "utf-8"
 
         root.addChild(XMLElement(name: "title", stringValue: "Songs to the Siren"))
         root.addChild(XMLElement(name: "link", stringValue: "https://songstothesiren.com/"))
@@ -41,7 +42,8 @@ struct AtomFeed {
             root.addChild(entry)
         }
 
-        let xmlData = xml.xmlData(options: .nodePrettyPrint)
+        // swiftlint:enable force_cast
+        let xmlData = feed.xmlData(options: .nodePrettyPrint)
         fileUtils.writeData(dirs: [], file: "atom.xml", data: xmlData)
     }
 
@@ -72,7 +74,7 @@ struct AtomFeed {
     }
 
     func summaryHtml(_ song: Song) -> String {
-        let dummy = Dictionary<String, SongList.SongMap>()
+        let dummy = [String: SongList.SongMap]()
         let songPage = SongPage(fileUtils: fileUtils, song: song, songMap: dummy)
         return songPage.loadFile("summary")
     }

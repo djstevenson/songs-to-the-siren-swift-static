@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func saltSpring() -> Song {
-        Song (
+        Song(
             id:        46,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -55,7 +55,7 @@ extension Song {
                     embedText: "Picture Perfect",
                     listText:  "Picture Perfect (live) - Anomie Belle ft Jon Auer",
                     linkType:  .youtubeLink(code: "288X1pGR0fI")
-                )
+                ),
             ])
         )
     }

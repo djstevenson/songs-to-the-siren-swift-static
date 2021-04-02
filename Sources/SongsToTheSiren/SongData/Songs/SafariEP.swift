@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func safariEP() -> Song {
-        Song (
+        Song(
             id:        78,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -11,8 +11,8 @@ extension Song {
             released:  "6th April 1992",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1615072975),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+78),
-            tags:      [.decade1990s, .ep, .indie, .supergroup, .fourAD],
+            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            tags:      [.decade1990s, .ep, .indie, .sideProject, .supergroup, .fourAD],
             country:   [.usa, .uk],
             links:     SongLinks(links: [
                 SongLink(
@@ -49,7 +49,7 @@ extension Song {
                     embedText: "So Sad About Us",
                     listText:  "So Sad About Us  - The Breeders (Safari EP)",
                     linkType:  .youtubeLink(code: "LgEag5DgoYU")
-                )
+                ),
             ])
         )
     }

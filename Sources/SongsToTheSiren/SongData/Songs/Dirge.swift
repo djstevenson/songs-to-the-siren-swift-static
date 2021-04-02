@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func dirge() -> Song {
-        Song (
+        Song(
             id:        50,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -38,7 +38,7 @@ extension Song {
                     embedText: "White Love",
                     listText:  "White Love - One Dove",
                     linkType:  .song(song: "WhiteLove")
-                )
+                ),
             ])
         )
     }

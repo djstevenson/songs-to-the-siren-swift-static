@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func everythingIsTheSame() -> Song {
-        Song (
+        Song(
             id:        23,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     embedText: "Big Deal",
                     listText:  "Swapping Spit - Big Deal (Alice Costelloe)",
                     linkType:  .youtubeLink(code: "V7xBkwIVgk8")
-                )
+                ),
             ])
         )
     }

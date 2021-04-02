@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func gumballMachineWeekend() -> Song {
-        Song (
+        Song(
             id:        47,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -31,7 +31,7 @@ extension Song {
                     id:        "film-burn",
                     listText:  "Film Burn - Yppah (feat. Anomie Belle)",
                     linkType:  .song(song: "FilmBurn")
-                )
+                ),
             ])
         )
     }

@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func interstate5() -> Song {
-        Song (
+        Song(
             id:        29,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -38,7 +38,7 @@ extension Song {
                     embedText: "I’m From Further North Than Your",
                     listText:  "I’m From Further North Than You - The Wedding Present",
                     linkType:  .youtubeLink(code: "ZK_f3jS47qw")
-                )
+                ),
             ])
         )
     }

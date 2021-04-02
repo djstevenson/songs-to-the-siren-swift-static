@@ -50,7 +50,7 @@ extension Song {
                     embedText: "Rick Beato’s analysis of Just Like Heaven in his ’What Makes This Song Great’ series",
                     listText:  "Rick Beato’s analysis of Just Like Heaven in What Makes This Song Great Ep 83",
                     linkType:  .youtubeLink(code: "LPNHwwXh3Ks")
-                )
+                ),
             ])
         )
 

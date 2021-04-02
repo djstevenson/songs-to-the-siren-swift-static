@@ -1,7 +1,7 @@
 import Foundation
 extension Song {
     static func ourLipsAreSealed() -> Song {
-        Song (
+        Song(
             id:        65,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -32,7 +32,7 @@ extension Song {
                     embedText: "Hilary Duff",
                     listText:  "Our Lips Are Sealed - Hilary Duff  (trust me, do not play this)",
                     linkType:  .youtubeLink(code: "mMyenn8rJdo")
-                )
+                ),
             ])
         )
     }

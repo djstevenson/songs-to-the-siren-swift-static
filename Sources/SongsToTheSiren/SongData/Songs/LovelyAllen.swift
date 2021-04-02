@@ -2,7 +2,7 @@ import Foundation
 extension Song {
 
     static func lovelyAllen() -> Song {
-        Song (
+        Song(
             id:        45,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
@@ -25,7 +25,7 @@ extension Song {
                     id:        "live",
                     listText:  "Lovely Allen - Holy Fuck (live)",
                     linkType:  .youtubeLink(code: "pfDwMbtBgfU", offset: 19)
-                )
+                ),
 //                links to other fuck songs
 //                ,
 //                SongLink(
@@ -39,7 +39,7 @@ extension Song {
 //                    embedText: "",
 //                    listText:  "Queen of Hearts - Fucked Up",
 //                    linkType:  .youtubeLink(code: "https://songstothesiren.com/song/43/view")
-//                )
+//                ),
             ])
         )
     }
