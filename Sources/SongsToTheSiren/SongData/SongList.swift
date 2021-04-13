@@ -13,6 +13,7 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .openUp(),
         .bathWhiteEP(),
         .timeIsHardcore(),
         .idoru(),
