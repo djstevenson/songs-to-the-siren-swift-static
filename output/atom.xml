@@ -2,17 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-04-02T01:52:49+01:00</updated>
+    <updated>2021-04-13T22:40:19+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea00976</id>
     <entry>
+        <title>Open Up</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/OpenUp.html"></link>
+        <id>https://songstothesiren.com/song/OpenUp.html</id>
+        <updated>2021-04-13T22:40:19+01:00</updated>
+        <summary>Although it was clearly John Lydon’s time (as Johnny Rotten) in the Sex Pistols that made him famous, his career as Public Image Ltd would ultimately provide a more enduring body of work.  Lydon also had successful collaborations during this time, and it’s 1993’s Open Up, with Leftfield, that I want to look at here.
+
+</summary>
+    </entry>
+    <entry>
         <title>Bath White EP</title>
         <link rel="alternate" href="https://songstothesiren.com/song/BathWhiteEP.html"></link>
         <id>https://songstothesiren.com/song/BathWhiteEP.html</id>
         <updated>2021-04-02T01:52:49+01:00</updated>
-        <summary>I mentioned before that Throwing Muses is my favourite band, but when I reach for Kristin Hersh's records these days, this EP is usually my first port of call. This is the first in a series of articles covering “side projects”.
+        <summary>I mentioned before that Throwing Muses is my favourite band, but when I reach for Kristin Hersh’s records these days, this EP is usually my first port of call. This is the first in a series of articles covering “side projects”.
 </summary>
     </entry>
     <entry>
@@ -35,7 +44,7 @@
         <title>Happiness Is A Warm Gun</title>
         <link rel="alternate" href="https://songstothesiren.com/song/HappinessIsAWarmGun.html"></link>
         <id>https://songstothesiren.com/song/HappinessIsAWarmGun.html</id>
-        <updated>2021-03-09T00:19:32Z</updated>
+        <updated>2021-04-02T01:52:49+01:00</updated>
         <summary>Writing about the Safari EP by The Breeders reminded me that I had long planned to mention this song for a while. It’s by far my favourite song by The Beatles - the connection with The Breeders is that they did an ok cover on their first LP Pod.
 </summary>
     </entry>
@@ -552,7 +561,7 @@ It doesn’t end well for Waldo. “That schmuck.”
         <title>Fish</title>
         <link rel="alternate" href="https://songstothesiren.com/song/Fish.html"></link>
         <id>https://songstothesiren.com/song/Fish.html</id>
-        <updated>2021-03-07T18:47:46Z</updated>
+        <updated>2021-04-02T01:52:49+01:00</updated>
         <summary>This is the point at which I introduce you to my all-time favourite band. Some of their finest stuff isn’t that easily accessible - but this is the song I’d use to introduce a new listener. It’s distinctively different to anything else you’ve heard, yet it’s not weird enough to scare people off.
 </summary>
     </entry>
