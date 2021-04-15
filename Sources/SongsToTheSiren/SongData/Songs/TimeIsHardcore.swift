@@ -3,7 +3,7 @@ extension Song {
     static func timeIsHardcore() -> Song {
         Song(
             id:        81,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "High Contrast ft. Kae Tempest and Anita Blay)",
             title:     "Time Is Hardcore",
