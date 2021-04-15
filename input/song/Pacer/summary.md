@@ -1,0 +1,1 @@
+The Breeders started as a side-project, and the Pacer LP was made as a side-project from that once the Breeders became a full-time thing. Although featuring a different name and line-up, these are still Kim Deal songs sung by Kim Deal, and I consider it to be, in effect, my favourite Breeders record.
