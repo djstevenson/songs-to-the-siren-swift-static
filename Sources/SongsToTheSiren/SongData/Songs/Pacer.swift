@@ -8,10 +8,10 @@ extension Song {
             artist:    "The Amps",
             title:     "Pacer",
             album:     "Pacer",
-            released:  "1st November 1993 (single), 30th January 1995 (LP)",
+            released:  "30th October 1995 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1618528416),
-            updatedAt: Date(timeIntervalSince1970: 1618528416),
+            updatedAt: Date(timeIntervalSince1970: 1618605781),
             tags:      [.decade1990s, .sideProject],
             country:   [.usa],
             links:     SongLinks(links: [
