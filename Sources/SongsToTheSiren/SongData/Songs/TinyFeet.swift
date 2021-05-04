@@ -13,7 +13,7 @@ extension Song {
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586972109),
             updatedAt: Date(timeIntervalSince1970: 1615142851+5),
-            tags:      [.indie, .decade1990s, .openingTrack, .oneLittleIndian],
+            tags:      [.indie, .decade1990s, .openingTrack, .oneLittleIndian, .spouses],
             country:   [.uk],
             links:     SongLinks(links: [
                 SongLink(

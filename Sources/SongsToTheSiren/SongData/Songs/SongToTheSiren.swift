@@ -13,7 +13,7 @@ extension Song {
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586710374),
             updatedAt: Date(timeIntervalSince1970: 1615142851+1),
-            tags:      [.fourAD, .cover, .decade1980s, .lizFraser, .husbandWife],
+            tags:      [.fourAD, .cover, .decade1980s, .lizFraser, .spouses],
             country:   [.scotland, .uk],
             links:     SongLinks(links: [
                 SongLink(

@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-05-03T23:54:42+01:00</updated>
+    <updated>2021-05-05T00:00:40+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976</id>
+    <entry>
+        <title>Wide Awake</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/WideAwake.html"></link>
+        <id>https://songstothesiren.com/song/WideAwake.html</id>
+        <updated>2021-05-05T00:00:40+01:00</updated>
+        <summary>There are relatively few music artists who, when they are interviewed, or they write an article, can be guaranteed to say something smart, interesting, and entertaining.  I'm thinking, right now, of Michael Stipe and Kristin Hersh.
+
+And also Jessica Dobson, the singer/songwriter fronting Deep Sea Diver.
+</summary>
+    </entry>
     <entry>
         <title>Pacer</title>
         <link rel="alternate" href="https://songstothesiren.com/song/Pacer.html"></link>

@@ -3,7 +3,7 @@ extension Song {
     static func bathWhiteEP() -> Song {
         Song(
             id:        82,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "50 Foot Wave",
             title:     "Bath White EP",
