@@ -13,7 +13,7 @@ extension Song {
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586868114),
             updatedAt: Date(timeIntervalSince1970: 1615142851+4),
-            tags:      [.husbandWife, .decade2000s],
+            tags:      [.spouses, .decade2000s],
             country:   [.canada],
             links:     SongLinks(links: [
                 SongLink(
