@@ -64,7 +64,7 @@ struct SongsToTheSiren: ParsableCommand {
     }
 
     func processSCSS(_ file: String) {
-        shell(exec: "/usr/local/bin/scss", args: "input/songs-to-the-siren.scss:output/songs-to-the-siren.css")
+        shell(exec: "/usr/local/bin/sass", args: "input/songs-to-the-siren.scss:output/songs-to-the-siren.css")
     }
 
     @discardableResult

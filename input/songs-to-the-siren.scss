@@ -7,11 +7,6 @@ $col-HeaderSeparator: #222005;
 $col-Link: #72bcbc;
 $col-VisitedLink: #72bcbc;
 $col-HoverLink: #cf6e6e;
-$col-Input: #f1eb9c;
-$col-InputFocus: #ffffff;
-$col-InputBorder: #003300;
-$col-InputBorderFocus: #99ccff;
-$col-Unpublished: #cd5c5c;
 $col-ContentHeader: #d2b40a;
 $col-ContentHeaderLighter: #c8be1e;
 $col-ContentUnderline: #005000;
@@ -34,28 +29,6 @@ a:visited {
 
 a:hover {
     color: $col-HoverLink;
-}
-
-.form-validation-error {
-    font-weight: bold;
-}
-
-textarea, input[type="text"], input[type="password"], input[type="email"] {
-    border-color: $col-InputBorder !important;
-    border-width: 3px !important;
-    background-color: $col-Input !important;
-    &:focus {
-        background-color: $col-InputFocus !important;
-        border-color: $col-InputBorderFocus !important;
-    }
-}
-
-button {
-    margin-right: 1rem;
-}
-
-form {
-    margin-bottom: 2rem;
 }
 
 section.song {

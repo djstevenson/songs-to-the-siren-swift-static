@@ -12,7 +12,7 @@ let package = Package(
         .executable(name: "songs-to-the-siren", targets: ["SongsToTheSiren"])
     ],
     dependencies: [
-        .package(                 url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "0.4.1")),
+        .package(                 url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "0.4.3")),
         .package(name: "Down",    url: "https://github.com/johnxnguyen/Down",            .upToNextMinor(from: "0.10.0")),
         .package(name: "Html",    url: "https://github.com/djstevenson/swift-html",      .branch("sorted-srcset-attributes")),
         .package(                 url: "https://github.com/pointfreeco/swift-parsing",   .upToNextMinor(from: "0.1.2"))
