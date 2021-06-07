@@ -5,7 +5,7 @@ extension Song {
             id:        81,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
-            artist:    "High Contrast ft. Kae Tempest and Anita Blay)",
+            artist:    "High Contrast ft. Kae Tempest and Anita Blay",
             title:     "Time Is Hardcore",
             album:     "Notes From The Underground",
             released:  "12th August 2020 (single), 13th November 2020 (LP)",
