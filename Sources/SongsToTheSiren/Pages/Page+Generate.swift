@@ -156,20 +156,28 @@ extension Page {
         )
     }
 
-    private func panelFooter(_ song: Song) -> HtmlNode {
-        .footer(attributes: [.class("col-12")],
-            .p(attributes: [.class("song-tags")],
-               .fragment(song.tags.map(tagLink))
+    func panelFooter(_ song: Song) -> HtmlNode {
+        .footer(attributes: [.class("mb-8")],
+            .p(attributes: [.class("pl-3 mt-4")],
+               .span(attributes: [.class("mr-2")], "Tags: "),
+               .fragment(song.tags.map(tagLink)),
+               .fragment(song.country.map(countryLink))
             ),
             makeMetadata(song)
         )
     }
 
     private func tagLink(_ tag: Song.Tag) -> HtmlNode {
-        // TODO Highlight current tag (although Perl version doesn't)
         // TODO Tag page needs to make clear it's filtering
-        .a(attributes: [.class("btn btn-outline-secondary btn-sm song-tag"), .href("/tag/\(tag).html"), .role(.button)],
-           .text(tag.rawValue)
+        .a(attributes: [.href("/tag/\(tag).html")],
+           .button(attributes: [.class("button-tag")], .text(tag.rawValue))
+        )
+    }
+
+    private func countryLink(_ country: Song.Country) -> HtmlNode {
+        // TODO Country page needs to make clear it's filtering
+        .a(attributes: [.href("/country/\(country).html")],
+           .button(attributes: [.class("button-tag")], .text(country.rawValue))
         )
     }
 

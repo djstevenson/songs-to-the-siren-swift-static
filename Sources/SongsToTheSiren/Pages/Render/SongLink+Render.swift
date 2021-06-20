@@ -44,10 +44,11 @@ extension SongLink {
             return .fragment([])
         }
 
-        return .li(attributes: [.class(self.cssClass)],
-                   .a(attributes: [.class("link"), .href(url.absoluteString)],
+        return
+            .li(attributes: [.class(self.cssClass)],
+                .a(attributes: [.class("link w-fill flex p-2 pl-3"), .href(url.absoluteString)],
                 renderIcon(icon:self.cssClass),
-                .span(attributes: [.class("link-description")], .text(listText))
+                .span(attributes: [.class("ml-2 truncate")], .text(listText))
             )
         )
     }
@@ -77,6 +78,7 @@ extension SongLink {
 
     func renderIcon(icon: String) -> HtmlNode {
         .img(src:"/icons/\(icon)-1x.png", alt:"\(icon) icon", attributes: [
+            .class("flex-none"),
             .height(32),
             .width(32),
             .srcset([
