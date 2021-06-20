@@ -35,7 +35,7 @@ cd songs-to-the-siren-swift-static
 swift run
 
 # Build the CSS
-npx tailwindcss -o ./css/songs-to-the-siren.css --jit --purge "./**/*.html"  --watch --input=tailwind.css
+npx tailwindcss -o ./output/css/songs-to-the-siren.css --jit --purge "./**/*.html"  --watch --input=tailwind.css
 
 cd output
 ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
