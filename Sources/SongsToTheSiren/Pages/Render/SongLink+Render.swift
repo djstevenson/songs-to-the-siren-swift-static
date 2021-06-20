@@ -45,7 +45,7 @@ extension SongLink {
         }
 
         return .li(attributes: [.class(self.cssClass)],
-            .a(attributes: [.href(url.absoluteString)],
+                   .a(attributes: [.class("link"), .href(url.absoluteString)],
                 renderIcon(icon:self.cssClass),
                 .span(attributes: [.class("link-description")], .text(listText))
             )
@@ -71,7 +71,7 @@ extension SongLink {
                 return .fragment([])
             }
 
-            return .a(attributes: [.href(url.absoluteString)], .text(embedText))
+            return .a(attributes: [.class("link"), .href(url.absoluteString)], .text(embedText))
         }
     }
 

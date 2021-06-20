@@ -114,7 +114,10 @@ struct HtmlVisitor: Visitor {
     // Attrs: image.title, image.url
     public func visit(link node: Link) -> HtmlNode {
         // Need to get link etc.
-        nodeWithChildren(node, tag: "a", attrs: [(key: "href", value: node.url)])
+        nodeWithChildren(node, tag: "a", attrs: [
+            (key: "class", value: "link"),
+            (key: "href", value: node.url)
+        ])
     }
 
     // Cmark: ![foo](/url "title")
