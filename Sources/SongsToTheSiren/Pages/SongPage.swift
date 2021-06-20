@@ -69,9 +69,9 @@ struct SongPage: Page {
 
     private func songNavigation(location: NavLocation) -> HtmlNode {
         .nav(
-            attributes: [.class("col-12 nav-location-\(location.rawValue)")],
             songNavLink(songMap[song.dir]?.newer, direction: .newer),
-            songNavLink(songMap[song.dir]?.older, direction: .older)
+            songNavLink(songMap[song.dir]?.older, direction: .older),
+            .p(attributes: [.class("clear-both")])
         )
     }
 
@@ -84,10 +84,10 @@ struct SongPage: Page {
         let label   : String
         switch direction {
         case .newer:
-            cssClass = "float-md-left float-sm-none"
+            cssClass = "float-left"
             label    = "«"
         case .older:
-            cssClass = "float-md-right float-sm-none"
+            cssClass = "float-right"
             label    = "»"
         }
         return .p(

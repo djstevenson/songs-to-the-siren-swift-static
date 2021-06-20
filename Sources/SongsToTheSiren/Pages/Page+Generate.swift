@@ -33,7 +33,8 @@ extension Page {
                     ])
                 ),
                 .body(
-                    .div(attributes: [.class("container")],
+                    attributes: [.class("bg-grey-bg m-6 text-lg text-body-text")],
+                    .div(attributes: [.class("g:max-w-5xl bg-grey-dark rounded-lg border border-black shadow-3xl pt-6 pb-6 pl-8 pr-8")],
                         contentHeader(),
                         pageContent(markdown: markdown)
                     )
@@ -48,29 +49,28 @@ extension Page {
 
     private func contentHeader() -> HtmlNode {
         .header(
-            .div(attributes: [.class("row page-header")],
-                 .div(attributes: [.class("col-12")],
-                    .h1(homeLink()),
-                    aboutLink(),
-                    atomLink()
-                )
+            .div(
+                homeLink(),
+                aboutLink(),
+                atomLink()
             )
         )
     }
 
     private func homeLink() -> HtmlNode {
-        .a(attributes: [.href("/")], .text("Songs to the Siren"))
+        .h1(attributes: [.class("text-banner text-5xl font-bold italic hover:underline pb-2")],
+            .a(attributes: [.href("/")], .text("Songs to the Siren"))
+        )
     }
 
     private func aboutLink() -> HtmlNode {
-        .a(attributes: [.href("/about.html")], .text("About this blog..."))
+        .a(attributes: [.class("link"), .href("/about.html")], .text("About this blog..."))
     }
 
     private func atomLink() -> HtmlNode {
-        .div(attributes: [.class("atom")],
+        .div(attributes: [.class("float-right")],
             .a(attributes: [.href("/atom.xml")],
                 .img(src:"/icons/atom-1x.png", alt:"Atom feed", attributes: [
-                    .class("rounded float-left mr-3 mb-1"),
                     .height(24),
                     .width(24),
                     .srcset([
@@ -86,14 +86,13 @@ extension Page {
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(attributes: [.class("song row rounded")],
+        .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-4 p-6")],
             panelHeader(song),
             panelBody(song),
             panelFooter(song)
         )
     }
 
-    // TODO Should this be in song class? Probs ok here, actually
     func songHref(_ song: Song) -> Attribute<Tag.A> {
         return .href("/song/\(song.dir).html")
     }
@@ -173,7 +172,7 @@ extension Page {
 
     func makeMetadata(_ song: Song) -> HtmlNode {
         .p(attributes: [.class("metadata")],
-                  .text("Published at \(publishDate(song))")
+            .text("Published at \(publishDate(song))")
         )
     }
 
