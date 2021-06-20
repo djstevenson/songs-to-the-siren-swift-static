@@ -58,7 +58,7 @@ struct HtmlVisitor: Visitor {
     }
 
     public func visit(paragraph node: Paragraph) -> HtmlNode {
-        nodeWithChildren(node, tag: "p")
+        nodeWithChildren(node, tag: "p", attrs: [(key: "class", value: "body-text")])
     }
 
     public func visit(heading node: Heading) -> HtmlNode {
