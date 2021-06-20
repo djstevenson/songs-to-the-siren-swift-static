@@ -103,31 +103,34 @@ extension Page {
         }.joined(separator: ", ")
 
         return
-            .header(attributes: [.class("col-12 p-0")],
-                .a(
-                    attributes: [songHref(song)],
-                    .img(src:"/artwork/\(song.dir)-1x.png", alt:"Record sleeve image", attributes: [
-                        .class("rounded float-left mr-3 mb-1"),
-                        .height(160),
-                        .width(160),
-                        .init("srcset", srcsetValue),
-                    ])
-                ),
-                .h2(attributes: [.class("title rounded-top")],
+            .div(
+                .div(attributes: [.class("mt-6")],
                     .a(
-                        attributes: [songHref(song)],
-                        .text(song.title)
-                    )
+                        attributes: [.class("float-left mr-4"), songHref(song)],
+                        .img(src:"/artwork/\(song.dir)-1x.jpg", alt:"Record sleeve image", attributes: [
+                            .class("rounded"),
+                            .height(160),
+                            .width(160),  // TODO Need to control this via CSS rather than hard-coded attributes
+                            .init("srcset", srcsetValue),
+                        ])
+                    ),
+                    .h2(attributes: [.class("p-2 shadow-3xl bg-grey-darkest border-b-4 border-banner-border text-banner text-4xl font-bold")],
+                        .a(
+                            attributes: [songHref(song)],
+                            .text(song.title)
+                        )
+                    ),
+                    .div(attributes: [.class("flex")],
+                        .h3(attributes: [.class("pt-2 text-2xl font-bold italic")],
+                            .text(song.artist),
+                            .span(attributes:[.class("pl-4 text-xl")],
+                                .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
+                            )
+                        )
+                    ),
+                    .h4(attributes: [.class("pt-2 text-xl italic")], .text(song.released))
                 ),
-                .h3(attributes: [.class("artist")],
-                    .text(song.artist)
-                ),
-                .h4(attributes: [.class("release")], .text(song.released)),
-                .h3(attributes: [.class("artist")],
-                    .span(attributes:[.class("country")],
-                        .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
-                    )
-                )
+                .div(attributes: [.class("clear-both")])
             )
     }
 

@@ -34,7 +34,7 @@ struct SongPage: Page {
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        .section(attributes: [.class("song row")],
+        .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-4 p-6")],
             songNavigation(location: .top),
             panelHeader(song),
             songArticle(markdown: markdown),
@@ -94,7 +94,7 @@ struct SongPage: Page {
             attributes:[.class(cssClass)],
             .text("\(label) "),
             .a(
-                attributes: [.href("/song/\(song.dir).html")],
+                attributes: [.class("link"), .href("/song/\(song.dir).html")],
                 .text(song.title)
             ),
             .text(" \(label)")
