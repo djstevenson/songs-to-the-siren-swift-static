@@ -1,0 +1,17 @@
+{
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:djstevenson/songs-to-the-siren-static.git"
+  },
+  "name": "songs-to-the-siren",
+  "version": "2.1.8",
+  "private": true,
+  "description": "TailwindCSS support",
+  "author": "David Stevenson <david@ytfc.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.1",
+    "autoprefixer": "^10.2.6",
+    "tailwindcss": "^2.2.2"
+  }
+}
