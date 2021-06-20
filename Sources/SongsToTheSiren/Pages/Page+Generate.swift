@@ -182,7 +182,7 @@ extension Page {
     }
 
     func makeMetadata(_ song: Song) -> HtmlNode {
-        .p(attributes: [.class("metadata")],
+        .p(attributes: [.class("float-right text-sm italic")],
             .text("Published at \(publishDate(song))")
         )
     }
