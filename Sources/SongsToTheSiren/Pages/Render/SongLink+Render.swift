@@ -57,14 +57,14 @@ extension SongLink {
         case let .youtubeVideo(code, offset):
             let time = offset > 0 ? "?start=\(offset)" : ""
             let url = URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(time)")!
-            return .raw("""
-                <div class=\"embed-container\">
-                    <iframe src=\"\(url.absoluteString)\" frameborder=\"0\"
-                        allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                """
+            return
+                .div(attributes: [.class("aspect-w-16 aspect-h-9 mt-4 mb-4")],
+                .iframe(attributes: [
+                    .src(url.absoluteString),
+                    .init("frameborder", "0"),
+                    .init("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),
+                    .init("allowfullscreen", ""),
+                ])
             )
         default:
             guard let embedText = self.embedText else {
