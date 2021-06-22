@@ -70,16 +70,10 @@ extension Page {
     private func atomLink() -> HtmlNode {
         .div(attributes: [.class("float-right")],
              .a(attributes: [.href("/atom.xml"), .class("link object-fill flex")],
-                .img(src:"/icons/atom-1x.png", alt:"Atom feed", attributes: [
+                .img(src:"/icons/atom-4x.png", alt:"Atom feed", attributes: [
                     .class("flex-none"),
                     .height(24),
                     .width(24),
-                    .srcset([
-                        "/icons/atom-4x.png": .x(4),
-                        "/icons/atom-3x.png": .x(3),
-                        "/icons/atom-2x.png": .x(2),
-                        "/icons/atom-1x.png": .x(1),
-                    ]),
                 ])
             )
         )
@@ -98,20 +92,15 @@ extension Page {
     }
 
     func panelHeader(_ song: Song) -> HtmlNode {
-        let srcsetValue = (1 ... song.maxRez).reversed().map { rez in
-            "/artwork/\(song.dir)-\(rez)x.jpg \(rez)x"
-        }.joined(separator: ", ")
-
         return
             .div(
                 .div(
                     .a(
                         attributes: [.class("float-left mr-4"), songHref(song)],
-                        .img(src:"/artwork/\(song.dir)-1x.jpg", alt:"Record sleeve image", attributes: [
+                        .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded"),
-                            .height(160),
-                            .width(160),  // TODO Need to control this via CSS rather than hard-coded attributes
-                            .init("srcset", srcsetValue),
+                            .height(320),
+                            .width(320),
                         ])
                     ),
                     .h2(attributes: [.class("p-2 shadow-3xl bg-grey-darkest border-b-4 border-banner-border text-banner text-4xl font-bold")],
