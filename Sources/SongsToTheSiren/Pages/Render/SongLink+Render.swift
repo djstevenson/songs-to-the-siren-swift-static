@@ -45,10 +45,10 @@ extension SongLink {
         }
 
         return
-            .li(attributes: [.class(self.cssClass)],
-                .a(attributes: [.class("link w-fill flex p-2 pl-3"), .href(url.absoluteString)],
+            .li(
+                .a(attributes: [.class("link w-full flex p-2"), .href(url.absoluteString)],
                 renderIcon(icon:self.cssClass),
-                .span(attributes: [.class("ml-2 truncate")], .text(listText))
+                .span(attributes: [.class("ml-4 truncate")], .text(listText))
             )
         )
     }

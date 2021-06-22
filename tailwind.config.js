@@ -16,6 +16,9 @@ module.exports = {
         hover:   '#cf6e6e',
         active:  '#db2777'
       },
+      red: {
+        medium: '#803333'
+      },
       grey: {
         bg:      '#252729',
         medium:  '#212325',

@@ -773,20 +773,8 @@ video {
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
 .mr-4 {
   margin-right: 1rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .mb-8 {
@@ -795,6 +783,22 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
 }
 
 .flex {
@@ -821,10 +825,6 @@ video {
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-full {
-  border-radius: 9999px;
 }
 
 .rounded {
@@ -869,6 +869,11 @@ video {
   background-color: rgba(14, 16, 17, var(--tw-bg-opacity));
 }
 
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-6 {
   padding: 1.5rem;
 }
@@ -905,8 +910,12 @@ video {
   padding-left: 1rem;
 }
 
-.pl-3 {
-  padding-left: 0.75rem;
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-6 {
+  padding-right: 1.5rem;
 }
 
 .text-lg {
@@ -971,134 +980,13 @@ video {
   transition-duration: 150ms;
 }
 
-@layer components {
-  .link {
-    --tw-text-opacity: 1;
-    color: rgba(114, 188, 188, var(--tw-text-opacity));
-  }
-
-  .link {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-  }
-
-  .link {
-    transition-duration: 150ms;
-  }
-
-  .link:hover {
-    --tw-text-opacity: 1;
-    color: rgba(207, 110, 110, var(--tw-text-opacity));
-  }
-
-  .link:hover {
-    text-decoration: underline;
-  }
-
-  .link:active {
-    --tw-bg-opacity: 1;
-    background-color: rgba(219, 39, 119, var(--tw-bg-opacity));
-  }
-
-  .body-text {
-    margin-top: 1rem;
-  }
-
-  .button-tag {
-    margin-right: 0.25rem;
-  }
-
-  .button-tag {
-    margin-bottom: 0.25rem;
-  }
-
-  .button-tag {
-    border-radius: 0.25rem;
-  }
-
-  .button-tag {
-    border-width: 1px;
-  }
-
-  .button-tag {
-    border-style: solid;
-  }
-
-  .button-tag {
-    --tw-border-opacity: 1;
-    border-color: rgba(114, 188, 188, var(--tw-border-opacity));
-  }
-
-  .button-tag {
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
-  .button-tag {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
-
-  .button-tag {
-    font-size: 0.75rem;
-    line-height: 1rem;
-  }
-
-  .button-tag {
-    font-weight: 700;
-  }
-
-  .button-tag {
-    text-transform: uppercase;
-  }
-
-  .button-tag {
-    --tw-text-opacity: 1;
-    color: rgba(114, 188, 188, var(--tw-text-opacity));
-  }
-
-  .button-tag {
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-  }
-
-  .button-tag {
-    transition-property: all;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 150ms;
-  }
-
-  .button-tag {
-    transition-duration: 150ms;
-  }
-
-  .button-tag {
-    transition-timing-function: linear;
-  }
-
-  .button-tag:hover {
-    --tw-border-opacity: 1;
-    border-color: rgba(207, 110, 110, var(--tw-border-opacity));
-  }
-
-  .button-tag:hover {
-    --tw-text-opacity: 1;
-    color: rgba(207, 110, 110, var(--tw-text-opacity));
-  }
-
-  .button-tag:focus {
-    outline: 2px solid transparent;
-    outline-offset: 2px;
-  }
-
-  .button-tag:active {
-    --tw-bg-opacity: 1;
-    background-color: rgba(219, 39, 119, var(--tw-bg-opacity));
-  }
-}
-
 .hover\:underline:hover {
   text-decoration: underline;
+}
+
+@media (min-width: 1280px) {
+  .xl\:max-w-7xl {
+    max-width: 80rem;
+  }
 }
 

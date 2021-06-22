@@ -34,14 +34,15 @@ struct SongPage: Page {
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-4 p-6")],
+        .div(attributes: [.class("mt-4")],
             songNavigation(location: .top),
-            panelHeader(song),
-            songArticle(markdown: markdown),
-            makeSongLinks(),
-            panelFooter(song),
+            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
+                panelHeader(song),
+                songArticle(markdown: markdown),
+                makeSongLinks(),
+                panelFooter(song)
+            ),
             songNavigation(location: .bottom)
-
         )
     }
 
@@ -56,7 +57,7 @@ struct SongPage: Page {
             fatalError("Bad article markdown for song \(song.title)")
         }
 
-        return .div(attributes: [.class("description col-12")],
+        return .div(attributes: [.class("pl-6 pr-6")],
             summary,
             defaultLink.renderEmbedded(),
             resolveShortcuts(article)
@@ -68,7 +69,7 @@ struct SongPage: Page {
     }
 
     private func songNavigation(location: NavLocation) -> HtmlNode {
-        .nav(
+        .nav(attributes: [.class("pt-2")],
             songNavLink(songMap[song.dir]?.newer, direction: .newer),
             songNavLink(songMap[song.dir]?.older, direction: .older),
             .p(attributes: [.class("clear-both")])
@@ -107,7 +108,7 @@ struct SongPage: Page {
         }
 
         return
-            .div(attributes: [.class("links")],
+            .div(attributes: [.class("pl-6")],
                  .h4(attributes:[.class("hidden")], "Links"),
                 .p(
                     .ul(attributes: [.class("w-full mt-4")],

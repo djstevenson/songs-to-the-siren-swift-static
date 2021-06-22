@@ -34,7 +34,7 @@ extension Page {
                 ),
                 .body(
                     attributes: [.class("bg-grey-bg m-6 text-lg text-body-text")],
-                    .div(attributes: [.class("g:max-w-5xl bg-grey-dark rounded-lg border border-black shadow-3xl pt-6 pb-6 pl-8 pr-8")],
+                    .div(attributes: [.class("xl:max-w-7xl bg-grey-dark rounded-lg border border-black shadow-3xl pt-6 pb-6 pl-8 pr-8")],
                         contentHeader(),
                         pageContent(markdown: markdown)
                     )
@@ -69,8 +69,9 @@ extension Page {
 
     private func atomLink() -> HtmlNode {
         .div(attributes: [.class("float-right")],
-            .a(attributes: [.href("/atom.xml")],
+             .a(attributes: [.href("/atom.xml"), .class("link object-fill flex")],
                 .img(src:"/icons/atom-1x.png", alt:"Atom feed", attributes: [
+                    .class("flex-none"),
                     .height(24),
                     .width(24),
                     .srcset([
@@ -79,8 +80,7 @@ extension Page {
                         "/icons/atom-2x.png": .x(2),
                         "/icons/atom-1x.png": .x(1),
                     ]),
-                ]),
-                .text("Atom Feed")
+                ])
             )
         )
     }
@@ -104,7 +104,7 @@ extension Page {
 
         return
             .div(
-                .div(attributes: [.class("mt-6")],
+                .div(
                     .a(
                         attributes: [.class("float-left mr-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-1x.jpg", alt:"Record sleeve image", attributes: [
@@ -158,7 +158,7 @@ extension Page {
 
     func panelFooter(_ song: Song) -> HtmlNode {
         .footer(attributes: [.class("mb-8")],
-            .p(attributes: [.class("pl-3 mt-4")],
+            .p(attributes: [.class("pl-8 mt-4")],
                .span(attributes: [.class("mr-2")], "Tags: "),
                .fragment(song.tags.map(tagLink)),
                .fragment(song.country.map(countryLink))
@@ -182,7 +182,7 @@ extension Page {
     }
 
     func makeMetadata(_ song: Song) -> HtmlNode {
-        .p(attributes: [.class("float-right text-sm italic")],
+        .p(attributes: [.class("text-sm italic ml-8 mt-6")],
             .text("Published at \(publishDate(song))")
         )
     }
