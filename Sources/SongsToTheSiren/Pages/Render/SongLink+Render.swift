@@ -59,7 +59,7 @@ extension SongLink {
             let time = offset > 0 ? "?start=\(offset)" : ""
             let url = URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(time)")!
             return
-                .div(attributes: [.class("aspect-w-16 aspect-h-9 mt-4 mb-4")],
+                .div(attributes: [.class("aspect-w-16 aspect-h-9 mt-4 mb-4 clear-both")],
                 .iframe(attributes: [
                     .src(url.absoluteString),
                     .init("frameborder", "0"),

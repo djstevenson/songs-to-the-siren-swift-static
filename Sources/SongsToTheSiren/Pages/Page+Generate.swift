@@ -103,23 +103,22 @@ extension Page {
                             .width(320),
                         ])
                     ),
-                    .h2(attributes: [.class("p-2 shadow-3xl bg-grey-darkest border-b-4 border-banner-border text-banner text-4xl font-bold")],
+                    .h2(attributes: [.class("pl-6 pt-3 pb-3 bg-grey-darkest border-b-4 border-banner-border text-banner text-5xl font-bold")],
                         .a(
                             attributes: [songHref(song)],
                             .text(song.title)
                         )
                     ),
                     .div(attributes: [.class("flex")],
-                        .h3(attributes: [.class("pt-2 text-2xl font-bold italic")],
-                            .text(song.artist),
-                            .span(attributes:[.class("pl-4 text-xl")],
-                                .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
-                            )
-                        )
+                        .h3(attributes: [.class("pt-4 text-4xl font-bold italic")], .text(song.artist))
                     ),
-                    .h4(attributes: [.class("pt-2 text-xl italic")], .text(song.released))
-                ),
-                .div(attributes: [.class("clear-both")])
+                    .h4(attributes: [.class("pt-2 text-2xl italic")], .text(song.released)),
+                    .span(attributes:[.class("text-3xl")],
+                        .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
+                    )
+                )
+//                ,
+//                .div(attributes: [.class("clear-both")])
             )
     }
 
