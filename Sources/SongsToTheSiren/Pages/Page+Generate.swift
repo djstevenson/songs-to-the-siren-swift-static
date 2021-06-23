@@ -98,22 +98,25 @@ extension Page {
                     .a(
                         attributes: [.class("float-left mr-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
-                            .class("rounded"),
+                            .class("rounded hidden lg:block"),
                             .height(320),
                             .width(320),
+                        ]),
+                        .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
+                            .class("rounded hidden sm:block lg:hidden"),
+                            .height(160),
+                            .width(160),
                         ])
                     ),
-                    .h2(attributes: [.class("pl-6 pt-3 pb-3 bg-grey-darkest border-b-4 border-banner-border text-banner text-5xl font-bold")],
+                    .h2(attributes: [.class("pl-6 pt-1 md:pt-2 lg:pt-3 pb-1 md:pb-2 lg:pb-3 bg-grey-darkest border-b-2 md:border-b-4 border-banner-border text-banner text-lg sm:text-xl md:text-3xl lg:text-5xl font-bold")],
                         .a(
                             attributes: [songHref(song)],
                             .text(song.title)
                         )
                     ),
-                    .div(attributes: [.class("flex")],
-                        .h3(attributes: [.class("pt-4 text-4xl font-bold italic")], .text(song.artist))
-                    ),
-                    .h4(attributes: [.class("pt-2 text-2xl italic")], .text(song.released)),
-                    .span(attributes:[.class("text-3xl")],
+                    .h3(attributes: [.class("pl-6 pt-4 text-lg md:text-2xl lg:text-4xl font-bold italic")], .text(song.artist)),
+                    .h4(attributes: [.class("pl-6 pt-2 md:text-md lg:text-2xl italic")], .text(song.released)),
+                    .h4(attributes: [.class("pl-6 pt-2 text-md lg:text-3xl")],
                         .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
                     )
                 )
@@ -137,7 +140,7 @@ extension Page {
             attributes: [.class("description col-12")],
             summary,
             .p(attributes: [.class("more")],
-               .a(attributes: [.href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
+               .a(attributes: [.class("link"), .href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
                    .text("Read more...")
                )
             )
