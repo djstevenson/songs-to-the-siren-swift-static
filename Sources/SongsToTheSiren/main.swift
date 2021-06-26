@@ -55,17 +55,17 @@ struct SongsToTheSiren: ParsableCommand {
             CountryPage(fileUtils: fileUtils, country: country, songs: songs).generate()
         }
 
-        // CSS
-        processSCSS("songs-to-the-siren")
-
+//        // CSS
+//        processSCSS("songs-to-the-siren")
+//
         // Atom page
         AtomFeed(fileUtils: fileUtils, songList: songList).publish()
 
     }
 
-    func processSCSS(_ file: String) {
-        shell(exec: "/usr/local/bin/sass", args: "input/songs-to-the-siren.scss:output/songs-to-the-siren.css")
-    }
+//    func processSCSS(_ file: String) {
+//        shell(exec: "/usr/local/bin/sass", args: "input/songs-to-the-siren.scss:output/songs-to-the-siren.css")
+//    }
 
     @discardableResult
     func shell(exec: String,  args: String...) -> Int32 {

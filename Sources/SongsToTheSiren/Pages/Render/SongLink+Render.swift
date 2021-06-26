@@ -44,10 +44,11 @@ extension SongLink {
             return .fragment([])
         }
 
-        return .li(attributes: [.class(self.cssClass)],
-            .a(attributes: [.href(url.absoluteString)],
+        return
+            .li(
+                .a(attributes: [.class("link w-full flex p-2"), .href(url.absoluteString)],
                 renderIcon(icon:self.cssClass),
-                .span(attributes: [.class("link-description")], .text(listText))
+                .span(attributes: [.class("ml-4 truncate")], .text(listText))
             )
         )
     }
@@ -57,34 +58,29 @@ extension SongLink {
         case let .youtubeVideo(code, offset):
             let time = offset > 0 ? "?start=\(offset)" : ""
             let url = URL(string: "https://www.youtube-nocookie.com/embed/\(code)\(time)")!
-            return .raw("""
-                <div class=\"embed-container\">
-                    <iframe src=\"\(url.absoluteString)\" frameborder=\"0\"
-                        allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                """
+            return
+                .div(attributes: [.class("aspect-w-16 aspect-h-9 mt-4 mb-4 clear-both")],
+                .iframe(attributes: [
+                    .src(url.absoluteString),
+                    .init("frameborder", "0"),
+                    .init("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),
+                    .init("allowfullscreen", ""),
+                ])
             )
         default:
             guard let embedText = self.embedText else {
                 return .fragment([])
             }
 
-            return .a(attributes: [.href(url.absoluteString)], .text(embedText))
+            return .a(attributes: [.class("link"), .href(url.absoluteString)], .text(embedText))
         }
     }
 
     func renderIcon(icon: String) -> HtmlNode {
-        .img(src:"/icons/\(icon)-1x.png", alt:"\(icon) icon", attributes: [
+        .img(src:"/icons/\(icon)-4x.png", alt:"\(icon) icon", attributes: [
+            .class("flex-none"),
             .height(32),
             .width(32),
-            .srcset([
-                "/icons/\(icon)-4x.png": .x(4),
-                "/icons/\(icon)-3x.png": .x(3),
-                "/icons/\(icon)-2x.png": .x(2),
-                "/icons/\(icon)-1x.png": .x(1),
-            ]),
         ])
     }
 }

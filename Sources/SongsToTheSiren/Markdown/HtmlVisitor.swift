@@ -58,11 +58,11 @@ struct HtmlVisitor: Visitor {
     }
 
     public func visit(paragraph node: Paragraph) -> HtmlNode {
-        nodeWithChildren(node, tag: "p")
+        nodeWithChildren(node, tag: "p", attrs: [(key: "class", value: "body-text")])
     }
 
     public func visit(heading node: Heading) -> HtmlNode {
-        nodeWithChildren(node, tag: "h\(node.headingLevel)")
+        nodeWithChildren(node, tag: "h\(node.headingLevel)", attrs: [(key: "class", value: "mdh\(node.headingLevel)")])
     }
 
     public func visit(thematicBreak node: ThematicBreak) -> HtmlNode {
@@ -114,7 +114,10 @@ struct HtmlVisitor: Visitor {
     // Attrs: image.title, image.url
     public func visit(link node: Link) -> HtmlNode {
         // Need to get link etc.
-        nodeWithChildren(node, tag: "a", attrs: [(key: "href", value: node.url)])
+        nodeWithChildren(node, tag: "a", attrs: [
+            (key: "class", value: "link"),
+            (key: "href", value: node.url)
+        ])
     }
 
     // Cmark: ![foo](/url "title")

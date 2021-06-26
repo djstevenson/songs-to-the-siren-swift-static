@@ -34,14 +34,15 @@ struct SongPage: Page {
     }
 
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
-        .section(attributes: [.class("song row")],
+        .div(attributes: [.class("mt-4")],
             songNavigation(location: .top),
-            panelHeader(song),
-            songArticle(markdown: markdown),
-            makeSongLinks(),
-            makeSongFooter(),
+            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
+                panelHeader(song),
+                songArticle(markdown: markdown),
+                makeSongLinks(),
+                panelFooter(song)
+            ),
             songNavigation(location: .bottom)
-
         )
     }
 
@@ -56,7 +57,7 @@ struct SongPage: Page {
             fatalError("Bad article markdown for song \(song.title)")
         }
 
-        return .div(attributes: [.class("description col-12")],
+        return .div(attributes: [.class("pl-6 pr-6")],
             summary,
             defaultLink.renderEmbedded(),
             resolveShortcuts(article)
@@ -68,10 +69,10 @@ struct SongPage: Page {
     }
 
     private func songNavigation(location: NavLocation) -> HtmlNode {
-        .nav(
-            attributes: [.class("col-12 nav-location-\(location.rawValue)")],
+        .nav(attributes: [.class("pt-2")],
             songNavLink(songMap[song.dir]?.newer, direction: .newer),
-            songNavLink(songMap[song.dir]?.older, direction: .older)
+            songNavLink(songMap[song.dir]?.older, direction: .older),
+            .p(attributes: [.class("clear-both")])
         )
     }
 
@@ -84,17 +85,17 @@ struct SongPage: Page {
         let label   : String
         switch direction {
         case .newer:
-            cssClass = "float-md-left float-sm-none"
+            cssClass = "float-left"
             label    = "«"
         case .older:
-            cssClass = "float-md-right float-sm-none"
+            cssClass = "float-right"
             label    = "»"
         }
         return .p(
             attributes:[.class(cssClass)],
             .text("\(label) "),
             .a(
-                attributes: [.href("/song/\(song.dir).html")],
+                attributes: [.class("link"), .href("/song/\(song.dir).html")],
                 .text(song.title)
             ),
             .text(" \(label)")
@@ -106,52 +107,15 @@ struct SongPage: Page {
             return .fragment([])
         }
 
-        return .div(attributes: [.class("links")],
-            .h4("Links"),
-            .p(
-                .ul(attributes: [.class("link-list")],
-                    .fragment(song.links.map { $0.renderInList() })
+        return
+            .div(attributes: [.class("pl-6")],
+                 .h4(attributes:[.class("hidden")], "Links"),
+                .p(
+                    .ul(attributes: [.class("w-full mt-4")],
+                        .fragment(song.links.map { $0.renderInList() })
+                    )
                 )
             )
-        )
-    }
-
-    private func makeSongFooter() -> HtmlNode {
-        .footer(attributes: [.class("col-12")],
-            makeSongTags(),
-            makeMetadata(song)
-        )
-    }
-
-    private func makeSongTags() -> HtmlNode {
-        guard !song.tags.isEmpty else {
-            return .fragment([])
-        }
-
-        return .p(attributes: [.class("song-tags")],
-            .text("Tags: "),
-            .fragment(song.tags.map { tag in
-                .a(
-                    attributes: [
-                        .class("btn btn-outline-secondary btn-sm song-tag"),
-                        .href("/tag/\(tag).html"),
-                        .role(.button),
-                    ],
-                    .text(tag.rawValue)
-                )
-            }),
-            .fragment(song.country.map { country in
-                .a(
-                    attributes: [
-                        .class("btn btn-outline-secondary btn-sm song-tag"),
-                        .href("/country/\(country).html"),
-                        .role(.button),
-                    ],
-                    .text(country.rawValue)
-                )
-            })
-
-        )
     }
 
     private func resolveShortcuts(_ node: HtmlNode) -> HtmlNode {
