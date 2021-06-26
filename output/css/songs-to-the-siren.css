@@ -701,6 +701,15 @@ video {
   margin-top: 1rem;
 }
 
+.mdh3 {
+  padding-top: 0.75rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgba(210, 180, 10, var(--tw-text-opacity));
+}
+
 .button-tag {
   margin-right: 0.25rem;
   margin-bottom: 0.25rem;

@@ -12,6 +12,7 @@
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.2.1",
     "autoprefixer": "^10.2.6",
+    "minify": "^7.0.2",
     "tailwindcss": "^2.2.2"
   }
 }

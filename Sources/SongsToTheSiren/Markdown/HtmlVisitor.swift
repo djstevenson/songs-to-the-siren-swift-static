@@ -62,7 +62,7 @@ struct HtmlVisitor: Visitor {
     }
 
     public func visit(heading node: Heading) -> HtmlNode {
-        nodeWithChildren(node, tag: "h\(node.headingLevel)")
+        nodeWithChildren(node, tag: "h\(node.headingLevel)", attrs: [(key: "class", value: "mdh\(node.headingLevel)")])
     }
 
     public func visit(thematicBreak node: ThematicBreak) -> HtmlNode {

@@ -23,7 +23,7 @@ extension Page {
                     .meta(viewport: .width(.deviceWidth), .initialScale(1)),
                     .link(attributes: [
                         .rel(.stylesheet),
-                        .href("/css/songs-to-the-siren.css"),
+                        .href("/css/songs-to-the-siren-min.css"),
                     ]),
                     .link(attributes: [
                         .rel(.alternate),

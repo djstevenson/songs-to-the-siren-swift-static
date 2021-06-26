@@ -11,6 +11,10 @@
         @apply mt-4;
     }
 
+    .mdh3 {
+        @apply text-banner text-2xl pt-3 font-bold;
+    }
+
     .button-tag {
         @apply text-link border border-solid border-link hover:border-link-hover hover:text-link-hover active:bg-link-active font-bold uppercase text-xs px-4 py-2 rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
     }
