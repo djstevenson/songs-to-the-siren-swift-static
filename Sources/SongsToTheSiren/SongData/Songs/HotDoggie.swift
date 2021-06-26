@@ -12,7 +12,7 @@ extension Song {
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1601764570),
             updatedAt: Date(timeIntervalSince1970: 1615142851+71),
-            tags:      [.decade1980s, .fourAD, .brothers, .compilationAlbum, .lonelyIsAnEyesore, .sample],
+            tags:      [.decade1980s, .fourAD, .brothers, .compilationAlbum, .openingTrack, .lonelyIsAnEyesore, .sample],
             country:   [.uk],
             links:     SongLinks(links: [
                 SongLink(
