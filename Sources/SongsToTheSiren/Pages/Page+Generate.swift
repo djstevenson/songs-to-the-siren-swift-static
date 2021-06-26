@@ -80,7 +80,7 @@ extension Page {
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
-        .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-4 p-6")],
+            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
             panelHeader(song),
             panelBody(song),
             panelFooter(song)
@@ -136,15 +136,15 @@ extension Page {
             fatalError("Bad 'summary' markdown for \(song.title)")
         }
 
-        return .div(
-            attributes: [.class("description col-12")],
-            summary,
-            .p(attributes: [.class("more")],
-               .a(attributes: [.class("link"), .href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
-                   .text("Read more...")
-               )
+        return
+            .div(
+                .div(attributes: [.class("pl-6 pr-6")], summary),
+                .p(attributes: [.class("pl-6 pr-6 pt-4")],
+                   .a(attributes: [.class("link"), .href("/song/\(song.dir).html"), ],  // TODO This URL code is in a million places, DRY it
+                       .text("Read more...")
+                   )
+                )
             )
-        )
     }
 
     func panelFooter(_ song: Song) -> HtmlNode {
