@@ -20,7 +20,7 @@ The site is served as static HTML etc files. However, the source material is a c
 
 The code behind the old dynamic version can be found on [GitHub](https://github.com/djstevenson/songs-to-the-siren).
 
-The static site generate in use now can be found on [GitHub](https://github.com/djstevenson/songs-to-the-siren-static) also.
+The static site generate in use now can be found on [GitHub](https://github.com/djstevenson/songs-to-the-siren-swift-static) also.
 
 
 ### FAQ
