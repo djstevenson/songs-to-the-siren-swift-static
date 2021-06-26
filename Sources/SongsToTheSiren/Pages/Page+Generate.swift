@@ -148,7 +148,7 @@ extension Page {
     }
 
     func panelFooter(_ song: Song) -> HtmlNode {
-        .footer(attributes: [.class("mb-8")],
+        .footer(attributes: [.class("mb-8 hidden md:block")],
             .p(attributes: [.class("pl-8 mt-4")],
                .span(attributes: [.class("mr-2")], "Tags: "),
                .fragment(song.tags.map(tagLink)),

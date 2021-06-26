@@ -1002,6 +1002,10 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:border-b-4 {
     border-bottom-width: 4px;
   }
