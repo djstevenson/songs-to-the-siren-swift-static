@@ -108,7 +108,7 @@ extension Page {
                             .width(160),
                         ])
                     ),
-                    .h2(attributes: [.class("pl-6 pt-1 md:pt-2 lg:pt-3 pb-1 md:pb-2 lg:pb-3 bg-grey-darkest border-b-2 md:border-b-4 border-banner-border text-banner text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold")],
+                    .h2(attributes: [.class("rounded pl-6 pt-1 md:pt-2 lg:pt-3 pb-1 md:pb-2 lg:pb-3 bg-grey-darkest border-b-2 md:border-b-4 border-banner-border text-banner text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold")],
                         .a(
                             attributes: [songHref(song)],
                             .text(song.title)
