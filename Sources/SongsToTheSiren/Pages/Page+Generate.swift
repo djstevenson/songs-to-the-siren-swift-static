@@ -58,7 +58,7 @@ extension Page {
     }
 
     private func homeLink() -> HtmlNode {
-        .h1(attributes: [.class("text-banner text-5xl font-bold italic hover:underline pb-2")],
+        .h1(attributes: [.class("text-banner text-3xl sm:text-4xl md:text-5xl font-bold italic hover:underline pb-2")],
             .a(attributes: [.href("/")], .text("Songs to the Siren"))
         )
     }
@@ -108,7 +108,7 @@ extension Page {
                             .width(160),
                         ])
                     ),
-                    .h2(attributes: [.class("pl-6 pt-1 md:pt-2 lg:pt-3 pb-1 md:pb-2 lg:pb-3 bg-grey-darkest border-b-2 md:border-b-4 border-banner-border text-banner text-lg sm:text-xl md:text-3xl lg:text-5xl font-bold")],
+                    .h2(attributes: [.class("pl-6 pt-1 md:pt-2 lg:pt-3 pb-1 md:pb-2 lg:pb-3 bg-grey-darkest border-b-2 md:border-b-4 border-banner-border text-banner text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold")],
                         .a(
                             attributes: [songHref(song)],
                             .text(song.title)
@@ -120,8 +120,6 @@ extension Page {
                         .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
                     )
                 )
-//                ,
-//                .div(attributes: [.class("clear-both")])
             )
     }
 
