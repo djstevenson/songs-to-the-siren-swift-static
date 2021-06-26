@@ -62,8 +62,8 @@ struct HomePage: Page {
                 attributes: [.class("link"), songHref(song)],
                 .span(attributes: [.class("font-bold")], .text(song.title))
             ),
-            .span(attributes: [.class("text-lg pl-3")], .text(song.artist)),
-            .span(attributes: [.class("text-sm pl-5 italic")], .text(publishDate(song)))
+            .span(attributes: [.class("hidden sm:block text-lg pl-3")], .text(song.artist)),
+            .span(attributes: [.class("hidden md:block text-sm pl-5 italic")], .text(publishDate(song)))
         )
     }
 }
