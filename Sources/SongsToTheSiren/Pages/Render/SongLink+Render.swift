@@ -63,7 +63,7 @@ extension SongLink {
                 .iframe(attributes: [
                     .src(url.absoluteString),
                     .init("frameborder", "0"),
-                    .init("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"),
+                    .init("allow", "accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"),
                     .init("allowfullscreen", ""),
                 ])
             )

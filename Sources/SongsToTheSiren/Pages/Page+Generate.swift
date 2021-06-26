@@ -48,12 +48,10 @@ extension Page {
     }
 
     private func contentHeader() -> HtmlNode {
-        .header(
-            .div(
-                homeLink(),
-                aboutLink(),
-                atomLink()
-            )
+        .div(
+            homeLink(),
+            aboutLink(),
+            atomLink()
         )
     }
 
@@ -80,7 +78,7 @@ extension Page {
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
-            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
+        .div(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
             panelHeader(song),
             panelBody(song),
             panelFooter(song)
@@ -146,7 +144,7 @@ extension Page {
     }
 
     func panelFooter(_ song: Song) -> HtmlNode {
-        .footer(attributes: [.class("mb-8 hidden md:block")],
+        .div(attributes: [.class("mb-8 hidden md:block")],
             .p(attributes: [.class("pl-8 mt-4")],
                .span(attributes: [.class("mr-2")], "Tags: "),
                .fragment(song.tags.map(tagLink)),
