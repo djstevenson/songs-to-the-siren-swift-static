@@ -24,7 +24,7 @@ extension Song {
                     id:        "time-is-hardcore",
                     embedText: "Time Is Hardcore",
                     listText:  "Time Is Hardcore (2020) - High Contrast ft Kae Tempest and Anita Bray",
-                    linkType:  .song(song: "Idoru")
+                    linkType:  .song(song: "TimeIsHardcore") // can't we generate this from the id?
                 ),
             ])
         )
