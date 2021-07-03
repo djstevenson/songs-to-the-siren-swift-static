@@ -31,13 +31,13 @@ extension Song {
                     id:        "cleopatra-grip",
                     embedText: "Cleopatra Grip",
                     listText:  "Cleopatra Grip (first LP) - The Heart Throbs (YouTube audio)",
-                    linkType:  .youtubeLink(code: "76_T4nRdLqc&list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk")
+                    linkType:  .youtubeLink(code: "76_T4nRdLqc?list=PLhGLkBjndhcVoZH5uTEhaQh-FYp-9p3sk")
                 ),
                 SongLink(
                     id:        "jubilee-twist",
                     embedText: "Jubilee Twist",
                     listText:  "Jubilee Twist (second LP) - The Heart Throbs (YouTube audio)",
-                    linkType:  .youtubeLink(code: "8lqapAybdLY&list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk")
+                    linkType:  .youtubeLink(code: "8lqapAybdLY?list=OLAK5uy_nwv7BhKLOEg0W6ulRBfNaGu_sanr3tLHk")
                 ),
                 SongLink(
                     id:        "hooligan",
