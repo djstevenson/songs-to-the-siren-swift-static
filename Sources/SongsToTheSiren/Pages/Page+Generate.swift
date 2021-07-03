@@ -156,16 +156,12 @@ extension Page {
 
     private func tagLink(_ tag: Song.Tag) -> HtmlNode {
         // TODO Tag page needs to make clear it's filtering
-        .a(attributes: [.href("/tag/\(tag).html")],
-           .button(attributes: [.class("button-tag")], .text(tag.rawValue))
-        )
+        .a(attributes: [.href("/tag/\(tag).html"), .class("button-tag")], .text(tag.rawValue))
     }
 
     private func countryLink(_ country: Song.Country) -> HtmlNode {
         // TODO Country page needs to make clear it's filtering
-        .a(attributes: [.href("/country/\(country).html")],
-           .button(attributes: [.class("button-tag")], .text(country.rawValue))
-        )
+        .a(attributes: [.href("/country/\(country).html"), .class("button-tag")], .text(country.rawValue))
     }
 
     func makeMetadata(_ song: Song) -> HtmlNode {
