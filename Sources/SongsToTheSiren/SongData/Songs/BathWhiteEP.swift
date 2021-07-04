@@ -23,8 +23,8 @@ extension Song {
                 ),
                 SongLink(
                     id:        "gods-not-a-dick",
-                    embedText: "God's Not A Dick",
-                    listText:  "God's Not A Dick - 50 Foot Wave",
+                    embedText: "God’s Not A Dick",
+                    listText:  "God’s Not A Dick - 50 Foot Wave",
                     linkType:  .youtubeLink(code: "Zo026R53FjA")
                 ),
                 SongLink(

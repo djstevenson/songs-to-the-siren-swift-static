@@ -6,7 +6,7 @@ extension Song {
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Gang of Four",
-            title:     "Outside the Trains Don't Run on Time",
+            title:     "Outside the Trains Don’t Run on Time",
             album:     "Single (1980)",
             released:  "1980 (single), 1981 (Solid Gold LP)",
             maxRez:    4,
@@ -17,7 +17,7 @@ extension Song {
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText:  "Outside the Trains Don't Run on Time - Gang Of Four (audio only)",
+                    listText:  "Outside the Trains Don’t Run on Time - Gang Of Four (audio only)",
                     linkType:  .youtubeVideo(code: "A6-2wB44AcE")
                 ),
                 SongLink(
@@ -28,8 +28,8 @@ extension Song {
                 ),
                 SongLink(
                     id:        "tourist",
-                    embedText: "At Home He's a Tourist",
-                    listText:  "At Home He's A Tourist - Gang of Four",
+                    embedText: "At Home He’s a Tourist",
+                    listText:  "At Home He’s A Tourist - Gang of Four",
                     linkType:  .youtubeLink(code: "ElhAysq3O6c")
                 ),
                 SongLink(

@@ -94,7 +94,7 @@ extension Page {
             .div(
                 .div(
                     .a(
-                        attributes: [.class("float-left mr-4"), songHref(song)],
+                        attributes: [.class("float-left mr-4 mb-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden lg:block"),
                             .height(320),

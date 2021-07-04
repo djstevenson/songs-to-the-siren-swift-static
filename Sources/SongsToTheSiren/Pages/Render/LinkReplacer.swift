@@ -10,7 +10,9 @@ enum LinkReplacer: String {
 
         case .link:
             guard let link = song.links.find(id: id) else {
-                return .fragment([])
+                // In this particular app, dying here is the right
+                // way to handle missing links.
+                fatalError("Failed to find link id=\(id) song=\(song.title)")
             }
             return link.renderEmbedded()
 
@@ -20,10 +22,12 @@ enum LinkReplacer: String {
                 fatalError("Invalid time sig code \(id) - use 3|4, for example")
             }
 
-            return .span(attributes:[.class("time-signature")],
-                         .sup(.i(.text(parts[0]))),
-                              .sub(.i(.text(parts[1])))
-            )
+            return
+                .span(attributes:[.class("time-signature italic")],
+                    .sup(.text(parts[0])),
+                    .text("/"),
+                    .sub(.text(parts[1]))
+                )
         }
     }
 }

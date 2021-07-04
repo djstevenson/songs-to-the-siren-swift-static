@@ -28,15 +28,15 @@ extension Song {
                     linkType:  .youtubeLink(code: "XlioWnw9BEc")
                 ),
                 SongLink(
-                    id:        "all-kinds",
-                    embedText: "",
-                    listText:  "All Kinds of Everything - Terry Hall and Sinéad O'Connor",
+                    id:        "all-kinds-of-everything",
+                    embedText: "All Kinds of Everything",
+                    listText:  "All Kinds of Everything - Terry Hall and Sinéad O’Connor",
                     linkType:  .youtubeLink(code: "s8oqKyVW978")
                 ),
                 SongLink(
                     id:        "sense-lightning-seeds",
                     listText:  "Sense - The Lightning Seeds",
-                    linkType:  .youtubeLink(code: "https://youtu.be/OxliCqxKI6U")
+                    linkType:  .youtubeLink(code: "OxliCqxKI6U")
                 ),
             ])
         )
