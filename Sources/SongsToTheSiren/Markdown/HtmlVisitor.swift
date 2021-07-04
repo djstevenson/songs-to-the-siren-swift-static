@@ -36,7 +36,7 @@ struct HtmlVisitor: Visitor {
     }
 
     public func visit(blockQuote node: BlockQuote) -> HtmlNode {
-        nodeWithChildren(node, tag: "blockquote")
+        nodeWithChildren(node, tag: "blockquote", attrs: [(key: "class", value: "border-l-2 border-banner-border pl-4 ml-4 italic")])
     }
 
     public func visit(list node: List) -> HtmlNode {
