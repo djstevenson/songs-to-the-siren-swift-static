@@ -2,11 +2,21 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-05-19T22:43:01+01:00</updated>
+    <updated>2021-07-03T18:17:58+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976</id>
+    <entry>
+        <title>Like I Used To</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/LikeIUsedTo.html"></link>
+        <id>https://songstothesiren.com/song/LikeIUsedTo.html</id>
+        <updated>2021-07-03T18:17:58+01:00</updated>
+        <summary>It’s time to get up-to-date and look at a few of 2021’s offerings.  Two of the highlights this year have each been collabs between two groups/artists that I already love.
+
+Kicking us off with this mini-series is Like I Used To, a charming piece of alt-Country from singer-songwriters Sharon Van Etten and Angel Olsen.
+</summary>
+    </entry>
     <entry>
         <title>Wide Awake</title>
         <link rel="alternate" href="https://songstothesiren.com/song/WideAwake.html"></link>
@@ -14,7 +24,7 @@
         <updated>2021-05-19T22:43:01+01:00</updated>
         <summary>There are relatively few music artists who, when they are interviewed, or they write an article, can be guaranteed to say something smart, interesting, and entertaining.
 
-I'm thinking of the likes of Michael Stipe, or Kristin Hersh.
+I’m thinking of the likes of Michael Stipe, or Kristin Hersh.
 
 And also Jessica Dobson, the singer/songwriter fronting Deep Sea Diver.
 </summary>
@@ -32,7 +42,9 @@ And also Jessica Dobson, the singer/songwriter fronting Deep Sea Diver.
         <link rel="alternate" href="https://songstothesiren.com/song/OpenUp.html"></link>
         <id>https://songstothesiren.com/song/OpenUp.html</id>
         <updated>2021-04-13T22:40:19+01:00</updated>
-        <summary>Although it was clearly John Lydon’s time (as Johnny Rotten) in the Sex Pistols that made him famous, his career as Public Image Ltd would ultimately provide a more enduring body of work.  Lydon also had successful collaborations during this time, and it’s 1993’s Open Up, with Leftfield, that I want to look at here.
+        <summary>Although it was clearly John Lydon’s time (as Johnny Rotten) in the Sex Pistols that made him famous, his career as Public Image Ltd would ultimately provide a more enduring body of work.
+
+Lydon also had successful collaborations during this time, and it’s 1993’s Open Up, with Leftfield, that I want to look at here.
 
 </summary>
     </entry>
@@ -83,12 +95,14 @@ For his 2020 track Time is Hardcore,  he teams up with Kae Tempest, who contribu
         <link rel="alternate" href="https://songstothesiren.com/song/AreFriendsElectric.html"></link>
         <id>https://songstothesiren.com/song/AreFriendsElectric.html</id>
         <updated>2021-03-07T18:48:48Z</updated>
-        <summary>As the dying embers of punk faded, this new sound seemed like something we’d been waiting for - the next phase for pop/rock. A big leap forwards while still being rooted in the present.
+        <summary>As the dying embers of punk faded, this new sound seemed like something we’d been waiting for - the next phase for pop/rock...
+
+A big leap forwards while still being rooted in the present.
 
 </summary>
     </entry>
     <entry>
-        <title>Outside the Trains Don't Run on Time</title>
+        <title>Outside the Trains Don’t Run on Time</title>
         <link rel="alternate" href="https://songstothesiren.com/song/OutsideTheTrainsDontRunOnTime.html"></link>
         <id>https://songstothesiren.com/song/OutsideTheTrainsDontRunOnTime.html</id>
         <updated>2021-03-07T18:48:47Z</updated>
@@ -306,7 +320,9 @@ They retain that status to this day.
         <link rel="alternate" href="https://songstothesiren.com/song/Dirge.html"></link>
         <id>https://songstothesiren.com/song/Dirge.html</id>
         <updated>2021-03-07T18:48:21Z</updated>
-        <summary>The first of three songs featuring Scottish singer Dot Allison, here she features on vocals (and co-writing) on Dirge, the opening track from The Contino Sessions, a classic album by Death In Vegas.
+        <summary>This is the first of three songs featuring Scottish singer Dot Allison.
+
+Here she features on vocals (and co-writing) on Dirge, the opening track from The Contino Sessions, a classic album by Death In Vegas.
 </summary>
     </entry>
     <entry>
@@ -432,7 +448,11 @@ It doesn’t end well for Waldo. “That schmuck.”
         <link rel="alternate" href="https://songstothesiren.com/song/Birthday.html"></link>
         <id>https://songstothesiren.com/song/Birthday.html</id>
         <updated>2021-03-07T18:48:05Z</updated>
-        <summary>As the début single from Icelandic band Sugarcubes (originally Sykurmolarnir in their native language), this was the first chance most of us got to hear the inestimable talent of Björk Guðmundsdóttir. Obviously it was released in English too, but the original Icelandic version just sounds perfect to me.
+        <summary>As the début single from Icelandic band Sugarcubes (originally Sykurmolarnir in their native language), this was the first chance most of us got to hear the inestimable talent of Björk Guðmundsdóttir.
+
+Obviously it was released in English too, but the original Icelandic version just sounds perfect to me.
+
+When I first heard this track, I was massively excited about this new talent, and Björk remains one of the most interesting artists performing today.
 </summary>
     </entry>
     <entry>
@@ -456,7 +476,9 @@ It doesn’t end well for Waldo. “That schmuck.”
         <link rel="alternate" href="https://songstothesiren.com/song/GoldenBrown.html"></link>
         <id>https://songstothesiren.com/song/GoldenBrown.html</id>
         <updated>2021-03-07T18:48:02Z</updated>
-        <summary>This is the first of a few great songs which add or skip beats in one of their distinctive hooks. In this case, a song in waltz time introduces an occasional bar of common time in the distinctive intro riff.
+        <summary>This is the first of a few great songs which add or skip beats in one of their distinctive hooks.
+
+In this case, a song in waltz time introduces an occasional bar of common time in the distinctive intro riff. 
 </summary>
     </entry>
     <entry>
@@ -504,7 +526,9 @@ It doesn’t end well for Waldo. “That schmuck.”
         <link rel="alternate" href="https://songstothesiren.com/song/PrivateLifeShesLostControl.html"></link>
         <id>https://songstothesiren.com/song/PrivateLifeShesLostControl.html</id>
         <updated>2021-03-07T18:47:56Z</updated>
-        <summary>After a disco period, Jamaican model and singer Grace Jones brought out a dub-heavy reggae album of covers in 1980, and had a hit single with her version of The Pretenders song Private Life. Arguably even more astonishing is her take on Joy Division’s She’s Lost Control, which formed the B-side of the single.
+        <summary>After a disco period, Jamaican model and singer Grace Jones brought out a dub-heavy reggae album of covers in 1980, and had a hit single with her version of The Pretenders song Private Life.
+
+Arguably even more astonishing is her take on Joy Division’s She’s Lost Control, which formed the B-side of the single.
 </summary>
     </entry>
     <entry>
@@ -650,7 +674,9 @@ No mention, sadly, of England’s World Cup win only five days previous.
         <link rel="alternate" href="https://songstothesiren.com/song/PlanetOfSound.html"></link>
         <id>https://songstothesiren.com/song/PlanetOfSound.html</id>
         <updated>2021-03-07T18:47:38Z</updated>
-        <summary>The first single from the fourth (and last until the band later reformed) Pixies album, this is the tale of an alien who picks up transmissions from Earth and heads over to find the source, the “planet of sound”.
+        <summary>The first single from the fourth (and last until the band later reformed) Pixies album, this is the tale of an alien who picks up transmissions from Earth.
+
+They head over to find the source, the “planet of sound”.
 </summary>
     </entry>
     <entry>
