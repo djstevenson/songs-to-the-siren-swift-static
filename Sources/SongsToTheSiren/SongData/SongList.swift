@@ -13,6 +13,7 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .likeIUsedTo(),
         .wideAwake(),
         .pacer(),
         .openUp(),
