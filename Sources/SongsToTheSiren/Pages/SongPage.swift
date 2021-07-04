@@ -151,8 +151,7 @@ struct SongPage: Page {
         var parseString = original[...]
         while let (leader, type, code) = parser.parse(&parseString) {
             guard let replacer = LinkReplacer(rawValue: String(type)) else {
-                print("** Unknown shortcut type \(type)")
-                break
+                fatalError("Unknown shortcut, type=\(type) song=\(song.title)")
             }
 
             result.append(.text(String(leader)))
