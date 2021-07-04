@@ -18,18 +18,18 @@ extension Song {
                 SongLink(
                     id:        "default",
                     listText:  "Message Personnel (album mix) - Dot Allison",
-                    linkType:  .youtubeLink(code: "https://youtu.be/UR41J9VbSUs")
+                    linkType:  .youtubeVideo(code: "UR41J9VbSUs")
                 ),
                 SongLink(
                     id:        "arab-strap",
                     embedText: "Arab Strap",
                     listText:  "Message Personnel (Arab Strap remix) - Dot Allison",
-                    linkType:  .youtubeLink(code: "https://youtu.be/Mq6iv5IwfAE")
+                    linkType:  .youtubeLink(code: "Mq6iv5IwfAE")
                 ),
                 SongLink(
                     id:        "death-in-vegas",
                     listText:  "Message Personnel (Death in Vegas remix) - Dot Allison",
-                    linkType:  .youtubeLink(code: "https://youtu.be/yQSTPs39HNg")
+                    linkType:  .youtubeLink(code: "yQSTPs39HNg")
                 ),
                 SongLink(
                     id:        "dirge",

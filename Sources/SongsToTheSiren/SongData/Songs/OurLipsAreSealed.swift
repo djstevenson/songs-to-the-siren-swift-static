@@ -5,7 +5,7 @@ extension Song {
             id:        65,
             style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
-            artist:    "The Go-Go's",
+            artist:    "The Go-Go’s",
             title:     "Our Lips Are Sealed",
             album:     "Beauty and the Beat (1981)",
             released:  "12th June 1981 (single), 8th July 1981 (LP)",

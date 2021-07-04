@@ -23,14 +23,20 @@ extension Song {
                     linkType:  .youtubeVideo(code: "Vajhs2wBeCU")
                 ),
                 SongLink(
-                    id:        "npr-tiny-desk)",
+                    id:        "npr-tiny-desk",
                     embedText: "NPR Music Tiny Desk Concert",
                     listText:  "Nautilus (Live - NPR Tiny Desk) - Anna Meredith",
                     linkType:  .youtubeLink(code: "36FNJiP8GWk")
                 ),
                 SongLink(
+                    id:        "npr-vapours",
+                    embedText: "NPR Tiny Desk version",
+                    listText:  "The Vapours (Live - NPR Tiny Desk) - Anna Meredith",
+                    linkType:  .youtubeLink(code: "36FNJiP8GWk", offset: 730)
+                ),
+                SongLink(
                     id:        "paramour",
-                    embedText: "video for Paramour",
+                    embedText: "Paramour",
                     listText:  "Paramour - Anna Meredith",
                     linkType:  .youtubeLink(code: "yjmZLaymJU8")
                 ),
