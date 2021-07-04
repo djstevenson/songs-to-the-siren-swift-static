@@ -48,12 +48,10 @@ extension Page {
     }
 
     private func contentHeader() -> HtmlNode {
-        .header(
-            .div(
-                homeLink(),
-                aboutLink(),
-                atomLink()
-            )
+        .div(
+            homeLink(),
+            aboutLink(),
+            atomLink()
         )
     }
 
@@ -80,7 +78,7 @@ extension Page {
     }
 
     func fullPanelSong(_ song: Song) -> HtmlNode {
-            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
+        .div(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
             panelHeader(song),
             panelBody(song),
             panelFooter(song)
@@ -96,7 +94,7 @@ extension Page {
             .div(
                 .div(
                     .a(
-                        attributes: [.class("float-left mr-4"), songHref(song)],
+                        attributes: [.class("float-left mr-4 mb-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden lg:block"),
                             .height(320),
@@ -146,7 +144,7 @@ extension Page {
     }
 
     func panelFooter(_ song: Song) -> HtmlNode {
-        .footer(attributes: [.class("mb-8 hidden md:block")],
+        .div(attributes: [.class("mb-8 hidden md:block")],
             .p(attributes: [.class("pl-8 mt-4")],
                .span(attributes: [.class("mr-2")], "Tags: "),
                .fragment(song.tags.map(tagLink)),
@@ -158,16 +156,12 @@ extension Page {
 
     private func tagLink(_ tag: Song.Tag) -> HtmlNode {
         // TODO Tag page needs to make clear it's filtering
-        .a(attributes: [.href("/tag/\(tag).html")],
-           .button(attributes: [.class("button-tag")], .text(tag.rawValue))
-        )
+        .a(attributes: [.href("/tag/\(tag).html"), .class("button-tag")], .text(tag.rawValue))
     }
 
     private func countryLink(_ country: Song.Country) -> HtmlNode {
         // TODO Country page needs to make clear it's filtering
-        .a(attributes: [.href("/country/\(country).html")],
-           .button(attributes: [.class("button-tag")], .text(country.rawValue))
-        )
+        .a(attributes: [.href("/country/\(country).html"), .class("button-tag")], .text(country.rawValue))
     }
 
     func makeMetadata(_ song: Song) -> HtmlNode {

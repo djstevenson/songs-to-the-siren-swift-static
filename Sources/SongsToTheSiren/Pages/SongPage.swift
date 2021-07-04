@@ -36,7 +36,7 @@ struct SongPage: Page {
     func pageContent(markdown: [String : HtmlNode]) -> HtmlNode {
         .div(attributes: [.class("mt-4")],
             songNavigation(location: .top),
-            .section(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
+            .div(attributes: [.class("clear-both bg-grey-medium rounded-lg border border-black shadow-3xl mt-6 mb-4")],
                 panelHeader(song),
                 songArticle(markdown: markdown),
                 makeSongLinks(),
@@ -72,7 +72,7 @@ struct SongPage: Page {
         .nav(attributes: [.class("pt-2")],
             songNavLink(songMap[song.dir]?.newer, direction: .newer),
             songNavLink(songMap[song.dir]?.older, direction: .older),
-            .p(attributes: [.class("clear-both")])
+            .div(attributes: [.class("clear-both")])
         )
     }
 
@@ -110,10 +110,8 @@ struct SongPage: Page {
         return
             .div(attributes: [.class("pl-6")],
                  .h4(attributes:[.class("hidden")], "Links"),
-                .p(
-                    .ul(attributes: [.class("w-full mt-4")],
-                        .fragment(song.links.map { $0.renderInList() })
-                    )
+                .ul(attributes: [.class("w-full mt-4")],
+                    .fragment(song.links.map { $0.renderInList() })
                 )
             )
     }
@@ -153,8 +151,7 @@ struct SongPage: Page {
         var parseString = original[...]
         while let (leader, type, code) = parser.parse(&parseString) {
             guard let replacer = LinkReplacer(rawValue: String(type)) else {
-                print("** Unknown shortcut type \(type)")
-                break
+                fatalError("Unknown shortcut, type=\(type) song=\(song.title)")
             }
 
             result.append(.text(String(leader)))

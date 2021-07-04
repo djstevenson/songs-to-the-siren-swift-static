@@ -8,9 +8,9 @@ The Stranglers were one of these bands who moved on. They were also pretty proli
 
 Golden Brown is about the apparent pleasures of taking heroin. I’ll take their word for it. Lyricist Hugh Cornwell says it’s also “about a girl”, and how both the drug and the woman provided him joy.
 
-The intro is on harpsichord and synth, and the song is in ^time(3|4) time but there is the occasional bar of 4 beats. Basically, the intro repeats four bars of ^time(3|4), ^time(3|4), ^time(3|4), and ^time(3|4), switching to conventional ^time(3|4) a little before the vocals start.
+The intro is on harpsichord and synth, and the song is in ^time(3|4) time but there is the occasional bar of 4 beats. Basically, the intro repeats four bars of ^time(3|4), ^time(3|4), ^time(3|4), and ^time(4|4), switching to conventional ^time(3|4) a little before the vocals start.
 
-There are plenty of other songs that add beats here and there, and it’s worth checking out David Bennett’s ^link(david-bennett-analysis) of some of them. He talks about examples from The Beatles, Abba, Björk, and Pink Floyd. He also talks about Golden Brown itself in ^link(david-bennet-analysis-golden-brown).
+There are plenty of other songs that add beats here and there, and it’s worth checking out David Bennett’s ^link(david-bennett-analysis) of some of them. He talks about examples from The Beatles, Abba, Björk, and Pink Floyd. He also talks about Golden Brown itself in ^link(david-bennett-analysis-golden-brown).
 
 ### Update 4th May 2020 - Dave Greenfield
 

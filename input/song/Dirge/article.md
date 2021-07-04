@@ -1,4 +1,4 @@
-Embedded above is the ^link(single) version (because it has the video), but I prefer the mix of the ^link(LP) version.
+Embedded above is the single version (because it has the video), but I prefer the mix of the ^link(album) version.
 
 1999 was a busy year for Allison, releasing her début solo LP only a few weeks after The Contino Sessions came out, featuring her collaboration with Death in Vegas up front.
 
@@ -6,6 +6,6 @@ The song repeats the same line all the way through, but the instrumentation buil
 
 Incidentally, I think I’ve deciphered the lyrics.
 
-> La la la, 
+> La la la,  
 > la la la...
 

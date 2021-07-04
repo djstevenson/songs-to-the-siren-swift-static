@@ -28,7 +28,7 @@ extension Song {
                     linkType:  .youtubeLink(code: "58bAgVSYV1E", offset: 9)
                 ),
                 SongLink(
-                    id:        "cold-sweat",
+                    id:        "coldsweat",
                     embedText: "Cold Sweat",
                     listText:  "Cold Sweat - Sugarcubes",
                     linkType:  .youtubeLink(code: "y8XVHnNaJOo", offset: 7)

@@ -725,7 +725,6 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 700;
-  text-transform: uppercase;
   --tw-text-opacity: 1;
   color: rgba(114, 188, 188, var(--tw-text-opacity));
   outline: 2px solid transparent;
@@ -848,6 +847,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-l-2 {
+  border-left-width: 2px;
+}
+
 .border-black {
   --tw-border-opacity: 1;
   border-color: rgba(0, 0, 0, var(--tw-border-opacity));
@@ -933,6 +936,10 @@ video {
 
 .pl-3 {
   padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
 }
 
 .text-lg {

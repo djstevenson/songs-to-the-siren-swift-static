@@ -28,8 +28,8 @@ extension Song {
                     linkType:  .youtubeVideo(code: "N64I_7HibVE")
                 ),
                 SongLink(
-                    id:        "pretenders",
-                    embedText: "Private Left",
+                    id:        "private-life-pretenders",
+                    embedText: "Private Life",
                     listText:  "Private Life - The Pretenders",
                     linkType:  .youtubeLink(code: "C4oe7tdXo-g")
                 ),
