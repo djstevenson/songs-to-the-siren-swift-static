@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-07-03T18:17:58+01:00</updated>
+    <updated>2021-07-04T01:23:59+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976</id>
+    <entry>
+        <title>How Not To Drown</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/HowNotToDrown.html"></link>
+        <id>https://songstothesiren.com/song/HowNotToDrown.html</id>
+        <updated>2021-07-04T01:23:59+01:00</updated>
+        <summary>This is my second 2021 collab offering - like the previous one, this features two very different voices that combine so well.
+
+Here, Chvrches work with Robert Smith of The Cure to produce a track that is greater than the sum of its parts - even though its parts are great alone. 
+
+This is definitely one of my favourite tracks of the year so far.
+</summary>
+    </entry>
     <entry>
         <title>Like I Used To</title>
         <link rel="alternate" href="https://songstothesiren.com/song/LikeIUsedTo.html"></link>
