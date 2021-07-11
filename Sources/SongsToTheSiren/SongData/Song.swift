@@ -37,6 +37,7 @@ struct Song {
         case ep = "EP"
         case fWord = "F Word"
         case folk = "Folk"
+        case football = "Football"
         case fourAD = "4AD"
         case funk = "Funk"
         case giorgioMoroder = "Giorgio Moroder"

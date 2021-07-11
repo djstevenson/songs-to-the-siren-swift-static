@@ -3,7 +3,7 @@ extension Song {
     static func wideAwake() -> Song {
         Song(
             id:        85,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Deep Sea Diver",
             title:     "Wide Awake",
