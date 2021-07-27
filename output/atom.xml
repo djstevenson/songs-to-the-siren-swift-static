@@ -2,21 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2021-07-11T13:26:53+01:00</updated>
+    <updated>2021-07-27T16:33:54+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976</id>
-    <entry>
-        <title>Three Lions</title>
-        <link rel="alternate" href="https://songstothesiren.com/song/ThreeLions.html"></link>
-        <id>https://songstothesiren.com/song/ThreeLions.html</id>
-        <updated>2021-07-11T13:26:53+01:00</updated>
-        <summary>Three Lions, I'd argue, is not the greatest football **SONG**, but it's the greatest **FOOTBALL** song.
-
-After some terrible efforts in the 80s, football songs took a significant step forwards when New Order combined with the Italia 90 England squad to release World In Motion.  This, I think, is a better song in general than Three Lions. But the latter, written for euro 96, works better *for football* due to its anthemic sing-along “It’s Coming Home” refrain.
-</summary>
-    </entry>
     <entry>
         <title>How Not To Drown</title>
         <link rel="alternate" href="https://songstothesiren.com/song/HowNotToDrown.html"></link>
@@ -207,7 +197,7 @@ A big leap forwards while still being rooted in the present.
         <title>Sense</title>
         <link rel="alternate" href="https://songstothesiren.com/song/Sense.html"></link>
         <id>https://songstothesiren.com/song/Sense.html</id>
-        <updated>2021-03-07T18:48:37Z</updated>
+        <updated>2021-07-27T16:33:54+01:00</updated>
         <summary>Another one from Terry Hall, and another collaboration. This time it’s with Ian Broudie, who released his version as the title track from The Lightning Seeds April 1992 LP “Sense”.
 
 Hall collaborated with Broudie on a few tracks on that album, and sang BVs on this track.  A few years later, Hall recorded his own version for his solo LP “Home” - produced by Broudie. This take is pretty similar to Broudie’s - with enough difference that I can definitely say that, although I love them both,  I prefer this one.
