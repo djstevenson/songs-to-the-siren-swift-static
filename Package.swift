@@ -13,8 +13,8 @@ let package = Package(
     ],
     dependencies: [
         .package(                 url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "0.4.3")),
-        .package(name: "Down",    url: "https://github.com/johnxnguyen/Down",            .upToNextMinor(from: "0.11.0")),
-        .package(name: "Html",    url: "https://github.com/djstevenson/swift-html",      .branch("sorted-srcset-attributes")),
+        .package(                 url: "https://github.com/johnxnguyen/Down",            .upToNextMinor(from: "0.11.0")),
+        .package(                 url: "https://github.com/pointfreeco/swift-html",      .upToNextMinor(from: "0.4.0")),
         .package(                 url: "https://github.com/pointfreeco/swift-parsing",   .upToNextMinor(from: "0.1.2"))
     ],
     targets: [
@@ -22,8 +22,8 @@ let package = Package(
             name: "SongsToTheSiren",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
-                "Down",
-                "Html",
+                .product(name: "Down",    package: "Down"),
+                .product(name: "Html",    package: "swift-html"),
                 .product(name: "Parsing", package: "swift-parsing")
             ]),
         .testTarget(
