@@ -4,6 +4,7 @@ enum LinkReplacer: String {
 
     case time  // Time Signature shortcuts, e.g. ^time(3|4)
     case link  // Link shortcuts, e.g. ^link(link-id)
+    case chord // Chord shortcuts, e.g. ^chord(ii)
 
     func newHtml(for id: String, song: Song) -> HtmlNode {
         switch self {
@@ -22,12 +23,14 @@ enum LinkReplacer: String {
                 fatalError("Invalid time sig code \(id) - use 3|4, for example")
             }
 
-            return
-                .span(attributes:[.class("time-signature italic")],
-                    .sup(.text(parts[0])),
-                    .text("/"),
-                    .sub(.text(parts[1]))
-                )
+            return .span(attributes:[.class("time-signature italic")],
+                .sup(.text(parts[0])),
+                .text("/"),
+                .sub(.text(parts[1]))
+            )
+
+        case .chord:
+            return .span(attributes:[.class("chord italic")], .text(id) )
         }
     }
 }

@@ -97,8 +97,8 @@ extension Page {
                         attributes: [.class("float-left mr-4 mb-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden lg:block"),
-                            .height(320),
-                            .width(320),
+                            .height(240),
+                            .width(240),
                         ]),
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden sm:block lg:hidden"),
