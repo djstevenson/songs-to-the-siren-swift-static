@@ -97,8 +97,8 @@ extension Page {
                         attributes: [.class("float-left mr-4 mb-4"), songHref(song)],
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden lg:block"),
-                            .height(240),
-                            .width(240),
+                            .height(320),
+                            .width(320),
                         ]),
                         .img(src:"/artwork/\(song.dir)-4x.jpg", alt:"Record sleeve image", attributes: [
                             .class("rounded hidden sm:block lg:hidden"),
@@ -113,9 +113,11 @@ extension Page {
                         )
                     ),
                     .h3(attributes: [.class("pl-6 pt-4 text-lg md:text-2xl lg:text-4xl font-bold italic")], .text(song.artist)),
-                    .h4(attributes: [.class("pl-6 pt-2 md:text-md lg:text-2xl italic")], .text(song.released)),
-                    .h4(attributes: [.class("pl-6 pt-2 text-md lg:text-3xl")],
-                        .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
+                    .h4(attributes: [.class("pl-6 pt-2 md:text-md lg:text-2xl italic")],
+                        .text(song.released),
+                        .span(attributes: [.class("pl-4")],
+                            .fragment(song.country.map {.a(attributes:[.href("/country/\($0).html")], .text($0.rawValue + " "))})
+                        )
                     )
                 )
             )
