@@ -1,9 +1,5 @@
 module.exports = {
-  purge: {
-    enabled: true,
-    content: ['./output/**/*.html'],
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: ['./output/**/*.html'],
   theme: {
     container: {
       center: true,
@@ -36,9 +32,6 @@ module.exports = {
       },
       transparent: 'transparent',
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [
     require('@tailwindcss/aspect-ratio'),
