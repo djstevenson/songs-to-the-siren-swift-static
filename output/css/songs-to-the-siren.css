@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.0.15 | MIT License | https://tailwindcss.com
+! tailwindcss v3.0.23 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -468,41 +468,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
-.aspect-w-1,
-.aspect-w-2,
-.aspect-w-3,
-.aspect-w-4,
-.aspect-w-5,
-.aspect-w-6,
-.aspect-w-7,
-.aspect-w-8,
-.aspect-w-9,
-.aspect-w-10,
-.aspect-w-11,
-.aspect-w-12,
-.aspect-w-13,
-.aspect-w-14,
-.aspect-w-15,
 .aspect-w-16 {
   position: relative;
   padding-bottom: calc(var(--tw-aspect-h) / var(--tw-aspect-w) * 100%);
+  --tw-aspect-w: 16;
 }
 
-.aspect-w-1 > *,
-.aspect-w-2 > *,
-.aspect-w-3 > *,
-.aspect-w-4 > *,
-.aspect-w-5 > *,
-.aspect-w-6 > *,
-.aspect-w-7 > *,
-.aspect-w-8 > *,
-.aspect-w-9 > *,
-.aspect-w-10 > *,
-.aspect-w-11 > *,
-.aspect-w-12 > *,
-.aspect-w-13 > *,
-.aspect-w-14 > *,
-.aspect-w-15 > *,
 .aspect-w-16 > * {
   position: absolute;
   height: 100%;
@@ -511,10 +482,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: 0;
   bottom: 0;
   left: 0;
-}
-
-.aspect-w-16 {
-  --tw-aspect-w: 16;
 }
 
 .aspect-h-9 {
