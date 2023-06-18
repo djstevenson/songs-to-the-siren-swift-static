@@ -12,10 +12,10 @@ let package = Package(
         .executable(name: "songs-to-the-siren", targets: ["SongsToTheSiren"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "1.1.1")),
+        .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "1.2.2")),
         .package(url: "https://github.com/johnxnguyen/Down",            .upToNextMinor(from: "0.11.0")),
         .package(url: "https://github.com/pointfreeco/swift-html",      .upToNextMinor(from: "0.4.0")),
-        .package(url: "https://github.com/pointfreeco/swift-parsing",   .upToNextMinor(from: "0.8.0"))
+        .package(url: "https://github.com/pointfreeco/swift-parsing",   .upToNextMinor(from: "0.12.1"))
     ],
     targets: [
         .target(

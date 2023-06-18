@@ -141,7 +141,7 @@ struct SongPage: Page {
   private func applyShortcut(_ original: String) -> HtmlNode {
     var result = [HtmlNode]()
 
-    let parser = Parse {
+      let parser = Parse(input: Substring.self) {
       Prefix { $0 != "^" }
       "^"
       Prefix { $0 != "(" }
