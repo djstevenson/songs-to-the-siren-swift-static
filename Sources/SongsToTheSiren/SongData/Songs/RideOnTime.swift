@@ -11,7 +11,7 @@ extension Song {
             released:  "1989 (Single), 1990 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1602894638),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1980s, .house, .italianHouse, .sample, .tr909],
             country:   [.italy],
             links:     SongLinks(links: [

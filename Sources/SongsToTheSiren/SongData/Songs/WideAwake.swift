@@ -11,7 +11,7 @@ extension Song {
             released:  "19th February 2016 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1620169240),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade2010s, .seattle, .spouses, .platinum2016],
             country:   [.usa],
             links:     SongLinks(links: [

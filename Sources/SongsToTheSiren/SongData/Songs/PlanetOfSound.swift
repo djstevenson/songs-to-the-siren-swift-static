@@ -12,7 +12,7 @@ extension Song {
             released:  "28th May 1991 (single), 3rd September 1991 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587084155),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.indie, .fourAD, .decade1990s, .sciFi],
             country:   [.usa],
             links:     SongLinks(links: [

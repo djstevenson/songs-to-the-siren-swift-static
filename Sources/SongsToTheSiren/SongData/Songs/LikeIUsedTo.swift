@@ -11,7 +11,7 @@ extension Song {
             released:  "20th May 2021",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1625332678),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade2020s, .collaboration],
             country:   [.usa],
             links:     SongLinks(links: [

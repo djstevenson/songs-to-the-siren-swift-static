@@ -12,7 +12,7 @@ extension Song {
             released:  "15th June 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587497741),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .kristinHersh, .ringTone],
             country:   [.usa],
             links:     SongLinks(links: [

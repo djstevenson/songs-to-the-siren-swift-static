@@ -12,7 +12,7 @@ extension Song {
             released:  "23rd June 1992",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586972109),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.indie, .decade1990s, .openingTrack, .oneLittleIndian, .spouses],
             country:   [.uk],
             links:     SongLinks(links: [

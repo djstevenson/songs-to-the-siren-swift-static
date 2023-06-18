@@ -11,7 +11,7 @@ extension Song {
             released:  "January 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592956924),
-            updatedAt: Date(timeIntervalSince1970: 1687058738),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1980s, .fourAD, .ep, .kristinHersh],
             country:   [.usa],
             links:     SongLinks(links: [
