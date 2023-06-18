@@ -12,7 +12,7 @@ extension Song {
             released:  "30 July 2012",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1589154644),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+38),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1980s, .decade1990s, .brass, .folk],
             country:   [.uk],
             links:     SongLinks(links: [

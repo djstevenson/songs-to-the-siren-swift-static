@@ -12,7 +12,7 @@ extension Song {
             released:  "11th October 1974 (Far Far Away), 7th February 1975 (How Does It Feel?)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588715047),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+33),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1970s, .twoForOne, .glam, .movie],
             country:   [.uk],
             links:     SongLinks(links: [

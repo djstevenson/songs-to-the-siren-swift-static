@@ -12,7 +12,7 @@ extension Song {
             released:  "7th June 2011",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1590010501),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+43),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade2010s, .fWord, .rockOpera, .shouty],
             country:   [.canada],
             links:     SongLinks(links: [

@@ -11,7 +11,7 @@ extension Song {
             released:  "27th May 2016",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1617324769),
-            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade2010s, .sideProject, .ep],
             country:   [.usa],
             links:     SongLinks(links: [

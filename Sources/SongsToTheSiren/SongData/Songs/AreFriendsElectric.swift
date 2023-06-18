@@ -11,7 +11,7 @@ extension Song {
             released:  "4th May 1979 (single), 4th April 1979 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1609118609),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+77),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1970s, .electronic],
             country:   [.uk],
             links:     SongLinks(links: [

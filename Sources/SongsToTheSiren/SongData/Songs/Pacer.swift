@@ -11,7 +11,7 @@ extension Song {
             released:  "30th October 1995 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1618528416),
-            updatedAt: Date(timeIntervalSince1970: 1618605781),
+            updatedAt: Date(timeIntervalSince1970: 1687060831),
             tags:      [.decade1990s, .sideProject, .openingTrack],
             country:   [.usa],
             links:     SongLinks(links: [
