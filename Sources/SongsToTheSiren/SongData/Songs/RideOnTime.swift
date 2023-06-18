@@ -11,7 +11,7 @@ extension Song {
             released:  "1989 (Single), 1990 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1602894638),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+74),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1980s, .house, .italianHouse, .sample, .tr909],
             country:   [.italy],
             links:     SongLinks(links: [
@@ -30,7 +30,7 @@ extension Song {
                     id:        "love-sensation",
                     embedText: "Love Sensation",
                     listText:  "Love Sensation - Loleatta Holloway",
-                    linkType:  .youtubeLink(code: "BKmw9UrX99s")
+                    linkType:  .youtubeLink(code: "1h6Su3t5Lqs")
                 ),
             ])
         )

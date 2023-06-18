@@ -12,14 +12,14 @@ extension Song {
             released:  "28th May 1991 (single), 3rd September 1991 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587084155),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+7),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.indie, .fourAD, .decade1990s, .sciFi],
             country:   [.usa],
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Planet of Sound - Pixies",
-                    linkType:  .youtubeVideo(code: "tzdxBYk5Bjk")
+                    linkType:  .youtubeVideo(code: "TFl4AemxH4g")
                 ),
             ])
         )

@@ -11,7 +11,7 @@ extension Song {
             released:  "22nd November 1968 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1615249172),
-            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1960s, .timeSignatureChange, .liverpool],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -24,7 +24,7 @@ extension Song {
                     id:        "breeders",
                     embedText: "The Breeders",
                     listText:  "Happiness Is A Warm Gun - The Breeders",
-                    linkType:  .youtubeLink(code: "-eBaNfp8s2A")
+                    linkType:  .youtubeLink(code: "LoIyUl10ChQ")
                 ),
             ])
         )

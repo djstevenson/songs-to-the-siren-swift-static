@@ -12,7 +12,7 @@ extension Song {
             released:  "? 1980 (Single), 9th May 1980 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588113402),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+25),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1980s, .twoForOne, .cover, .dub, .longSongs, .reggae, .slyRobbie],
             country:   [.jamaica],
             links:     SongLinks(links: [
@@ -66,7 +66,7 @@ extension Song {
                     id:        "the-clash",
                     embedText: "The Clash",
                     listText:  "Punk/reggae: Armagideon Time - The Clash",
-                    linkType:  .youtubeLink(code: "6enAv2SEA38")
+                    linkType:  .youtubeLink(code: "PdRL6qH3YRM")
                 ),
                 SongLink(
                     id:        "sly-and-robbie",

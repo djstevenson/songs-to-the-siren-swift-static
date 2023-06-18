@@ -1,7 +1,5 @@
 After leaving the Bunnymen, McCulloch released a couple of non-remarkable solo LPs, before forming Electrafixion with Bunnyman Will Sergeant. This new band produced a way better LP in my view. By the time Les Pattinson got involved, the original three Bunnymen were together again and the next record was released under the original name.
 
-The above-embedded video is clearly in the wrong aspect ratio, but the official video - in the correct ratio - has truly appalling audio quality. It was a conundrum which to link to.  The audio deserves to be heard in better quality than the official upload, while the beautiful Citroën DS deserves to be seen in the right aspect ratio. Both are linked below, take your pick.
-
 This lead single was, somehow, simultaneously “a new start” and “picking up where they left off”. It’s *exactly* what you would want from an Echo & The Bunnymen reunion single.
 
 ### An aside

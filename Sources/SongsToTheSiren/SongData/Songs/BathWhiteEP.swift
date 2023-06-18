@@ -11,7 +11,7 @@ extension Song {
             released:  "27th May 2016",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1617324769),
-            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade2010s, .sideProject, .ep],
             country:   [.usa],
             links:     SongLinks(links: [
@@ -25,31 +25,31 @@ extension Song {
                     id:        "gods-not-a-dick",
                     embedText: "God’s Not A Dick",
                     listText:  "God’s Not A Dick - 50 Foot Wave",
-                    linkType:  .youtubeLink(code: "Zo026R53FjA")
+                    linkType:  .youtubeLink(code: "W1EwNpcSXBI")
                 ),
                 SongLink(
                     id:        "human",
                     embedText: "Human",
                     listText:  "Human - 50 Foot Wave",
-                    linkType:  .youtubeLink(code: "sqWUseIUH1k")
+                    linkType:  .youtubeLink(code: "AlPLjDSBpXY")
                 ),
                 SongLink(
                     id:        "ratted-out",
                     embedText: "Ratted Out",
                     listText:  "Ratted Out - 50 Foot Wave",
-                    linkType:  .youtubeLink(code: "VWZAdg2zKPo")
+                    linkType:  .youtubeLink(code: "9V61BYhGyXE")
                 ),
                 SongLink(
                     id:        "st-christopher",
                     embedText: "St. Christopher",
                     listText:  "St. Christopher - 50 Foot Wave",
-                    linkType:  .youtubeLink(code: "dA5ZwadHdzU")
+                    linkType:  .youtubeLink(code: "azp98S4tvGI")
                 ),
                 SongLink(
                     id:        "sun-salute",
                     embedText: "Sun Salute",
                     listText:  "Sun Salute - 50 Foot Wave",
-                    linkType:  .youtubeLink(code: "bZWC6hA70gA")
+                    linkType:  .youtubeLink(code: "hKeZlb7Og0o")
                 )
             ])
         )

@@ -12,7 +12,7 @@ extension Song {
             released:  "23rd August 2003",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586729472),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+3),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.sample, .mashup, .hopeSandoval, .jarvisCocker, .decade2000s],
             country:   [.uk, .usa],
             links:     SongLinks(links: [
@@ -38,7 +38,7 @@ extension Song {
                     id:        "are-friends-electric",
                     embedText: "Are ’Friends’ Electric?",
                     listText:  "Are ’Friends’ Electric? - Tubeway Army",
-                    linkType:  .youtubeLink(code: "QzSM3pRtgcM")
+                    linkType:  .youtubeLink(code: "7rKJf_DWecU", offset: 8)
                 ),
                 SongLink(
                     id:        "freak-like-me",

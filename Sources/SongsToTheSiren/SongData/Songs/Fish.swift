@@ -12,14 +12,14 @@ extension Song {
             released:  "15th June 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587497741),
-            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.fourAD, .decade1980s, .compilationAlbum, .lonelyIsAnEyesore, .kristinHersh, .ringTone],
             country:   [.usa],
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText: "Fish - Throwing Muses",
-                    linkType: .youtubeVideo(code: "kIYkd9nJLJA")
+                    linkType: .youtubeVideo(code: "7kJFm8-g0Bg")
                 ),
                 SongLink(
                     id:        "not-too-soon",

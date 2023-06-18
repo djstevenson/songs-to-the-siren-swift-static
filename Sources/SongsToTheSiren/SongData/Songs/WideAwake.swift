@@ -11,7 +11,7 @@ extension Song {
             released:  "19th February 2016 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1620169240),
-            updatedAt: Date(timeIntervalSince1970: 1621460581),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade2010s, .seattle, .spouses, .platinum2016],
             country:   [.usa],
             links:     SongLinks(links: [
@@ -19,11 +19,6 @@ extension Song {
                     id:        "default",
                     listText:  "Wide Awake - Deep Sea Diver",
                     linkType:  .youtubeVideo(code: "JIP1Jpi4Sxs")
-                ),
-                SongLink(
-                    id:        "live",
-                    listText:  "Wide Awake (live, KEXP) - Deep Sea Diver",
-                    linkType:  .youtubeLink(code: "n_ZSlCFbvcY", offset: 982)
                 ),
                 SongLink(
                     id:        "talkhouse-article",

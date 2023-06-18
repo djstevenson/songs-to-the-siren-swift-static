@@ -6,13 +6,7 @@ While the line-up is similar, the sound isn’t that close.  50 Foot Wave starte
 
 But this 2016 EP is what gives me thrills right now.  I rarely play Hersh’s solo material but, when I want to hear her music these days,  this is my usual  “go to” record.  Really, for me, this is what the newer Throwing Muses material could sound like in my dream workd.
 
-I couldn’t choose a favourite track, so the embedded video is the opening, début, song. The other tracks are equally worth checking out, I’d suggest:
-
-* ^link(gods-not-a-dick)
-* ^link(human)
-* ^link(ratted-out)
-* ^link(st-christopher)
-* ^link(sun-salute)
+I couldn’t choose a favourite track, so the embedded video is the opening, début, song. The other tracks are equally worth checking out, links below.
 
 Late in 2020 Hersh reported that she was recording new 50 Foot Wave material.
 

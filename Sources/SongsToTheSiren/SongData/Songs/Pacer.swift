@@ -11,7 +11,7 @@ extension Song {
             released:  "30th October 1995 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1618528416),
-            updatedAt: Date(timeIntervalSince1970: 1618605781),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1990s, .sideProject, .openingTrack],
             country:   [.usa],
             links:     SongLinks(links: [
@@ -24,7 +24,7 @@ extension Song {
                     id:        "lp-version",
                     embedText: "LP",
                     listText:  "Pacer - The Amps (LP version)",
-                    linkType:  .youtubeLink(code: "NUtoEVaw8nA")
+                    linkType:  .youtubeLink(code: "EWUMWPNb-hQ")
                 ),
             ])
         )

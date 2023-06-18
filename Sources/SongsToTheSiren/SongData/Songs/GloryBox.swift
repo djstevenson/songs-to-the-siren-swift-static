@@ -12,7 +12,7 @@ extension Song {
             released:  "22nd August 1994 (LP), 3rd January 1995 (single)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587335164),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+13),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.bristol, .isaacHayes, .sample, .tripHop, .decade1990s],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -26,6 +26,12 @@ extension Song {
                     embedText: "Hell Is Round The Corner",
                     listText:  "Hell Is Round The Corner - Tricky",
                     linkType: .youtubeLink(code: "E3R_3h6zQEs")
+                ),
+                SongLink(
+                    id:        "ikes-rap-ii",
+                    embedText: "Ike's Rap II",
+                    listText:  "Ike's Rap II - Iasac Hayes",
+                    linkType: .youtubeLink(code: "epABdZcgI_I")
                 ),
                 SongLink(
                     id:        "here",

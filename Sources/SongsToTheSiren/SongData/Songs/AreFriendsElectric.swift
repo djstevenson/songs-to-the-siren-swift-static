@@ -11,14 +11,14 @@ extension Song {
             released:  "4th May 1979 (single), 4th April 1979 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1609118609),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+77),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1970s, .electronic],
             country:   [.uk],
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
                     listText:  "Are ‘Friends’ Electric? - Tubeway Army",
-                    linkType:  .youtubeVideo(code: "QzSM3pRtgcM")
+                    linkType:  .youtubeVideo(code: "7rKJf_DWecU", offset: 8)
                 ),
                 SongLink(
                     id:        "yt2013",

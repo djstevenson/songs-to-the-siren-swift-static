@@ -11,7 +11,7 @@ extension Song {
             released:  "12 September 1994 (LP), November 1994 (single)",
             maxRez:    3,
             createdAt: Date(timeIntervalSince1970: 1595544841),
-            updatedAt: Date(timeIntervalSince1970: 1627400034),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1990s, .collaboration, .terryHall],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -25,7 +25,7 @@ extension Song {
                     id:        "supergroup",
                     embedText: "“supergroup”",
                     listText:  "Sense - Terry Hall (live “supergroup”)",
-                    linkType:  .youtubeLink(code: "XlioWnw9BEc")
+                    linkType:  .youtubeLink(code: "TmVxL0ZkGtE")
                 ),
                 SongLink(
                     id:        "all-kinds-of-everything",

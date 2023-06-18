@@ -11,7 +11,7 @@ extension Song {
             released:  "January 1987",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592956924),
-            updatedAt: Date(timeIntervalSince1970: 1617324769),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1980s, .fourAD, .ep, .kristinHersh],
             country:   [.usa],
             links:     SongLinks(links: [
@@ -40,17 +40,17 @@ extension Song {
                 SongLink(
                     id:        "reel",
                     listText:  "Reel (Chains Changed EP) - Throwing Muses",
-                    linkType:  .youtubeLink(code: "hrdU4gur-w8")
+                    linkType:  .youtubeLink(code: "vFwMpv61HI0")
                 ),
                 SongLink(
                     id:        "snailhead",
                     listText:  "Snailhead (Chains Changed EP) - Throwing Muses",
-                    linkType:  .youtubeLink(code: "QEwnNNV6l9A")
+                    linkType:  .youtubeLink(code: "p0bFYb18-yo")
                 ),
                 SongLink(
                     id:        "cry-baby-cry",
                     listText:  "Cry Baby Cry (Chains Changed EP) - Throwing Muses",
-                    linkType:  .youtubeLink(code: "DH8ToSPaHNk")
+                    linkType:  .youtubeLink(code: "aeQkynUMX6A")
                 ),
                 SongLink(
                     id:        "cry-baby-cry-beatles",

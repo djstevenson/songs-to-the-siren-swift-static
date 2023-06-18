@@ -12,7 +12,7 @@ extension Song {
             released:  "27th October 2014 (Peski Records), 24th July 2015 (Heavenly re-release)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588794388),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+36),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade2010s, .cornish, .electronic],
             country:   [.uk, .wales],
             links:     SongLinks(links: [
@@ -31,7 +31,7 @@ extension Song {
                     id:        "y-dydd-olaf",
                     embedText: "Y Dydd Olaf",
                     listText:  "Y Dydd Olaf (Welsh LP) - Gwenno",
-                    linkType:  .youtubeLink(code: "Y_Dydd_Olaf_(album)")
+                    linkType:  .wikipedia(page: "Y_Dydd_Olaf_(album)")
                 ),
             ])
         )

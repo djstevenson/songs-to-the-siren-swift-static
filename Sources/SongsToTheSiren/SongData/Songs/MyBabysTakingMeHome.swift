@@ -11,7 +11,7 @@ extension Song {
             released:  "14th October 2002",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1592520501),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+58),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade2000s, .reinvention],
             country:   [.usa],
             links:     SongLinks(links: [
@@ -19,7 +19,7 @@ extension Song {
                     id:        "default",
                     embedText: "My Baby’s Taking Me Home (Live)",
                     listText:  "My Baby’s Taking Me Home (live) - Sparks",
-                    linkType:  .youtubeVideo(code: "QrHa5-R6J7I", offset: 22)
+                    linkType:  .youtubeVideo(code: "8AtwnsyQPe8", offset: 22)
                 ),
                 SongLink(
                     id:        "official",

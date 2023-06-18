@@ -12,7 +12,7 @@ extension Song {
             released:  "30 July 2012",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1589154644),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+38),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1980s, .decade1990s, .brass, .folk],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -24,8 +24,8 @@ extension Song {
                 SongLink(
                     id:        "the-floral-dance",
                     embedText: "The Floral Dance",
-                    listText:  "The Floral Dance - Terry Wogan with the Brighouse and Rastrick Brass Band",
-                    linkType:  .youtubeLink(code: "T3Y4HufJ1oE")
+                    listText:  "The Floral Dance - The Brighouse and Rastrick Brass Band",
+                    linkType:  .youtubeLink(code: "ysc5sXpFQlA", offset: 9)
                 ),
                 SongLink(
                     id:        "tabor",

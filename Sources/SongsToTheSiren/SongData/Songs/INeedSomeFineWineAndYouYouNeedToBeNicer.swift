@@ -12,7 +12,7 @@ extension Song {
             released:  "21st September 2005 (single), 17th October 2005 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1587506858),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+16),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade2000s, .dogsInVideo],
             country:   [.sweden],
             links:     SongLinks(links: [
@@ -22,9 +22,9 @@ extension Song {
                     linkType: .youtubeVideo(code: "huobAY7gl30")
                 ),
                 SongLink(
-                    id:        "hell-is-round-the-corner",
+                    id:        "documentary",
                     listText:  "Mini-documentary about the recording of this song",
-                    linkType: .youtubeLink(code: "O-3-46RD2W8")
+                    linkType: .youtubeLink(code: "TbMDz3Xgaks")
                 ),
             ])
         )

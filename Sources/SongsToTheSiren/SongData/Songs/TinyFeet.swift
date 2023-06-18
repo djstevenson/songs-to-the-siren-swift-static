@@ -12,7 +12,7 @@ extension Song {
             released:  "23rd June 1992",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1586972109),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+5),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.indie, .decade1990s, .openingTrack, .oneLittleIndian, .spouses],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -23,7 +23,7 @@ extension Song {
                 ),
                 SongLink(
                     id:        "reprise",
-                    embedText: "an Angelfish side-project",
+                    embedText: "a reprise",
                     listText:  "Tiny Feet (Reprise) - The Heart Throbs (YouTube Audio)",
                     linkType:  .youtubeLink(code: "WIFVffd4SMs")
                 ),

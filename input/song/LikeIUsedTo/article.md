@@ -4,4 +4,3 @@ On the studio version, there’s a Grandaddy-style synth-piano arpeggio that com
 
 In the video embedded above, look out for Abba-style shots where one singer is face on and the other side on. You’ll know what I mean when you see it. Not least because it’s in the current video thumbnail :)
 
-I also recommend checking out their ^link(live-tv-performance) of the song.

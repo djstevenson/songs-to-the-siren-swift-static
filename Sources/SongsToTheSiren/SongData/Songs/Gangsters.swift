@@ -11,7 +11,7 @@ extension Song {
             released:  "4th May 1979",
             maxRez:    2,
             createdAt: Date(timeIntervalSince1970: 1595292649),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+64),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1970s, .twoTone, .coventry, .reggae, .ska, .terryHall],
             country:   [.uk],
             links:     SongLinks(links: [
@@ -24,7 +24,7 @@ extension Song {
                     id:        "selecter",
                     embedText: "The Selecter",
                     listText:  "The Selecter - The Selecter",
-                    linkType:  .youtubeLink(code: "1-TncPbB5ME")
+                    linkType:  .youtubeLink(code: "JlH5uwLwojQ")
                 ),
                 SongLink(
                     id:        "2-tone",

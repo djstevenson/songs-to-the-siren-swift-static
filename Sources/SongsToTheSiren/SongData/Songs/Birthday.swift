@@ -12,7 +12,7 @@ extension Song {
             released:  "August 1987 (single, in English). April 1988 (LP, in English)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1588794382),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+34),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1980s, .debut, .oneLittleIndian],
             country:   [.iceland],
             links:     SongLinks(links: [
@@ -25,7 +25,7 @@ extension Song {
                     id:        "english",
                     embedText: "English",
                     listText:  "Birthday (English) - Sugarcubes",
-                    linkType:  .youtubeLink(code: "58bAgVSYV1E", offset: 9)
+                    linkType:  .youtubeLink(code: "BFQPNApwJGU", offset: 6)
                 ),
                 SongLink(
                     id:        "coldsweat",
@@ -48,7 +48,7 @@ extension Song {
                 SongLink(
                     id:        "blue-eyed-pop-live",
                     listText:  "Blue Eyed Pop - Sugarcubes (a cracking 1992 live version)",
-                    linkType:  .youtubeLink(code: "qvEqFOXrBOQ", offset: 7)
+                    linkType:  .youtubeLink(code: "exmEQj3cUTY")
                 ),
             ])
         )

@@ -11,20 +11,14 @@ extension Song {
             released:  "20th June 1997 (Single), 14th July 1997 (LP)",
             maxRez:    4,
             createdAt: Date(timeIntervalSince1970: 1594523302),
-            updatedAt: Date(timeIntervalSince1970: 1615142851+63),
+            updatedAt: Date(timeIntervalSince1970: 1687058738),
             tags:      [.decade1990s, .comeback, .liverpool],
             country:   [.uk],
             links:     SongLinks(links: [
                 SongLink(
                     id:        "default",
-                    listText:  "Nothing Lasts Forever (wrong aspect ratio, better audio quality) - Echo & The Bunnymen",
-                    linkType:  .youtubeVideo(code: "XZF8tVtf-h4")
-                ),
-                SongLink(
-                    id:        "yt-aspect",
-                    embedText: "Nothing Lasts Forever",
-                    listText:  "Nothing Lasts Forever (official, correct aspect ratio, terrible audio) - Echo & The Bunnymen",
-                    linkType:  .youtubeLink(code: "Tc1J7y4xIdA")
+                    listText:  "Nothing Lasts Forever - Echo & The Bunnymen",
+                    linkType:  .youtubeVideo(code: "Tc1J7y4xIdA")
                 ),
                 SongLink(
                     id:        "tiny-feet",
