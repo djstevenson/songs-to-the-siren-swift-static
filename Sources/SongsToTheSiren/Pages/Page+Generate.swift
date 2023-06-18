@@ -167,11 +167,24 @@ extension Page {
     }
 
     func makeMetadata(_ song: Song) -> HtmlNode {
-        .p(attributes: [.class("text-sm italic ml-8 mt-6")],
-            .text("Published at \(publishDate(song))")
-        )
+        let publishedNode: HtmlNode =
+            .p(attributes: [.class("text-sm italic ml-8 mt-6")],
+                .text("Published at \(publishDate(song))")
+            )
+
+        if song.createdAt != song.updatedAt {
+            let updatedNode: HtmlNode =
+                .p(attributes: [.class("text-sm italic ml-8 mt-6")],
+                   .text("Updated at \(updateDate(song))")
+                )
+            return .div(publishedNode, updatedNode)
+        }
+        else {
+            return .div(publishedNode)
+        }
     }
 
+    // TODO Duplicated code in the next two, sort this out.
     func publishDate(_ song: Song) -> String {
         let formatter = DateFormatter()
         formatter.locale = Locale(identifier: "en_GB_POSIX")
@@ -179,6 +192,15 @@ extension Page {
         formatter.timeZone = TimeZone(identifier: "Europe/London")
 
         return formatter.string(from: song.createdAt)
+    }
+
+    func updateDate(_ song: Song) -> String {
+        let formatter = DateFormatter()
+        formatter.locale = Locale(identifier: "en_GB_POSIX")
+        formatter.dateFormat = "EEE, dd MMMM yyyy HH:mm"
+        formatter.timeZone = TimeZone(identifier: "Europe/London")
+
+        return formatter.string(from: song.updatedAt)
     }
 
 }
