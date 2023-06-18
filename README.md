@@ -38,6 +38,7 @@ swift run
 
 # Build the CSS
 nvm use
+npx browserslist@latest --update-db
 npx tailwindcss -o ./output/css/songs-to-the-siren.css --jit --input=tailwind.css
 
 # Optional, minify CSS
@@ -53,6 +54,7 @@ find output -name \*html | xargs vnu 2> >(grep -v frameborder)
 # Serve pages from dev server
 cd output
 ruby -rwebrick -e'WEBrick::HTTPServer.new(:Port => 8000, :DocumentRoot => Dir.pwd).start'
+# Or some other web server...
 ```
 
 You can then visit http://localhost:8000/
