@@ -39,6 +39,7 @@ swift run
 # Build the CSS
 nvm use
 npx browserslist@latest --update-db
+npm install
 npx tailwindcss -o ./output/css/songs-to-the-siren.css --jit --input=tailwind.css
 
 # Optional, minify CSS
