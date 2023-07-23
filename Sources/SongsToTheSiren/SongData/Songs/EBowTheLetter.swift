@@ -38,12 +38,7 @@ extension Song {
                     embedText: "River Phoenix",
                     listText:  "River Phoenix",
                     linkType:  .wikipedia(page: "River_Phoenix")
-                ),
-                SongLink(
-                    id:        "twitter",
-                    embedText: "Twitter",
-                    linkType:  .other(url: URL(string: "https://twitter.com/")!)
-                ),
+                )
             ])
         )
     }
