@@ -2,11 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Songs to the Siren</title>
     <link>https://songstothesiren.com/</link>
-    <updated>2023-07-23T05:08:07+01:00</updated>
+    <updated>2023-07-27T02:57:36+01:00</updated>
     <author>
         <name>David Stevenson</name>
     </author>
     <id>urn:uuid:48d35c25-87c4-4df9-95f9-49d16ea10976</id>
+    <entry>
+        <title>Thank You For Hearing Me</title>
+        <link rel="alternate" href="https://songstothesiren.com/song/ThankYouForHearingMe.html"></link>
+        <id>https://songstothesiren.com/song/ThankYouForHearingMe.html</id>
+        <updated>2023-07-27T02:57:36+01:00</updated>
+        <summary>Sadly, I write this on the day we learn that Sinéad O'Connor has passed away.
+
+I talked about her covers earlier in this blog, but she was a tremendous songwriter in her own right.  I became a committed fan when I saw her at a festival in 1994 or maybe 1995 when she was promoting Universal Mother, having previously only known her own song Mandinka, and Nothing Compares 2 U, the cover that made her famous.
+
+I was knocked over by this performance of melodic music somehow influenced by folk and dub at the same time.
+</summary>
+    </entry>
     <entry>
         <title>No Curse</title>
         <link rel="alternate" href="https://songstothesiren.com/song/NoCurse.html"></link>
