@@ -3,7 +3,7 @@ extension Song {
     static func likeIUsedTo() -> Song {
         Song(
             id:        86,
-            style:     .fullPanel,
+            style:     .listing,
             dir:       String.folderFromFunctionName(name: #function),
             artist:    "Sharon Van Etten & Angel Olsen",
             title:     "Like I Used To",

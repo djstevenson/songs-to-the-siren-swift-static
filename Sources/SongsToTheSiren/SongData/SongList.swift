@@ -13,6 +13,7 @@ struct SongList {
     }
 
     let songs: [Song] = [
+        .thankYouForHearingMe(),
         .noCurse(),
 //        .threeLions(),  // Had this lined up in case England won Euro2020...
         .howNotToDrown(),
