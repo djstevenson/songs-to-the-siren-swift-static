@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:6.0
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/pointfreeco/swift-parsing",    .upToNextMinor(from: "0.13.0"))
     ],
     targets: [
-        .target(
+        .executableTarget(
             name: "SongsToTheSiren",
             dependencies: [
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),

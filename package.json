@@ -11,10 +11,10 @@
   "license": "ISC",
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
-    "autoprefixer": "^10.4.19",
-    "minify": "^11.1.1",
+    "autoprefixer": "^10.4.20",
+    "minify": "^11.4.1",
     "minimist": "1.2.8",
-    "postcss": "^8.4.38",
-    "tailwindcss": "^3.4.3"
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
   }
 }
