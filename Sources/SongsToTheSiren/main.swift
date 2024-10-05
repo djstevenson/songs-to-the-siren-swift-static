@@ -58,9 +58,9 @@ struct SongsToTheSiren: ParsableCommand {
 //        // CSS
 //        processSCSS("songs-to-the-siren")
 //
-        // Atom page
         AtomFeed(fileUtils: fileUtils, songList: songList).publish()
 
+        RubyExport(fileUtils: fileUtils, songList: songList).export()
     }
 
 //    func processSCSS(_ file: String) {
