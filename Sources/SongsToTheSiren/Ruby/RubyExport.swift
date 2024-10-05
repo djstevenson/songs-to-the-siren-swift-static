@@ -19,9 +19,13 @@ struct RubyExport {
         }
 
         for song in songList.songs.reversed() {
+            let summary = readMarkdown("summary", song: song.dir)
+            let article = readMarkdown("article", song: song.dir)
             let createdAt = formatDate(song.createdAt)
             let updatedAt = formatDate(song.updatedAt)
-            output += "s = Song.create!(id: \(song.id), artist: %q(\(song.artist)), title: %q(\(song.title)), album: %q(\(song.album)), released: %q(\(song.released)), max_rez: \(song.maxRez), created_at: %q(\(createdAt)), updated_at: %q(\(updatedAt)))\n"
+            output += summary
+            output += article
+            output += "s = Song.create!(id: \(song.id), artist: %q(\(song.artist)), article: article, summary: summary, title: %q(\(song.title)), album: %q(\(song.album)), released: %q(\(song.released)), max_rez: \(song.maxRez), created_at: %q(\(createdAt)), updated_at: %q(\(updatedAt)))\n"
 
             song.tags.forEach { tag in
                 output += "s.tags << tag_\(String(describing: tag))\n"
@@ -38,6 +42,16 @@ struct RubyExport {
         }
 
         fileUtils.writeFile(dirs: [], file: "seeds.rb", content: output)
+    }
+
+    func readMarkdown(_ type: String, song: String) -> String {
+        let content = fileUtils.readFile(dirs: ["song", song], file: "\(type).md")
+        return """
+        let \(type) = \"\"\"
+        \(content)
+        \"\"\"
+        \n
+        """
     }
 
     func getLinkData(_ link: SongLink, songMap: [String: SongList.SongMap]) -> String {
