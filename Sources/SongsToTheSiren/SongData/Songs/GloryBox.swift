@@ -29,8 +29,8 @@ extension Song {
                 ),
                 SongLink(
                     id:        "ikes-rap-ii",
-                    embedText: "Ike's Rap II",
-                    listText:  "Ike's Rap II - Iasac Hayes",
+                    embedText: "Ike’s Rap II",
+                    listText:  "Ike’s Rap II - Iasac Hayes",
                     linkType: .youtubeLink(code: "epABdZcgI_I")
                 ),
                 SongLink(

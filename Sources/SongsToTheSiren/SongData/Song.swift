@@ -1,7 +1,7 @@
 import Foundation
 
 struct Song {
-    enum Tag: String {
+    enum Tag: String, CaseIterable {
         case actor = "Actor"
         case addedBeat = "Added Beat"
         case bassSolo = "Bass Solo"
@@ -110,7 +110,7 @@ struct Song {
         case year2020 = "2020"
     }
 
-    enum Country: String {
+    enum Country: String, CaseIterable {
         case australia = "🇦🇺"
         case belgium   = "🇧🇪"
         case canada    = "🇨🇦"

@@ -63,7 +63,7 @@ You can then visit http://localhost:8000/
 ## All the build stuff in one command
 
 ```
-swift run ; nvm use ; npx tailwindcss -o ./output/css/songs-to-the-siren.css --jit --input=tailwind.css ; npx minify output/css/songs-to-the-siren.css > output/css/songs-to-the-siren-min.css ; for i in $(find output -name \*.html) ; do mv ${i} ${i}.tmp && tidy -indent --indent-spaces 4 -quiet --tidy-mark no  --warn-proprietary-attributes no --gnu-emacs yes --wrap 0 ${i}.tmp > ${i} ; rm ${i}.tmp ; done ; find output -name \*html | xargs vnu 2> >(grep -v frameborder)
+swift run ; nvm use ; npx tailwindcss -o ./output/css/songs-to-the-siren.css --jit --input=tailwind.css ; npx minify output/css/songs-to-the-siren.css > output/css/songs-to-the-siren-min.css ; for i in $(find output -name \*.html) ; do mv ${i} ${i}.tmp && tidy -indent --indent-spaces 4 -quiet --tidy-mark no  --warn-proprietary-attributes no --gnu-emacs yes --wrap 0 ${i}.tmp > ${i} 2>/dev/null; rm ${i}.tmp ; done ; find output -name \*html | xargs vnu 2> >(grep -v frameborder)
 ```
 
 

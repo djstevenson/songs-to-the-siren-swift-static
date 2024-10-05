@@ -2,6 +2,7 @@ struct SongList {
     struct SongMap {
         var older: Song?
         var newer: Song?
+        var this:  Song?
     }
 
     struct TagMap {
@@ -13,6 +14,7 @@ struct SongList {
     }
 
     let songs: [Song] = [
+//        .threeLions(),  // Had this lined up in case England won Euro2024...
         .thankYouForHearingMe(),
         .noCurse(),
 //        .threeLions(),  // Had this lined up in case England won Euro2020...
@@ -113,6 +115,7 @@ struct SongList {
             if let last = lastSong {
                 songMap[last.dir]!.older = song
                 songMap[song.dir]!.newer = last
+                songMap[song.dir]!.this  = song
             }
             lastSong = song
         }
