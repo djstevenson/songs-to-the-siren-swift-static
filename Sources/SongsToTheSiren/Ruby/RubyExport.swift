@@ -47,10 +47,9 @@ struct RubyExport {
     func readMarkdown(_ type: String, song: String) -> String {
         let content = fileUtils.readFile(dirs: ["song", song], file: "\(type).md")
         return """
-        let \(type) = \"\"\"
+        \(type) = \"\"\"
         \(content)
-        \"\"\"
-        \n
+        \"\"\"\n
         """
     }
 
