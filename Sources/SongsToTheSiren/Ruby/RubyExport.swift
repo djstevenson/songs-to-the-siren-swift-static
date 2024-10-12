@@ -25,7 +25,7 @@ struct RubyExport {
             let updatedAt = formatDate(song.updatedAt)
             output += summary
             output += article
-            output += "s = Song.create!(id: \(song.id), artist: %q(\(song.artist)), article: article, summary: summary, title: %q(\(song.title)), album: %q(\(song.album)), released: %q(\(song.released)), max_rez: \(song.maxRez), created_at: %q(\(createdAt)), updated_at: %q(\(updatedAt)))\n"
+            output += "s = Song.create!(id: \(song.id), artist: %q(\(song.artist)), article: article, summary: summary, title: %q(\(song.title)), album: %q(\(song.album)), released: %q(\(song.released)), max_rez: \(song.maxRez), image: %q{\(song.dir)}, created_at: %q(\(createdAt)), updated_at: %q(\(updatedAt)))\n"
 
             song.tags.forEach { tag in
                 output += "s.tags << tag_\(String(describing: tag))\n"
