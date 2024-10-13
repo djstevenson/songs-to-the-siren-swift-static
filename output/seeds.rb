@@ -149,7 +149,7 @@ The versions by Wolf Alice and ^link(sinead) are my favourites after This Mortal
 This Mortal Coil would later cover another Buckley song - ^link(morning-glory) appeared on the second TMC album Filigree & Shadow, with lead vocals by Louise Rutkowski.
 
 """
-s = Song.create!(id: 1, artist: %q(This Mortal Coil), article: article, summary: summary, title: %q(Song to the Siren), album: %q(It’ll End In Tears (4AD, October 1984)), released: %q(September 1983 (EP) / October 1984 (LP)), max_rez: 4, image: %q{SongToTheSiren}, created_at: %q(2020-04-12T17:52:54+01:00), updated_at: %q(2021-03-07T18:47:32Z))
+s = Song.create!(id: 1, artist: %q(This Mortal Coil), article: article, summary: summary, title: %q(Song to the Siren), album: %q(It’ll End In Tears (4AD, October 1984)), released: %q(September 1983 (EP) / October 1984 (LP)), max_rez: 4, image: %q(SongToTheSiren), created_at: %q(2020-04-12T17:52:54+01:00), updated_at: %q(2021-03-07T18:47:32Z))
 s.tags << tag_fourAD
 s.tags << tag_cover
 s.tags << tag_decade1980s
@@ -185,7 +185,7 @@ I’ve only seen Garbage live a few times, and sadly I’ve not yet seen them na
 The one decent live version I found on YouTube has now been blocked by the record company,  &#xAF;&#x5C;&#x5F;&#x28;&#x30C4;&#x29;&#x5F;&#x2F;&#xAF;
 
 """
-s = Song.create!(id: 2, artist: %q(Garbage), article: article, summary: summary, title: %q(Supervixen), album: %q(Garbage (1995)), released: %q(15th August 1995), max_rez: 4, image: %q{Supervixen}, created_at: %q(2020-04-12T17:52:55+01:00), updated_at: %q(2021-03-07T18:47:33Z))
+s = Song.create!(id: 2, artist: %q(Garbage), article: article, summary: summary, title: %q(Supervixen), album: %q(Garbage (1995)), released: %q(15th August 1995), max_rez: 4, image: %q(Supervixen), created_at: %q(2020-04-12T17:52:55+01:00), updated_at: %q(2021-03-07T18:47:33Z))
 s.tags << tag_debut
 s.tags << tag_decade1990s
 s.tags << tag_openingTrack
@@ -208,7 +208,7 @@ Cocker is at his finest here, both in terms of his tone and the melody. And the 
 This really is one of my all-time favourites.
 
 """
-s = Song.create!(id: 3, artist: %q(Richard X ft Jarvis Cocker), article: article, summary: summary, title: %q(Into U), album: %q(Richard X Presents His X-Factor Vol. 1 (2003)), released: %q(23rd August 2003), max_rez: 4, image: %q{IntoU}, created_at: %q(2020-04-12T23:11:12+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 3, artist: %q(Richard X ft Jarvis Cocker), article: article, summary: summary, title: %q(Into U), album: %q(Richard X Presents His X-Factor Vol. 1 (2003)), released: %q(23rd August 2003), max_rez: 4, image: %q(IntoU), created_at: %q(2020-04-12T23:11:12+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_sample
 s.tags << tag_mashup
 s.tags << tag_hopeSandoval
@@ -235,7 +235,7 @@ article = """
  
  These are the first Canadian artists to appear on this blog. There will be many more.
 """
-s = Song.create!(id: 4, artist: %q(The Dears), article: article, summary: summary, title: %q(Lost in the Plot), album: %q(No Cities Left (2003)), released: %q(15th April 2003), max_rez: 4, image: %q{LostInThePlot}, created_at: %q(2020-04-14T13:41:54+01:00), updated_at: %q(2021-03-07T18:47:35Z))
+s = Song.create!(id: 4, artist: %q(The Dears), article: article, summary: summary, title: %q(Lost in the Plot), album: %q(No Cities Left (2003)), released: %q(15th April 2003), max_rez: 4, image: %q(LostInThePlot), created_at: %q(2020-04-14T13:41:54+01:00), updated_at: %q(2021-03-07T18:47:35Z))
 s.tags << tag_spouses
 s.tags << tag_decade2000s
 s.countries << country_canada
@@ -258,7 +258,7 @@ It’s a fairly simple melody, but it has quite a groove, and the thing that rea
 As an aside, the band announced in advance of a London show (The Garage, if I recall correctly) that it was to be their last ever.  The sadness was tempered a little by how much I enjoyed the support band - a very early-career Sleeper.
 
 """
-s = Song.create!(id: 5, artist: %q(The Heart Throbs), article: article, summary: summary, title: %q(Tiny Feet), album: %q(Jubilee Twist (1992)), released: %q(23rd June 1992), max_rez: 4, image: %q{TinyFeet}, created_at: %q(2020-04-15T18:35:09+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 5, artist: %q(The Heart Throbs), article: article, summary: summary, title: %q(Tiny Feet), album: %q(Jubilee Twist (1992)), released: %q(23rd June 1992), max_rez: 4, image: %q(TinyFeet), created_at: %q(2020-04-15T18:35:09+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_indie
 s.tags << tag_decade1990s
 s.tags << tag_openingTrack
@@ -285,7 +285,7 @@ article = """
  
 
 """
-s = Song.create!(id: 6, artist: %q(Chvrches), article: article, summary: summary, title: %q(Clearest Blue), album: %q(Every Open Eye (2015)), released: %q(10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)), max_rez: 4, image: %q{ClearestBlue}, created_at: %q(2020-04-16T00:37:50+01:00), updated_at: %q(2021-03-07T18:47:37Z))
+s = Song.create!(id: 6, artist: %q(Chvrches), article: article, summary: summary, title: %q(Clearest Blue), album: %q(Every Open Eye (2015)), released: %q(10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)), max_rez: 4, image: %q(ClearestBlue), created_at: %q(2020-04-16T00:37:50+01:00), updated_at: %q(2021-03-07T18:47:37Z))
 s.tags << tag_electronic
 s.tags << tag_decade2010s
 s.countries << country_scotland
@@ -316,7 +316,7 @@ An aside: The first time I saw them play was 1st May 1988 at the Town and Countr
 
 
 """
-s = Song.create!(id: 7, artist: %q(Pixies), article: article, summary: summary, title: %q(Planet of Sound), album: %q(Trompe Le Monde (1991)), released: %q(28th May 1991 (single), 3rd September 1991 (LP)), max_rez: 4, image: %q{PlanetOfSound}, created_at: %q(2020-04-17T01:42:35+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 7, artist: %q(Pixies), article: article, summary: summary, title: %q(Planet of Sound), album: %q(Trompe Le Monde (1991)), released: %q(28th May 1991 (single), 3rd September 1991 (LP)), max_rez: 4, image: %q(PlanetOfSound), created_at: %q(2020-04-17T01:42:35+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_indie
 s.tags << tag_fourAD
 s.tags << tag_decade1990s
@@ -340,7 +340,7 @@ article = """
  For a while in the early 2000s, Sparks live shows included Part 1 of Number One Song In Heaven ^link(segued) into Never Turn Your Back on Mother Earth instead of Part 2 -  Never Turn Your Back on Mother Earth will almost certainly get a feature on this blog at a later date, as will newer material from the ever-interesting Sparks.
 
 """
-s = Song.create!(id: 8, artist: %q(Sparks), article: article, summary: summary, title: %q(Number One Song in Heaven), album: %q(No. 1 in Heaven (1979)), released: %q(23rd March 1979 (single), ? March 1979 (LP)), max_rez: 4, image: %q{NumberOneSongInHeaven}, created_at: %q(2020-04-17T15:45:43+01:00), updated_at: %q(2021-03-07T18:47:39Z))
+s = Song.create!(id: 8, artist: %q(Sparks), article: article, summary: summary, title: %q(Number One Song in Heaven), album: %q(No. 1 in Heaven (1979)), released: %q(23rd March 1979 (single), ? March 1979 (LP)), max_rez: 4, image: %q(NumberOneSongInHeaven), created_at: %q(2020-04-17T15:45:43+01:00), updated_at: %q(2021-03-07T18:47:39Z))
 s.tags << tag_disco
 s.tags << tag_giorgioMoroder
 s.tags << tag_brothers
@@ -366,7 +366,7 @@ This song isn’t “good” because of the production. What makes it appealing 
 The R.E.M. song Star Me Kitten, from Automatic for the People, used a technique heavily influenced by I’m Not in Love.  Mike Mills created vocal sample loops, had them all running at once, and “played” the chords via mixer faders, as per 10cc. They even took this on the road - when they went back on tour after the Monster release, Star Me Kitten was played this way live.
 
 """
-s = Song.create!(id: 9, artist: %q(10cc), article: article, summary: summary, title: %q(I’m Not in Love), album: %q(The Original Soundtrack (1975)), released: %q(May 1975 (single), 11th March 1975 (LP)), max_rez: 4, image: %q{ImNotInLove}, created_at: %q(2020-04-18T00:38:12+01:00), updated_at: %q(2021-03-07T18:47:40Z))
+s = Song.create!(id: 9, artist: %q(10cc), article: article, summary: summary, title: %q(I’m Not in Love), album: %q(The Original Soundtrack (1975)), released: %q(May 1975 (single), 11th March 1975 (LP)), max_rez: 4, image: %q(ImNotInLove), created_at: %q(2020-04-18T00:38:12+01:00), updated_at: %q(2021-03-07T18:47:40Z))
 s.tags << tag_tapeLoops
 s.tags << tag_bassSolo
 s.tags << tag_decade1970s
@@ -391,7 +391,7 @@ Popular (though I’m not much of a fan of it) is a fairly faithful cover by ^li
 More worthy to my ears are covers by ^link(watson-twins) and ^link(katie-melua).
 
 """
-s = Song.create!(id: 10, artist: %q(The Cure), article: article, summary: summary, title: %q(Just Like Heaven), album: %q(Kiss Me, Kiss Me, Kiss Me (1987)), released: %q(5th October 1987 (single), 25th May 1987 (LP)), max_rez: 4, image: %q{JustLikeHeaven}, created_at: %q(2020-04-18T22:42:24+01:00), updated_at: %q(2021-05-03T23:54:42+01:00))
+s = Song.create!(id: 10, artist: %q(The Cure), article: article, summary: summary, title: %q(Just Like Heaven), album: %q(Kiss Me, Kiss Me, Kiss Me (1987)), released: %q(5th October 1987 (single), 25th May 1987 (LP)), max_rez: 4, image: %q(JustLikeHeaven), created_at: %q(2020-04-18T22:42:24+01:00), updated_at: %q(2021-05-03T23:54:42+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_rickBeato
 s.countries << country_uk
@@ -411,7 +411,7 @@ The best copy of the official video I found is well ropey in terms of video qual
  If this appeals to you in any way, totally worth checking out is ^link(the-punk-singer-trailer), a fabulous documentary about Bikini Kill and Le Tigre singer Kathleen Hanna.
 
 """
-s = Song.create!(id: 11, artist: %q(Le Tigre), article: article, summary: summary, title: %q(Deceptacon), album: %q(Le Tigre (1999)), released: %q(25th October 1999), max_rez: 4, image: %q{Deceptacon}, created_at: %q(2020-04-19T18:58:21+01:00), updated_at: %q(2021-03-07T18:47:42Z))
+s = Song.create!(id: 11, artist: %q(Le Tigre), article: article, summary: summary, title: %q(Deceptacon), album: %q(Le Tigre (1999)), released: %q(25th October 1999), max_rez: 4, image: %q(Deceptacon), created_at: %q(2020-04-19T18:58:21+01:00), updated_at: %q(2021-03-07T18:47:42Z))
 s.tags << tag_decade1990s
 s.tags << tag_electronic
 s.tags << tag_punk
@@ -444,7 +444,7 @@ The stories covered by the bulletin are:
  The combination of the beautiful, peaceful, song, and the ugly news report, is quite something.
 
 """
-s = Song.create!(id: 12, artist: %q(Simon and Garfunkel), article: article, summary: summary, title: %q(7 O’Clock News/Silent Night), album: %q(Parsley, Sage, Rosemary and Thyme (1966)), released: %q(10th October 1966), max_rez: 4, image: %q{SilentNight}, created_at: %q(2020-04-19T18:58:24+01:00), updated_at: %q(2021-03-07T18:47:43Z))
+s = Song.create!(id: 12, artist: %q(Simon and Garfunkel), article: article, summary: summary, title: %q(7 O’Clock News/Silent Night), album: %q(Parsley, Sage, Rosemary and Thyme (1966)), released: %q(10th October 1966), max_rez: 4, image: %q(SilentNight), created_at: %q(2020-04-19T18:58:24+01:00), updated_at: %q(2021-03-07T18:47:43Z))
 s.tags << tag_christmasCarol
 s.tags << tag_spokenWord
 s.tags << tag_decade1960s
@@ -464,7 +464,7 @@ The same sample was used by contemporary Bristol artist Tricky on ^link(hell-is-
 It has also seen plenty of use since. One fine example is ^link(here). And British professional long-jumper Jazmin Sawyers  sang a nice ^link(sawyers-medley) on The Voice tv show.
 
 """
-s = Song.create!(id: 13, artist: %q(Portishead), article: article, summary: summary, title: %q(Glory Box), album: %q(Dummy (1994)), released: %q(22nd August 1994 (LP), 3rd January 1995 (single)), max_rez: 4, image: %q{GloryBox}, created_at: %q(2020-04-19T23:26:04+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 13, artist: %q(Portishead), article: article, summary: summary, title: %q(Glory Box), album: %q(Dummy (1994)), released: %q(22nd August 1994 (LP), 3rd January 1995 (single)), max_rez: 4, image: %q(GloryBox), created_at: %q(2020-04-19T23:26:04+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_bristol
 s.tags << tag_isaacHayes
 s.tags << tag_sample
@@ -486,7 +486,7 @@ Although “Lennon and McCartney” appear on the credits to songs written by on
 This is when the song-writing became a little more sophisticated and, for me, way more interesting.  (I’ll do a piece on Happiness is a Warm Gun at some point - that’s crazily all over the place - in a good way).
 
 """
-s = Song.create!(id: 14, artist: %q(The Beatles), article: article, summary: summary, title: %q(We Can Work It Out), album: %q(We Can Work It Out / Day Tripper (Double A Side single)), released: %q(3rd December 1965), max_rez: 4, image: %q{WeCanWorkItOut}, created_at: %q(2020-04-20T22:31:21+01:00), updated_at: %q(2021-03-07T18:47:45Z))
+s = Song.create!(id: 14, artist: %q(The Beatles), article: article, summary: summary, title: %q(We Can Work It Out), album: %q(We Can Work It Out / Day Tripper (Double A Side single)), released: %q(3rd December 1965), max_rez: 4, image: %q(WeCanWorkItOut), created_at: %q(2020-04-20T22:31:21+01:00), updated_at: %q(2021-03-07T18:47:45Z))
 s.tags << tag_timeSignatureChange
 s.tags << tag_decade1960s
 s.tags << tag_liverpool
@@ -512,7 +512,7 @@ If you’ve been in the same room as me when my phone has gone off, and I’ve f
  If anyone reading this listens to Fish and likes it, and wants to hear more - just ^link(ask-me) or check out the amazing ^link(chains-changed-ep).
 
 """
-s = Song.create!(id: 15, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Fish), album: %q(Lonely Is An Eyesore (4AD various artists compilation)), released: %q(15th June 1987), max_rez: 4, image: %q{Fish}, created_at: %q(2020-04-21T20:35:41+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 15, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Fish), album: %q(Lonely Is An Eyesore (4AD various artists compilation)), released: %q(15th June 1987), max_rez: 4, image: %q(Fish), created_at: %q(2020-04-21T20:35:41+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_fourAD
 s.tags << tag_decade1980s
 s.tags << tag_compilationAlbum
@@ -544,7 +544,7 @@ Maybe they don’t have the same animal passion they once did. Until a few Stell
 Sit.
 
 """
-s = Song.create!(id: 16, artist: %q(The Cardigans), article: article, summary: summary, title: %q(I Need Some Fine Wine and You, You Need to Be Nicer), album: %q(Super Extra Gravity (2005)), released: %q(21st September 2005 (single), 17th October 2005 (LP)), max_rez: 4, image: %q{INeedSomeFineWineAndYouYouNeedToBeNicer}, created_at: %q(2020-04-21T23:07:38+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 16, artist: %q(The Cardigans), article: article, summary: summary, title: %q(I Need Some Fine Wine and You, You Need to Be Nicer), album: %q(Super Extra Gravity (2005)), released: %q(21st September 2005 (single), 17th October 2005 (LP)), max_rez: 4, image: %q(INeedSomeFineWineAndYouYouNeedToBeNicer), created_at: %q(2020-04-21T23:07:38+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2000s
 s.tags << tag_dogsInVideo
 s.countries << country_sweden
@@ -564,7 +564,7 @@ Upular is made from Disney-Pixar’s Up (2009). Both tunes stand strongly in the
 ^link(upular)
 
 """
-s = Song.create!(id: 17, artist: %q(Pogo), article: article, summary: summary, title: %q(Wishery / Upular), album: %q(-), released: %q(2013?), max_rez: 4, image: %q{WisheryUpular}, created_at: %q(2020-04-22T16:09:51+01:00), updated_at: %q(2021-03-07T18:47:48Z))
+s = Song.create!(id: 17, artist: %q(Pogo), article: article, summary: summary, title: %q(Wishery / Upular), album: %q(-), released: %q(2013?), max_rez: 4, image: %q(WisheryUpular), created_at: %q(2020-04-22T16:09:51+01:00), updated_at: %q(2021-03-07T18:47:48Z))
 s.tags << tag_decade2000s
 s.tags << tag_twoForOne
 s.tags << tag_mashup
@@ -582,7 +582,7 @@ Wikipedia ^link(wikipedia) this as “chamber pop”, which it describes as “a
 This is not a bad description of this song at all, to be fair.
 
 """
-s = Song.create!(id: 18, artist: %q(Cherry Ghost), article: article, summary: summary, title: %q(Mathematics), album: %q(Thirst for Romance (2007)), released: %q(9th April 2007 (single), 9th July 2007 (LP)), max_rez: 3, image: %q{Mathematics}, created_at: %q(2020-04-23T17:23:59+01:00), updated_at: %q(2021-03-07T18:47:49Z))
+s = Song.create!(id: 18, artist: %q(Cherry Ghost), article: article, summary: summary, title: %q(Mathematics), album: %q(Thirst for Romance (2007)), released: %q(9th April 2007 (single), 9th July 2007 (LP)), max_rez: 3, image: %q(Mathematics), created_at: %q(2020-04-23T17:23:59+01:00), updated_at: %q(2021-03-07T18:47:49Z))
 s.tags << tag_decade2000s
 s.tags << tag_manchester
 s.tags << tag_waltzTime
@@ -601,7 +601,7 @@ Utah Saints released Something Good in 1992 as their second single, and it remai
 The version that I prefer, however, is the 2008 remix, which was released alongside the award-winning Running Man video. This version had a re-recording of the Kate Bush sample, performed by Davina Perera . I don’t know if this was done for musical or financial reasons, but it does save on royalties (Bush would still have to be paid as writer, but no longer as performer)
 
 """
-s = Song.create!(id: 19, artist: %q(Utah Saints), article: article, summary: summary, title: %q(Something Good ’08), album: %q(Utah Saints), released: %q(1992 (single), 1993 (LP), 2008 (remix)), max_rez: 4, image: %q{SomethingGood08}, created_at: %q(2020-04-23T21:46:33+01:00), updated_at: %q(2021-03-07T18:47:50Z))
+s = Song.create!(id: 19, artist: %q(Utah Saints), article: article, summary: summary, title: %q(Something Good ’08), album: %q(Utah Saints), released: %q(1992 (single), 1993 (LP), 2008 (remix)), max_rez: 4, image: %q(SomethingGood08), created_at: %q(2020-04-23T21:46:33+01:00), updated_at: %q(2021-03-07T18:47:50Z))
 s.tags << tag_decade1990s
 s.tags << tag_decade2000s
 s.tags << tag_house
@@ -627,7 +627,7 @@ Sadly, their openness to drugs brought about their demise. Literally. Singer Lia
 Don’t do drugs kids.
 
 """
-s = Song.create!(id: 20, artist: %q(Flowered Up), article: article, summary: summary, title: %q(It’s On), album: %q(A Life With Brian), released: %q(1990 (single) / 26th August 1991 (LP)), max_rez: 4, image: %q{ItsOn}, created_at: %q(2020-04-24T20:22:20+01:00), updated_at: %q(2021-03-07T18:47:51Z))
+s = Song.create!(id: 20, artist: %q(Flowered Up), article: article, summary: summary, title: %q(It’s On), album: %q(A Life With Brian), released: %q(1990 (single) / 26th August 1991 (LP)), max_rez: 4, image: %q(ItsOn), created_at: %q(2020-04-24T20:22:20+01:00), updated_at: %q(2021-03-07T18:47:51Z))
 s.tags << tag_decade1990s
 s.tags << tag_drugs
 s.tags << tag_hype
@@ -649,7 +649,7 @@ Also worth noting is that Jah Wobble, so vital to the sound of Metal Box, left t
 This is also getting into the era where loops don’t have to be literal loops of tape spliced end-back-to-beginning, but digital delays and samplers could do the job. The AMS digital delay, so crucial to Joy Division’s sound, took  a different but equally effective rôle here.
 
 """
-s = Song.create!(id: 21, artist: %q(Public Image Ltd), article: article, summary: summary, title: %q(Flowers of Romance), album: %q(The Flowers of Romance), released: %q(27th March 1981 (single), 10th April 1981 (LP)), max_rez: 4, image: %q{FlowersOfRomance}, created_at: %q(2020-04-24T20:22:28+01:00), updated_at: %q(2021-03-07T18:47:52Z))
+s = Song.create!(id: 21, artist: %q(Public Image Ltd), article: article, summary: summary, title: %q(Flowers of Romance), album: %q(The Flowers of Romance), released: %q(27th March 1981 (single), 10th April 1981 (LP)), max_rez: 4, image: %q(FlowersOfRomance), created_at: %q(2020-04-24T20:22:28+01:00), updated_at: %q(2021-03-07T18:47:52Z))
 s.tags << tag_decade1980s
 s.tags << tag_noBass
 s.tags << tag_postPunk
@@ -671,7 +671,7 @@ Ednaswap recorded it themselves, though without the pop sheen of Imbruglia’s v
 Another Ednaswap song worth checking out is The State I’m In, either ^link(state-ednaswap), or ^link(state-sinead).
 
 """
-s = Song.create!(id: 22, artist: %q(Natalie Imbruglia), article: article, summary: summary, title: %q(Torn), album: %q(Left of the Middle), released: %q(27th October 1997 (single), 24th November 1997 (LP)), max_rez: 4, image: %q{Torn}, created_at: %q(2020-04-25T22:27:31+01:00), updated_at: %q(2021-03-07T18:47:53Z))
+s = Song.create!(id: 22, artist: %q(Natalie Imbruglia), article: article, summary: summary, title: %q(Torn), album: %q(Left of the Middle), released: %q(27th October 1997 (single), 24th November 1997 (LP)), max_rez: 4, image: %q(Torn), created_at: %q(2020-04-25T22:27:31+01:00), updated_at: %q(2021-03-07T18:47:53Z))
 s.tags << tag_decade1990s
 s.tags << tag_actor
 s.tags << tag_cover
@@ -696,7 +696,7 @@ This was the only album Pull In Emergency made. Whether it was the usual band bu
 Unfortunately, there’s not much high quality live footage out there for them, but the few snippets I’ve found suggest they sounded decent and I’m sad not to have seen them play.
 
 """
-s = Song.create!(id: 23, artist: %q(Pull In Emergency), article: article, summary: summary, title: %q(Everything Is The Same), album: %q(Pull In Emergency), released: %q(9th June 2010 (LP)), max_rez: 4, image: %q{EverythingIsTheSame}, created_at: %q(2020-04-26T21:40:58+01:00), updated_at: %q(2021-03-07T18:47:54Z))
+s = Song.create!(id: 23, artist: %q(Pull In Emergency), article: article, summary: summary, title: %q(Everything Is The Same), album: %q(Pull In Emergency), released: %q(9th June 2010 (LP)), max_rez: 4, image: %q(EverythingIsTheSame), created_at: %q(2020-04-26T21:40:58+01:00), updated_at: %q(2021-03-07T18:47:54Z))
 s.tags << tag_decade2010s
 s.tags << tag_indie
 s.tags << tag_kids
@@ -717,7 +717,7 @@ I try not to be too cynical, especially about young people being creative, but t
 It still sounds great though, as do several other tracks on the Smells Like Tween Spirit EP
 
 """
-s = Song.create!(id: 24, artist: %q(Pesky), article: article, summary: summary, title: %q(Keep Me), album: %q(Smells Like Tween Spirit EP (2015)), released: %q(24th July 2015), max_rez: 4, image: %q{KeepMe}, created_at: %q(2020-04-26T21:41:00+01:00), updated_at: %q(2021-03-07T18:47:55Z))
+s = Song.create!(id: 24, artist: %q(Pesky), article: article, summary: summary, title: %q(Keep Me), album: %q(Smells Like Tween Spirit EP (2015)), released: %q(24th July 2015), max_rez: 4, image: %q(KeepMe), created_at: %q(2020-04-26T21:41:00+01:00), updated_at: %q(2021-03-07T18:47:55Z))
 s.tags << tag_decade2010s
 s.tags << tag_kids
 s.tags << tag_openingTrack
@@ -744,7 +744,7 @@ Perhaps less well known was the non-album B-side, a cover of Joy Division’s ^l
 Even as an avid Joy Division fan, I suggest that both sides of this single can be considered to be, at the very least, on a par with the originals.
 
 """
-s = Song.create!(id: 25, artist: %q(Grace Jones), article: article, summary: summary, title: %q(Private Life / She’s Lost Control), album: %q(Warm Leatherette (1980)), released: %q(? 1980 (Single), 9th May 1980 (LP)), max_rez: 4, image: %q{PrivateLifeShesLostControl}, created_at: %q(2020-04-28T23:36:42+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 25, artist: %q(Grace Jones), article: article, summary: summary, title: %q(Private Life / She’s Lost Control), album: %q(Warm Leatherette (1980)), released: %q(? 1980 (Single), 9th May 1980 (LP)), max_rez: 4, image: %q(PrivateLifeShesLostControl), created_at: %q(2020-04-28T23:36:42+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_twoForOne
 s.tags << tag_cover
@@ -777,7 +777,7 @@ These are songs she grew up with, and the album covers Burning Spear, Peter Tosh
 The Sinéad O’Connor album “Universal Mother” is one of my all-time favourite records - it is more conventional pop but still carries a dub influence. Something off of that album, or it’s predecessor, will be added to this blog before long. It will definitely be one of her own compositions, she’s a hell of a songwriter.
 
 """
-s = Song.create!(id: 26, artist: %q(Sinéad O’Connor), article: article, summary: summary, title: %q(Throw Down Your Arms), album: %q(Throw Down Your Arms (2005)), released: %q(28th September 2005), max_rez: 4, image: %q{ThrowDownYourArms}, created_at: %q(2020-04-28T23:36:43+01:00), updated_at: %q(2021-03-07T18:47:57Z))
+s = Song.create!(id: 26, artist: %q(Sinéad O’Connor), article: article, summary: summary, title: %q(Throw Down Your Arms), album: %q(Throw Down Your Arms (2005)), released: %q(28th September 2005), max_rez: 4, image: %q(ThrowDownYourArms), created_at: %q(2020-04-28T23:36:43+01:00), updated_at: %q(2021-03-07T18:47:57Z))
 s.tags << tag_decade2000s
 s.tags << tag_cover
 s.tags << tag_reggae
@@ -798,7 +798,7 @@ Sadly, the year of release of this record saw him jailed for drug/firearm offenc
 I’m not going to repeat the contempt that many people have for the ^link(simply-red) version. Mick Hucknall also has a great voice, and it’s a reasonably faithful version, featuring the legendary ^link(sly-and-robbie). Clearly, it’s not as great as the original. Nor is it the abomination that many would claim, in my view. It adds nothing. But it also doesn’t take that much away.
 
 """
-s = Song.create!(id: 27, artist: %q(Gregory Isaacs), article: article, summary: summary, title: %q(Night Nurse), album: %q(Night Nurse (1982)), released: %q(1982), max_rez: 4, image: %q{NightNurse}, created_at: %q(2020-04-28T23:36:44+01:00), updated_at: %q(2021-03-07T18:47:58Z))
+s = Song.create!(id: 27, artist: %q(Gregory Isaacs), article: article, summary: summary, title: %q(Night Nurse), album: %q(Night Nurse (1982)), released: %q(1982), max_rez: 4, image: %q(NightNurse), created_at: %q(2020-04-28T23:36:44+01:00), updated_at: %q(2021-03-07T18:47:58Z))
 s.tags << tag_decade1980s
 s.tags << tag_reggae
 s.countries << country_jamaica
@@ -817,7 +817,7 @@ Thru The Senses was released as a single in spring 2004, presumably without sell
 This is hook-laden indie pop at its best.
 
 """
-s = Song.create!(id: 28, artist: %q(Thirteen Senses), article: article, summary: summary, title: %q(Thru The Glass), album: %q(The Invitation), released: %q(1st March 2004 (single), 27th September 2004 (LP)), max_rez: 4, image: %q{ThruTheGlass}, created_at: %q(2020-04-30T01:36:22+01:00), updated_at: %q(2021-03-07T18:47:59Z))
+s = Song.create!(id: 28, artist: %q(Thirteen Senses), article: article, summary: summary, title: %q(Thru The Glass), album: %q(The Invitation), released: %q(1st March 2004 (single), 27th September 2004 (LP)), max_rez: 4, image: %q(ThruTheGlass), created_at: %q(2020-04-30T01:36:22+01:00), updated_at: %q(2021-03-07T18:47:59Z))
 s.tags << tag_decade2000s
 s.tags << tag_golden2004
 s.tags << tag_sixMusic
@@ -838,7 +838,7 @@ Take Fountain carried some great singles along side Interstate 5 - ^link(ringway
 The ^link(lp-version) is extended from the 6 minute single. The “mariachi” section at the end initially seemed out of place, but once I got used to it, it seems wrong not to hear it that way!
 
 """
-s = Song.create!(id: 29, artist: %q(The Wedding Present), article: article, summary: summary, title: %q(Interstate 5), album: %q(Take Fountain (2005)), released: %q(15th November 2004 (single), 14th February 2005 (LP)), max_rez: 4, image: %q{Interstate5}, created_at: %q(2020-04-30T01:39:53+01:00), updated_at: %q(2021-03-07T18:48:00Z))
+s = Song.create!(id: 29, artist: %q(The Wedding Present), article: article, summary: summary, title: %q(Interstate 5), album: %q(Take Fountain (2005)), released: %q(15th November 2004 (single), 14th February 2005 (LP)), max_rez: 4, image: %q(Interstate5), created_at: %q(2020-04-30T01:39:53+01:00), updated_at: %q(2021-03-07T18:48:00Z))
 s.tags << tag_decade2000s
 s.tags << tag_golden2004
 s.tags << tag_sixMusic
@@ -862,7 +862,7 @@ This is the sort of sound that music journalists call “angular” for some rea
 As I mentioned in an earlier song, 2004 is a golden era for me, and this song took a prominent position in my end-of-year compilation.
 
 """
-s = Song.create!(id: 30, artist: %q(The Departure), article: article, summary: summary, title: %q(All Mapped Out), album: %q(Dirty Words (2005)), released: %q(2nd August 2004 (single), 13th June 2005 (LP)), max_rez: 4, image: %q{AllMappedOut}, created_at: %q(2020-05-02T23:08:05+01:00), updated_at: %q(2021-03-07T18:48:01Z))
+s = Song.create!(id: 30, artist: %q(The Departure), article: article, summary: summary, title: %q(All Mapped Out), album: %q(Dirty Words (2005)), released: %q(2nd August 2004 (single), 13th June 2005 (LP)), max_rez: 4, image: %q(AllMappedOut), created_at: %q(2020-05-02T23:08:05+01:00), updated_at: %q(2021-03-07T18:48:01Z))
 s.tags << tag_decade2000s
 s.tags << tag_golden2004
 s.tags << tag_sixMusic
@@ -896,7 +896,7 @@ There are plenty of other songs that add beats here and there, and it’s worth 
 I just heard the news that Dave Greenfield, who wrote and played the iconic keyboard part on this song, passed away yesterday, aged 71,  after contracting COVID-19. RIP Dave.
 
 """
-s = Song.create!(id: 31, artist: %q(The Stranglers), article: article, summary: summary, title: %q(Golden Brown), album: %q(La Folie (1981)), released: %q(10th January 1982 (single), 9th November 1981 (LP)), max_rez: 4, image: %q{GoldenBrown}, created_at: %q(2020-05-03T01:01:04+01:00), updated_at: %q(2021-03-07T18:48:02Z))
+s = Song.create!(id: 31, artist: %q(The Stranglers), article: article, summary: summary, title: %q(Golden Brown), album: %q(La Folie (1981)), released: %q(10th January 1982 (single), 9th November 1981 (LP)), max_rez: 4, image: %q(GoldenBrown), created_at: %q(2020-05-03T01:01:04+01:00), updated_at: %q(2021-03-07T18:48:02Z))
 s.tags << tag_decade1980s
 s.tags << tag_addedBeat
 s.tags << tag_postPunk
@@ -929,7 +929,7 @@ This, to me, is truly one of the greatest pop records of all time. If I ever say
 There are plenty of other songs that skip beats here and there, and it’s worth checking out David Bennett’s analyses (^link(db-1) and ^link(db-2))  of some of them. He talks about Heart of Glass, and other examples from Arrows (covered by Joan Jett), The Beatles, Aretha Franklin, Panic at the Disco, Johnny Cash, Green Day, Labi Siffre.
 
 """
-s = Song.create!(id: 32, artist: %q(Blondie), article: article, summary: summary, title: %q(Heart of Glass), album: %q(Parallel Lines), released: %q(January 1979 (single), 23rd September 1978 (LP)), max_rez: 4, image: %q{HeartOfGlass}, created_at: %q(2020-05-03T01:01:06+01:00), updated_at: %q(2021-03-07T18:48:03Z))
+s = Song.create!(id: 32, artist: %q(Blondie), article: article, summary: summary, title: %q(Heart of Glass), album: %q(Parallel Lines), released: %q(January 1979 (single), 23rd September 1978 (LP)), max_rez: 4, image: %q(HeartOfGlass), created_at: %q(2020-05-03T01:01:06+01:00), updated_at: %q(2021-03-07T18:48:03Z))
 s.tags << tag_decade1970s
 s.tags << tag_disco
 s.tags << tag_postPunk
@@ -958,7 +958,7 @@ By the time it came out, the band’s popularity was waning, but two of the song
 How Does It Feel? was a musical change of direction.  Led by Lea’s piano, the song features brass and even flute.  But I think it’s the vocal melody and performance that makes it sound so great.
 
 """
-s = Song.create!(id: 33, artist: %q(Slade), article: article, summary: summary, title: %q(Far Far Away  / How Does It Feel?), album: %q(Slade in Flame (1975)), released: %q(11th October 1974 (Far Far Away), 7th February 1975 (How Does It Feel?)), max_rez: 4, image: %q{FarFarAway}, created_at: %q(2020-05-05T22:44:07+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 33, artist: %q(Slade), article: article, summary: summary, title: %q(Far Far Away  / How Does It Feel?), album: %q(Slade in Flame (1975)), released: %q(11th October 1974 (Far Far Away), 7th February 1975 (How Does It Feel?)), max_rez: 4, image: %q(FarFarAway), created_at: %q(2020-05-05T22:44:07+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1970s
 s.tags << tag_twoForOne
 s.tags << tag_glam
@@ -984,7 +984,7 @@ But whatever the language, in 1987 this was a sound unlike anything else I’d h
 The début album Life’s Too Good is only 33 minutes long, even with the obligatory 80s “hidden” CD track. But there are some spectacularly original and tuneful pieces on it. In addition to singles ^link(coldsweat) and ^link(deus), check out ^link(blue-eyed-pop) - never released as a single but it really should have been.  That track nicely illustrates another factor that made The Sugarcubes great - the vocal interaction between Björk and fellow vocalist Einar Örn.
 
 """
-s = Song.create!(id: 34, artist: %q(Sugarcubes (Sykurmolarnir)), article: article, summary: summary, title: %q(Ammæli (Birthday)), album: %q(Life’s Too Good), released: %q(August 1987 (single, in English). April 1988 (LP, in English)), max_rez: 4, image: %q{Birthday}, created_at: %q(2020-05-06T20:46:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 34, artist: %q(Sugarcubes (Sykurmolarnir)), article: article, summary: summary, title: %q(Ammæli (Birthday)), album: %q(Life’s Too Good), released: %q(August 1987 (single, in English). April 1988 (LP, in English)), max_rez: 4, image: %q(Birthday), created_at: %q(2020-05-06T20:46:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_debut
 s.tags << tag_oneLittleIndian
@@ -1007,7 +1007,7 @@ I first heard this track from the 1950s relatively recently - maybe 10-12 years 
 But it’s also worth trying to follow the lyrics if you speak any French at all. It’s full of puns and plays on words.
 
 """
-s = Song.create!(id: 35, artist: %q(Jacques Brel), article: article, summary: summary, title: %q(La Valse à Mille Temps), album: %q(Jacques Brel 4), released: %q(1959), max_rez: 4, image: %q{LaValseAMilleTemps}, created_at: %q(2020-05-06T20:46:24+01:00), updated_at: %q(2021-03-07T18:48:06Z))
+s = Song.create!(id: 35, artist: %q(Jacques Brel), article: article, summary: summary, title: %q(La Valse à Mille Temps), album: %q(Jacques Brel 4), released: %q(1959), max_rez: 4, image: %q(LaValseAMilleTemps), created_at: %q(2020-05-06T20:46:24+01:00), updated_at: %q(2021-03-07T18:48:06Z))
 s.tags << tag_decade1950s
 s.tags << tag_puns
 s.tags << tag_sixMusic
@@ -1028,7 +1028,7 @@ I can’t tell you what this song is about, but apparently the title translates 
 In 2018, Gwenno released a full album of Cornish songs, ^link(le-kov).
 
 """
-s = Song.create!(id: 36, artist: %q(Gwenno), article: article, summary: summary, title: %q(Amser), album: %q(Y Dydd Olaf), released: %q(27th October 2014 (Peski Records), 24th July 2015 (Heavenly re-release)), max_rez: 4, image: %q{Amser}, created_at: %q(2020-05-06T20:46:28+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 36, artist: %q(Gwenno), article: article, summary: summary, title: %q(Amser), album: %q(Y Dydd Olaf), released: %q(27th October 2014 (Peski Records), 24th July 2015 (Heavenly re-release)), max_rez: 4, image: %q(Amser), created_at: %q(2020-05-06T20:46:28+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_cornish
 s.tags << tag_electronic
@@ -1057,7 +1057,7 @@ If you want to check it out, I suggest starting with the popular second movement
 Given that several 4AD records have appeared on this blog so far, it’s worth noting that Lisa Gerrard (Dead Can Dance) has also recorded a version of this symphony. Sadly, I’ve failed to find a record of this that sounds good, however.
 
 """
-s = Song.create!(id: 37, artist: %q(David Zinman, Dawn Upshaw & London Sinfionetta), article: article, summary: summary, title: %q(Symphony of Sorrowful Songs), album: %q(Górecki: Symphony Number 3), released: %q(1992), max_rez: 4, image: %q{SymphonyOfSorrowfulSongs}, created_at: %q(2020-05-10T23:41:04+01:00), updated_at: %q(2021-03-07T18:48:08Z))
+s = Song.create!(id: 37, artist: %q(David Zinman, Dawn Upshaw & London Sinfionetta), article: article, summary: summary, title: %q(Symphony of Sorrowful Songs), album: %q(Górecki: Symphony Number 3), released: %q(1992), max_rez: 4, image: %q(SymphonyOfSorrowfulSongs), created_at: %q(2020-05-10T23:41:04+01:00), updated_at: %q(2021-03-07T18:48:08Z))
 s.tags << tag_decade1970s
 s.tags << tag_decade1990s
 s.tags << tag_classical
@@ -1092,7 +1092,7 @@ November 1977, what I time to be alive.
 The King of Rome (the bird himself) ^link(the-king-of-rome) exists thanks to the magic of taxidermy
 
 """
-s = Song.create!(id: 38, artist: %q(The Unthanks), article: article, summary: summary, title: %q(The King of Rome), album: %q(Diversions, Vol. 2: The Unthanks with Brighouse and Rastrick Brass Band), released: %q(30 July 2012), max_rez: 4, image: %q{TheKingOfRome}, created_at: %q(2020-05-11T00:50:44+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 38, artist: %q(The Unthanks), article: article, summary: summary, title: %q(The King of Rome), album: %q(Diversions, Vol. 2: The Unthanks with Brighouse and Rastrick Brass Band), released: %q(30 July 2012), max_rez: 4, image: %q(TheKingOfRome), created_at: %q(2020-05-11T00:50:44+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_decade1990s
 s.tags << tag_brass
@@ -1117,7 +1117,7 @@ She gets to perform her music in a variety of settings, with varying instrumenta
 Meredith now has two albums, and both are chock full of great tunes in a wide range of styles. Particularly worth a look is the video for  ^link(paramour), the opening track on the second LP. Great tune, and amazing single-shot video.
 
 """
-s = Song.create!(id: 39, artist: %q(Anna Meredith), article: article, summary: summary, title: %q(Nautilus), album: %q(Varmints (2016)), released: %q(4th March 2016), max_rez: 4, image: %q{Nautilus}, created_at: %q(2020-05-11T20:46:29+01:00), updated_at: %q(2021-03-07T18:48:10Z))
+s = Song.create!(id: 39, artist: %q(Anna Meredith), article: article, summary: summary, title: %q(Nautilus), album: %q(Varmints (2016)), released: %q(4th March 2016), max_rez: 4, image: %q(Nautilus), created_at: %q(2020-05-11T20:46:29+01:00), updated_at: %q(2021-03-07T18:48:10Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.tags << tag_classical
@@ -1153,7 +1153,7 @@ She has trouble opening the package, but finds a large sheet metal cutter. After
 
 
 """
-s = Song.create!(id: 40, artist: %q(The Velvet Underground), article: article, summary: summary, title: %q(The Gift), album: %q(White Light/White Heat), released: %q(30th January 1968), max_rez: 4, image: %q{TheGift}, created_at: %q(2020-05-15T02:29:10+01:00), updated_at: %q(2021-03-07T18:48:11Z))
+s = Song.create!(id: 40, artist: %q(The Velvet Underground), article: article, summary: summary, title: %q(The Gift), album: %q(White Light/White Heat), released: %q(30th January 1968), max_rez: 4, image: %q(TheGift), created_at: %q(2020-05-15T02:29:10+01:00), updated_at: %q(2021-03-07T18:48:11Z))
 s.tags << tag_decade1960s
 s.tags << tag_longSongs
 s.tags << tag_spokenWord
@@ -1174,7 +1174,7 @@ The album is largely instrumental, with classical instrumentation. This music wa
 In 2019, a remastered version of the LP was released under the Prefab Sprout monicker.
 
 """
-s = Song.create!(id: 41, artist: %q(Paddy McAloon), article: article, summary: summary, title: %q(I Trawl The MEGAHERTZ), album: %q(I Trawl The MEGAHERTZ), released: %q(27th May 2003 (Paddy McAloon), February 2019 (re-release as Prefab Sprout)), max_rez: 4, image: %q{ITrawlTheMEGAHERTZ}, created_at: %q(2020-05-15T02:29:11+01:00), updated_at: %q(2021-04-02T01:52:49+01:00))
+s = Song.create!(id: 41, artist: %q(Paddy McAloon), article: article, summary: summary, title: %q(I Trawl The MEGAHERTZ), album: %q(I Trawl The MEGAHERTZ), released: %q(27th May 2003 (Paddy McAloon), February 2019 (re-release as Prefab Sprout)), max_rez: 4, image: %q(ITrawlTheMEGAHERTZ), created_at: %q(2020-05-15T02:29:11+01:00), updated_at: %q(2021-04-02T01:52:49+01:00))
 s.tags << tag_decade2000s
 s.tags << tag_decade2010s
 s.tags << tag_longSongs
@@ -1207,7 +1207,7 @@ The single and LP recording features Patti Smith performing a vocal part in the 
 A side-effect of my love for this record is that it is *literally* impossible for me to hear mention of Maria Callas without responding “whoever she is?”. It’s a small price to pay for a song this great.
 
 """
-s = Song.create!(id: 42, artist: %q(R.E.M.), article: article, summary: summary, title: %q(E-Bow The Letter), album: %q(New Adventures in Hi-Fi), released: %q(August 1996 (single), 9th September 1996 (LP)), max_rez: 4, image: %q{EBowTheLetter}, created_at: %q(2020-05-16T02:45:47+01:00), updated_at: %q(2023-07-23T05:08:07+01:00))
+s = Song.create!(id: 42, artist: %q(R.E.M.), article: article, summary: summary, title: %q(E-Bow The Letter), album: %q(New Adventures in Hi-Fi), released: %q(August 1996 (single), 9th September 1996 (LP)), max_rez: 4, image: %q(EBowTheLetter), created_at: %q(2020-05-16T02:45:47+01:00), updated_at: %q(2023-07-23T05:08:07+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_guestVocals
 s.tags << tag_longSongs
@@ -1230,7 +1230,7 @@ The embedded video above is audio-only, and features the recording as you’ll h
 The version with the kids is linked below.
 
 """
-s = Song.create!(id: 43, artist: %q(Fucked Up), article: article, summary: summary, title: %q(Queen of Hearts), album: %q(David Comes to Life), released: %q(7th June 2011), max_rez: 4, image: %q{QueenOfHearts}, created_at: %q(2020-05-20T22:35:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 43, artist: %q(Fucked Up), article: article, summary: summary, title: %q(Queen of Hearts), album: %q(David Comes to Life), released: %q(7th June 2011), max_rez: 4, image: %q(QueenOfHearts), created_at: %q(2020-05-20T22:35:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_fWord
 s.tags << tag_rockOpera
@@ -1248,7 +1248,7 @@ article = """
 The ceremony used a remix that gave more punch to the percussion, and more gloss overall. It’s the version I prefer (but then it’s the first one I heard - although I’d heard of FB, I hadn’t actually knowingly heard their records until London 2012).
 
 """
-s = Song.create!(id: 44, artist: %q(Fuck Buttons), article: article, summary: summary, title: %q(Olympians), album: %q(Tarot Sport (2009), remix for Olympics (2012)), released: %q(14th October 2009), max_rez: 4, image: %q{Olympians}, created_at: %q(2020-05-20T22:35:02+01:00), updated_at: %q(2021-03-07T18:48:15Z))
+s = Song.create!(id: 44, artist: %q(Fuck Buttons), article: article, summary: summary, title: %q(Olympians), album: %q(Tarot Sport (2009), remix for Olympics (2012)), released: %q(14th October 2009), max_rez: 4, image: %q(Olympians), created_at: %q(2020-05-20T22:35:02+01:00), updated_at: %q(2021-03-07T18:48:15Z))
 s.tags << tag_decade2000s
 s.tags << tag_decade2010s
 s.tags << tag_electronic
@@ -1267,7 +1267,7 @@ article = """
 “Real” bass and drums, with synths and even (if the official video is to be believed) a bowed lap steel guitar.  In a way this music is kinda repetitive - it’s basically one riff, but the details of the arrangements change throughout the whole piece, and this song could be quite a bit longer without one getting tired of it.
 
 """
-s = Song.create!(id: 45, artist: %q(Holy Fuck), article: article, summary: summary, title: %q(Lovely Allen), album: %q(LP (2007)), released: %q(Single (2008), LP (2007)), max_rez: 4, image: %q{LovelyAllen}, created_at: %q(2020-05-20T22:35:03+01:00), updated_at: %q(2021-03-07T18:48:16Z))
+s = Song.create!(id: 45, artist: %q(Holy Fuck), article: article, summary: summary, title: %q(Lovely Allen), album: %q(LP (2007)), released: %q(Single (2008), LP (2007)), max_rez: 4, image: %q(LovelyAllen), created_at: %q(2020-05-20T22:35:03+01:00), updated_at: %q(2021-03-07T18:48:16Z))
 s.tags << tag_decade2000s
 s.tags << tag_fWord
 s.tags << tag_instrumental
@@ -1287,7 +1287,7 @@ I also highly recommend checking out ^link(picture-perfect), her collab with Jon
 
 
 """
-s = Song.create!(id: 46, artist: %q(Anomie Belle), article: article, summary: summary, title: %q(Salt Spring), album: %q(Flux), released: %q(26th August 2016), max_rez: 4, image: %q{SaltSpring}, created_at: %q(2020-05-25T00:15:35+01:00), updated_at: %q(2021-03-07T18:48:17Z))
+s = Song.create!(id: 46, artist: %q(Anomie Belle), article: article, summary: summary, title: %q(Salt Spring), album: %q(Flux), released: %q(26th August 2016), max_rez: 4, image: %q(SaltSpring), created_at: %q(2020-05-25T00:15:35+01:00), updated_at: %q(2021-03-07T18:48:17Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.tags << tag_electronic
@@ -1312,7 +1312,7 @@ Yppah is multi-instrumentalist.producer Joe Corales who specialises in music tha
 His music is largely instrumental, but sometimes featuring guest vocalists, and sometimes with chopped up vocal samples bringing the human voice to the records in other ways.
 
 """
-s = Song.create!(id: 47, artist: %q(Yppah), article: article, summary: summary, title: %q(Gumball Machine Weekend), album: %q(They Know What Ghost Know (2009)), released: %q(18th May 2009), max_rez: 4, image: %q{GumballMachineWeekend}, created_at: %q(2020-05-25T00:15:38+01:00), updated_at: %q(2021-03-07T18:48:18Z))
+s = Song.create!(id: 47, artist: %q(Yppah), article: article, summary: summary, title: %q(Gumball Machine Weekend), album: %q(They Know What Ghost Know (2009)), released: %q(18th May 2009), max_rez: 4, image: %q(GumballMachineWeekend), created_at: %q(2020-05-25T00:15:38+01:00), updated_at: %q(2021-03-07T18:48:18Z))
 s.tags << tag_decade2000s
 s.tags << tag_electronic
 s.tags << tag_instrumental
@@ -1334,7 +1334,7 @@ This is a perfect meld of the two - it slots perfectly into the repertoire of ei
 I particularly recommend checking out their live ^link(kexp) together, with the amazing Sean Lane on drums.
 
 """
-s = Song.create!(id: 48, artist: %q(Yppah (feat. Anomie Belle)), article: article, summary: summary, title: %q(Film Burn), album: %q(Eighty One (2012)), released: %q(11th February 2012), max_rez: 4, image: %q{FilmBurn}, created_at: %q(2020-05-25T00:15:39+01:00), updated_at: %q(2021-03-07T18:48:19Z))
+s = Song.create!(id: 48, artist: %q(Yppah (feat. Anomie Belle)), article: article, summary: summary, title: %q(Film Burn), album: %q(Eighty One (2012)), released: %q(11th February 2012), max_rez: 4, image: %q(FilmBurn), created_at: %q(2020-05-25T00:15:39+01:00), updated_at: %q(2021-03-07T18:48:19Z))
 s.tags << tag_decade2010s
 s.tags << tag_collaboration
 s.tags << tag_electronic
@@ -1364,7 +1364,7 @@ Incidentally, I think I’ve deciphered the lyrics.
 
 
 """
-s = Song.create!(id: 50, artist: %q(Death in Vegas), article: article, summary: summary, title: %q(Dirge), album: %q(The Contino Sessions (1999)), released: %q(13th September 1999 (LP), 24th April 2000 (Single)), max_rez: 4, image: %q{Dirge}, created_at: %q(2020-05-29T23:53:28+01:00), updated_at: %q(2021-03-07T18:48:21Z))
+s = Song.create!(id: 50, artist: %q(Death in Vegas), article: article, summary: summary, title: %q(Dirge), album: %q(The Contino Sessions (1999)), released: %q(13th September 1999 (LP), 24th April 2000 (Single)), max_rez: 4, image: %q(Dirge), created_at: %q(2020-05-29T23:53:28+01:00), updated_at: %q(2021-03-07T18:48:21Z))
 s.tags << tag_decade1990s
 s.tags << tag_collaboration
 s.tags << tag_guestVocals
@@ -1387,7 +1387,7 @@ This track has a similar feel to Dirge, at least in terms of being repetitive me
 I also recommend checking out the ^link(arab-strap) remix.
 
 """
-s = Song.create!(id: 51, artist: %q(Dot Allison), article: article, summary: summary, title: %q(Message Personnel), album: %q(Afterglow (1999)), released: %q(6th October 1999 (LP)), max_rez: 4, image: %q{MessagePersonnel}, created_at: %q(2020-05-29T23:53:29+01:00), updated_at: %q(2021-03-07T18:48:22Z))
+s = Song.create!(id: 51, artist: %q(Dot Allison), article: article, summary: summary, title: %q(Message Personnel), album: %q(Afterglow (1999)), released: %q(6th October 1999 (LP)), max_rez: 4, image: %q(MessagePersonnel), created_at: %q(2020-05-29T23:53:29+01:00), updated_at: %q(2021-03-07T18:48:22Z))
 s.tags << tag_decade1990s
 s.tags << tag_electronic
 s.countries << country_uk
@@ -1411,7 +1411,7 @@ Then go back to play Breakdown which separates them on the CD version.
 The band broke up after this album, Allison going on to have a ^link(solo), and to ^link(guest) Death in Vegas.
 
 """
-s = Song.create!(id: 52, artist: %q(One Dove), article: article, summary: summary, title: %q(White Love (Radio Mix)), album: %q(Morning Dove White), released: %q(19th October 1993 (LP)), max_rez: 4, image: %q{WhiteLove}, created_at: %q(2020-05-29T23:53:30+01:00), updated_at: %q(2021-03-07T18:48:23Z))
+s = Song.create!(id: 52, artist: %q(One Dove), article: article, summary: summary, title: %q(White Love (Radio Mix)), album: %q(Morning Dove White), released: %q(19th October 1993 (LP)), max_rez: 4, image: %q(WhiteLove), created_at: %q(2020-05-29T23:53:30+01:00), updated_at: %q(2021-03-07T18:48:23Z))
 s.tags << tag_decade1990s
 s.tags << tag_electronic
 s.countries << country_uk
@@ -1431,7 +1431,7 @@ Sections written by different band members, and pieced together, became a pretty
 I could definitely use more of the ^time(3|4) section though, it’s sublime.
 
 """
-s = Song.create!(id: 53, artist: %q(Green Day), article: article, summary: summary, title: %q(Jesus of Suburbia), album: %q(American Idiot (2004)), released: %q(21st September 2004 (LP), 25th October 2005 (single)), max_rez: 4, image: %q{JesusOfSuburbia}, created_at: %q(2020-06-02T22:20:44+01:00), updated_at: %q(2021-03-07T18:48:24Z))
+s = Song.create!(id: 53, artist: %q(Green Day), article: article, summary: summary, title: %q(Jesus of Suburbia), album: %q(American Idiot (2004)), released: %q(21st September 2004 (LP), 25th October 2005 (single)), max_rez: 4, image: %q(JesusOfSuburbia), created_at: %q(2020-06-02T22:20:44+01:00), updated_at: %q(2021-03-07T18:48:24Z))
 s.tags << tag_decade2000s
 s.tags << tag_complex
 s.tags << tag_longSongs
@@ -1445,7 +1445,7 @@ article = """
 Released as the opening single from the classic 1997 record OK Computer, the song you hear today was made up of parts of a number of separate work-in-progress songs, melded into one and cut down to about six minutes.
 
 """
-s = Song.create!(id: 54, artist: %q(Radiohead), article: article, summary: summary, title: %q(Paranoid Android), album: %q(OK Computer (1997)), released: %q(26th May 1997 (single), 21st May 1997 (LP)), max_rez: 4, image: %q{ParanoidAndroid}, created_at: %q(2020-06-02T22:20:47+01:00), updated_at: %q(2021-03-07T18:48:25Z))
+s = Song.create!(id: 54, artist: %q(Radiohead), article: article, summary: summary, title: %q(Paranoid Android), album: %q(OK Computer (1997)), released: %q(26th May 1997 (single), 21st May 1997 (LP)), max_rez: 4, image: %q(ParanoidAndroid), created_at: %q(2020-06-02T22:20:47+01:00), updated_at: %q(2021-03-07T18:48:25Z))
 s.tags << tag_decade1990s
 s.tags << tag_complex
 s.tags << tag_longSongs
@@ -1460,7 +1460,7 @@ article = """
 Although “favourite song ever” is a thing that can change with time, with mood, and with new records appearing, this is definitely up there for me. This song perfectly captured the moment as it appeared to those of us who bought into the indie/dance crossover thing that was going on.
 
 """
-s = Song.create!(id: 55, artist: %q(Flowered Up), article: article, summary: summary, title: %q(Weekender), album: %q(Single only), released: %q(April 1992), max_rez: 4, image: %q{Weekender}, created_at: %q(2020-06-02T22:20:48+01:00), updated_at: %q(2021-03-07T18:48:26Z))
+s = Song.create!(id: 55, artist: %q(Flowered Up), article: article, summary: summary, title: %q(Weekender), album: %q(Single only), released: %q(April 1992), max_rez: 4, image: %q(Weekender), created_at: %q(2020-06-02T22:20:48+01:00), updated_at: %q(2021-03-07T18:48:26Z))
 s.tags << tag_decade1990s
 s.tags << tag_complex
 s.tags << tag_longSongs
@@ -1490,7 +1490,7 @@ Both are great interviews, providing some laughs while also producing genuinely 
 Episode 3, which I hope to catch up with tomorrow, features Ayse Hassan (Savages).  Episode 4 featuring Frank Turner landed on 10th June 2020.
 
 """
-s = Song.create!(id: 56, artist: %q(She Makes War (feat. Tanya Donelly)), article: article, summary: summary, title: %q(Paper Thin), album: %q(Direction of Travel), released: %q(8th April 2016 (LP)), max_rez: 4, image: %q{PaperThin}, created_at: %q(2020-06-07T21:31:57+01:00), updated_at: %q(2021-03-07T18:48:27Z))
+s = Song.create!(id: 56, artist: %q(She Makes War (feat. Tanya Donelly)), article: article, summary: summary, title: %q(Paper Thin), album: %q(Direction of Travel), released: %q(8th April 2016 (LP)), max_rez: 4, image: %q(PaperThin), created_at: %q(2020-06-07T21:31:57+01:00), updated_at: %q(2021-03-07T18:48:27Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.tags << tag_bristol
@@ -1522,7 +1522,7 @@ Tigs subsequently announced that the band was over and she would be concentratin
 If you like this, there are a few remixes, and an acoustic version, linked below. All worth checking out, I suggest.
 
 """
-s = Song.create!(id: 57, artist: %q(Chew Lips), article: article, summary: summary, title: %q(Karen), album: %q(Unicorn (2010)), released: %q(25th January 2010 (LP), 28th March 2010 (Single)), max_rez: 4, image: %q{Karen}, created_at: %q(2020-06-12T23:47:29+01:00), updated_at: %q(2021-03-07T18:48:28Z))
+s = Song.create!(id: 57, artist: %q(Chew Lips), article: article, summary: summary, title: %q(Karen), album: %q(Unicorn (2010)), released: %q(25th January 2010 (LP), 28th March 2010 (Single)), max_rez: 4, image: %q(Karen), created_at: %q(2020-06-12T23:47:29+01:00), updated_at: %q(2021-03-07T18:48:28Z))
 s.tags << tag_decade2010s
 s.tags << tag_bristol
 s.tags << tag_debut
@@ -1547,7 +1547,7 @@ The record didn’t really get them back into the big-time sales-wise, but it ce
 A live performance of the record was filmed in March 2004 at the Södra Teatern in Stockholm, Sweden, and the embedded video in this article is from that performance.  The ^link(official) is linked below.
 
 """
-s = Song.create!(id: 58, artist: %q(Sparks), article: article, summary: summary, title: %q(My Baby’s Taking Me Home), album: %q(Lil’ Beethoven), released: %q(14th October 2002), max_rez: 4, image: %q{MyBabysTakingMeHome}, created_at: %q(2020-06-18T23:48:21+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 58, artist: %q(Sparks), article: article, summary: summary, title: %q(My Baby’s Taking Me Home), album: %q(Lil’ Beethoven), released: %q(14th October 2002), max_rez: 4, image: %q(MyBabysTakingMeHome), created_at: %q(2020-06-18T23:48:21+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2000s
 s.tags << tag_reinvention
 s.countries << country_usa
@@ -1575,7 +1575,7 @@ After Snailhead, there’s Cry Baby Cry. This is Hersh’s song, not The Beatles
 If you don’t know this band, please give Finished a listen. I can’t guarantee you’ll like it, but I can guarantee  you’ve not heard anything else quite like this.
 
 """
-s = Song.create!(id: 59, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Chains Changed EP), album: %q(Chains Changed EP (January 1987)), released: %q(January 1987), max_rez: 4, image: %q{ChainsChangedEP}, created_at: %q(2020-06-24T01:02:04+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 59, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Chains Changed EP), album: %q(Chains Changed EP (January 1987)), released: %q(January 1987), max_rez: 4, image: %q(ChainsChangedEP), created_at: %q(2020-06-24T01:02:04+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_fourAD
 s.tags << tag_ep
@@ -1603,7 +1603,7 @@ If you like this, check out the album. It’s basically a load more of the same 
 Also, check out the video, as embedded above. I think it’s quite beautiful.  The images are mostly totally blown-out, highly over-exposed. This imagery reflects the song’s apparent subject - Channy’s feelings of being in the ^link(limelight).
 
 """
-s = Song.create!(id: 60, artist: %q(Poliça), article: article, summary: summary, title: %q(Lime Habit), album: %q(United Crushers), released: %q(13th November 2015 (single), 4th March 2016), max_rez: 4, image: %q{LimeHabit}, created_at: %q(2020-06-28T00:48:52+01:00), updated_at: %q(2021-03-07T18:48:31Z))
+s = Song.create!(id: 60, artist: %q(Poliça), article: article, summary: summary, title: %q(Lime Habit), album: %q(United Crushers), released: %q(13th November 2015 (single), 4th March 2016), max_rez: 4, image: %q(LimeHabit), created_at: %q(2020-06-28T00:48:52+01:00), updated_at: %q(2021-03-07T18:48:31Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.tags << tag_twoDrummers
@@ -1624,7 +1624,7 @@ It’s glorious.
 
 
 """
-s = Song.create!(id: 61, artist: %q(The Go! Team), article: article, summary: summary, title: %q(Buy Nothing Day), album: %q(Rolling Blackouts), released: %q(24th January 2011 (single), 31st January 2011 (LP)), max_rez: 4, image: %q{BuyNothingDay}, created_at: %q(2020-07-03T23:06:30+01:00), updated_at: %q(2021-03-07T18:48:32Z))
+s = Song.create!(id: 61, artist: %q(The Go! Team), article: article, summary: summary, title: %q(Buy Nothing Day), album: %q(Rolling Blackouts), released: %q(24th January 2011 (single), 31st January 2011 (LP)), max_rez: 4, image: %q(BuyNothingDay), created_at: %q(2020-07-03T23:06:30+01:00), updated_at: %q(2021-03-07T18:48:32Z))
 s.tags << tag_decade2010s
 s.tags << tag_brighton
 s.tags << tag_guestVocals
@@ -1643,7 +1643,7 @@ The lyrics do meander a bit, but it’s basically about the Northern Soul scene 
 The drum beat was reportedly an attempt to be a bit “mod”, taking an influence from ^link(let-your-heart-dance) by Secret Affair, a band who achieved brief popularity during the post-punk late-70s Mod revival.
 
 """
-s = Song.create!(id: 62, artist: %q(The Fall), article: article, summary: summary, title: %q(Lie Dream of a Casino Soul), album: %q(Single (1981). Also on CD re-issue of Slates mini-LP), released: %q(1981), max_rez: 4, image: %q{LieDreamOfACasinoSoul}, created_at: %q(2020-07-12T02:56:41+01:00), updated_at: %q(2021-03-07T18:48:33Z))
+s = Song.create!(id: 62, artist: %q(The Fall), article: article, summary: summary, title: %q(Lie Dream of a Casino Soul), album: %q(Single (1981). Also on CD re-issue of Slates mini-LP), released: %q(1981), max_rez: 4, image: %q(LieDreamOfACasinoSoul), created_at: %q(2020-07-12T02:56:41+01:00), updated_at: %q(2021-03-07T18:48:33Z))
 s.tags << tag_decade1980s
 s.tags << tag_manchester
 s.countries << country_uk
@@ -1674,7 +1674,7 @@ He was the brother of Rose and Rachael de Freitas of The Heart Throbs, who were 
 I was recently reminded of this track via a repeat of ^link(pointless) of the BBC quiz show Pointless. The subject was “... and the ...” bands. Nothing Lasts Forever was the lowest-scoring, and therefore best, answer.
 
 """
-s = Song.create!(id: 63, artist: %q(Echo & the Bunnymen), article: article, summary: summary, title: %q(Nothing Lasts Forever), album: %q(Evergreen (1997)), released: %q(20th June 1997 (Single), 14th July 1997 (LP)), max_rez: 4, image: %q{NothingLastsForever}, created_at: %q(2020-07-12T04:08:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 63, artist: %q(Echo & the Bunnymen), article: article, summary: summary, title: %q(Nothing Lasts Forever), album: %q(Evergreen (1997)), released: %q(20th June 1997 (Single), 14th July 1997 (LP)), max_rez: 4, image: %q(NothingLastsForever), created_at: %q(2020-07-12T04:08:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_comeback
 s.tags << tag_liverpool
@@ -1696,7 +1696,7 @@ Gangsters is a re-working of Prince Buster’s classic from the first wave of sk
 The opening line mentions Bernie Rhodes, manager of The Clash. According to wikipedia, Gangsters is about an incident that happened while on tour in France with The Clash. The Specials were held responsible for damage in a hotel that another English band had allegedly caused, and the hotel manager held one of their guitars as collateral. The situation escalated when the hotel called the local police, and ended with the Specials paying for the damage.
 
 """
-s = Song.create!(id: 64, artist: %q(Special A.K.A.), article: article, summary: summary, title: %q(Gangsters), album: %q(-), released: %q(4th May 1979), max_rez: 2, image: %q{Gangsters}, created_at: %q(2020-07-21T01:50:49+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 64, artist: %q(Special A.K.A.), article: article, summary: summary, title: %q(Gangsters), album: %q(-), released: %q(4th May 1979), max_rez: 2, image: %q(Gangsters), created_at: %q(2020-07-21T01:50:49+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1970s
 s.tags << tag_twoTone
 s.tags << tag_coventry
@@ -1724,7 +1724,7 @@ I might claim, rightly or wrongly, that some tracks on this blog are truly revol
 Plenty of out-and-out “pop” singers have had a go at this, including ^link(hilary-duff).  These versions are uniformly terrible.
 
 """
-s = Song.create!(id: 65, artist: %q(The Go-Go’s), article: article, summary: summary, title: %q(Our Lips Are Sealed), album: %q(Beauty and the Beat (1981)), released: %q(12th June 1981 (single), 8th July 1981 (LP)), max_rez: 3, image: %q{OurLipsAreSealed}, created_at: %q(2020-07-21T02:19:58+01:00), updated_at: %q(2021-03-07T18:48:36Z))
+s = Song.create!(id: 65, artist: %q(The Go-Go’s), article: article, summary: summary, title: %q(Our Lips Are Sealed), album: %q(Beauty and the Beat (1981)), released: %q(12th June 1981 (single), 8th July 1981 (LP)), max_rez: 3, image: %q(OurLipsAreSealed), created_at: %q(2020-07-21T02:19:58+01:00), updated_at: %q(2021-03-07T18:48:36Z))
 s.tags << tag_decade1980s
 s.tags << tag_terryHall
 s.countries << country_usa
@@ -1747,7 +1747,7 @@ Hall himself has also worked with plenty of other artists I love, including a cu
 See the links below for Terry Hall performing Sense live with a ^link(supergroup) line-up, including Chris Sharrock on drums (The Icicle Works, World Party, Oasis, etc), Will Sergeant on bass (Echo & the Bunnymen), Craig Gannon on guitar (The Bluebells, The Smiths, Morrissey), and on keys it’s Angie Pollock (Goldfrapp, Peter Gabriel, etc).  TBH, it's not a great performance, the whole seems to be less than the sum of the parts, or something.
 
 """
-s = Song.create!(id: 66, artist: %q(Terry Hall), article: article, summary: summary, title: %q(Sense), album: %q(Home (1994)), released: %q(12 September 1994 (LP), November 1994 (single)), max_rez: 3, image: %q{Sense}, created_at: %q(2020-07-23T23:54:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 66, artist: %q(Terry Hall), article: article, summary: summary, title: %q(Sense), album: %q(Home (1994)), released: %q(12 September 1994 (LP), November 1994 (single)), max_rez: 3, image: %q(Sense), created_at: %q(2020-07-23T23:54:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_collaboration
 s.tags << tag_terryHall
@@ -1766,7 +1766,7 @@ Speakers and Tweeters features Hall on a number of tracks, including a ^link(cov
 Although it doesn’t fit with the Terry Hall theme, I also recommend checking out ^link(speed-of-light), the opening (and, I’d suggest) best track on Speakers and Tweeters.
 
 """
-s = Song.create!(id: 67, artist: %q(Dub Pistols feat. Terry Hall), article: article, summary: summary, title: %q(Running From the Thoughts), album: %q(Speakers and Tweeters (2007)), released: %q(2nd April 2007 (LP)), max_rez: 4, image: %q{RunningFromTheThoughts}, created_at: %q(2020-07-25T23:57:43+01:00), updated_at: %q(2021-03-07T18:48:38Z))
+s = Song.create!(id: 67, artist: %q(Dub Pistols feat. Terry Hall), article: article, summary: summary, title: %q(Running From the Thoughts), album: %q(Speakers and Tweeters (2007)), released: %q(2nd April 2007 (LP)), max_rez: 4, image: %q(RunningFromTheThoughts), created_at: %q(2020-07-25T23:57:43+01:00), updated_at: %q(2021-03-07T18:48:38Z))
 s.tags << tag_decade2000s
 s.tags << tag_dub
 s.tags << tag_reggae
@@ -1790,7 +1790,7 @@ The song, penned by Reed of course, first appeared on the fourth Velvet Undergro
 He later played the song ^link(steve-hunter), who reprised some of the lines from the Rock ’n’ Roll Animal intro, but it falls a but flat in my view.
 
 """
-s = Song.create!(id: 68, artist: %q(Lou Reed), article: article, summary: summary, title: %q(Sweet Jane), album: %q(Rock 'n' Roll Animal), released: %q(February 1974), max_rez: 4, image: %q{SweetJaneLR}, created_at: %q(2020-08-15T23:07:27+01:00), updated_at: %q(2021-03-07T18:48:39Z))
+s = Song.create!(id: 68, artist: %q(Lou Reed), article: article, summary: summary, title: %q(Sweet Jane), album: %q(Rock 'n' Roll Animal), released: %q(February 1974), max_rez: 4, image: %q(SweetJaneLR), created_at: %q(2020-08-15T23:07:27+01:00), updated_at: %q(2021-03-07T18:48:39Z))
 s.tags << tag_decade1970s
 s.tags << tag_live
 s.countries << country_usa
@@ -1805,7 +1805,7 @@ article = """
 This cover is based on the ^link(1969-version) from the 1969: The Velvet Underground Live LP, which includes alternative verses to the first release, and which reinstates the “heavenly wine and roses” bridge section that was edited out of the ^link(original) Velvets release.
 
 """
-s = Song.create!(id: 69, artist: %q(Cowboy Junkies), article: article, summary: summary, title: %q(Sweet Jane), album: %q(The Trinity Session), released: %q(15th November 1988), max_rez: 4, image: %q{SweetJaneCJ}, created_at: %q(2020-08-15T23:41:10+01:00), updated_at: %q(2021-03-07T18:48:40Z))
+s = Song.create!(id: 69, artist: %q(Cowboy Junkies), article: article, summary: summary, title: %q(Sweet Jane), album: %q(The Trinity Session), released: %q(15th November 1988), max_rez: 4, image: %q(SweetJaneCJ), created_at: %q(2020-08-15T23:41:10+01:00), updated_at: %q(2021-03-07T18:48:40Z))
 s.tags << tag_decade1980s
 s.tags << tag_cover
 s.countries << country_canada
@@ -1827,7 +1827,7 @@ He had recorded some demos for the fourth album by the time he passed away in la
 Style-wise, it’s a bit indie, a bit electronic, a bit shoegazy, a bit pop.  It’s a combo I’ve long had a soft spot for!
 
 """
-s = Song.create!(id: 70, artist: %q(School of Seven Bells), article: article, summary: summary, title: %q(Ablaze), album: %q(SVIIB (2016)), released: %q(12th February 2016 (LP)), max_rez: 4, image: %q{Ablaze}, created_at: %q(2020-09-29T23:00:02+01:00), updated_at: %q(2021-03-07T18:48:41Z))
+s = Song.create!(id: 70, artist: %q(School of Seven Bells), article: article, summary: summary, title: %q(Ablaze), album: %q(SVIIB (2016)), released: %q(12th February 2016 (LP)), max_rez: 4, image: %q(Ablaze), created_at: %q(2020-09-29T23:00:02+01:00), updated_at: %q(2021-03-07T18:48:41Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.tags << tag_electronic
@@ -1851,7 +1851,7 @@ I recommend checking out ^link(breakdown), their cover of ^link(baby), and ^link
 Colourbox were also the main contributors to the M|A|R|R|S number one hit ^link(pump-up-the-volume).
 
 """
-s = Song.create!(id: 71, artist: %q(Colourbox), article: article, summary: summary, title: %q(Hot Doggie), album: %q(Lonely Is An Eyesore), released: %q(15th June 1987), max_rez: 4, image: %q{HotDoggie}, created_at: %q(2020-10-03T23:36:10+01:00), updated_at: %q(2021-03-07T18:48:42Z))
+s = Song.create!(id: 71, artist: %q(Colourbox), article: article, summary: summary, title: %q(Hot Doggie), album: %q(Lonely Is An Eyesore), released: %q(15th June 1987), max_rez: 4, image: %q(HotDoggie), created_at: %q(2020-10-03T23:36:10+01:00), updated_at: %q(2021-03-07T18:48:42Z))
 s.tags << tag_decade1980s
 s.tags << tag_fourAD
 s.tags << tag_brothers
@@ -1892,7 +1892,7 @@ Anyway, what’s more important for the purposes of this blog is that Pump Up Th
 Check out the original release of ^link(gloria-jones), from 1964.
 
 """
-s = Song.create!(id: 72, artist: %q(M/A/R/R/S), article: article, summary: summary, title: %q(Pump Up The Volume), album: %q(Single (1987)), released: %q(3rd August 1987), max_rez: 4, image: %q{PumpUpTheVolume}, created_at: %q(2020-10-05T01:36:09+01:00), updated_at: %q(2021-03-07T18:48:43Z))
+s = Song.create!(id: 72, artist: %q(M/A/R/R/S), article: article, summary: summary, title: %q(Pump Up The Volume), album: %q(Single (1987)), released: %q(3rd August 1987), max_rez: 4, image: %q(PumpUpTheVolume), created_at: %q(2020-10-05T01:36:09+01:00), updated_at: %q(2021-03-07T18:48:43Z))
 s.tags << tag_decade1990s
 s.tags << tag_fourAD
 s.tags << tag_collaboration
@@ -1925,7 +1925,7 @@ This was followed in 2017 by Every Valley, which documents the decline of the co
 I strongly recommend all three LPs.
 
 """
-s = Song.create!(id: 73, artist: %q(Public Service Broadcasting), article: article, summary: summary, title: %q(Spitfire), album: %q(Inform - Educate - Entertain), released: %q(26th March 2012 (single), 6th May 2013 (LP)), max_rez: 4, image: %q{Spitfire}, created_at: %q(2020-10-08T00:54:46+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 73, artist: %q(Public Service Broadcasting), article: article, summary: summary, title: %q(Spitfire), album: %q(Inform - Educate - Entertain), released: %q(26th March 2012 (single), 6th May 2013 (LP)), max_rez: 4, image: %q(Spitfire), created_at: %q(2020-10-08T00:54:46+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_instrumental
 s.tags << tag_sample
@@ -1949,7 +1949,7 @@ The title reportedly comes from the Italian producers mis-hearing the Right On T
 After Holloway sued for unauthorised use of her recording, the track was re-made with Heather Small trying to emulate the original artist.
 
 """
-s = Song.create!(id: 74, artist: %q(Black Box), article: article, summary: summary, title: %q(Ride on Time), album: %q(Dreamland (1990)), released: %q(1989 (Single), 1990 (LP)), max_rez: 4, image: %q{RideOnTime}, created_at: %q(2020-10-17T01:30:38+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 74, artist: %q(Black Box), article: article, summary: summary, title: %q(Ride on Time), album: %q(Dreamland (1990)), released: %q(1989 (Single), 1990 (LP)), max_rez: 4, image: %q(RideOnTime), created_at: %q(2020-10-17T01:30:38+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1980s
 s.tags << tag_house
 s.tags << tag_italianHouse
@@ -1973,7 +1973,7 @@ While Micky Dolenz is the main vocalist in the band, singing duties were shared 
 The album’s main producer, Adam Schlesinger (bassist of Fountains of Wayne), sadly passed away earlier this year (April 2020) from the effects a COVID-19 infection. The day after Schlesinger’s passing was announced, Gibbard was doing a lockdown performance for the ^link(tiny-desk) channel, during which he performed ^link(gibbard).
 
 """
-s = Song.create!(id: 75, artist: %q(The Monkees), article: article, summary: summary, title: %q(Me & Magdalena), album: %q(Good Times! (2016)), released: %q(20th May 2016 (single), 27th May 2016 (LP)), max_rez: 4, image: %q{MeAndMagdalena}, created_at: %q(2020-10-23T01:08:00+01:00), updated_at: %q(2021-03-07T18:48:46Z))
+s = Song.create!(id: 75, artist: %q(The Monkees), article: article, summary: summary, title: %q(Me & Magdalena), album: %q(Good Times! (2016)), released: %q(20th May 2016 (single), 27th May 2016 (LP)), max_rez: 4, image: %q(MeAndMagdalena), created_at: %q(2020-10-23T01:08:00+01:00), updated_at: %q(2021-03-07T18:48:46Z))
 s.tags << tag_decade2010s
 s.tags << tag_platinum2016
 s.countries << country_usa
@@ -1997,7 +1997,7 @@ My choice of Gang of Four track was really a short-list of two. I also nearly we
 Guitarist Andy Gill still performed as Gang of Four until his sad ^link(death) on 1st February 2020.
 
 """
-s = Song.create!(id: 76, artist: %q(Gang of Four), article: article, summary: summary, title: %q(Outside the Trains Don’t Run on Time), album: %q(Single (1980)), released: %q(1980 (single), 1981 (Solid Gold LP)), max_rez: 4, image: %q{OutsideTheTrainsDontRunOnTime}, created_at: %q(2020-11-29T00:52:46Z), updated_at: %q(2021-03-07T18:48:47Z))
+s = Song.create!(id: 76, artist: %q(Gang of Four), article: article, summary: summary, title: %q(Outside the Trains Don’t Run on Time), album: %q(Single (1980)), released: %q(1980 (single), 1981 (Solid Gold LP)), max_rez: 4, image: %q(OutsideTheTrainsDontRunOnTime), created_at: %q(2020-11-29T00:52:46Z), updated_at: %q(2021-03-07T18:48:47Z))
 s.tags << tag_decade1980s
 s.tags << tag_dub
 s.tags << tag_funk
@@ -2039,7 +2039,7 @@ If, like me, you have wondered about the quotes around the word _friends_ in the
 > The lyrics came from short stories I’d written about what London would be like in 30 years. These machines – “friends” – come to the door. They supply services of various kinds, but your neighbours never know what they really are since they look human. The one in the song is a prostitute, hence the inverted commas. It was released in May 1979 and sold a million copies. I had a No 1 single with a song about a robot prostitute and no one knew.
 
 """
-s = Song.create!(id: 77, artist: %q(Tubeway Army), article: article, summary: summary, title: %q(Are ‘Friends’ Electric?), album: %q(Replicas), released: %q(4th May 1979 (single), 4th April 1979 (LP)), max_rez: 4, image: %q{AreFriendsElectric}, created_at: %q(2020-12-28T01:23:29Z), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 77, artist: %q(Tubeway Army), article: article, summary: summary, title: %q(Are ‘Friends’ Electric?), album: %q(Replicas), released: %q(4th May 1979 (single), 4th April 1979 (LP)), max_rez: 4, image: %q(AreFriendsElectric), created_at: %q(2020-12-28T01:23:29Z), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1970s
 s.tags << tag_electronic
 s.countries << country_uk
@@ -2061,7 +2061,7 @@ The Safari EP, released between Pod and Last Splash marks the transition - not l
 Those two tracks also happen to be two of my favourite Breeders tracks, so, failing to decide which to use, I decided to include the whole EP. The record also includes ^link(dont-call-home) and a cover of The Who’s ^link(so-sad-about-us).
 
 """
-s = Song.create!(id: 78, artist: %q(The Breeders), article: article, summary: summary, title: %q(Safari EP), album: %q(Safari EP), released: %q(6th April 1992), max_rez: 4, image: %q{SafariEP}, created_at: %q(2021-03-06T23:22:55Z), updated_at: %q(2021-04-02T01:52:49+01:00))
+s = Song.create!(id: 78, artist: %q(The Breeders), article: article, summary: summary, title: %q(Safari EP), album: %q(Safari EP), released: %q(6th April 1992), max_rez: 4, image: %q(SafariEP), created_at: %q(2021-03-06T23:22:55Z), updated_at: %q(2021-04-02T01:52:49+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_ep
 s.tags << tag_indie
@@ -2100,7 +2100,7 @@ This is one of those songs constructed from various disparate ideas glued togeth
  
 
 """
-s = Song.create!(id: 79, artist: %q(The Beatles), article: article, summary: summary, title: %q(Happiness Is A Warm Gun), album: %q(The Beatles (aka The White Album)), released: %q(22nd November 1968 (LP)), max_rez: 4, image: %q{HappinessIsAWarmGun}, created_at: %q(2021-03-09T00:19:32Z), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 79, artist: %q(The Beatles), article: article, summary: summary, title: %q(Happiness Is A Warm Gun), album: %q(The Beatles (aka The White Album)), released: %q(22nd November 1968 (LP)), max_rez: 4, image: %q(HappinessIsAWarmGun), created_at: %q(2021-03-09T00:19:32Z), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1960s
 s.tags << tag_timeSignatureChange
 s.tags << tag_liverpool
@@ -2120,7 +2120,7 @@ This is a highlight of last year for me, along with ^link(time-is-hardcore), by 
 
 
 """
-s = Song.create!(id: 80, artist: %q(Grimes), article: article, summary: summary, title: %q(Idoru), album: %q(Miss Athropocene (2020)), released: %q(21st February 2020), max_rez: 4, image: %q{Idoru}, created_at: %q(2021-03-13T00:57:08Z), updated_at: %q(2021-03-13T00:57:08Z))
+s = Song.create!(id: 80, artist: %q(Grimes), article: article, summary: summary, title: %q(Idoru), album: %q(Miss Athropocene (2020)), released: %q(21st February 2020), max_rez: 4, image: %q(Idoru), created_at: %q(2021-03-13T00:57:08Z), updated_at: %q(2021-03-13T00:57:08Z))
 s.tags << tag_electronic
 s.tags << tag_decade2020s
 s.tags << tag_year2020
@@ -2144,7 +2144,7 @@ There’s not really a lot to say here  - good beats, great spoken and sung voca
 Time Is Hardcore was released as a single in September 2020, and appeared on the Notes From the Underground LP two months later.
 
 """
-s = Song.create!(id: 81, artist: %q(High Contrast ft. Kae Tempest and Anita Blay), article: article, summary: summary, title: %q(Time Is Hardcore), album: %q(Notes From The Underground), released: %q(12th August 2020 (single), 13th November 2020 (LP)), max_rez: 4, image: %q{TimeIsHardcore}, created_at: %q(2021-03-13T01:03:08Z), updated_at: %q(2021-03-13T01:03:08Z))
+s = Song.create!(id: 81, artist: %q(High Contrast ft. Kae Tempest and Anita Blay), article: article, summary: summary, title: %q(Time Is Hardcore), album: %q(Notes From The Underground), released: %q(12th August 2020 (single), 13th November 2020 (LP)), max_rez: 4, image: %q(TimeIsHardcore), created_at: %q(2021-03-13T01:03:08Z), updated_at: %q(2021-03-13T01:03:08Z))
 s.tags << tag_electronic
 s.tags << tag_decade2020s
 s.tags << tag_year2020
@@ -2172,7 +2172,7 @@ Late in 2020 Hersh reported that she was recording new 50 Foot Wave material.
 
 
 """
-s = Song.create!(id: 82, artist: %q(50 Foot Wave), article: article, summary: summary, title: %q(Bath White EP), album: %q(Bath White EP (2016)), released: %q(27th May 2016), max_rez: 4, image: %q{BathWhiteEP}, created_at: %q(2021-04-02T01:52:49+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 82, artist: %q(50 Foot Wave), article: article, summary: summary, title: %q(Bath White EP), album: %q(Bath White EP (2016)), released: %q(27th May 2016), max_rez: 4, image: %q(BathWhiteEP), created_at: %q(2021-04-02T01:52:49+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_sideProject
 s.tags << tag_ep
@@ -2200,7 +2200,7 @@ Combining a perfect 90s dance beat and synths from Leftfield, with one of Lydon�
 Open Up remains a highlight of Lydon’s shows to this day, as he performs again as Public Image Ltd.
 
 """
-s = Song.create!(id: 83, artist: %q(Leftfield Lydon), article: article, summary: summary, title: %q(Open Up), album: %q(Leftism (1995)), released: %q(1st November 1993 (single), 30th January 1995 (LP)), max_rez: 4, image: %q{OpenUp}, created_at: %q(2021-04-13T22:40:19+01:00), updated_at: %q(2021-04-13T22:40:19+01:00))
+s = Song.create!(id: 83, artist: %q(Leftfield Lydon), article: article, summary: summary, title: %q(Open Up), album: %q(Leftism (1995)), released: %q(1st November 1993 (single), 30th January 1995 (LP)), max_rez: 4, image: %q(OpenUp), created_at: %q(2021-04-13T22:40:19+01:00), updated_at: %q(2021-04-13T22:40:19+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_sideProject
 s.tags << tag_indieDance
@@ -2224,7 +2224,7 @@ Seeing The Amps in the Astoria in London was at least as good as any other Kim D
 The lead (and title) track embedded above is a different version than that on the LP, and it’s a version I prefer. I don’t think it was released as a single, so I’m not sure where it’s available other than YouTube etc.  The LP version is linked below.
 
 """
-s = Song.create!(id: 84, artist: %q(The Amps), article: article, summary: summary, title: %q(Pacer), album: %q(Pacer), released: %q(30th October 1995 (LP)), max_rez: 4, image: %q{Pacer}, created_at: %q(2021-04-16T00:13:36+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 84, artist: %q(The Amps), article: article, summary: summary, title: %q(Pacer), album: %q(Pacer), released: %q(30th October 1995 (LP)), max_rez: 4, image: %q(Pacer), created_at: %q(2021-04-16T00:13:36+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade1990s
 s.tags << tag_sideProject
 s.tags << tag_openingTrack
@@ -2249,7 +2249,7 @@ Drummer in Deep Sea Diver is Dobson’s husband Peter Mansen.  I’ve long plann
 Dobson is a writer/interviewee who is always smart, interesting, and entertaining.
 
 """
-s = Song.create!(id: 85, artist: %q(Deep Sea Diver), article: article, summary: summary, title: %q(Wide Awake), album: %q(Secrets (2016)), released: %q(19th February 2016 (LP)), max_rez: 4, image: %q{WideAwake}, created_at: %q(2021-05-05T00:00:40+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 85, artist: %q(Deep Sea Diver), article: article, summary: summary, title: %q(Wide Awake), album: %q(Secrets (2016)), released: %q(19th February 2016 (LP)), max_rez: 4, image: %q(WideAwake), created_at: %q(2021-05-05T00:00:40+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_seattle
 s.tags << tag_spouses
@@ -2273,7 +2273,7 @@ In the video embedded above, look out for Abba-style shots where one singer is f
 
 
 """
-s = Song.create!(id: 86, artist: %q(Sharon Van Etten & Angel Olsen), article: article, summary: summary, title: %q(Like I Used To), album: %q(Single only), released: %q(20th May 2021), max_rez: 4, image: %q{LikeIUsedTo}, created_at: %q(2021-07-03T18:17:58+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
+s = Song.create!(id: 86, artist: %q(Sharon Van Etten & Angel Olsen), article: article, summary: summary, title: %q(Like I Used To), album: %q(Single only), released: %q(20th May 2021), max_rez: 4, image: %q(LikeIUsedTo), created_at: %q(2021-07-03T18:17:58+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
 s.tags << tag_decade2020s
 s.tags << tag_collaboration
 s.countries << country_usa
@@ -2302,7 +2302,7 @@ Highlight of the year so far.
 
 
 """
-s = Song.create!(id: 87, artist: %q(Chvrches ft. Robert Smith), article: article, summary: summary, title: %q(How Not To Drown), album: %q(Screen Violence (due 27th August 2021)), released: %q(Single (2nd June 2021), LP (due 27th August 2021)), max_rez: 4, image: %q{HowNotToDrown}, created_at: %q(2021-07-04T01:23:59+01:00), updated_at: %q(2021-07-04T01:23:59+01:00))
+s = Song.create!(id: 87, artist: %q(Chvrches ft. Robert Smith), article: article, summary: summary, title: %q(How Not To Drown), album: %q(Screen Violence (due 27th August 2021)), released: %q(Single (2nd June 2021), LP (due 27th August 2021)), max_rez: 4, image: %q(HowNotToDrown), created_at: %q(2021-07-04T01:23:59+01:00), updated_at: %q(2021-07-04T01:23:59+01:00))
 s.tags << tag_decade2020s
 s.tags << tag_collaboration
 s.tags << tag_electronic
@@ -2330,7 +2330,7 @@ Crutchfield’s songs are rarely complex in terms of chord structures. It’s ra
 One of the great benefits of being relatively simple is that a song can easily adapt to different interpretations. “La Loose”, for example, from 2015’s Ivy Tripp, was releaseed in  ^link(la-loose-electronic) form, but also works well ^link(la-loose-acoustic), and in an ^link(la-loose-indie).
 
 """
-s = Song.create!(id: 89, artist: %q(Waxahatchee), article: article, summary: summary, title: %q(No Curse), album: %q(Single only), released: %q(2017), max_rez: 4, image: %q{NoCurse}, created_at: %q(2023-06-18T01:59:13+01:00), updated_at: %q(2023-06-18T01:59:13+01:00))
+s = Song.create!(id: 89, artist: %q(Waxahatchee), article: article, summary: summary, title: %q(No Curse), album: %q(Single only), released: %q(2017), max_rez: 4, image: %q(NoCurse), created_at: %q(2023-06-18T01:59:13+01:00), updated_at: %q(2023-06-18T01:59:13+01:00))
 s.tags << tag_decade2010s
 s.tags << tag_indie
 s.countries << country_usa
@@ -2360,7 +2360,7 @@ RIP Sinéad O’Connor 1966-2023
 
 
 """
-s = Song.create!(id: 90, artist: %q(Sinéad O’Connor), article: article, summary: summary, title: %q(Thank You For Hearing Me), album: %q(Universal Mother (1994)), released: %q(13th September 1994), max_rez: 4, image: %q{ThankYouForHearingMe}, created_at: %q(2023-07-27T02:57:36+01:00), updated_at: %q(2023-07-27T02:57:36+01:00))
+s = Song.create!(id: 90, artist: %q(Sinéad O’Connor), article: article, summary: summary, title: %q(Thank You For Hearing Me), album: %q(Universal Mother (1994)), released: %q(13th September 1994), max_rez: 4, image: %q(ThankYouForHearingMe), created_at: %q(2023-07-27T02:57:36+01:00), updated_at: %q(2023-07-27T02:57:36+01:00))
 s.tags << tag_decade1990s
 s.countries << country_ireland
 s.links << Link.build(link_type: :youtube_video, link_value: 'lJB_gSF0vsU', offset: 0, list_text: 'Thank You For Hearing Me (Live) - Sinéad O’Connor')
