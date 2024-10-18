@@ -168,13 +168,13 @@ s.links << Link.build(link_type: :youtube_link, link_value: 'vDIvTCweoCw', offse
 s.links << Link.build(link_type: :youtube_link, link_value: 'Gw9ANFOuMBU', offset: 0, embedded_text: 'Robert Plant', list_text: 'Song to the Siren - Robert Plant (do not click on this 💩)')
 s.links << Link.build(link_type: :wikipedia, link_value: '4AD', embedded_text: '4AD', list_text: '4AD (wikipedia)')
 summary = """
-The opening track of the début album, and literally within 5 seconds it presents a hook *so* strong, I’m smitten for life with this song. 
+The opening track of the début album, and literally within 5 seconds it presents a hook *so* strong, I’m smitten for life with this song.
 
-The “hook” is just a gap. Yet, to me, this is simply the greatest intro of all. 
+The “hook” is just a gap. Yet, to me, this is simply the greatest intro of all.
 
 """
 article = """
-The drum sound hits hard, then the guitars/bass come in with the main riff, and then there’s that gap. THAT GAP.  I can’t think of another case where the opening five seconds of the opening track of a band’s début album hits this hard. 
+The drum sound hits hard, then the guitars/bass come in with the main riff, and then there’s that gap. THAT GAP.  I can’t think of another case where the opening five seconds of the opening track of a band’s début album hits this hard.
 
 The production, the lyrics, the riffs, all add up to a very fine total piece. But the first five seconds might never be beaten.
 
@@ -225,15 +225,15 @@ summary = """
 This is a song in three movements from the Canadian band’s second album. It doesn’t have a conventional verse-chorus structure - it’s more like a linear piece with three distinct sections.
 """
 article = """
- I first heard this on Round Table on BBC 6 Music. It starts off kinda Morrissey-esque - and to be honest my initial thought was that it there nothing special here. But my feelings for this song grew as that section of the song developed, and two minutes in it goes into the second movement. Not only is this section more uplifting, but the contrast also seems to give joy of the first part.
- 
- And then it dramatically shifts up again at 3:20 (album version, it’s about 2:50 in the edited version in the linked video), and this is where I distinctly recall falling so madly in love with this song on that first listen.
- 
- Of course, I go back now and wonder how the first section seemed disappointing at first. Maybe it’s just that it’s less hook-laden so it took more time - or maybe it’s the contrast of the other sections that put it in context.
- 
- Either way, this song is a total joy.
- 
- These are the first Canadian artists to appear on this blog. There will be many more.
+I first heard this on Round Table on BBC 6 Music. It starts off kinda Morrissey-esque - and to be honest my initial thought was that it there nothing special here. But my feelings for this song grew as that section of the song developed, and two minutes in it goes into the second movement. Not only is this section more uplifting, but the contrast also seems to give joy of the first part.
+
+And then it dramatically shifts up again at 3:20 (album version, it’s about 2:50 in the edited version in the linked video), and this is where I distinctly recall falling so madly in love with this song on that first listen.
+
+Of course, I go back now and wonder how the first section seemed disappointing at first. Maybe it’s just that it’s less hook-laden so it took more time - or maybe it’s the contrast of the other sections that put it in context.
+
+Either way, this song is a total joy.
+
+These are the first Canadian artists to appear on this blog. There will be many more.
 """
 s = Song.create!(id: 4, artist: %q(The Dears), article: article, summary: summary, title: %q(Lost in the Plot), album: %q(No Cities Left (2003)), released: %q(15th April 2003), max_rez: 4, image: %q(LostInThePlot), created_at: %q(2020-04-14T13:41:54+01:00), updated_at: %q(2021-03-07T18:47:35Z))
 s.tags << tag_spouses
@@ -277,12 +277,12 @@ A glorious uplifting pop tune from the Scotland’s three-piece Chvrches.
 
 """
 article = """
- I first became aware of Chvrches via the ^link(bbc-sound-of-2013) list, which placed them 5th. It seems low - not just in hindsight, but also at the time, given that ^link(the-mother-we-share) had already been released.
- 
- That track clearly remains their most famous, but, three albums in, Clearest Blue is the strongest track for me. It just builds and builds and you think there’s going to be an “everyone goes mad” moment - and then of course that’s exactly what happens.
- 
- Although it doesn’t share the structure and build of the single/album mix, it’s definitely also worth checking out the ^link(gryffin-remix) - a different feel, but also pretty darned awesome.
- 
+I first became aware of Chvrches via the ^link(bbc-sound-of-2013) list, which placed them 5th. It seems low - not just in hindsight, but also at the time, given that ^link(the-mother-we-share) had already been released.
+
+That track clearly remains their most famous, but, three albums in, Clearest Blue is the strongest track for me. It just builds and builds and you think there’s going to be an “everyone goes mad” moment - and then of course that’s exactly what happens.
+
+Although it doesn’t share the structure and build of the single/album mix, it’s definitely also worth checking out the ^link(gryffin-remix) - a different feel, but also pretty darned awesome.
+
 
 """
 s = Song.create!(id: 6, artist: %q(Chvrches), article: article, summary: summary, title: %q(Clearest Blue), album: %q(Every Open Eye (2015)), released: %q(10th September 2015 (single), 25th September 2015 (album), 2016 (Gryffin remix)), max_rez: 4, image: %q(ClearestBlue), created_at: %q(2020-04-16T00:37:50+01:00), updated_at: %q(2021-03-07T18:47:37Z))
@@ -301,16 +301,16 @@ They head over to find the source, the “planet of sound”.
 
 """
 article = """
- > I met a guy in a rover  
- > He said, “It’s one more over  
- > It’s just there where you’re bound”    
- > This ain’t the planet of sound.
+> I met a guy in a rover
+> He said, “It’s one more over
+> It’s just there where you’re bound”
+> This ain’t the planet of sound.
 
 But the alien has what we programmers call an “off by one error”, and arrives at Mars instead - they arrive “somewhere renowned for its canals and colours of red”, before meeting the guy in a rover who tells him “it’s one more over”.
 
 A lot of Pixies fans will prefer the earlier stuff, particularly Doolittle, but Trompe Le Monde was their finest hour for me. A load of tracks about space and aliens - a theme pervasive enough that some called it a “concept album”.
 
-Pixies have more sophisticated songs than this, but this has an energy and some fine lyrics that elevate it towards the upper end of their output. 
+Pixies have more sophisticated songs than this, but this has an energy and some fine lyrics that elevate it towards the upper end of their output.
 
 An aside: The first time I saw them play was 1st May 1988 at the Town and Country Club, in Kentish Town, London. A truly magical night, they “co-headlined” (supported, basically) Throwing Muses who were promoting their magnificent second album “House Tornado”.
 
@@ -328,16 +328,16 @@ After a period as a guitar-based rock band that saw Sparks earn considerable com
 
 """
 article = """
- > This is the number one song in heaven  
- > Why are you hearing it now, you ask?  
- > Maybe you’re closer to here than you imagine?  
- > Maybe you’re closer to here than you care to be?
- 
- The full 12” version is a 7½ minute song in two parts. The radio edit (which is used in the official video embedded above) was basically part two, which starts with the big tom bash about 3½ minutes in.
- 
- Talking of toms... The drums on this were played by Keith Forsey. Apart from a few syndrum-type sounds, it’s real drums all the way through on this track. He had played on Giorgio Moroder’s earlier Donna Summer productions where he only played part of the kit while most of the percussion was synthesiser-based.  Live drums on ’electronic’ tracks were, at this time, quite common. After all, drum machines didn’t sound great unless you _wanted_ an artificial sound - until the LinnDrum LM-1 in 1982. Forsey later had success as the writer of Don’t You Forget About Me for the Breakfast Club movie, eventually recorded by Simple Minds, who had massive hit with it after other artists turned it down.
- 
- For a while in the early 2000s, Sparks live shows included Part 1 of Number One Song In Heaven ^link(segued) into Never Turn Your Back on Mother Earth instead of Part 2 -  Never Turn Your Back on Mother Earth will almost certainly get a feature on this blog at a later date, as will newer material from the ever-interesting Sparks.
+> This is the number one song in heaven
+> Why are you hearing it now, you ask?
+> Maybe you’re closer to here than you imagine?
+> Maybe you’re closer to here than you care to be?
+
+The full 12” version is a 7½ minute song in two parts. The radio edit (which is used in the official video embedded above) was basically part two, which starts with the big tom bash about 3½ minutes in.
+
+Talking of toms... The drums on this were played by Keith Forsey. Apart from a few syndrum-type sounds, it’s real drums all the way through on this track. He had played on Giorgio Moroder’s earlier Donna Summer productions where he only played part of the kit while most of the percussion was synthesiser-based.  Live drums on ’electronic’ tracks were, at this time, quite common. After all, drum machines didn’t sound great unless you _wanted_ an artificial sound - until the LinnDrum LM-1 in 1982. Forsey later had success as the writer of Don’t You Forget About Me for the Breakfast Club movie, eventually recorded by Simple Minds, who had massive hit with it after other artists turned it down.
+
+For a while in the early 2000s, Sparks live shows included Part 1 of Number One Song In Heaven ^link(segued) into Never Turn Your Back on Mother Earth instead of Part 2 -  Never Turn Your Back on Mother Earth will almost certainly get a feature on this blog at a later date, as will newer material from the ever-interesting Sparks.
 
 """
 s = Song.create!(id: 8, artist: %q(Sparks), article: article, summary: summary, title: %q(Number One Song in Heaven), album: %q(No. 1 in Heaven (1979)), released: %q(23rd March 1979 (single), ? March 1979 (LP)), max_rez: 4, image: %q(NumberOneSongInHeaven), created_at: %q(2020-04-17T15:45:43+01:00), updated_at: %q(2021-03-07T18:47:39Z))
@@ -380,10 +380,10 @@ Although The Cure had been well established in the UK, this was the song that br
 
 """
 article = """
-Released as the third single from ^link(kiss-me), this brought The Cure the sort of popularity in the US that they already had in Europe. 
- 
+Released as the third single from ^link(kiss-me), this brought The Cure the sort of popularity in the US that they already had in Europe.
+
 Totally worth watching is ^link(rick-beato) which pulls apart the song part by part, instrument by instrument. Check it out - it’s why I’m keeping this write-up short - he says it better than I can.
- 
+
 ### Covers
 
 Popular (though I’m not much of a fan of it) is a fairly faithful cover by ^link(dinosaur-jr).
@@ -407,8 +407,8 @@ An absolute banger from Le Tigre, a punky electronic three-piece featuring Kathl
 """
 article = """
 The best copy of the official video I found is well ropey in terms of video quality, but it still a fun watch. Also worth checking out is this ^link(live-performance) - full of energy that the VHS artefacts can’t stifle.
- 
- If this appeals to you in any way, totally worth checking out is ^link(the-punk-singer-trailer), a fabulous documentary about Bikini Kill and Le Tigre singer Kathleen Hanna.
+
+If this appeals to you in any way, totally worth checking out is ^link(the-punk-singer-trailer), a fabulous documentary about Bikini Kill and Le Tigre singer Kathleen Hanna.
 
 """
 s = Song.create!(id: 11, artist: %q(Le Tigre), article: article, summary: summary, title: %q(Deceptacon), album: %q(Le Tigre (1999)), released: %q(25th October 1999), max_rez: 4, image: %q(Deceptacon), created_at: %q(2020-04-19T18:58:21+01:00), updated_at: %q(2021-03-07T18:47:42Z))
@@ -434,14 +434,14 @@ Records of this era often used stereo in a very simplistic way, and this is the 
 
 The stories covered by the bulletin are:
 
- * A compromise being made in President Johnson’s civil rights bull, where he wanted a total end to discrimination in housing, but needed to back off to get it through.
- * The death of comedian Lenny Bruce.
- * A planned protest march led by Martin Luther King Jr, which was to be met by the National Guard.
- * Indictment of serial killer Richard Speck.
- * Protests at government hearings into protests against the Vietnam War.
- * Richard Nixon urging an increase in the Vietnam war effort.
- 
- The combination of the beautiful, peaceful, song, and the ugly news report, is quite something.
+* A compromise being made in President Johnson’s civil rights bull, where he wanted a total end to discrimination in housing, but needed to back off to get it through.
+* The death of comedian Lenny Bruce.
+* A planned protest march led by Martin Luther King Jr, which was to be met by the National Guard.
+* Indictment of serial killer Richard Speck.
+* Protests at government hearings into protests against the Vietnam War.
+* Richard Nixon urging an increase in the Vietnam war effort.
+
+The combination of the beautiful, peaceful, song, and the ugly news report, is quite something.
 
 """
 s = Song.create!(id: 12, artist: %q(Simon and Garfunkel), article: article, summary: summary, title: %q(7 O’Clock News/Silent Night), album: %q(Parsley, Sage, Rosemary and Thyme (1966)), released: %q(10th October 1966), max_rez: 4, image: %q(SilentNight), created_at: %q(2020-04-19T18:58:24+01:00), updated_at: %q(2021-03-07T18:47:43Z))
@@ -502,14 +502,14 @@ This is the point at which I introduce you to my all-time favourite band. Some o
 If you’ve been in the same room as me when my phone has gone off, and I’ve forgotten to put it on silent, you’ve heard the intro to this song - I sampled it for my ring tone. In retrospect, this wasn’t a good idea. If listening to my music on shuffle in the car, when I hear this I have an inevitable moment about confusion over whether it’s just the song or I have a phone call.
 
 ### An aside
- 
- Going back to my opening point about what track you’d play first to someone who doesn’t know your favourite band: I had a conversation with my (then) boss at work when I booked time off to follow a mini-tour of the UK by Throwing Muses. He didn’t know the band, so fired up Spotify, listened to 30 seconds of the “most popular” track and said “It’s a bit 90s, isn’t it?” and hit stop.
- 
- I relate this anecdote cos the track recommended by Spotify was ^link(not-too-soon), a massively untypical track by a different singer and writer than the main body of work. I quite like the song, but as any aficionado of any band will tell you, don’t start with the most popular song. A Radiohead nut isn’t going to kick you off with Creep, and a New Order fan won’t start you on Blue Monday.
- 
- Oh, and Not Too Soon was released in 1990. So sound 1990s isn’t the insult he was looking for :)
- 
- If anyone reading this listens to Fish and likes it, and wants to hear more - just ^link(ask-me) or check out the amazing ^link(chains-changed-ep).
+
+Going back to my opening point about what track you’d play first to someone who doesn’t know your favourite band: I had a conversation with my (then) boss at work when I booked time off to follow a mini-tour of the UK by Throwing Muses. He didn’t know the band, so fired up Spotify, listened to 30 seconds of the “most popular” track and said “It’s a bit 90s, isn’t it?” and hit stop.
+
+I relate this anecdote cos the track recommended by Spotify was ^link(not-too-soon), a massively untypical track by a different singer and writer than the main body of work. I quite like the song, but as any aficionado of any band will tell you, don’t start with the most popular song. A Radiohead nut isn’t going to kick you off with Creep, and a New Order fan won’t start you on Blue Monday.
+
+Oh, and Not Too Soon was released in 1990. So sound 1990s isn’t the insult he was looking for :)
+
+If anyone reading this listens to Fish and likes it, and wants to hear more - just ^link(ask-me) or check out the amazing ^link(chains-changed-ep).
 
 """
 s = Song.create!(id: 15, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Fish), album: %q(Lonely Is An Eyesore (4AD various artists compilation)), released: %q(15th June 1987), max_rez: 4, image: %q(Fish), created_at: %q(2020-04-21T20:35:41+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -530,16 +530,16 @@ Imagine coming up with a title and lyrics this good when English isn’t even yo
 
 """
 article = """
-This is not only one if my all time favourite song titles, it also features one of my favourite videos. 
+This is not only one if my all time favourite song titles, it also features one of my favourite videos.
 
 You could think on first listening that maybe the song is about an abusive relationship, but I don’t think it is. It’s more about a stale one - they’ve got older and there is still love, they’re sticking together through the good times and bad.
 
 Maybe they don’t have the same animal passion they once did. Until a few Stellas are sunk...
 
- > Baby you’re foul in clear conditions  
- > But you’re handsome in the fog  
- > So I need some fine wine,  
- > And you, you need to be nicer
+> Baby you’re foul in clear conditions
+> But you’re handsome in the fog
+> So I need some fine wine,
+> And you, you need to be nicer
 
 Sit.
 
@@ -557,11 +557,18 @@ South Africa-born Aussie Pogo makes tunes from edits of video, particularly from
 article = """
 His act is to make new music from usually-short snippets taken from the source material, with just a few additions from other instruments, and the results are sometimes quite spectacular. He made his name with ^link(alice), using clips from Disney’s Alice in Wonderland.
 
+
+
 But here I’ve highlighted two other songs that are popular favourites.  Wishery is made from clips of Disney’s 1937 feature Snow White and the Seven Dwarfs.
+
+
 
 Upular is made from Disney-Pixar’s Up (2009). Both tunes stand strongly in their own right, but the samples and video editing add to the joy.
 
+
+
 ^link(upular)
+
 
 """
 s = Song.create!(id: 17, artist: %q(Pogo), article: article, summary: summary, title: %q(Wishery / Upular), album: %q(-), released: %q(2013?), max_rez: 4, image: %q(WisheryUpular), created_at: %q(2020-04-22T16:09:51+01:00), updated_at: %q(2021-03-07T18:47:48Z))
@@ -579,7 +586,10 @@ Cherry Ghost started as the solo project of singer-songwriter Simon Aldred, and 
 article = """
 Wikipedia ^link(wikipedia) this as “chamber pop”, which it describes as “a style of rock music characterized by an emphasis on melody and texture, the intricate use of strings, horns, piano, and vocal harmonies, and other components drawn from the orchestral and lounge pop of the 1960s”.
 
+
+
 This is not a bad description of this song at all, to be fair.
+
 
 """
 s = Song.create!(id: 18, artist: %q(Cherry Ghost), article: article, summary: summary, title: %q(Mathematics), album: %q(Thirst for Romance (2007)), released: %q(9th April 2007 (single), 9th July 2007 (LP)), max_rez: 3, image: %q(Mathematics), created_at: %q(2020-04-23T17:23:59+01:00), updated_at: %q(2021-03-07T18:47:49Z))
@@ -596,9 +606,14 @@ This record takes a sample from Kate Bush’s single Cloudbusting, and builds a 
 article = """
 Utah Saints released Something Good in 1992 as their second single, and it remains their biggest success. The ^link(cloudbusting) sample “I just know that something good is going to happen” is spun into a house track with some gloriously clichéd house piano sprinkled throughout.
 
+
+
 ^link(yt-1992)
 
+
+
 The version that I prefer, however, is the 2008 remix, which was released alongside the award-winning Running Man video. This version had a re-recording of the Kate Bush sample, performed by Davina Perera . I don’t know if this was done for musical or financial reasons, but it does save on royalties (Bush would still have to be paid as writer, but no longer as performer)
+
 
 """
 s = Song.create!(id: 19, artist: %q(Utah Saints), article: article, summary: summary, title: %q(Something Good ’08), album: %q(Utah Saints), released: %q(1992 (single), 1993 (LP), 2008 (remix)), max_rez: 4, image: %q(SomethingGood08), created_at: %q(2020-04-23T21:46:33+01:00), updated_at: %q(2021-03-07T18:47:50Z))
@@ -618,13 +633,22 @@ The indie/dance crossover sound from the late 80s and early 90s might well have 
 article = """
 It’s On was the first single from Camden-based Flowered Up, being released in 1990 on (then new) Heavenly Records.  The music press was raving about them to a crazy degree, and they couldn’t possibly live up to the hype. Then they actually released a record and the “hype” turned out to be bang on.  Having said that, I don’t think they came up with anything as good as this again until the epic Weekender (more on that later on this blog, for sure).
 
+
+
 Critics would dismiss them as a southern copy of Happy Mondays. Although that seemed unfair, the presence of the Bez-like Barry Mooncult in their live setup certainly contributed to that popular view.
+
+
 
 The video for this is great, just a band miming to their track about scoring and dealing drugs and that, while cute kids and dogs dance around. It didn’t get aired much at the time but it remains one of my favourite pop videos.
 
-Sadly, their openness to drugs brought about their demise. Literally. Singer Liam Maher, and his guitarist brother Joe were to die young from heroin overdoses.  
+
+
+Sadly, their openness to drugs brought about their demise. Literally. Singer Liam Maher, and his guitarist brother Joe were to die young from heroin overdoses.
+
+
 
 Don’t do drugs kids.
+
 
 """
 s = Song.create!(id: 20, artist: %q(Flowered Up), article: article, summary: summary, title: %q(It’s On), album: %q(A Life With Brian), released: %q(1990 (single) / 26th August 1991 (LP)), max_rez: 4, image: %q(ItsOn), created_at: %q(2020-04-24T20:22:20+01:00), updated_at: %q(2021-03-07T18:47:51Z))
@@ -642,11 +666,18 @@ Just three years after John Lydon (aka Johnny Rotten) walked out on the Sex Pist
 article = """
 Flowers of Romance (the single doesn’t have the definite article that is found in the album title) preceded the LP.  The single was quite a different mix to that ^link(on-the-album), but both versions have loops of percussion, violin, and other instruments, while Lydon wails over it with lyrics about a failed romance.
 
+
+
 The drum sound (I think a combination of multi-tracking, heavy compression, gated reverb, and other effects) was reportedly influenced by Peter Gabriel’s work - while Phil Collins hired the Flowers Of Romance engineer Nick Launay after hearing this record.
+
+
 
 Also worth noting is that Jah Wobble, so vital to the sound of Metal Box, left the band before this follow-up. And the result is an album largely without bass guitar. The bottom-end is filled in with percussion and loops of cello etc.
 
+
+
 This is also getting into the era where loops don’t have to be literal loops of tape spliced end-back-to-beginning, but digital delays and samplers could do the job. The AMS digital delay, so crucial to Joy Division’s sound, took  a different but equally effective rôle here.
+
 
 """
 s = Song.create!(id: 21, artist: %q(Public Image Ltd), article: article, summary: summary, title: %q(Flowers of Romance), album: %q(The Flowers of Romance), released: %q(27th March 1981 (single), 10th April 1981 (LP)), max_rez: 4, image: %q(FlowersOfRomance), created_at: %q(2020-04-24T20:22:28+01:00), updated_at: %q(2021-03-07T18:47:52Z))
@@ -664,11 +695,18 @@ With Natalie Imbruglia’s take on the Ednaswap song “Torn”, I’d suggest t
 article = """
 This song was an instant hit when it came out. Actor Imbruglia wasn’t well known as a singer (to me, anyway), but she has a great voice and this is a superb pop production from one-time producer and member of The Cure, Phil Thornalley.
 
+
+
 Although written by ^link(torn-ednaswap) (Scott Cutler and Anne Preven) with producer Thornalley, the first released version was by Danish singer ^link(torn-sorensen). This take was named Brændt (Danish for Burned).
+
+
 
 Ednaswap recorded it themselves, though without the pop sheen of Imbruglia’s version, and there were other covers before Imbruglia brought it to the masses with her perfect version.
 
+
+
 Another Ednaswap song worth checking out is The State I’m In, either ^link(state-ednaswap), or ^link(state-sinead).
+
 
 """
 s = Song.create!(id: 22, artist: %q(Natalie Imbruglia), article: article, summary: summary, title: %q(Torn), album: %q(Left of the Middle), released: %q(27th October 1997 (single), 24th November 1997 (LP)), max_rez: 4, image: %q(Torn), created_at: %q(2020-04-25T22:27:31+01:00), updated_at: %q(2021-03-07T18:47:53Z))
@@ -687,13 +725,20 @@ I’m writing this in April 2020, as we approach the 10th anniversary of the rel
 
 """
 article = """
-The five-piece were aged 15-17 when this record was recorded. Producer of The Strokes, Gordon Raphael, took charge of the production of this record, and it sounds fantastic. Great songs, well performed, well recorded.  
+The five-piece were aged 15-17 when this record was recorded. Producer of The Strokes, Gordon Raphael, took charge of the production of this record, and it sounds fantastic. Great songs, well performed, well recorded.
+
+
 
 I’d argue that singer Faith Barker is the star performer here, but much of the songwriting credits go to Alice Costelloe, who went on to form ^link(big-deal) who got a lot of radio play in the 2010s.
 
+
+
 This was the only album Pull In Emergency made. Whether it was the usual band bust-ups, or just people going off to university etc as they grow up, I don’t know. But I do recall an interview with Costelloe later, when she looked back on this record without, it seemed, a lot of love.   Yet I think it’s a remarkable record for people of any age, let alone some so young.
 
+
+
 Unfortunately, there’s not much high quality live footage out there for them, but the few snippets I’ve found suggest they sounded decent and I’m sad not to have seen them play.
+
 
 """
 s = Song.create!(id: 23, artist: %q(Pull In Emergency), article: article, summary: summary, title: %q(Everything Is The Same), album: %q(Pull In Emergency), released: %q(9th June 2010 (LP)), max_rez: 4, image: %q(EverythingIsTheSame), created_at: %q(2020-04-26T21:40:58+01:00), updated_at: %q(2021-03-07T18:47:54Z))
@@ -706,15 +751,20 @@ s.links << Link.build(link_type: :youtube_video, link_value: 'DW06NVc2MrA', offs
 s.links << Link.build(link_type: :youtube_link, link_value: 'vA3jaXVujos', offset: 17, list_text: 'Morning Song - O Chapman (duet with Faith Barker)')
 s.links << Link.build(link_type: :youtube_link, link_value: 'V7xBkwIVgk8', offset: 0, embedded_text: 'Big Deal', list_text: 'Swapping Spit - Big Deal (Alice Costelloe)')
 summary = """
-This is a great song. And Pesky is surely a genius name for a band of kids? 
+This is a great song. And Pesky is surely a genius name for a band of kids?
 
 """
 article = """
 This came out of nowhere in 2015 - it got a load of radio play and the band got on ^link(daytime-tv).  Seven kids from Ulverston in the Lake District, they made an EP of glorious shoe-gazey pop tracks.
 
+
+
 I try not to be too cynical, especially about young people being creative, but there’s no footage of them playing live that I can find, and the polished, tight, sound seems different to what you might think they can do from watching the videos where they are miming. I don’t enjoy thinking this, and I REALLY want to be proved wrong (please prove me wrong) but I felt the teacher that promoted and organised them probably played much of this.  The vocals are clearly from kids, but I wonder about the rest. I’ll be well happy to be wrong about that, though.
 
+
+
 It still sounds great though, as do several other tracks on the Smells Like Tween Spirit EP
+
 
 """
 s = Song.create!(id: 24, artist: %q(Pesky), article: article, summary: summary, title: %q(Keep Me), album: %q(Smells Like Tween Spirit EP (2015)), released: %q(24th July 2015), max_rez: 4, image: %q(KeepMe), created_at: %q(2020-04-26T21:41:00+01:00), updated_at: %q(2021-03-07T18:47:55Z))
@@ -731,17 +781,28 @@ Arguably even more astonishing is her take on Joy Division’s She’s Lost Cont
 
 """
 article = """
-Early punk had a large crossover with reggae music - stemming largely from DJs like ^link(don-letts), whose club nights in Brixton found an audience appreciative of both genres.  
+Early punk had a large crossover with reggae music - stemming largely from DJs like ^link(don-letts), whose club nights in Brixton found an audience appreciative of both genres.
+
+
 
 Many punk bands showed reggae influences, ^link(the-ruts) and ^link(slf) would play originals and/or covers from the genre, while PiL’s second album Metal Box was heavily influenced by dub. ^link(the-clash) would play plenty of reggae too, and the one time I saw them live they even had Mikey Dredd supporting them on tour.
 
+
+
 Chrissie Hynde of The Pretenders was also in on this scene, and their 1980 album Pretenders included her own composition ^link(private-life-pretenders) in a Jamaican style. Very soon after that album was released, Grace Jones was recording with dub and reggae legends ^link(sly-and-robbie), and included a cover of Private Life on her own LP.  It was a hit and still sounds amazing to me now.
+
+
 
 ^link(shes-lost-control)
 
+
+
 Perhaps less well known was the non-album B-side, a cover of Joy Division’s ^link(joy-division-shes-lost-control). The full 12” of her version is an amazing piece of dub and I wholeheartedly recommend it.
 
+
+
 Even as an avid Joy Division fan, I suggest that both sides of this single can be considered to be, at the very least, on a par with the originals.
+
 
 """
 s = Song.create!(id: 25, artist: %q(Grace Jones), article: article, summary: summary, title: %q(Private Life / She’s Lost Control), album: %q(Warm Leatherette (1980)), released: %q(? 1980 (Single), 9th May 1980 (LP)), max_rez: 4, image: %q(PrivateLifeShesLostControl), created_at: %q(2020-04-28T23:36:42+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -770,11 +831,18 @@ Although Sinéad O’Connor is an amazing songwriter, she is best known for her 
 article = """
 After minor hits with songs like ^link(mandinka), O’Connor hit the big time with the song that most people know her for, the Prince-penned song ^link(nothing-compares-2-u).
 
+
+
 But she’s a great song-writer in her own right, and I think she deserves to be just as well-known for her own material. Having said that, I just wrote up a piece on Grace Jones covering Private Life with ^link(sly-and-robbie), and that reminded me of O’Connor’s superb album of reggae covers, again with the legendary Jamaican duo.
+
+
 
 These are songs she grew up with, and the album covers Burning Spear, Peter Tosh, Bob Marley and others. This is the title track off the album and was originally by Jamaican artist ^link(burning-spear), featuring on his 1977 album Dry & Heavy.
 
+
+
 The Sinéad O’Connor album “Universal Mother” is one of my all-time favourite records - it is more conventional pop but still carries a dub influence. Something off of that album, or it’s predecessor, will be added to this blog before long. It will definitely be one of her own compositions, she’s a hell of a songwriter.
+
 
 """
 s = Song.create!(id: 26, artist: %q(Sinéad O’Connor), article: article, summary: summary, title: %q(Throw Down Your Arms), album: %q(Throw Down Your Arms (2005)), released: %q(28th September 2005), max_rez: 4, image: %q(ThrowDownYourArms), created_at: %q(2020-04-28T23:36:43+01:00), updated_at: %q(2021-03-07T18:47:57Z))
@@ -795,7 +863,10 @@ Whatever the genre, a great melody and great singer are a special combination. N
 article = """
 Sadly, the year of release of this record saw him jailed for drug/firearm offences. Crack cocaine addiction took its toll on his health later in his career. He died in 2010 at the age of just 59.
 
+
+
 I’m not going to repeat the contempt that many people have for the ^link(simply-red) version. Mick Hucknall also has a great voice, and it’s a reasonably faithful version, featuring the legendary ^link(sly-and-robbie). Clearly, it’s not as great as the original. Nor is it the abomination that many would claim, in my view. It adds nothing. But it also doesn’t take that much away.
+
 
 """
 s = Song.create!(id: 27, artist: %q(Gregory Isaacs), article: article, summary: summary, title: %q(Night Nurse), album: %q(Night Nurse (1982)), released: %q(1982), max_rez: 4, image: %q(NightNurse), created_at: %q(2020-04-28T23:36:44+01:00), updated_at: %q(2021-03-07T18:47:58Z))
@@ -812,9 +883,14 @@ The standout years in my annual best-of-year compilations are 2004 and 2016. The
 article = """
 2004 was a year I was either not working or freelancing form home, so I had time to listen to a lot more radio than normal. And, significantly, in 2003 that DAB radio (for all its technical faults) became mainstream, and I discovered BBC 6 Music.  In the next year or so, my view of the state of music was massively reinvigorated by that radio station. This blog will feature quite a few numbers from the mid-2000s, thanks to 6music.
 
+
+
 Thru The Senses was released as a single in spring 2004, presumably without selling in the hoped-for numbers, because after the album release that Autumn, the record company gave it another shot and apparently it troubled the charts this time around. Thankfully, I’d grown well past caring about the charts by then.
 
+
+
 This is hook-laden indie pop at its best.
+
 
 """
 s = Song.create!(id: 28, artist: %q(Thirteen Senses), article: article, summary: summary, title: %q(Thru The Glass), album: %q(The Invitation), released: %q(1st March 2004 (single), 27th September 2004 (LP)), max_rez: 4, image: %q(ThruTheGlass), created_at: %q(2020-04-30T01:36:22+01:00), updated_at: %q(2021-03-07T18:47:59Z))
@@ -831,11 +907,18 @@ Another one from the golden year of 2004, this is another of my all-time favouri
 article = """
 The Wedding Present were big in indie circles from the mid-80s to mid-90s, perennial favourites of John Peel and his audience. The music was usually upbeat jangly indie, and they made many classics of the genre. The band took a long break before David Gedge re-emerged as Cinerama, mostly avoiding old material in their sets.
 
+
+
 However, in 2004, the then-current line-up of Cinerama was renamed The Wedding Present as they embraced the old material again, and new songs were recorded. These became the Take Fountain album.
+
+
 
 Take Fountain carried some great singles along side Interstate 5 - ^link(ringway-to-seatac), and ^link(further-north-than-you). All three were apparently influenced by Gedge’s time living in the north eastern part of the US. (Seatac is Seattle/Tacoma airport, Ringway is now known as Manchester Airport).
 
+
+
 The ^link(lp-version) is extended from the 6 minute single. The “mariachi” section at the end initially seemed out of place, but once I got used to it, it seems wrong not to hear it that way!
+
 
 """
 s = Song.create!(id: 29, artist: %q(The Wedding Present), article: article, summary: summary, title: %q(Interstate 5), album: %q(Take Fountain (2005)), released: %q(15th November 2004 (single), 14th February 2005 (LP)), max_rez: 4, image: %q(Interstate5), created_at: %q(2020-04-30T01:39:53+01:00), updated_at: %q(2021-03-07T18:48:00Z))
@@ -855,11 +938,18 @@ Another song from the 2004 “Golden Era”.  This one is heavily influenced by 
 article = """
 The Departure were from Northampton, as was 6music DJ Andrew Collins who championed them on the radio station at the time.
 
+
+
 There’s this cyclic thing in pop/rock music where kids influenced by their parents’ music collection start making records of their own. I’m making assumptions here, but The Departure are the right age to have parents who listened to Spandau Ballet - and this sounds a fair bit like the earlier Spandau material (before they got shit).
+
+
 
 This is the sort of sound that music journalists call “angular” for some reason - like that term makes any sense in a music context. Maybe it comes from the dancing style as much as the rhythm of the music?
 
+
+
 As I mentioned in an earlier song, 2004 is a golden era for me, and this song took a prominent position in my end-of-year compilation.
+
 
 """
 s = Song.create!(id: 30, artist: %q(The Departure), article: article, summary: summary, title: %q(All Mapped Out), album: %q(Dirty Words (2005)), released: %q(2nd August 2004 (single), 13th June 2005 (LP)), max_rez: 4, image: %q(AllMappedOut), created_at: %q(2020-05-02T23:08:05+01:00), updated_at: %q(2021-03-07T18:48:01Z))
@@ -873,27 +963,44 @@ s.links << Link.build(link_type: :youtube_video, link_value: 'e2nS4plebWM', offs
 summary = """
 This is the first of a few great songs which add or skip beats in one of their distinctive hooks.
 
-In this case, a song in waltz time introduces an occasional bar of common time in the distinctive intro riff. 
+In this case, a song in waltz time introduces an occasional bar of common time in the distinctive intro riff.
 
 """
 article = """
 Following on from the wildly experimental concept album ^link(gospel) , The Stranglers continued their shift well away from punk with the 1981 album ^link(la-folie). Early in 1982, Golden Brown was released as a single from this record.  It’s a great tune with many hooks - but one of the first hooks you notice is the extra beat in the intro. Like ^link(supervixen), this one hits you right in the opening few seconds.
 
+
+
 This is the first song of a pair - this song is enhanced by an added beat, while the next is enhanced by a missed beat.
+
+
 
 In 1976/7, I was busy championing the punk movement and how it allowed anyone to have a go, regardless of whether you could really play or not. And yet, although I didn’t realise at the time, the bands I loved most were the ones who *could* actually play pretty well. And those acts generally moved on from punk pretty quickly.
 
+
+
 The Stranglers were one of these bands who moved on. They were also pretty prolific. La Folie was their sixth album, released a bit over four years after their début Rattus Norvegicus. It came only nine months after the Meninblack.
+
+
 
 Golden Brown is about the apparent pleasures of taking heroin. I’ll take their word for it. Lyricist Hugh Cornwell says it’s also “about a girl”, and how both the drug and the woman provided him joy.
 
+
+
 The intro is on harpsichord and synth, and the song is in ^time(3|4) time but there is the occasional bar of 4 beats. Basically, the intro repeats four bars of ^time(3|4), ^time(3|4), ^time(3|4), and ^time(4|4), switching to conventional ^time(3|4) a little before the vocals start.
+
+
 
 There are plenty of other songs that add beats here and there, and it’s worth checking out David Bennett’s ^link(david-bennett-analysis) of some of them. He talks about examples from The Beatles, Abba, Björk, and Pink Floyd. He also talks about Golden Brown itself in ^link(david-bennett-analysis-golden-brown).
 
+
+
 ### Update 4th May 2020 - Dave Greenfield
 
+
+
 I just heard the news that Dave Greenfield, who wrote and played the iconic keyboard part on this song, passed away yesterday, aged 71,  after contracting COVID-19. RIP Dave.
+
 
 """
 s = Song.create!(id: 31, artist: %q(The Stranglers), article: article, summary: summary, title: %q(Golden Brown), album: %q(La Folie (1981)), released: %q(10th January 1982 (single), 9th November 1981 (LP)), max_rez: 4, image: %q(GoldenBrown), created_at: %q(2020-05-03T01:01:04+01:00), updated_at: %q(2021-03-07T18:48:02Z))
@@ -916,17 +1023,30 @@ Another landmark record in terms of production, this is one of those records tha
 article = """
 Like the previously mentioned act The Strangers, Blondie were a band with punk origins who could play well enough to progress on from that genre pretty quickly. With ^link(mike-chapman) producing, this song was, according to the song’s writers Debbie Harry and Chris Stein, a tune they had lying around for a while that they couldn’t find the right way finish. Towards the end of the Parallel Lines sessions, Chapman heard their demo. It had a reggae-ish feel, and was known as “Once I Had A Love”. Chapman saw something in it, and wanted to work on it straight away. He and the band brought a disco feel to it, and they made a massive hit.
 
+
+
 Recording it took some time. To ensure full separation of each part of his kit, drummer Clem Burke had to record just the bass drum for the whole song, then just the snare, etc. Nowadays you’d program this with loops/samples and do it in no time, but this was a time-consuming and laborious manual process - the record precedes the Linn Drum by a few years.
+
+
 
 Although there’s no Linn Drum but there is of course actually some drum machine on it - rather obviously so, that’s how it starts. A preset on the Roland CR-78, played at a higher than normal tempo, plays all the way through alongside the “real” drums.
 
+
+
 Every instrument has a hook here. There’s the “sequenced” synths before sequencers were really a thing, there is Frank Infante’s muted lead guitar melodic lines all the way through, and  some gloriously clichéd disco bass from Nigel Harrison, all this from a band that was considered punk not long before.  And what matters most is the vocals - Harry delivered  a deliciously sweet high voice performance, far from the shouty angry thing that punk tended to be.  And with lyrics that carried an edge for those times (the “soon turned out to be a pain in the ass” line had to be replaced in the radio edit, if I recall correctly).
+
+
 
 The skipped beat is in what we old-timers call the “middle 8”, the instrumental section that breaks up the verse-chorus-repeat structure. It starts ^link(middle-8) into the official video.
 
+
+
 This, to me, is truly one of the greatest pop records of all time. If I ever say I’m tired of this, you can pull the plug, I’m done.
 
+
+
 There are plenty of other songs that skip beats here and there, and it’s worth checking out David Bennett’s analyses (^link(db-1) and ^link(db-2))  of some of them. He talks about Heart of Glass, and other examples from Arrows (covered by Joan Jett), The Beatles, Aretha Franklin, Panic at the Disco, Johnny Cash, Green Day, Labi Siffre.
+
 
 """
 s = Song.create!(id: 32, artist: %q(Blondie), article: article, summary: summary, title: %q(Heart of Glass), album: %q(Parallel Lines), released: %q(January 1979 (single), 23rd September 1978 (LP)), max_rez: 4, image: %q(HeartOfGlass), created_at: %q(2020-05-03T01:01:06+01:00), updated_at: %q(2021-03-07T18:48:03Z))
@@ -949,13 +1069,22 @@ Slade were stylistically lumped in with the UK ’glam’ movement, but they wer
 article = """
 Glam was more of a fashion thing than a music style - it included producer-led pop hit machines like The Sweet or Gary Glitter (who never got to play on most of their records), but also included more creative artists such as Bowie and Roxy Music. For a period, Slade were the most successful of all, with a string of hits mainly penned by bassist Jim Lea, with singer Noddy Holder providing lyrical input.
 
+
+
 Slade produced hit after hit in the early 70s, and as the mid-decade period approached they looked for other outlets, and took on a movie project. This became Slade in Flame, a pretty gritty story of the formation of Flame, a fictional band played by the four members of Slade. In the movie, Flame were to hit the big time quickly, only to be hit by violence, and off-stage legal and financial battles, eventually leading them to split. It’s a hard-hitting look at the less glamorous side of the music biz.
+
+
 
 By the time it came out, the band’s popularity was waning, but two of the songs from this movie are among the band’s finest work.  A common theme to their material had become life on the road - singing about things they got up to, or the loved ones left at home.  Far Far Away talks about the great places visited on tour while concluding that the “call of home is loud”.
 
+
+
 ^link(how-does-it-feel)
 
+
+
 How Does It Feel? was a musical change of direction.  Led by Lea’s piano, the song features brass and even flute.  But I think it’s the vocal melody and performance that makes it sound so great.
+
 
 """
 s = Song.create!(id: 33, artist: %q(Slade), article: article, summary: summary, title: %q(Far Far Away  / How Does It Feel?), album: %q(Slade in Flame (1975)), released: %q(11th October 1974 (Far Far Away), 7th February 1975 (How Does It Feel?)), max_rez: 4, image: %q(FarFarAway), created_at: %q(2020-05-05T22:44:07+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -977,11 +1106,18 @@ When I first heard this track, I was massively excited about this new talent, an
 article = """
 Something in the back of my mind is telling me that the Icelandic version is the first one I heard, on a TV show - if this is not a false memory, then it would probably have been SnubTV.
 
+
+
 The ^link(english) version was a fairly straight translation of the original (I don’t speak Icelandic but can use Google Translate).
+
+
 
 But whatever the language, in 1987 this was a sound unlike anything else I’d heard. In vocalist Björk, The Sugarcubes introduced us to a unique voice and musical creativity that would go on to surprise and impress time and time again to this day.
 
+
+
 The début album Life’s Too Good is only 33 minutes long, even with the obligatory 80s “hidden” CD track. But there are some spectacularly original and tuneful pieces on it. In addition to singles ^link(coldsweat) and ^link(deus), check out ^link(blue-eyed-pop) - never released as a single but it really should have been.  That track nicely illustrates another factor that made The Sugarcubes great - the vocal interaction between Björk and fellow vocalist Einar Örn.
+
 
 """
 s = Song.create!(id: 34, artist: %q(Sugarcubes (Sykurmolarnir)), article: article, summary: summary, title: %q(Ammæli (Birthday)), album: %q(Life’s Too Good), released: %q(August 1987 (single, in English). April 1988 (LP, in English)), max_rez: 4, image: %q(Birthday), created_at: %q(2020-05-06T20:46:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1000,11 +1136,16 @@ Belgian Jacques Brel achieved success beyond the French-speaking world, and has 
 
 """
 article = """
-Brel was from a traditionally Flemish family, but from the part of Belgium around Brussels that adopted French in relatively recent times. 
+Brel was from a traditionally Flemish family, but from the part of Belgium around Brussels that adopted French in relatively recent times.
 
-I first heard this track from the 1950s relatively recently - maybe 10-12 years ago, via Stuart Maconie on the radio. The melody and the build-up of tempo is the first thing you notice, and the speeed-up leads to some quite spectacular vocal gymnastics. 
+
+
+I first heard this track from the 1950s relatively recently - maybe 10-12 years ago, via Stuart Maconie on the radio. The melody and the build-up of tempo is the first thing you notice, and the speeed-up leads to some quite spectacular vocal gymnastics.
+
+
 
 But it’s also worth trying to follow the lyrics if you speak any French at all. It’s full of puns and plays on words.
+
 
 """
 s = Song.create!(id: 35, artist: %q(Jacques Brel), article: article, summary: summary, title: %q(La Valse à Mille Temps), album: %q(Jacques Brel 4), released: %q(1959), max_rez: 4, image: %q(LaValseAMilleTemps), created_at: %q(2020-05-06T20:46:24+01:00), updated_at: %q(2021-03-07T18:48:06Z))
@@ -1021,11 +1162,18 @@ Gwenno Saunders came to relatively wide public awareness as a member of The Pipe
 article = """
 Her father was a native Cornish language speaker, and her mother Welsh. In 2014 she released a solo record mostly in Welsh, but with this closing track in Cornish. The album is inspired by a 1970s Welsh science fiction novel by Owain Owain.
 
+
+
 Her ^link(y-dydd-olaf) album is mostly electronic, though Gwenno performs the songs live in a number of formats, sometimes solo with synths and machines, sometimes with a full band and/or a string section.
+
+
 
 I can’t tell you what this song is about, but apparently the title translates as “Time”.
 
+
+
 In 2018, Gwenno released a full album of Cornish songs, ^link(le-kov).
+
 
 """
 s = Song.create!(id: 36, artist: %q(Gwenno), article: article, summary: summary, title: %q(Amser), album: %q(Y Dydd Olaf), released: %q(27th October 2014 (Peski Records), 24th July 2015 (Heavenly re-release)), max_rez: 4, image: %q(Amser), created_at: %q(2020-05-06T20:46:28+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1044,17 +1192,30 @@ I’m definitely not an aficionado of classical music, so it’s probably inevit
 article = """
 Composed by Poland’s Henryk Góecki in 1976, and receiving its première in April the following year, the work (Op 36) is often known as the Symphony of Sorrowful Songs.
 
+
+
 Described as “austerely plaintive, emotionally direct and steeped in medieval modes”, the sombre orchestra accompanies a solo Soprano singing in Polish. The first movement features words from a 15th Century Polish lament, while the second is based on a message written on the wall of a WW2 Gestapo cell by a young woman.  This is presented from the point of view of a child separated from her mother.
+
+
 
 The third movement features words from a folk song in which a mother searches for her son lost in post-WW1 battles which resulted from the resulting land allocations around the Polish/German borders.
 
-It’s definitely not “easy listening” even for those of us who don’t understand the words.  And yet the music has a sombre beauty, and the soprano is quite stunning, especially when performed by Dawn Upshaw, in the popular 1992 version. 
+
+
+It’s definitely not “easy listening” even for those of us who don’t understand the words.  And yet the music has a sombre beauty, and the soprano is quite stunning, especially when performed by Dawn Upshaw, in the popular 1992 version.
+
+
 
 Beth Gibbons of ^link(portishead) released a live version of this symphony, with the Polish National Radio Symphony Orchestra.
 
+
+
 If you want to check it out, I suggest starting with the popular second movement, preferably in the Upshaw version. But it’s worth listening to the whole symphony, and the 3rd movement ultimately is the most satisfying for me.
 
+
+
 Given that several 4AD records have appeared on this blog so far, it’s worth noting that Lisa Gerrard (Dead Can Dance) has also recorded a version of this symphony. Sadly, I’ve failed to find a record of this that sounds good, however.
+
 
 """
 s = Song.create!(id: 37, artist: %q(David Zinman, Dawn Upshaw & London Sinfionetta), article: article, summary: summary, title: %q(Symphony of Sorrowful Songs), album: %q(Górecki: Symphony Number 3), released: %q(1992), max_rez: 4, image: %q(SymphonyOfSorrowfulSongs), created_at: %q(2020-05-10T23:41:04+01:00), updated_at: %q(2021-03-07T18:48:08Z))
@@ -1077,19 +1238,34 @@ Written by Dave Sudbury in the 80s about a homing pigeon, and recorded in 1988 b
 article = """
 The story behind the song is of an Edwardian-era homing pigeon (a Belgian blue cock, to be precise), who set long distance records in returning to his Derby home from Rome, while very few other birds made the return.
 
+
+
 In the 1980s, Dave Sudbury wrote a song about the story of Charlie Hudson’s bird, and the lyrics are quite beautiful.
 
-> If you live ’round here  
-> The ground seems awful near  
-> Sometimes I need a lift to victory  
+
+
+> If you live ’round here
+
+> The ground seems awful near
+
+> Sometimes I need a lift to victory
+
+
 
 Sudbury performed it in a competition in which June Tabor was a judge. She liked the song and recorded it herself, bringing it to a wider audience in 1988.
 
-But it’s this version by North-East England folk band The Unthanks that really appeals to me. Not least due to the brass band accompaniment by the Brighouse and Rastrick Brass Band - who actually reached the No 2 slot in the UK singles chart in 1977 with a recording of ^link(the-floral-dance) with Terry Wogan (feel free to skip that link, really. It's not great at all). It took the “might” of Mull of Kintyre to keep them off top spot.  
+
+
+But it’s this version by North-East England folk band The Unthanks that really appeals to me. Not least due to the brass band accompaniment by the Brighouse and Rastrick Brass Band - who actually reached the No 2 slot in the UK singles chart in 1977 with a recording of ^link(the-floral-dance) with Terry Wogan (feel free to skip that link, really. It's not great at all). It took the “might” of Mull of Kintyre to keep them off top spot.
+
+
 
 November 1977, what I time to be alive.
 
+
+
 The King of Rome (the bird himself) ^link(the-king-of-rome) exists thanks to the magic of taxidermy
+
 
 """
 s = Song.create!(id: 38, artist: %q(The Unthanks), article: article, summary: summary, title: %q(The King of Rome), album: %q(Diversions, Vol. 2: The Unthanks with Brighouse and Rastrick Brass Band), released: %q(30 July 2012), max_rez: 4, image: %q(TheKingOfRome), created_at: %q(2020-05-11T00:50:44+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1110,11 +1286,18 @@ Scot composer and musician Anna Meredith combines electronica with classical ins
 article = """
 I’ve decided to plump for the obvious choice from her début album Varmints as an introduction, but if you are new to her material and get on well with this track, then you should definitely check out The Vapours, particularly the ^link(npr-vapours).
 
+
+
 Meredith’s music uses much traditional and classical instrumentation, but she isn’t afraid to incorporate modern tools like sequencers and synthesisers/samplers.
+
+
 
 She gets to perform her music in a variety of settings, with varying instrumentation available according to context. But I particularly like her five-piece band performing a ^link(npr-tiny-desk) - here Meredith (keys, vocals, glock) is accompanied by guitar, cello, drums, and tuba.  It’s rare to find joy in YouTube comments, but someone described the above performance as “like a vegan Slipknot”, which is simultaneously quite absurd and quite perfect.
 
+
+
 Meredith now has two albums, and both are chock full of great tunes in a wide range of styles. Particularly worth a look is the video for  ^link(paramour), the opening track on the second LP. Great tune, and amazing single-shot video.
+
 
 """
 s = Song.create!(id: 39, artist: %q(Anna Meredith), article: article, summary: summary, title: %q(Nautilus), album: %q(Varmints (2016)), released: %q(4th March 2016), max_rez: 4, image: %q(Nautilus), created_at: %q(2020-05-11T20:46:29+01:00), updated_at: %q(2021-03-07T18:48:10Z))
@@ -1131,7 +1314,7 @@ s.links << Link.build(link_type: :youtube_link, link_value: '36FNJiP8GWk', offse
 s.links << Link.build(link_type: :youtube_link, link_value: '36FNJiP8GWk', offset: 730, embedded_text: 'NPR Tiny Desk version', list_text: 'The Vapours (Live - NPR Tiny Desk) - Anna Meredith')
 s.links << Link.build(link_type: :youtube_link, link_value: 'yjmZLaymJU8', offset: 0, embedded_text: 'Paramour', list_text: 'Paramour - Anna Meredith')
 summary = """
-The first of two “spoken word” songs, this is the tale of Waldo Jeffers, who misses his girlfriend Marsha after she returns home when school ends. He decides to post himself in a box to see her. 
+The first of two “spoken word” songs, this is the tale of Waldo Jeffers, who misses his girlfriend Marsha after she returns home when school ends. He decides to post himself in a box to see her.
 
 It doesn’t end well for Waldo. “That schmuck.”
 
@@ -1139,17 +1322,31 @@ It doesn’t end well for Waldo. “That schmuck.”
 article = """
 This record is old skool ’60s “stereo”. Sounds aren’t spread around the sound field - rather, you have the whole band playing a bass/drums/guitar instrumental panned extreme right, while John Cale narrates a story panned left.
 
+
+
 The first Velvet Underground LP, while being quite revolutionary at the time, has influenced so many acts that it kinda sounds pretty conventional now.  It took a long time to reach a wide audience, but it was accessible enough that, once enough people heard it, it became popular, and widely copied.
+
+
 
 The second album is considerably less accessible. Side 2 is the noisy I Heard Her Call My Name (a track that’s basically the template for acts like The Jesus and Mary Chain), and the rambling Sister Ray, while a large chunk of side 1 is taken up by this track, The Gift.
 
+
+
 In some ways I prefer White Light/White Heat to the début “The Velvet Underground and Nico”. The first record is the one that inspired thousands of bands and produced a shed load of cover versions, but WL/WH has an edge that still sounds pretty contemporary in parts, 50+ years on.
+
+
 
 In “The Gift”, Waldo wants to meet his now-remote girlfriend, and he found that the only way he could afford it was to pack himself in a box and send himself through the post.  Marsha received the package, and declared “Oh God, it’s from Waldo, that schmuck!”
 
+
+
 She has trouble opening the package, but finds a large sheet metal cutter. After a struggle, she (and I quote):
 
+
+
 > “plunged the long blade through the middle of the package, through the masking tape, through the cardboard, through the cushioning and (thud) right through the centre of Waldo Jeffers’ head, which split slightly, and caused little rhythmic arcs of red to pulsate gently in the morning sun.”
+
+
 
 
 """
@@ -1163,15 +1360,23 @@ s.links << Link.build(link_type: :youtube_video, link_value: 'mI-YiaWDgB4', offs
 summary = """
 Prefab Sprout were a pretty popular band in the 80s that, to be honest, I didn’t really like that much.  But 20 years later I heard about singer Paddy McAloon’s solo record and it’s a fascinating story, which resulted in an amazing album. In 2019, this album  was re-released under the Prefab Sprout banner.
 
+
+
 I Trawl The Megahertz is the second in a pair of “spoken word” records.
+
 
 """
 article = """
 In the late 90s, McAloon was rendered almost blind after suffering detached retinas.  Left housebound, he recorded chat shows, phone-ins and documentaries from radio (“trawling the MHz”), and cut them up to provide source material for the album.
 
+
+
 The album is largely instrumental, with classical instrumentation. This music was pieced together with some of the radio samples, and this 22 minute title track dominates the record. Throughout the track, Yvonne Connors, speaking in a soft spoken-word voice, tells a fictional life story, constructed from the radio samples and edited together into a narrative.
 
+
+
 In 2019, a remastered version of the LP was released under the Prefab Sprout monicker.
+
 
 """
 s = Song.create!(id: 41, artist: %q(Paddy McAloon), article: article, summary: summary, title: %q(I Trawl The MEGAHERTZ), album: %q(I Trawl The MEGAHERTZ), released: %q(27th May 2003 (Paddy McAloon), February 2019 (re-release as Prefab Sprout)), max_rez: 4, image: %q(ITrawlTheMEGAHERTZ), created_at: %q(2020-05-15T02:29:11+01:00), updated_at: %q(2021-04-02T01:52:49+01:00))
@@ -1184,27 +1389,45 @@ s.countries << country_uk
 s.links << Link.build(link_type: :youtube_video, link_value: 'J-P7yVqJ9Wk', offset: 0, list_text: 'I Trawl the MEGAHERTZ - Paddy McAloon (remastered, as Prefab Sprout)')
 s.links << Link.build(link_type: :youtube_link, link_value: 'cjSK6bGY2WE', offset: 0, list_text: 'Newsnight McAloon interview at the re-release of I Trawl The MEGAHERTZ')
 summary = """
-This is the song that actually triggered the idea of doing a songs blog.  I declared on Twitter (back when that was a thing) that this is a song that I felt I could never truly tire of, and that inspired the idea of a “Songs I’ll Never Tire Of” blog. The crap blog name held me back from actually starting something, but eventually I got around to it, renamed it, and here we are. 
+This is the song that actually triggered the idea of doing a songs blog.  I declared on Twitter (back when that was a thing) that this is a song that I felt I could never truly tire of, and that inspired the idea of a “Songs I’ll Never Tire Of” blog. The crap blog name held me back from actually starting something, but eventually I got around to it, renamed it, and here we are.
+
+
 
 This tune was released after R.E.M.’s popularity peak, but to me it still stands out as the highlight track from a pretty-decent catalogue.
+
 
 """
 article = """
 From the start of their career in the early 80s up to sixth album Green in 1988, R.E.M. showed a steady growth artistically, and in popularity.
 
+
+
 1991’s Out Of Time record took them to worldwide stardom, based mainly on the single Losing My Religion, while 1992’s Automatic For The People was a considerably stronger and more consistent record, I’d say.
+
+
 
 Next up was the mixed bag “Monster”, which was promoted by a world tour, unlike its two predecessors.  Songs for what would become the tenth album “New Adventures in Hi-Fi” were previewed on this tour, and some of the recording took place on the road.
 
+
+
 E-Bow The Letter is one of those tracks that record companies tend not to want to put out as a single, for fear of not getting airplay. But R.E.M. were big enough by now that they could put out anything and get it played, so putting out their best track, even if it’s not your usual “single” material, made sense.
+
+
 
 The title is in two parts. The ^link(ebow) (spelled as E-Bow by the band) is a hand-held device to stimulate the strings of a guitar. It gives you “infinite sustain” - you still use the fretboard to determine what note you play, but the EBow applies an electromagnetic force to the string to keep it ringing for as long as you hold it close to the string. It’s used on this record, obviously, and you can see Peter Buck playing it in the official video.
 
-The second part of the title, “The Letter”, refers to a fictional letter from Michael Stipe to actor River Phoenix, who died a few years before.  
+
+
+The second part of the title, “The Letter”, refers to a fictional letter from Michael Stipe to actor River Phoenix, who died a few years before.
+
+
 
 The single and LP recording features Patti Smith performing a vocal part in the chorus. In live shows, that part would also be sung by others, including Radiohead’s Thom Yorke.
 
+
+
 A side-effect of my love for this record is that it is *literally* impossible for me to hear mention of Maria Callas without responding “whoever she is?”. It’s a small price to pay for a song this great.
+
 
 """
 s = Song.create!(id: 42, artist: %q(R.E.M.), article: article, summary: summary, title: %q(E-Bow The Letter), album: %q(New Adventures in Hi-Fi), released: %q(August 1996 (single), 9th September 1996 (LP)), max_rez: 4, image: %q(EBowTheLetter), created_at: %q(2020-05-16T02:45:47+01:00), updated_at: %q(2023-07-23T05:08:07+01:00))
@@ -1223,11 +1446,18 @@ The first of three songs by bands whose names include the F word.  This track fr
 article = """
 David Comes to Life is a “rock opera”å, an 18-song epic in four acts, based on a love story between the characters David and Veronica.
 
+
+
 The official video to this track features a children’s choir acting and singing the song over a backing of the record. David’s part, sung by Damien Abraham on the record, is performed by the boys, while obviously the girls take Madeline Follin’s part of Veronica.
+
+
 
 The embedded video above is audio-only, and features the recording as you’ll hear it if you buy the record.  This is the “proper” version if you value music more than visuals.
 
+
+
 The version with the kids is linked below.
+
 
 """
 s = Song.create!(id: 43, artist: %q(Fucked Up), article: article, summary: summary, title: %q(Queen of Hearts), album: %q(David Comes to Life), released: %q(7th June 2011), max_rez: 4, image: %q(QueenOfHearts), created_at: %q(2020-05-20T22:35:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1246,6 +1476,7 @@ The second in a trio of songs by bands who couldn’t resist getting a bit swear
 """
 article = """
 The ceremony used a remix that gave more punch to the percussion, and more gloss overall. It’s the version I prefer (but then it’s the first one I heard - although I’d heard of FB, I hadn’t actually knowingly heard their records until London 2012).
+
 
 """
 s = Song.create!(id: 44, artist: %q(Fuck Buttons), article: article, summary: summary, title: %q(Olympians), album: %q(Tarot Sport (2009), remix for Olympics (2012)), released: %q(14th October 2009), max_rez: 4, image: %q(Olympians), created_at: %q(2020-05-20T22:35:02+01:00), updated_at: %q(2021-03-07T18:48:15Z))
@@ -1266,6 +1497,7 @@ The final song in a trio of tracks by bands with sweary names, and the second in
 article = """
 “Real” bass and drums, with synths and even (if the official video is to be believed) a bowed lap steel guitar.  In a way this music is kinda repetitive - it’s basically one riff, but the details of the arrangements change throughout the whole piece, and this song could be quite a bit longer without one getting tired of it.
 
+
 """
 s = Song.create!(id: 45, artist: %q(Holy Fuck), article: article, summary: summary, title: %q(Lovely Allen), album: %q(LP (2007)), released: %q(Single (2008), LP (2007)), max_rez: 4, image: %q(LovelyAllen), created_at: %q(2020-05-20T22:35:03+01:00), updated_at: %q(2021-03-07T18:48:16Z))
 s.tags << tag_decade2000s
@@ -1281,9 +1513,15 @@ This is the first in a trio of songs by a pair of my favourite artists of recent
 article = """
 I first discovered Belle’s music via her collaboration with ^link(yppah) (more about him very soon!). She featured heavily on his Eighty One LP, released in 2012, contributing vocals, instrumentation and production to several tracks after the two had met while touring with ^link(bonobo).
 
+
+
 Flux is her third solo LP, following Sleeping Patterns (2008), and The Crush (2011), and I think it’s her best solo work so far. The style varies between the acoustic piano and voice number The Good Life - to glitchy full-on electronic treatments like ^link(lovers) with its beautiful (but probably NSFW) video.
 
+
+
 I also highly recommend checking out ^link(picture-perfect), her collab with Jon Auer of The Posies.
+
+
 
 
 """
@@ -1307,9 +1545,14 @@ The second in a trio of songs by a pair of my favourite artists of recent years.
 article = """
 The third song in this trio will feature the two artists working together, but this is from a Yppah solo release on Ninja Tunes - I think this is the first track I heard of his. He is another artist that I picked up on from BBC 6music radio play, and since then he’s been a constant favourite - and it was great to see him return with a new record Sunset in the Deep End earlier this year (2020).
 
-Yppah is multi-instrumentalist.producer Joe Corales who specialises in music that often has a basis in electronica, with synths, sequences and loops, but also has an organic feel with plenty of “real” instrumentation too. (Just for the record, as a synth player, I do indeed consider them to be real too!). 
+
+
+Yppah is multi-instrumentalist.producer Joe Corales who specialises in music that often has a basis in electronica, with synths, sequences and loops, but also has an organic feel with plenty of “real” instrumentation too. (Just for the record, as a synth player, I do indeed consider them to be real too!).
+
+
 
 His music is largely instrumental, but sometimes featuring guest vocalists, and sometimes with chopped up vocal samples bringing the human voice to the records in other ways.
+
 
 """
 s = Song.create!(id: 47, artist: %q(Yppah), article: article, summary: summary, title: %q(Gumball Machine Weekend), album: %q(They Know What Ghost Know (2009)), released: %q(18th May 2009), max_rez: 4, image: %q(GumballMachineWeekend), created_at: %q(2020-05-25T00:15:38+01:00), updated_at: %q(2021-03-07T18:48:18Z))
@@ -1329,9 +1572,14 @@ The third in a trio of songs by a pair of my favourite artists of recent years. 
 article = """
 After the two artists had met while touring with ^link(bonobo), and Yppah invited Anomie Belle to collaborate on a track that became part of Eighty One - and she ended up providing vocals, instrumentation and production to a bunch of songs, including Film Burn.
 
+
+
 This is a perfect meld of the two - it slots perfectly into the repertoire of either artist.
 
+
+
 I particularly recommend checking out their live ^link(kexp) together, with the amazing Sean Lane on drums.
+
 
 """
 s = Song.create!(id: 48, artist: %q(Yppah (feat. Anomie Belle)), article: article, summary: summary, title: %q(Film Burn), album: %q(Eighty One (2012)), released: %q(11th February 2012), max_rez: 4, image: %q(FilmBurn), created_at: %q(2020-05-25T00:15:39+01:00), updated_at: %q(2021-03-07T18:48:19Z))
@@ -1353,14 +1601,25 @@ Here she features on vocals (and co-writing) on Dirge, the opening track from Th
 article = """
 Embedded above is the single version (because it has the video), but I prefer the mix of the ^link(album) version.
 
+
+
 1999 was a busy year for Allison, releasing her début solo LP only a few weeks after The Contino Sessions came out, featuring her collaboration with Death in Vegas up front.
+
+
 
 The song repeats the same line all the way through, but the instrumentation builds up nicely, especially two minutes in when the drum machine loop is joined by “real drums”.
 
+
+
 Incidentally, I think I’ve deciphered the lyrics.
 
-> La la la,  
+
+
+> La la la,
+
 > la la la...
+
+
 
 
 """
@@ -1382,9 +1641,14 @@ The second of three tracks featuring vocals by Dot Allison - this time a track f
 article = """
 The album was released around the same time as she was a featured on ^link(dirge), which opened the Death In Vegas record The Contino Sessions.
 
+
+
 This track has a similar feel to Dirge, at least in terms of being repetitive melodically, while building up the instrumentation (and adding more vocals in this case).  Guitar chops are provided by Kevin Shields of My Bloody Valentine.
 
+
+
 I also recommend checking out the ^link(arab-strap) remix.
+
 
 """
 s = Song.create!(id: 51, artist: %q(Dot Allison), article: article, summary: summary, title: %q(Message Personnel), album: %q(Afterglow (1999)), released: %q(6th October 1999 (LP)), max_rez: 4, image: %q(MessagePersonnel), created_at: %q(2020-05-29T23:53:29+01:00), updated_at: %q(2021-03-07T18:48:22Z))
@@ -1404,11 +1668,18 @@ The third track featuring Dot Allison on vocals. Here she is with her electronic
 article = """
 I’ve read an interview where members of One Dove expressed displeasure at this Hague remix. But I think it’s amazing. The song appeared on the album in a longer and less “pop” form - the ten minute ^link(guitar-paradise-mix) - with the single versions of White Love and Breakdown added as CD bonus tracks.
 
-The way I like to listen to this is to play the Radio mix right after the ^link(piano-reprise) that I guess closes the vinyl release of Morning Dove White. 
+
+
+The way I like to listen to this is to play the Radio mix right after the ^link(piano-reprise) that I guess closes the vinyl release of Morning Dove White.
+
+
 
 Then go back to play Breakdown which separates them on the CD version.
 
+
+
 The band broke up after this album, Allison going on to have a ^link(solo), and to ^link(guest) Death in Vegas.
+
 
 """
 s = Song.create!(id: 52, artist: %q(One Dove), article: article, summary: summary, title: %q(White Love (Radio Mix)), album: %q(Morning Dove White), released: %q(19th October 1993 (LP)), max_rez: 4, image: %q(WhiteLove), created_at: %q(2020-05-29T23:53:30+01:00), updated_at: %q(2021-03-07T18:48:23Z))
@@ -1428,7 +1699,10 @@ The first in a trio of “big songs” - long, relatively complex songs that sou
 article = """
 Sections written by different band members, and pieced together, became a pretty coherent work in total.
 
+
+
 I could definitely use more of the ^time(3|4) section though, it’s sublime.
+
 
 """
 s = Song.create!(id: 53, artist: %q(Green Day), article: article, summary: summary, title: %q(Jesus of Suburbia), album: %q(American Idiot (2004)), released: %q(21st September 2004 (LP), 25th October 2005 (single)), max_rez: 4, image: %q(JesusOfSuburbia), created_at: %q(2020-06-02T22:20:44+01:00), updated_at: %q(2021-03-07T18:48:24Z))
@@ -1443,6 +1717,7 @@ The second in a trio of “big songs” - long, relatively complex songs that so
 """
 article = """
 Released as the opening single from the classic 1997 record OK Computer, the song you hear today was made up of parts of a number of separate work-in-progress songs, melded into one and cut down to about six minutes.
+
 
 """
 s = Song.create!(id: 54, artist: %q(Radiohead), article: article, summary: summary, title: %q(Paranoid Android), album: %q(OK Computer (1997)), released: %q(26th May 1997 (single), 21st May 1997 (LP)), max_rez: 4, image: %q(ParanoidAndroid), created_at: %q(2020-06-02T22:20:47+01:00), updated_at: %q(2021-03-07T18:48:25Z))
@@ -1459,6 +1734,7 @@ The third in a series of “big songs” - although this has plenty of variety t
 article = """
 Although “favourite song ever” is a thing that can change with time, with mood, and with new records appearing, this is definitely up there for me. This song perfectly captured the moment as it appeared to those of us who bought into the indie/dance crossover thing that was going on.
 
+
 """
 s = Song.create!(id: 55, artist: %q(Flowered Up), article: article, summary: summary, title: %q(Weekender), album: %q(Single only), released: %q(April 1992), max_rez: 4, image: %q(Weekender), created_at: %q(2020-06-02T22:20:48+01:00), updated_at: %q(2021-03-07T18:48:26Z))
 s.tags << tag_decade1990s
@@ -1473,21 +1749,38 @@ This track comes from 2016, the wonderful year where my annual “best-of” mix
 article = """
 I first came across Laura Kidd, aka She Makes War, when she appeared on stage with Tanya Donelly (formerly of Throwing Muses, Belly, Breeders, and solo), who was playing a set in support of the current line-up of Throwing Muses.   Laura sang backing vocals on the Belly track ^link(slow-dog) at their 2014 show in a church in Bristol.
 
+
+
 She is a songwriter and multi-instrumentalist, with five albums as She Makes War. She also plays bass in the live bands for other artists, including Tricky, Viv Albertine and The Penelopes.
 
-Her 2016 album Direction of Travel is a wonderful record in a variety of styles. There are some fine rockers, such as the single ^link(cold-shoulder), but this song is a quieter affair, mostly just voice and ukulele, with the addition of strings here and there for extra texture.   The lyrics and beautiful melody work so well without elaborate decoration - but the addition of Donelly’s backing vocals are the perfect icing on this cake.  
 
-The She Makes War phase of Kidd’s career now seems to be done. She released a final LP, “And Peace”, in 2020 - re-recordings of songs from her career (including a re-take on Paper Thin). She is now recording as Penfriend, releasing ^link(everything) last month. 
+
+Her 2016 album Direction of Travel is a wonderful record in a variety of styles. There are some fine rockers, such as the single ^link(cold-shoulder), but this song is a quieter affair, mostly just voice and ukulele, with the addition of strings here and there for extra texture.   The lyrics and beautiful melody work so well without elaborate decoration - but the addition of Donelly’s backing vocals are the perfect icing on this cake.
+
+
+
+The She Makes War phase of Kidd’s career now seems to be done. She released a final LP, “And Peace”, in 2020 - re-recordings of songs from her career (including a re-take on Paper Thin). She is now recording as Penfriend, releasing ^link(everything) last month.
+
+
 
 The Penfriend project includes a “Correspondent’s Club” membership scheme, with free and paid-for tiers. This seems to be a good way of supporting artists you love, I’m also a member of Strange Angels (Throwing Muses/Kristin Hersh/Fifty Foot Wave) and the membership scheme of The Joy Formidable.
 
+
+
 ### Attention Engineer
+
+
 
 I have long planned to do a series here on my favourite songs of 2016, including this one. The series will follow along soon, but I pushed this one up the list after listening to the first two episodes of Laura’s ^link(attention-engineer).  In this series she interviews other artists, kicking off with two that she has collaborated with. Episode 1 features the aforementioned Tanya Donelly, while she talks to Mark Chadwick of The Levellers in Episode 2.
 
+
+
 Both are great interviews, providing some laughs while also producing genuinely interesting insights. One subject that cropped up in both of the opening episodes are critique of an artist’s work.  Kidd and Donelly talk about how how time changes who you listen to when critiquing your work, and whose views matter to you.  Chadwick took the subject further, in a direction I didn’t expect, to be honest - lamenting the loss of the professional critic (who he admits he didn’t appreciate at all in the past), since the demise of the music press.
 
+
+
 Episode 3, which I hope to catch up with tomorrow, features Ayse Hassan (Savages).  Episode 4 featuring Frank Turner landed on 10th June 2020.
+
 
 """
 s = Song.create!(id: 56, artist: %q(She Makes War (feat. Tanya Donelly)), article: article, summary: summary, title: %q(Paper Thin), album: %q(Direction of Travel), released: %q(8th April 2016 (LP)), max_rez: 4, image: %q(PaperThin), created_at: %q(2020-06-07T21:31:57+01:00), updated_at: %q(2021-03-07T18:48:27Z))
@@ -1511,15 +1804,26 @@ Chew Lips looked like they could be on their way to stardom at one point, but sa
 article = """
 There was quite a buzz around Chew Lips when they started performing as a three-piece, and a few singles on Kitsuné records brought them rave reviews and some mainstream airplay. The début LP Unicorn came out in early 2010, and it was during the promotion of this record that I saw them for, sadly, the only time. They did an in-store show in the basement of a clothes shop in Cabots Circus, Bristol.  It was a great performance, especially given the restricting nature of the venue.
 
+
+
 Singer Tigs was far from the first vocalist to be compared to Debbie Harry, but there’s more substance to that comparison here.  Her voice and mannerisms when performing seemed to owe something to her illustrious predecessor.
+
+
 
 I don’t know how well Unicorn sold, but it got some good reviews, and attracted the attention of major label Sony, who signed them up for their second LP.  This is where things seemed to get more difficult.  Will Sanderson moved on, but there were bigger problems ahead - Tigs had some serious health issues which she has subsequently talked about in ^link(interview).
 
+
+
 A couple of singles were released on Sony, but it became clear from band tweets that relationships were strained with the major. It appears that a second LP got recorded, but never saw the light of day.
+
+
 
 Tigs subsequently announced that the band was over and she would be concentrating on writing for other artists.
 
+
+
 If you like this, there are a few remixes, and an acoustic version, linked below. All worth checking out, I suggest.
+
 
 """
 s = Song.create!(id: 57, artist: %q(Chew Lips), article: article, summary: summary, title: %q(Karen), album: %q(Unicorn (2010)), released: %q(25th January 2010 (LP), 28th March 2010 (Single)), max_rez: 4, image: %q(Karen), created_at: %q(2020-06-12T23:47:29+01:00), updated_at: %q(2021-03-07T18:48:28Z))
@@ -1540,11 +1844,18 @@ Few acts have gone through as many musical re-inventions as Sparks.  This is fro
 article = """
 Lil’ Beethoven, their 2002 LP release, stood out as much as ^link(no1-song) did in 1979, and as  ^link(gratuitous) did in 1994.
 
+
+
 The electronic pop of its predecessor Balls was swiped away and replaced with a sound that was based mainly around the piano and heavily multi-tracked vocals.
+
+
 
 The record didn’t really get them back into the big-time sales-wise, but it certainly hit home with music critics, and with the band’s large worldwide fanbase.
 
+
+
 A live performance of the record was filmed in March 2004 at the Södra Teatern in Stockholm, Sweden, and the embedded video in this article is from that performance.  The ^link(official) is linked below.
+
 
 """
 s = Song.create!(id: 58, artist: %q(Sparks), article: article, summary: summary, title: %q(My Baby’s Taking Me Home), album: %q(Lil’ Beethoven), released: %q(14th October 2002), max_rez: 4, image: %q(MyBabysTakingMeHome), created_at: %q(2020-06-18T23:48:21+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1558,21 +1869,35 @@ s.links << Link.build(link_type: :wikipedia, link_value: 'Gratuitous_Sax_%26_Sen
 summary = """
 This EP came out soon after the untitled Throwing Muses début album, and by that time I’m already thinking that they could be, for me, *The Best Band In The World. Ever.*
 
+
+
 They retain that status to this day.
+
 
 """
 article = """
 The first LP - which we treated as eponymous until 2003 when another LP called “Throwing Muses” was released, and the band declared that the 1986 one was actually untitled  ¯\\_(ツ)_/¯ - came across my radar via an interview in Melody Maker by Chris Roberts.  They sounded interesting, and his enthusiasm got me interested. Given the number of other acts that we shared a love for, I bought the first LP, play it once, think “crikey”, and put it aside. Thankfully I gave it another few plays a week later and then it hit home what a special record by a remarkable band this was.
 
+
+
 Chains Changed was a four-track EP that formed the next release, ahead of the band’s appearance with ^link(fish) on the 4AD compilation that brought them to a wider audience.
+
+
 
 Finished (embedded above) is the stand-out track for me, but all four are pretty amazing.
 
+
+
 Next up was Reel. Unlike the other three tracks by Kristin Hersh, this one was penned by Tanya Donelly, who would later leave to form Belly and have a solo career (via a stint in The Breeders).
+
+
 
 After Snailhead, there’s Cry Baby Cry. This is Hersh’s song, not The Beatles track of the same name. Though Throwing Muses did cover the latter later, as a B-side.
 
+
+
 If you don’t know this band, please give Finished a listen. I can’t guarantee you’ll like it, but I can guarantee  you’ve not heard anything else quite like this.
+
 
 """
 s = Song.create!(id: 59, artist: %q(Throwing Muses), article: article, summary: summary, title: %q(Chains Changed EP), album: %q(Chains Changed EP (January 1987)), released: %q(January 1987), max_rez: 4, image: %q(ChainsChangedEP), created_at: %q(2020-06-24T01:02:04+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1596,11 +1921,18 @@ If one uses the release date of the album, rather than the pre-release single, t
 article = """
 United Crushers was Poliça’s third LP, and there’s a distinct tweak in style in each record, while still being clearly the same band.  Early material used an effect where Channy’s vocals where doubled, both live and on record, by mixing in an autotuned version along with the “real” vocal. It was distinctive, and I liked it, but it wasn’t to everyone’s taste.  The autotune takes a back seat here, and this gives the track a more conventional vocal sound.
 
+
+
 But there’s still plenty about this track that is distinctly Poliça - the two live drummers, along with sequenced electronic drums and synths.  In a ^link(live-context), the line-up is vocals, bass, and two drummers.
+
+
 
 If you like this, check out the album. It’s basically a load more of the same sort of thing.
 
+
+
 Also, check out the video, as embedded above. I think it’s quite beautiful.  The images are mostly totally blown-out, highly over-exposed. This imagery reflects the song’s apparent subject - Channy’s feelings of being in the ^link(limelight).
+
 
 """
 s = Song.create!(id: 60, artist: %q(Poliça), article: article, summary: summary, title: %q(Lime Habit), album: %q(United Crushers), released: %q(13th November 2015 (single), 4th March 2016), max_rez: 4, image: %q(LimeHabit), created_at: %q(2020-06-28T00:48:52+01:00), updated_at: %q(2021-03-07T18:48:31Z))
@@ -1618,9 +1950,15 @@ Following Lime Habit by Poliça, here’s another act that (often? always? not s
 article = """
 This doesn’t veer far away at all from the standard Go! Team fare - loads of percussion, loops, rhythmic and vocal hooks, and a general “kitchen sink” attitude to production.
 
+
+
 Nice vocal from Bethany Cosentino of ^link(best-coast).
 
+
+
 It’s glorious.
+
+
 
 
 """
@@ -1640,7 +1978,10 @@ Possibly one of the more accessible early-ish songs by The Fall, I originally in
 article = """
 The lyrics do meander a bit, but it’s basically about the Northern Soul scene that was coming to the end of its popularity in the early 80s as this song was written.  The “Casino” in the title refers to the Northern Soul venue, The ^link(wigan-casino) nightclub. Smith said that he wasn’t putting down the scene and its fans, this was more about documenting its demise.
 
+
+
 The drum beat was reportedly an attempt to be a bit “mod”, taking an influence from ^link(let-your-heart-dance) by Secret Affair, a band who achieved brief popularity during the post-punk late-70s Mod revival.
+
 
 """
 s = Song.create!(id: 62, artist: %q(The Fall), article: article, summary: summary, title: %q(Lie Dream of a Casino Soul), album: %q(Single (1981). Also on CD re-issue of Slates mini-LP), released: %q(1981), max_rez: 4, image: %q(LieDreamOfACasinoSoul), created_at: %q(2020-07-12T02:56:41+01:00), updated_at: %q(2021-03-07T18:48:33Z))
@@ -1653,25 +1994,43 @@ s.links << Link.build(link_type: :youtube_link, link_value: 'Xgt3-ao4nF4', offse
 summary = """
 This is an amazing comeback single.
 
+
+
 The band had fallen apart when singer Ian McCulloch left in 1987, and drummer Pete de Freitas died in a motorcycle accident in 1989.  After the Electrafixion project ended up with the three remaining (and, indeed, original) Bunnymen being involved, the band inevitably reverted to the Echo & the Bunnymen name. This was the lead single from the 1997 comeback LP.
+
 
 """
 article = """
 After leaving the Bunnymen, McCulloch released a couple of non-remarkable solo LPs, before forming Electrafixion with Bunnyman Will Sergeant. This new band produced a way better LP in my view. By the time Les Pattinson got involved, the original three Bunnymen were together again and the next record was released under the original name.
 
+
+
 This lead single was, somehow, simultaneously “a new start” and “picking up where they left off”. It’s *exactly* what you would want from an Echo & The Bunnymen reunion single.
+
+
 
 ### An aside
 
-The original line-up of the band was McCulloch, Will Sergeant, and Les Pattinson, playing along with a drum machine (sometimes described as the eponymous “Echo”). They did a famous Peel session in this format, but hit more widespread popularity after they recruited a “real” drummer Pete de Freitas. 
+
+
+The original line-up of the band was McCulloch, Will Sergeant, and Les Pattinson, playing along with a drum machine (sometimes described as the eponymous “Echo”). They did a famous Peel session in this format, but hit more widespread popularity after they recruited a “real” drummer Pete de Freitas.
+
+
 
 One feature of this band is that they didn’t put the drummer at the back, out of the way. In live shows, the four were usually set up side-by-side, with de Freitas on the left or right, but definitely toward the front.
 
+
+
 He was the brother of Rose and Rachael de Freitas of The Heart Throbs, who were featured earlier on this site - though Rachael had left by the recording of the song I featured, ^link(tiny-feet).  De Freitas passed away after a motorcycle accident in 1989.
+
+
 
 ### Another aside
 
+
+
 I was recently reminded of this track via a repeat of ^link(pointless) of the BBC quiz show Pointless. The subject was “... and the ...” bands. Nothing Lasts Forever was the lowest-scoring, and therefore best, answer.
+
 
 """
 s = Song.create!(id: 63, artist: %q(Echo & the Bunnymen), article: article, summary: summary, title: %q(Nothing Lasts Forever), album: %q(Evergreen (1997)), released: %q(20th June 1997 (Single), 14th July 1997 (LP)), max_rez: 4, image: %q(NothingLastsForever), created_at: %q(2020-07-12T04:08:22+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1689,11 +2048,18 @@ Punk was running out of steam by 1979, but as a seventeen-year-old who was into 
 article = """
 This was initially released under the name “Special AKA”, before the band changed to “The Specials” when recording their first LP.  The 7” single was a double A-side featuring, in lieu of another Special AKA song as the other A-side, but the eponymous single by ^link(selecter).   The release was the début of the now famous ^link(2-tone), based out of Coventry.  This was soon followed by more classics of the genre - ^link(the-prince) by Madness, and ^link(on-my-radio) by The Selecter.
 
+
+
 The Beat (known in the US, for disambiguation purposes, as The English Beat) and Elvis Costello also had releases on this label.
+
+
 
 Gangsters is a re-working of Prince Buster’s classic from the first wave of ska, 1964’s ^link(al-capone).
 
+
+
 The opening line mentions Bernie Rhodes, manager of The Clash. According to wikipedia, Gangsters is about an incident that happened while on tour in France with The Clash. The Specials were held responsible for damage in a hotel that another English band had allegedly caused, and the hotel manager held one of their guitars as collateral. The situation escalated when the hotel called the local police, and ended with the Specials paying for the damage.
+
 
 """
 s = Song.create!(id: 64, artist: %q(Special A.K.A.), article: article, summary: summary, title: %q(Gangsters), album: %q(-), released: %q(4th May 1979), max_rez: 2, image: %q(Gangsters), created_at: %q(2020-07-21T01:50:49+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1717,11 +2083,18 @@ This song was co-written by Jane Wiedlin, rhythm guitarist of The Go-Go’s, and
 article = """
 The Go-Go’s released it as a single from their début album Beauty and The Beat in 1981, and it became a minor hit in a few countries, including the UK. It achieved greater success in Australia and Canada.
 
+
+
 I definitely prefer this take to the ^link(fb3) version that Hall himself made a year or two later.
 
-I might claim, rightly or wrongly, that some tracks on this blog are truly revolutionary pieces of art. But this one isn’t.  It’s just a decent pop tune.  But it’s a record that, whenever it crops up on “shuffle”, it brings a smile to my face. 
+
+
+I might claim, rightly or wrongly, that some tracks on this blog are truly revolutionary pieces of art. But this one isn’t.  It’s just a decent pop tune.  But it’s a record that, whenever it crops up on “shuffle”, it brings a smile to my face.
+
+
 
 Plenty of out-and-out “pop” singers have had a go at this, including ^link(hilary-duff).  These versions are uniformly terrible.
+
 
 """
 s = Song.create!(id: 65, artist: %q(The Go-Go’s), article: article, summary: summary, title: %q(Our Lips Are Sealed), album: %q(Beauty and the Beat (1981)), released: %q(12th June 1981 (single), 8th July 1981 (LP)), max_rez: 3, image: %q(OurLipsAreSealed), created_at: %q(2020-07-21T02:19:58+01:00), updated_at: %q(2021-03-07T18:48:36Z))
@@ -1734,17 +2107,27 @@ s.links << Link.build(link_type: :youtube_link, link_value: 'mMyenn8rJdo', offse
 summary = """
 Another one from Terry Hall, and another collaboration. This time it’s with Ian Broudie, who released his version as the title track from The Lightning Seeds April 1992 LP “Sense”.
 
+
+
 Hall collaborated with Broudie on a few tracks on that album, and sang BVs on this track.  A few years later, Hall recorded his own version for his solo LP “Home” - produced by Broudie. This take is pretty similar to Broudie’s - with enough difference that I can definitely say that, although I love them both,  I prefer this one.
+
 
 """
 article = """
-The official video upload to YouTube is of appalling quality, so I’ve embedded a third-party upload above. 
+The official video upload to YouTube is of appalling quality, so I’ve embedded a third-party upload above.
 
-I liked a lot about The Lightning Seeds, not least Broudie’s ability to attract top class collaborators like Terry Hall and Ian McNabb of The Icicle Works.  
+
+
+I liked a lot about The Lightning Seeds, not least Broudie’s ability to attract top class collaborators like Terry Hall and Ian McNabb of The Icicle Works.
+
+
 
 Hall himself has also worked with plenty of other artists I love, including a cute version of ^link(all-kinds-of-everything), with Sinéad O’Connor.
 
+
+
 See the links below for Terry Hall performing Sense live with a ^link(supergroup) line-up, including Chris Sharrock on drums (The Icicle Works, World Party, Oasis, etc), Will Sergeant on bass (Echo & the Bunnymen), Craig Gannon on guitar (The Bluebells, The Smiths, Morrissey), and on keys it’s Angie Pollock (Goldfrapp, Peter Gabriel, etc).  TBH, it's not a great performance, the whole seems to be less than the sum of the parts, or something.
+
 
 """
 s = Song.create!(id: 66, artist: %q(Terry Hall), article: article, summary: summary, title: %q(Sense), album: %q(Home (1994)), released: %q(12 September 1994 (LP), November 1994 (single)), max_rez: 3, image: %q(Sense), created_at: %q(2020-07-23T23:54:01+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1763,7 +2146,10 @@ The fourth song in my trilogy of Terry Hall-related tracks, here he is providing
 article = """
 Speakers and Tweeters features Hall on a number of tracks, including a ^link(cover) of the Special AKA song ^link(gangsters).
 
+
+
 Although it doesn’t fit with the Terry Hall theme, I also recommend checking out ^link(speed-of-light), the opening (and, I’d suggest) best track on Speakers and Tweeters.
+
 
 """
 s = Song.create!(id: 67, artist: %q(Dub Pistols feat. Terry Hall), article: article, summary: summary, title: %q(Running From the Thoughts), album: %q(Speakers and Tweeters (2007)), released: %q(2nd April 2007 (LP)), max_rez: 4, image: %q(RunningFromTheThoughts), created_at: %q(2020-07-25T23:57:43+01:00), updated_at: %q(2021-03-07T18:48:38Z))
@@ -1783,11 +2169,18 @@ This isn’t the first version of Sweet Jane, of course. It’s not even a *typi
 article = """
 The video embedded above uses the audio from the Lou Reed live LP Rock ’n’ Roll Animal, in which he was backed by Hunter and Dick Wagner on guitars, Prakash John on bass, Ray Colcord on keys, and Pentti Glan on drums. As you can hear, it’s quite a band.  The video in the clip looks like it comes from the same show, though it loops a short clip over the intro, until Reed joins the band on stage for the vocal.
 
+
+
 The duelling solos of Hunter and Wagner are clearly a highlight, but everyone else is putting in a pretty decent shift too here.  I guess it seems odd to talk about an iconic song in terms of a bolted-on intro that’s not really part of that song, but this is so great you can argue that it has become the definitive version. As it happens, Reed himself has been quoted as describing a very different version as has favourite - he particularly liked the take released in the 80s by ^link(cowboy-junkies).
+
+
 
 The song, penned by Reed of course, first appeared on the fourth Velvet Underground LP Loaded. It has, as long as I can remember, been a staple of Reed’s live shows up until his death in 2013, and he opened most shows with it.
 
+
+
 He later played the song ^link(steve-hunter), who reprised some of the lines from the Rock ’n’ Roll Animal intro, but it falls a but flat in my view.
+
 
 """
 s = Song.create!(id: 68, artist: %q(Lou Reed), article: article, summary: summary, title: %q(Sweet Jane), album: %q(Rock 'n' Roll Animal), released: %q(February 1974), max_rez: 4, image: %q(SweetJaneLR), created_at: %q(2020-08-15T23:07:27+01:00), updated_at: %q(2021-03-07T18:48:39Z))
@@ -1798,11 +2191,13 @@ s.links << Link.build(link_type: :youtube_video, link_value: 'A5HfwS6Ey_4', offs
 s.links << Link.build(link_type: :youtube_link, link_value: 'LrMLt9bMd_I', offset: 0, embedded_text: 'live with Steve Hunter', list_text: 'Sweet Jane (live) - Lou Reed and Steve Hunter')
 s.links << Link.build(link_type: :song, link_value: '69', embedded_text: 'Cowboy Junkies', list_text: 'Sweet Jane - Cowboy Junkies')
 summary = """
-A cover of a slower, quieter, version of The Velvet Underground’s Sweet Jane, the song’s writer Lou Reed has apparently gone on record as saying that this take, by Canadian “alternative country” band Cowboy Junkies, was his favourite. 
+A cover of a slower, quieter, version of The Velvet Underground’s Sweet Jane, the song’s writer Lou Reed has apparently gone on record as saying that this take, by Canadian “alternative country” band Cowboy Junkies, was his favourite.
+
 
 """
 article = """
 This cover is based on the ^link(1969-version) from the 1969: The Velvet Underground Live LP, which includes alternative verses to the first release, and which reinstates the “heavenly wine and roses” bridge section that was edited out of the ^link(original) Velvets release.
+
 
 """
 s = Song.create!(id: 69, artist: %q(Cowboy Junkies), article: article, summary: summary, title: %q(Sweet Jane), album: %q(The Trinity Session), released: %q(15th November 1988), max_rez: 4, image: %q(SweetJaneCJ), created_at: %q(2020-08-15T23:41:10+01:00), updated_at: %q(2021-03-07T18:48:40Z))
@@ -1820,11 +2215,18 @@ The fourth and final LP from School of Seven Bells was completed without main so
 article = """
 ^link(benjamin-wiki) formed School of Seven Bells with twins Alejandra and Claudia Deheza after leaving his brother Brandon’s band, ^link(secret-machines) (sometimes using the definite article in their name, sometimes not).
 
+
+
 SVIIB became a duo when Claudia left after the band’s second LP Disconnect From Desire.   But just a year after its 2012 follow-up Ghostory, Curtis was diagnosed with Lymphoma, from which he never recovered.
+
+
 
 He had recorded some demos for the fourth album by the time he passed away in late 2013, at just 35.  Deheza toolk these and completed the record, which was released in that wonderful year of fine music 2016.
 
+
+
 Style-wise, it’s a bit indie, a bit electronic, a bit shoegazy, a bit pop.  It’s a combo I’ve long had a soft spot for!
+
 
 """
 s = Song.create!(id: 70, artist: %q(School of Seven Bells), article: article, summary: summary, title: %q(Ablaze), album: %q(SVIIB (2016)), released: %q(12th February 2016 (LP)), max_rez: 4, image: %q(Ablaze), created_at: %q(2020-09-29T23:00:02+01:00), updated_at: %q(2021-03-07T18:48:41Z))
@@ -1844,11 +2246,16 @@ Featured on the 1987 4AD Compilation “Lonely Is An Eyesore”, this track show
 
 """
 article = """
-olourbox had an eclectic repertoire - often dipping  into soul and dub for influence, alongside electronica and their sample-based constructions. 
+olourbox had an eclectic repertoire - often dipping  into soul and dub for influence, alongside electronica and their sample-based constructions.
+
+
 
 I recommend checking out ^link(breakdown), their cover of ^link(baby), and ^link(world-cup).
 
+
+
 Colourbox were also the main contributors to the M|A|R|R|S number one hit ^link(pump-up-the-volume).
+
 
 """
 s = Song.create!(id: 71, artist: %q(Colourbox), article: article, summary: summary, title: %q(Hot Doggie), album: %q(Lonely Is An Eyesore), released: %q(15th June 1987), max_rez: 4, image: %q(HotDoggie), created_at: %q(2020-10-03T23:36:10+01:00), updated_at: %q(2021-03-07T18:48:42Z))
@@ -1873,23 +2280,42 @@ Shortly after sample-heavy Hot Doggie by Colourbox appeared on the 4AD Compilati
 article = """
 Pump Up The Volume is even more sample-heavy than Hot Doggie, but takes its source material mostly from other songs rather than from film/TV and therein lies the source of so much trouble. Sued by Stock, Aitken and Waterman (SAW) for a relatively minor sample from their song ^link(roadblock), the artists who made this record reportedly ended up without a penny from the hit UK release.
 
+
+
 The name M|A|R|R|S came from the members of the collab - Martin Young (Colourbox), Alex Ayuli, Rudy Tambala, Russell Smith (AR Kane), and Steve Young (Colourbox).  The only significant radio play was of the mainly-Colourbox side Pump Up The Volume, rather than the mainly AR Kane side Anitina.
+
+
 
 The title of Pump Up The Volume comes from a sample taken from I Know You Got Sould by Eric B. & Rakim.
 
+
+
 The song is basically a repeating ^link(tr909) beat with a near-constant bass-line and very little other harmonic content. There’s an occasional Aminor piano stab, but the “top line” doesn’t come from the instrumentation - it comes  from the samples of other songs.
+
+
 
 Which samples you hear depends on which version you listen to.  Clearance wasn’t obtained in advance, and different countries ended up with different sample combinations. Even in the UK, there were mixes with samples added/removed. The ^link(wiki) article has a good diagram of which versions contain which samples.
 
+
+
 The main UK release included samples from ^link(roadblock) which resulted in the legal issues - even though the original had plagiarised from others. The courts distinguished between sampling and plagiarism, and SAW won, taking all the royalties from the hit single. It’s surely right that some payment had to be made, but 100% seems a tad excessive.
+
+
 
 People learned from this - after this record, if you wanted to legally sample, say, ^link(soft-cell), you would get someone to record a new snippet that sounded exactly like a sample would. But you no longer had to pay performing rights to Soft Cell. You’d still have to pay the publishers (usually the songwriter - who weren’t Soft Cell, it was Ed Cobb).  We ended up with a situation where people were copying the sound of that particular cover but the people who created that sound got nothing.
 
+
+
 Anyway, what’s more important for the purposes of this blog is that Pump Up The Volume still sounds amazing.
+
+
 
 ### An aside
 
+
+
 Check out the original release of ^link(gloria-jones), from 1964.
+
 
 """
 s = Song.create!(id: 72, artist: %q(M/A/R/R/S), article: article, summary: summary, title: %q(Pump Up The Volume), album: %q(Single (1987)), released: %q(3rd August 1987), max_rez: 4, image: %q(PumpUpTheVolume), created_at: %q(2020-10-05T01:36:09+01:00), updated_at: %q(2021-03-07T18:48:43Z))
@@ -1914,15 +2340,26 @@ Continuing the theme of sample-based tracks, next up is Spitfire, by Public Serv
 article = """
 Calling this song “sample-based” is arguably wrong - there is heavy use of samples, but the core is a great instrumental piece, over which samples are based.   It’s more like a conventional song with the vocals replaced by snippets from the movie.
 
+
+
 Public Service Broadcasting (PSB) started exclusively using instrumental music overlaid with samples from sources such as newsreel and public information films. The third LP Every Valley started using a few more “conventional” songs, with guest vocalists such as James Dean Bradfield and Tracyanne Campbell - though PSB’s J Willgoose Esq contributed half of a duet in one track, also featuring Lisa Jên Brown.
+
+
 
 Spitfire is an early track and follows the instrumental+sample format. The samples come from ^link(first), a 1942 biographical film about ^link(mitchell), the designer of the famous ^link(spitfire) fighter that played a famous rôle in  WW2 - particularly the Battle of Britain, alongside the ^link(hurricane). Mitchell, sadly, passed away before he got to see the full success of his design.
 
+
+
 This song comes from the first PSB LP “Inform - Educate - Entertain”, which featured songs covering a number of subjects. But the next two LPs where more strictly themed. 2015’s The Race for Space covered the space race from Sputnik (1957) to the last Apollo moon mission (1972).
+
+
 
 This was followed in 2017 by Every Valley, which documents the decline of the coal mining industry in South Wales.   Sample-based songs use Coal Board adverts, or tales of the wives supporting their miner husbands during the Miner Strikes, though this record also includes singing performances from a number of contributors.
 
+
+
 I strongly recommend all three LPs.
+
 
 """
 s = Song.create!(id: 73, artist: %q(Public Service Broadcasting), article: article, summary: summary, title: %q(Spitfire), album: %q(Inform - Educate - Entertain), released: %q(26th March 2012 (single), 6th May 2013 (LP)), max_rez: 4, image: %q(Spitfire), created_at: %q(2020-10-08T00:54:46+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1942,11 +2379,18 @@ Another sample-heavy song, this time taking vocals from an *a cappella* mix of L
 article = """
 (This official video sounds like the re-recorded version with Heather Small doing the vocals.  The person miming in the video is a model, and is neither Heather Small nor Loleatta Holloway).
 
+
+
 The producers of this record took samples from an ^link(acapella) of Holloway’s disco track ^link(love-sensation), and added the classic elements of Italian House, including the 909 drums and all-important Korg M-1 piano riff.  The result was a number one hit in the UK, the biggest result for any of track from the then-popular Italian House movement.
+
+
 
 The title reportedly comes from the Italian producers mis-hearing the Right On Time line from the original.
 
+
+
 After Holloway sued for unauthorised use of her recording, the track was re-made with Heather Small trying to emulate the original artist.
+
 
 """
 s = Song.create!(id: 74, artist: %q(Black Box), article: article, summary: summary, title: %q(Ride on Time), album: %q(Dreamland (1990)), released: %q(1989 (Single), 1990 (LP)), max_rez: 4, image: %q(RideOnTime), created_at: %q(2020-10-17T01:30:38+01:00), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -1966,11 +2410,18 @@ This is another great track from the year of many gems, 2016.  That year marked 
 article = """
 The LP incorporates tracks from writers who worked with the band in their heyday, and also newer writers such as Ben Gibbard of Death Cab for Cutie. Gibbard contributed this, the third single from the record.
 
-By 2016, three of the original members remained,  with Davy Jones having passed away in 2012. 
+
+
+By 2016, three of the original members remained,  with Davy Jones having passed away in 2012.
+
+
 
 While Micky Dolenz is the main vocalist in the band, singing duties were shared around, and this track is led by Mike Nesmith, with a harmony by Dolenz.
 
+
+
 The album’s main producer, Adam Schlesinger (bassist of Fountains of Wayne), sadly passed away earlier this year (April 2020) from the effects a COVID-19 infection. The day after Schlesinger’s passing was announced, Gibbard was doing a lockdown performance for the ^link(tiny-desk) channel, during which he performed ^link(gibbard).
+
 
 """
 s = Song.create!(id: 75, artist: %q(The Monkees), article: article, summary: summary, title: %q(Me & Magdalena), album: %q(Good Times! (2016)), released: %q(20th May 2016 (single), 27th May 2016 (LP)), max_rez: 4, image: %q(MeAndMagdalena), created_at: %q(2020-10-23T01:08:00+01:00), updated_at: %q(2021-03-07T18:48:46Z))
@@ -1988,13 +2439,22 @@ If there’s one band whose influence seems to massively outweigh their own comm
 article = """
 Despite the enduring popularity of songs like ^link(damaged-goods), and ^link(tourist), they never troubled the top 40 single or album charts. The latter single earned them an invite for a Top of the Pops appearance, which The Internet widely reports them as turning down when asked to change a lyric from “rubbers” to “rubbish”.  Oddly, I thought I could I remember seeing them on the show, but I can’t find evidence of it happening, so I’ll have to put it down as a false memory.
 
+
+
 Refusing to compromise would have been totally in character. And most reports of this go on to blame it for the souring of their relationship with EMI, who had signed them up after a successful indie EP release.  The first album, ^link(entertainment), was a major critical success, though some fans preferred the less polished pre-EMI sound.  The band and label parted company after this one LP, though EMI haven’t been shy in coming forward with re-issues etc.
+
+
 
 Outside the Trains Don’t Run on Time was released after Entertainment!, and appeared on their 2nd LP, the post-EMI ^link(solid-gold) record.  It did, however, get onto some re-issues of the first LP also.
 
+
+
 My choice of Gang of Four track was really a short-list of two. I also nearly went for the slightly-later ^link(poverty). Check it out. I wouldn’t really call it “easy listening”, but I think it’ll be worth your time.
 
+
+
 Guitarist Andy Gill still performed as Gang of Four until his sad ^link(death) on 1st February 2020.
+
 
 """
 s = Song.create!(id: 76, artist: %q(Gang of Four), article: article, summary: summary, title: %q(Outside the Trains Don’t Run on Time), album: %q(Single (1980)), released: %q(1980 (single), 1981 (Solid Gold LP)), max_rez: 4, image: %q(OutsideTheTrainsDontRunOnTime), created_at: %q(2020-11-29T00:52:46Z), updated_at: %q(2021-03-07T18:48:47Z))
@@ -2015,28 +2475,49 @@ s.links << Link.build(link_type: :wikipedia, link_value: 'Solid_Gold_(album)', e
 summary = """
 As the dying embers of punk faded, this new sound seemed like something we’d been waiting for - the next phase for pop/rock...
 
+
+
 A big leap forwards while still being rooted in the present.
+
+
 
 
 """
 article = """
 In some ways, it wasn’t really that new. It’s a rock record with drums, bass, and guitar. It adds synths, but they weren’t really that new, even in the mainstream. We already had Kraftwerk breaking through three years earlier, and dance music soon  embraced the technology, e.g. 1977’s I Feel Love by Donna Summer. But they were used differently here, and the combination of sounds, the vocal delivery, the visuals and marketing, all combined to make this a massive hit - not only sounding great in 1979, but also sounding great now, over 40 years later.
 
+
+
 This was the second single from the second Tubeway Army LP *Replicas*. Gary Numan _was_ Tubeway Army, and further releases were billed under his own name, even though he initially retained Gardiner (bass) and Lidyard (drums). Numan had played the other instrumentation, written the songs, produced the records, so the “solo” name made sense.
+
+
 
 This came out in the spring of 1979. I was 17. I suspect most people of most ages find “the year when I was about 17” to be exciting musically, but in this year we had the likes of The Clash and The Stranglers moving on from punk origins to something more interesting, we had John Lydon moving on from the Sex Pistols with Public Image Limited, while the Two Tone scene introduced a new generation to Ska and gave us The Specials. The Jam had followed up All Mod Cons with Setting Sons. Talking Heads released Fear of Music, while Joy Division released the album-that-launched-a-billion shirts, Unknown Pleasures, and Gang of Four were taking the post-punk thing in whole new directions.
 
+
+
 So this was quite a year, and yet this track _still_ stands out as something special.
+
+
 
 The label marketed it with the new “technology” of picture disks, and the new sound/new look were made to be played on TV.  This was both diferent, and yet easily accessible. The vocal is kinda strange and understated, and yet is still rich and melodic. No wonder it was such a commercial success. I can’t believe it’s taken so long to get around to covering this track here!
 
+
+
 Numan still performs this track of course, and I recommend his ^link(yt2013), which sets the standard for how to rework an old classic without ruining it.
+
+
 
 ### An aside
 
+
+
 If, like me, you have wondered about the quotes around the word _friends_ in the title, Numan explains the song’s subject matter, which clears this up.
 
+
+
 > The lyrics came from short stories I’d written about what London would be like in 30 years. These machines – “friends” – come to the door. They supply services of various kinds, but your neighbours never know what they really are since they look human. The one in the song is a prostitute, hence the inverted commas. It was released in May 1979 and sold a million copies. I had a No 1 single with a song about a robot prostitute and no one knew.
+
 
 """
 s = Song.create!(id: 77, artist: %q(Tubeway Army), article: article, summary: summary, title: %q(Are ‘Friends’ Electric?), album: %q(Replicas), released: %q(4th May 1979 (single), 4th April 1979 (LP)), max_rez: 4, image: %q(AreFriendsElectric), created_at: %q(2020-12-28T01:23:29Z), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -2083,21 +2564,21 @@ Writing about the Safari EP by The Breeders reminded me that I had long planned 
 article = """
 Lennon apparently took the title of the song from an NRA magazine - “I just thought it was a fantastic, insane thing to say. A warm gun means you just shot something”. The magazine itself was paraphrasing the title of a Charles M Schultz book “Happiness Is A Warm Puppy”.
 
-The meaning of the metaphorical gun in the song has been interpreted as being about heroin (after all, the lyric includes the phrase “I need a fix...”), or about sex. 
+The meaning of the metaphorical gun in the song has been interpreted as being about heroin (after all, the lyric includes the phrase “I need a fix...”), or about sex.
 
 This is one of those songs constructed from various disparate ideas glued together. The song changes key and time signature on a whim.  The song tends to be considered to be split into five sections:
 
- * Intro, “She’s not a girl who misses much”.
- * The band joins in, “She’s well-acquainted with the touch of the velvet hand”
- * “I need a fix ’cause I’m going down”
- * “Mother Superior jumped the gun”
- * The “doo wop” section (“Bang bang shoot shoot” etc)
- 
- The Mother Superior section is the most complex rythmically. 
- 
- This is a song where the “parts” are all pretty interesting, and yet summing them together adds a extra layer of interest on top.  For me, by far the finest hour (well 3 minutes) of The Beatles.
- 
- 
+* Intro, “She’s not a girl who misses much”.
+* The band joins in, “She’s well-acquainted with the touch of the velvet hand”
+* “I need a fix ’cause I’m going down”
+* “Mother Superior jumped the gun”
+* The “doo wop” section (“Bang bang shoot shoot” etc)
+
+The Mother Superior section is the most complex rythmically.
+
+This is a song where the “parts” are all pretty interesting, and yet summing them together adds a extra layer of interest on top.  For me, by far the finest hour (well 3 minutes) of The Beatles.
+
+
 
 """
 s = Song.create!(id: 79, artist: %q(The Beatles), article: article, summary: summary, title: %q(Happiness Is A Warm Gun), album: %q(The Beatles (aka The White Album)), released: %q(22nd November 1968 (LP)), max_rez: 4, image: %q(HappinessIsAWarmGun), created_at: %q(2021-03-09T00:19:32Z), updated_at: %q(2023-06-18T05:00:31+01:00))
@@ -2158,7 +2639,7 @@ I mentioned before that Throwing Muses is my favourite band, but when I reach fo
 
 """
 article = """
-Hersh made her name as the singer/songwriter of Throwing Muses, but also carved out a solo career - the latter mostly being gentler, more acoustic, material. 
+Hersh made her name as the singer/songwriter of Throwing Muses, but also carved out a solo career - the latter mostly being gentler, more acoustic, material.
 
 50 Foot Wave (the name sometimes fashioned as 50FOOTWAVE or even L’~) is a side-project, away from the solo and Throwing Muses work - though the band includes two thirds of her main band - L’~ replaces David Narcizo on drums with Rob Ahlers, while Hersh and Bernard Georges remain from the Muses.
 
@@ -2217,7 +2698,7 @@ The Breeders hit the big time with their platinum-selling second LP “Last Spla
 
 So Kim Deal put together a new line-up to record her latest songs, and performed these initially as Tammy and The Amps, soon shortening this to The Amps.
 
-More vocal-oriented than Last Splash, this record is all the better for it.  Deal has a good voice and an ear for a good vocal melody, and the relatively simple backing suits that here.  Like most of her records, there are some weak points, but overall this is great and, although technically not a release by The Breeders, I consider this to be the best record by a Kim-Deal-led band.  
+More vocal-oriented than Last Splash, this record is all the better for it.  Deal has a good voice and an ear for a good vocal melody, and the relatively simple backing suits that here.  Like most of her records, there are some weak points, but overall this is great and, although technically not a release by The Breeders, I consider this to be the best record by a Kim-Deal-led band.
 
 Seeing The Amps in the Astoria in London was at least as good as any other Kim Deal show I’ve seen, except perhaps a famous Pixies appearance at Reading Festival  a few years earlier.
 
@@ -2282,7 +2763,7 @@ s.links << Link.build(link_type: :youtube_link, link_value: '5ibj87fwRaM', offse
 summary = """
 This is my second 2021 collab offering - like the previous one, this features two very different voices that combine so well.
 
-Here, Chvrches work with Robert Smith of The Cure to produce a track that is greater than the sum of its parts - even though its parts are great alone. 
+Here, Chvrches work with Robert Smith of The Cure to produce a track that is greater than the sum of its parts - even though its parts are great alone.
 
 This is definitely one of my favourite tracks of the year so far.
 
