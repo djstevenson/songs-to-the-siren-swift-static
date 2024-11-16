@@ -62,7 +62,6 @@ extension SongLink {
                 .div(attributes: [.class("aspect-w-16 aspect-h-9 mt-4 mb-4 clear-both")],
                     .iframe(attributes: [
                         .src(url.absoluteString),
-                        .init("frameborder", "0"),
                         .init("allow", "accelerometer;autoplay;encrypted-media;gyroscope;picture-in-picture"),
                         .init("allowfullscreen", ""),
                     ])
